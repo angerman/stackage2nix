@@ -1978,10 +1978,16 @@ self: super: let lts = {
   both = self.callPackage ./package/both-0.1.1.0.nix {};
 };
 dontCheck = pkgs.haskell.lib.dontCheck;
+overrideCabal = pkgs.haskell.lib.overrideCabal;
 in
 lts // {
   # break infinite recursion
   nanospec = dontCheck lts.nanospec;
   clock = dontCheck lts.clock;
   hspec = lts.hspec.override { stringbuilder = dontCheck lts.stringbuilder; };
+  # broken tests
+  dlist = dontCheck lts.dlist;                                                     # requires QuickCheck ==2.9.*
+  tar = dontCheck lts.tar;                                                         # ustar/gnu/v7 test fail.
+  vector = dontCheck lts.vector;                                                   # requires QuickCheck ==2.7.*
+  mockery = overrideCabal lts.mockery (drv: { preCheck = "export TRAVIS=true"; }); # https://github.com/hspec/mockery/issues/6
 }
