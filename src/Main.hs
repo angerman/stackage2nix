@@ -73,6 +73,12 @@ processArgs args = do
   case snapshot of
     Nothing -> putStrLn $ "Failed to parse " <> (stackage args)
     Just s -> do
+      putStrLn "{ pkgs }:"
+      putStrLn ""
+      putStrLn "with import <nixpkgs/pkgs/development/haskell-modules/lib.nix> { inherit pkgs; };"
+      putStrLn ""
+      putStrLn "self: super: {"
       forM_ (M.toList (packages s)) $ \(name, package) -> do
         nixExpr <- writePkgDeriv (output args) (name <> "-" <> version package)
-        putStrLn $ "  " <> name <> " = ghc.callPackage ./" <> nixExpr <> ";"
+        putStrLn $ "  " <> name <> " = self.callPackage ./" <> nixExpr <> " {};"
+      putStrLn "}"
