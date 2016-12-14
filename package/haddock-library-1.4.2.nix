@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, bytestring, deepseq, hspec
-, QuickCheck, transformers
+, QuickCheck, stdenv, transformers
 }:
 mkDerivation {
   pname = "haddock-library";

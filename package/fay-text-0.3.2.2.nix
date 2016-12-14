@@ -1,4 +1,4 @@
-{ mkDerivation, fay, fay-base, text }:
+{ mkDerivation, fay, fay-base, stdenv, text }:
 mkDerivation {
   pname = "fay-text";
   version = "0.3.2.2";

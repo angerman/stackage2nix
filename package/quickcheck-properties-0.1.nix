@@ -1,4 +1,4 @@
-{ mkDerivation, base }:
+{ mkDerivation, base, stdenv }:
 mkDerivation {
   pname = "quickcheck-properties";
   version = "0.1";

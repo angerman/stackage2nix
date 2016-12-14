@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, securemem, unix, vector }:
+{ mkDerivation, base, bytestring, securemem, stdenv, unix, vector
+}:
 mkDerivation {
   pname = "crypto-random";
   version = "0.0.9";

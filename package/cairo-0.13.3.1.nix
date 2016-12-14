@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, Cabal, cairo
-, gtk2hs-buildtools, mtl, text, utf8-string
+, gtk2hs-buildtools, mtl, stdenv, text, utf8-string
 }:
 mkDerivation {
   pname = "cairo";

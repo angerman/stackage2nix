@@ -1,4 +1,4 @@
-{ mkDerivation, base, filepath, process }:
+{ mkDerivation, base, filepath, process, stdenv }:
 mkDerivation {
   pname = "funcmp";
   version = "1.8";

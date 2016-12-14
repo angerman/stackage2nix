@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, bytestring, containers
+{ mkDerivation, array, base, bytestring, containers, stdenv
 , template-haskell
 }:
 mkDerivation {

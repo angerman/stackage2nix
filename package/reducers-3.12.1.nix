@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, fingertree
-, hashable, semigroupoids, semigroups, text, transformers
+, hashable, semigroupoids, semigroups, stdenv, text, transformers
 , unordered-containers
 }:
 mkDerivation {

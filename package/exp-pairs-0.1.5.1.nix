@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, ghc-prim, matrix
-, QuickCheck, random, smallcheck, tasty, tasty-hunit
+, QuickCheck, random, smallcheck, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, tasty-smallcheck, wl-pprint
 }:
 mkDerivation {

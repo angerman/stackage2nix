@@ -1,5 +1,6 @@
 { mkDerivation, base, blaze-builder, blaze-html, bytestring
-, http-types, markdown, shakespeare, text, wai, wai-app-static
+, http-types, markdown, shakespeare, stdenv, text, wai
+, wai-app-static
 }:
 mkDerivation {
   pname = "servius";

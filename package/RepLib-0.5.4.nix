@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl, template-haskell
+{ mkDerivation, base, containers, mtl, stdenv, template-haskell
 , transformers
 }:
 mkDerivation {

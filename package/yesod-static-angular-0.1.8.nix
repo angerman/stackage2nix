@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, blaze-builder, blaze-markup
 , bytestring, data-default, directory, filepath, hamlet, hspec
-, HUnit, language-javascript, mime-types, shakespeare
+, HUnit, language-javascript, mime-types, shakespeare, stdenv
 , template-haskell, text, yesod-core, yesod-static, yesod-test
 }:
 mkDerivation {

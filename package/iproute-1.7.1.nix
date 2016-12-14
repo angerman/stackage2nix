@@ -1,5 +1,5 @@
 { mkDerivation, appar, base, byteorder, containers, doctest, hspec
-, network, QuickCheck, safe
+, network, QuickCheck, safe, stdenv
 }:
 mkDerivation {
   pname = "iproute";

@@ -1,5 +1,5 @@
 { mkDerivation, ansi-terminal, async, base, directory, exceptions
-, process, stm, terminal-size, text, transformers, unix
+, process, stdenv, stm, terminal-size, text, transformers, unix
 }:
 mkDerivation {
   pname = "concurrent-output";

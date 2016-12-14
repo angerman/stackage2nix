@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, cookie, data-default, path-pieces
-, serversession, text, time, transformers, unordered-containers
-, vault, wai, wai-session
+, serversession, stdenv, text, time, transformers
+, unordered-containers, vault, wai, wai-session
 }:
 mkDerivation {
   pname = "serversession-frontend-wai";

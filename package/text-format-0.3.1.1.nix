@@ -1,5 +1,5 @@
 { mkDerivation, array, base, double-conversion, ghc-prim
-, integer-gmp, old-locale, text, time, transformers
+, integer-gmp, old-locale, stdenv, text, time, transformers
 }:
 mkDerivation {
   pname = "text-format";

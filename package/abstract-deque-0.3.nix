@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, random, time }:
+{ mkDerivation, array, base, containers, random, stdenv, time }:
 mkDerivation {
   pname = "abstract-deque";
   version = "0.3";

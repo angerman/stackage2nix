@@ -1,4 +1,4 @@
-{ mkDerivation, base }:
+{ mkDerivation, base, stdenv }:
 mkDerivation {
   pname = "foreign-store";
   version = "0.2";

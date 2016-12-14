@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, Cabal, containers, glib
-, gtk2hs-buildtools, mtl, system-glib
+, gtk2hs-buildtools, mtl, stdenv, system-glib
 }:
 mkDerivation {
   pname = "gio";

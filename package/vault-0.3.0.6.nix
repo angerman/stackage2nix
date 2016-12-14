@@ -1,4 +1,6 @@
-{ mkDerivation, base, containers, hashable, unordered-containers }:
+{ mkDerivation, base, containers, hashable, stdenv
+, unordered-containers
+}:
 mkDerivation {
   pname = "vault";
   version = "0.3.0.6";

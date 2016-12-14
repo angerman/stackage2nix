@@ -1,4 +1,4 @@
-{ mkDerivation, base, vector }:
+{ mkDerivation, base, stdenv, vector }:
 mkDerivation {
   pname = "polynomials-bernstein";
   version = "1.1.2";

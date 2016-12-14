@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, Cocoa, CoreServices, mtl
-, text, unix
+, stdenv, text, unix
 }:
 mkDerivation {
   pname = "hfsevents";

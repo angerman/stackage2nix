@@ -1,4 +1,4 @@
-{ mkDerivation, base, hsp, text, web-routes }:
+{ mkDerivation, base, hsp, stdenv, text, web-routes }:
 mkDerivation {
   pname = "web-routes-hsp";
   version = "0.24.6.1";

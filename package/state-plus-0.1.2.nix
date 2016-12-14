@@ -1,4 +1,4 @@
-{ mkDerivation, base, checkers, mtl, QuickCheck }:
+{ mkDerivation, base, checkers, mtl, QuickCheck, stdenv }:
 mkDerivation {
   pname = "state-plus";
   version = "0.1.2";

@@ -2,8 +2,9 @@
 , containers, directory, exceptions, fast-logger, filepath, gitlib
 , gitlib-test, hlibgit2, hspec, hspec-expectations, HUnit
 , lifted-async, lifted-base, mmorph, monad-control, monad-loops
-, mtl, resourcet, stm, stm-conduit, tagged, template-haskell, text
-, text-icu, time, transformers, transformers-base
+, mtl, resourcet, stdenv, stm, stm-conduit, tagged
+, template-haskell, text, text-icu, time, transformers
+, transformers-base
 }:
 mkDerivation {
   pname = "gitlib-libgit2";

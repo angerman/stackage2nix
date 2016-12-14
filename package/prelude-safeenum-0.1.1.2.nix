@@ -1,4 +1,4 @@
-{ mkDerivation, base }:
+{ mkDerivation, base, stdenv }:
 mkDerivation {
   pname = "prelude-safeenum";
   version = "0.1.1.2";

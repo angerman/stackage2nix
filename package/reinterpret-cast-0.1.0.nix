@@ -1,4 +1,6 @@
-{ mkDerivation, array, base, data-binary-ieee754, hspec, loop }:
+{ mkDerivation, array, base, data-binary-ieee754, hspec, loop
+, stdenv
+}:
 mkDerivation {
   pname = "reinterpret-cast";
   version = "0.1.0";

@@ -1,7 +1,7 @@
 { mkDerivation, base, circle-packing, colour, containers
 , data-default, data-default-class, diagrams-core, diagrams-lib
 , diagrams-solve, force-layout, HUnit, lens, linear, MonadRandom
-, mtl, parsec, QuickCheck, random, semigroups, split
+, mtl, parsec, QuickCheck, random, semigroups, split, stdenv
 , test-framework, test-framework-hunit, test-framework-quickcheck2
 , text
 }:

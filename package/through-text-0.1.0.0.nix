@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, case-insensitive, text }:
+{ mkDerivation, base, bytestring, case-insensitive, stdenv, text }:
 mkDerivation {
   pname = "through-text";
   version = "0.1.0.0";

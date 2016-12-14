@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, terminal-progress-bar, time }:
+{ mkDerivation, base, bytestring, stdenv, terminal-progress-bar
+, time
+}:
 mkDerivation {
   pname = "bytestring-progress";
   version = "1.0.7";

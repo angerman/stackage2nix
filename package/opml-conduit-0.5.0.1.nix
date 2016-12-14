@@ -2,9 +2,9 @@
 , conduit-combinators, conduit-parse, containers, data-default
 , exceptions, foldl, hlint, lens-simple, mono-traversable
 , monoid-subclasses, mtl, parsers, QuickCheck, quickcheck-instances
-, resourcet, semigroups, tasty, tasty-hunit, tasty-quickcheck, text
-, time, timerep, uri-bytestring, xml-conduit, xml-conduit-parse
-, xml-types
+, resourcet, semigroups, stdenv, tasty, tasty-hunit
+, tasty-quickcheck, text, time, timerep, uri-bytestring
+, xml-conduit, xml-conduit-parse, xml-types
 }:
 mkDerivation {
   pname = "opml-conduit";

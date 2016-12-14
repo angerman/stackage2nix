@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, blaze-builder, blaze-html, bytestring
 , Cabal, cmdargs, conduit, containers, directory, http-conduit
-, http-types, shakespeare, tar, text, transformers
+, http-types, shakespeare, stdenv, tar, text, transformers
 , unordered-containers, vector, wai, warp, yaml, yesod-core
 , yesod-form, zlib
 }:

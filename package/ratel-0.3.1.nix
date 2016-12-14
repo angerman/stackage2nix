@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, case-insensitive
-, containers, http-client, http-client-tls, http-types, tasty
-, tasty-hspec, text, uuid
+, containers, http-client, http-client-tls, http-types, stdenv
+, tasty, tasty-hspec, text, uuid
 }:
 mkDerivation {
   pname = "ratel";

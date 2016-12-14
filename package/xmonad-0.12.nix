@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, data-default, directory
 , extensible-exceptions, filepath, mtl, process, QuickCheck
-, setlocale, unix, utf8-string, X11
+, setlocale, stdenv, unix, utf8-string, X11
 }:
 mkDerivation {
   pname = "xmonad";

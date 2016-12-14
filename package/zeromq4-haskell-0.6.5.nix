@@ -1,5 +1,5 @@
 { mkDerivation, async, base, bytestring, containers, exceptions
-, monad-control, QuickCheck, semigroups, tasty, tasty-hunit
+, monad-control, QuickCheck, semigroups, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, transformers, transformers-base, zeromq
 }:
 mkDerivation {

@@ -1,4 +1,6 @@
-{ mkDerivation, base, containers, mwc-probability, transformers }:
+{ mkDerivation, base, containers, mwc-probability, stdenv
+, transformers
+}:
 mkDerivation {
   pname = "mcmc-types";
   version = "1.0.3";

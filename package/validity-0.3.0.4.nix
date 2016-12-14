@@ -1,4 +1,4 @@
-{ mkDerivation, base }:
+{ mkDerivation, base, stdenv }:
 mkDerivation {
   pname = "validity";
   version = "0.3.0.4";

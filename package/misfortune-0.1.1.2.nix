@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, cereal, directory, filepath, knob
-, monad-loops, random-fu, regex-base, regex-pcre, semigroups, text
-, utf8-string, vector
+, monad-loops, random-fu, regex-base, regex-pcre, semigroups
+, stdenv, text, utf8-string, vector
 }:
 mkDerivation {
   pname = "misfortune";

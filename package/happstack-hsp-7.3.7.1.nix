@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, happstack-server, harp, hsp
-, hsx2hs, mtl, syb, text, utf8-string
+, hsx2hs, mtl, stdenv, syb, text, utf8-string
 }:
 mkDerivation {
   pname = "happstack-hsp";

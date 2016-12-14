@@ -1,4 +1,4 @@
-{ mkDerivation, base, filepath, hspec, template-haskell }:
+{ mkDerivation, base, filepath, hspec, stdenv, template-haskell }:
 mkDerivation {
   pname = "publicsuffix";
   version = "0.20160716";

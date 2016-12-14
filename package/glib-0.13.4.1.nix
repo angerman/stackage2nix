@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, containers, glib
-, gtk2hs-buildtools, text, utf8-string
+, gtk2hs-buildtools, stdenv, text, utf8-string
 }:
 mkDerivation {
   pname = "glib";

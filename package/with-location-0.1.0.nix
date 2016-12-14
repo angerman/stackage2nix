@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec }:
+{ mkDerivation, base, hspec, stdenv }:
 mkDerivation {
   pname = "with-location";
   version = "0.1.0";

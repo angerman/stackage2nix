@@ -1,4 +1,4 @@
-{ mkDerivation, base, ListLike, tasty, tasty-hunit
+{ mkDerivation, base, ListLike, stdenv, tasty, tasty-hunit
 , tasty-quickcheck
 }:
 mkDerivation {

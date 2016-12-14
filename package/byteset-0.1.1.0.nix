@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary }:
+{ mkDerivation, base, binary, stdenv }:
 mkDerivation {
   pname = "byteset";
   version = "0.1.1.0";

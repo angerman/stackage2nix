@@ -1,7 +1,7 @@
 { mkDerivation, aeson, aeson-pretty, base, base-compat, bytestring
 , conduit-combinators, conduit-extra, directory, doctest, errors
 , filepath, flock, Glob, hspec, lifted-base, monad-control, process
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "gitson";

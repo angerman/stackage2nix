@@ -1,4 +1,4 @@
-{ mkDerivation, base }:
+{ mkDerivation, base, stdenv }:
 mkDerivation {
   pname = "optional-args";
   version = "1.0.1";

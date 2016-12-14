@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, http-client
-, http-client-tls, tasty, tasty-hunit, text, transformers
+, http-client-tls, stdenv, tasty, tasty-hunit, text, transformers
 }:
 mkDerivation {
   pname = "opensource";

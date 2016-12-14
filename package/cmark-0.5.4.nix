@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, HUnit, text }:
+{ mkDerivation, base, bytestring, HUnit, stdenv, text }:
 mkDerivation {
   pname = "cmark";
   version = "0.5.4";

@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, containers, dlist, FontyFruity
-, free, JuicyPixels, mtl, primitive, vector, vector-algorithms
+, free, JuicyPixels, mtl, primitive, stdenv, vector
+, vector-algorithms
 }:
 mkDerivation {
   pname = "Rasterific";

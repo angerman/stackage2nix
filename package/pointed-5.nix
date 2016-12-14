@@ -1,6 +1,6 @@
 { mkDerivation, base, comonad, containers, data-default-class
-, hashable, kan-extensions, semigroupoids, semigroups, stm, tagged
-, transformers, transformers-compat, unordered-containers
+, hashable, kan-extensions, semigroupoids, semigroups, stdenv, stm
+, tagged, transformers, transformers-compat, unordered-containers
 }:
 mkDerivation {
   pname = "pointed";

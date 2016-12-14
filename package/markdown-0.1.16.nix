@@ -1,6 +1,7 @@
 { mkDerivation, attoparsec, base, blaze-html, blaze-markup, conduit
 , conduit-extra, containers, data-default, directory, filepath
-, hspec, text, transformers, xml-conduit, xml-types, xss-sanitize
+, hspec, stdenv, text, transformers, xml-conduit, xml-types
+, xss-sanitize
 }:
 mkDerivation {
   pname = "markdown";

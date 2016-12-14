@@ -3,9 +3,9 @@
 , blaze-html, blaze-markup, bytestring, cheapskate, containers
 , deepseq, directory, filepath, fingertree, fsnotify, haskeline
 , ieee754, mtl, network, optparse-applicative, parsers, pretty
-, process, regex-tdfa, safe, split, tagged, tasty, tasty-golden
-, tasty-rerun, terminal-size, text, time, transformers
-, transformers-compat, trifecta, uniplate, unix
+, process, regex-tdfa, safe, split, stdenv, tagged, tasty
+, tasty-golden, tasty-rerun, terminal-size, text, time
+, transformers, transformers-compat, trifecta, uniplate, unix
 , unordered-containers, utf8-string, vector
 , vector-binary-instances, zip-archive
 }:

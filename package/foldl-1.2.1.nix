@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, comonad, containers
-, contravariant, mwc-random, primitive, profunctors, text
+, contravariant, mwc-random, primitive, profunctors, stdenv, text
 , transformers, vector
 }:
 mkDerivation {

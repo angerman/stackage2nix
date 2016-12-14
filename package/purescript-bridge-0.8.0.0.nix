@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, directory, filepath
 , generic-deriving, hspec, hspec-expectations-pretty-diff, lens
-, mtl, text, transformers
+, mtl, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "purescript-bridge";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, persistable-record
-, relational-query, template-haskell, time
+, relational-query, stdenv, template-haskell, time
 }:
 mkDerivation {
   pname = "relational-schemas";

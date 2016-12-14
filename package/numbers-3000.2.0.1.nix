@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck, test-framework
+{ mkDerivation, base, QuickCheck, stdenv, test-framework
 , test-framework-quickcheck2
 }:
 mkDerivation {

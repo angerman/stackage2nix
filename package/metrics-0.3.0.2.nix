@@ -1,6 +1,6 @@
 { mkDerivation, ansi-terminal, async, base, bytestring, containers
-, lens, mtl, mwc-random, primitive, QuickCheck, text, time, unix
-, unordered-containers, vector, vector-algorithms
+, lens, mtl, mwc-random, primitive, QuickCheck, stdenv, text, time
+, unix, unordered-containers, vector, vector-algorithms
 }:
 mkDerivation {
   pname = "metrics";

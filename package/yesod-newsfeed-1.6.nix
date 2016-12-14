@@ -1,5 +1,6 @@
 { mkDerivation, base, blaze-html, blaze-markup, bytestring
-, containers, shakespeare, text, time, xml-conduit, yesod-core
+, containers, shakespeare, stdenv, text, time, xml-conduit
+, yesod-core
 }:
 mkDerivation {
   pname = "yesod-newsfeed";

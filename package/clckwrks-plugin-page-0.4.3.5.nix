@@ -1,9 +1,10 @@
 { mkDerivation, acid-state, aeson, attoparsec, base, clckwrks
 , containers, directory, filepath, happstack-hsp, happstack-server
 , hsp, hsx2hs, ixset, mtl, old-locale, random, reform
-, reform-happstack, reform-hsp, safecopy, tagsoup, template-haskell
-, text, time, time-locale-compat, uuid, uuid-orphans, web-plugins
-, web-routes, web-routes-happstack, web-routes-th
+, reform-happstack, reform-hsp, safecopy, stdenv, tagsoup
+, template-haskell, text, time, time-locale-compat, uuid
+, uuid-orphans, web-plugins, web-routes, web-routes-happstack
+, web-routes-th
 }:
 mkDerivation {
   pname = "clckwrks-plugin-page";

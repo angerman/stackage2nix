@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, contravariant, directory
-, distributive, doctest, filepath, semigroups, tagged, transformers
-, transformers-compat
+, distributive, doctest, filepath, semigroups, stdenv, tagged
+, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "comonad";

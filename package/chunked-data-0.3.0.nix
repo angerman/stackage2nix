@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, containers, semigroups, text
-, transformers, vector
+{ mkDerivation, base, bytestring, containers, semigroups, stdenv
+, text, transformers, vector
 }:
 mkDerivation {
   pname = "chunked-data";

@@ -3,7 +3,7 @@
 , conduit-extra, containers, data-default, directory, filepath
 , fsnotify, hspec, http-client, http-conduit, http-reverse-proxy
 , http-types, HUnit, lifted-base, mtl, network, process, random
-, regex-tdfa, stm, tar, template-haskell, text, time, tls
+, regex-tdfa, stdenv, stm, tar, template-haskell, text, time, tls
 , transformers, unix, unix-compat, unordered-containers, vector
 , wai, wai-app-static, wai-extra, warp, warp-tls, yaml, zlib
 }:

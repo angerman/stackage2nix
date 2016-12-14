@@ -1,5 +1,5 @@
-{ mkDerivation, aeson, base, boomerang, safecopy, web-routes
-, web-routes-th
+{ mkDerivation, aeson, base, boomerang, safecopy, stdenv
+, web-routes, web-routes-th
 }:
 mkDerivation {
   pname = "userid";

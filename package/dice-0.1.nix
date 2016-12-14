@@ -1,4 +1,4 @@
-{ mkDerivation, base, parsec, random-fu, transformers }:
+{ mkDerivation, base, parsec, random-fu, stdenv, transformers }:
 mkDerivation {
   pname = "dice";
   version = "0.1";

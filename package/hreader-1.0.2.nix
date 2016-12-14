@@ -1,5 +1,5 @@
 { mkDerivation, base, exceptions, hset, mmorph, monad-control, mtl
-, tagged, transformers-base
+, stdenv, tagged, transformers-base
 }:
 mkDerivation {
   pname = "hreader";

@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, conduit, criterion, hspec
-, hw-bits, resourcet, word8
+, hw-bits, resourcet, stdenv, word8
 }:
 mkDerivation {
   pname = "hw-conduit";

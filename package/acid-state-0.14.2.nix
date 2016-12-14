@@ -1,6 +1,6 @@
 { mkDerivation, array, base, bytestring, cereal, containers
 , directory, extensible-exceptions, filepath, mtl, network
-, safecopy, stm, template-haskell, unix
+, safecopy, stdenv, stm, template-haskell, unix
 }:
 mkDerivation {
   pname = "acid-state";

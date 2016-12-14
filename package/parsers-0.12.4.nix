@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, base-orphans, bytestring, charset
 , containers, directory, doctest, filepath, parsec, QuickCheck
-, quickcheck-instances, scientific, text, transformers
+, quickcheck-instances, scientific, stdenv, text, transformers
 , unordered-containers
 }:
 mkDerivation {

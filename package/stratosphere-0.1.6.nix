@@ -1,5 +1,5 @@
 { mkDerivation, aeson, aeson-pretty, base, bytestring, directory
-, hlint, lens, tasty, tasty-hspec, template-haskell, text
+, hlint, lens, stdenv, tasty, tasty-hspec, template-haskell, text
 , unordered-containers
 }:
 mkDerivation {

@@ -2,8 +2,8 @@
 , conduit-extra, cryptohash, data-default, directory, exceptions
 , fast-logger, filepath, http-conduit, lifted-async, lifted-base
 , mmorph, monad-control, monad-logger, old-locale
-, optparse-applicative, resourcet, retry, shakespeare, stm, tar
-, template-haskell, temporary, text, thyme, transformers
+, optparse-applicative, resourcet, retry, shakespeare, stdenv, stm
+, tar, template-haskell, temporary, text, thyme, transformers
 , unordered-containers
 }:
 mkDerivation {

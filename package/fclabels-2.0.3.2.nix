@@ -1,4 +1,6 @@
-{ mkDerivation, base, HUnit, mtl, template-haskell, transformers }:
+{ mkDerivation, base, HUnit, mtl, stdenv, template-haskell
+, transformers
+}:
 mkDerivation {
   pname = "fclabels";
   version = "2.0.3.2";

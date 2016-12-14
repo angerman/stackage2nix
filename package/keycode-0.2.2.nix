@@ -1,4 +1,6 @@
-{ mkDerivation, base, containers, ghc-prim, template-haskell }:
+{ mkDerivation, base, containers, ghc-prim, stdenv
+, template-haskell
+}:
 mkDerivation {
   pname = "keycode";
   version = "0.2.2";

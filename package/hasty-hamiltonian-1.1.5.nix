@@ -1,5 +1,5 @@
 { mkDerivation, ad, base, lens, mcmc-types, mwc-probability, pipes
-, primitive, transformers
+, primitive, stdenv, transformers
 }:
 mkDerivation {
   pname = "hasty-hamiltonian";

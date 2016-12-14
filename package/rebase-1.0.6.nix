@@ -1,7 +1,7 @@
 { mkDerivation, base, base-prelude, bifunctors, bytestring
 , containers, contravariant, contravariant-extras, deepseq, dlist
 , either, fail, hashable, mtl, profunctors, scientific
-, semigroupoids, semigroups, stm, text, time, transformers
+, semigroupoids, semigroups, stdenv, stm, text, time, transformers
 , unordered-containers, uuid, vector, void
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring }:
+{ mkDerivation, base, bytestring, stdenv }:
 mkDerivation {
   pname = "charsetdetect-ae";
   version = "1.1.0.1";

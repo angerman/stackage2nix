@@ -1,6 +1,6 @@
 { mkDerivation, array, base, bytestring, bytestring-handle
-, containers, deepseq, directory, filepath, QuickCheck, tasty
-, tasty-quickcheck, time
+, containers, deepseq, directory, filepath, QuickCheck, stdenv
+, tasty, tasty-quickcheck, time
 }:
 mkDerivation {
   pname = "tar";

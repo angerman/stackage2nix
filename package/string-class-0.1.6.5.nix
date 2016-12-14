@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, tagged, text }:
+{ mkDerivation, base, bytestring, stdenv, tagged, text }:
 mkDerivation {
   pname = "string-class";
   version = "0.1.6.5";

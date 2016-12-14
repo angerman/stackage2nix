@@ -1,5 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, HUnit, io-streams
-, network, test-framework, test-framework-hunit, transformers
+, network, stdenv, test-framework, test-framework-hunit
+, transformers
 }:
 mkDerivation {
   pname = "io-streams-haproxy";

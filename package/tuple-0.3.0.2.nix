@@ -1,4 +1,4 @@
-{ mkDerivation, base, OneTuple }:
+{ mkDerivation, base, OneTuple, stdenv }:
 mkDerivation {
   pname = "tuple";
   version = "0.3.0.2";

@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, containers, directory
-, filepath, haskell-src-exts, HaTeX, hint, parsec, process, text
-, transformers
+, filepath, haskell-src-exts, HaTeX, hint, parsec, process, stdenv
+, text, transformers
 }:
 mkDerivation {
   pname = "haskintex";

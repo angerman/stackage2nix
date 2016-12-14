@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary }:
+{ mkDerivation, base, binary, stdenv }:
 mkDerivation {
   pname = "data-binary-ieee754";
   version = "0.4.4";

@@ -1,5 +1,5 @@
-{ mkDerivation, aeson, base, hspec, http-types, QuickCheck, text
-, unordered-containers, vector
+{ mkDerivation, aeson, base, hspec, http-types, QuickCheck, stdenv
+, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "hjsonpointer";

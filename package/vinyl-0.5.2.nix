@@ -1,4 +1,5 @@
-{ mkDerivation, base, doctest, ghc-prim, lens, singletons }:
+{ mkDerivation, base, doctest, ghc-prim, lens, singletons, stdenv
+}:
 mkDerivation {
   pname = "vinyl";
   version = "0.5.2";

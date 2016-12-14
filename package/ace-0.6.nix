@@ -1,5 +1,6 @@
 { mkDerivation, attoparsec, base, bifunctors, blaze-html
-, blaze-markup, data-default, hspec, HUnit, mtl, parsec, text
+, blaze-markup, data-default, hspec, HUnit, mtl, parsec, stdenv
+, text
 }:
 mkDerivation {
   pname = "ace";

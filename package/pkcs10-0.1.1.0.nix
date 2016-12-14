@@ -1,6 +1,6 @@
 { mkDerivation, asn1-encoding, asn1-parse, asn1-types, base
-, bytestring, cryptonite, pem, QuickCheck, tasty, tasty-hunit
-, tasty-quickcheck, transformers, x509
+, bytestring, cryptonite, pem, QuickCheck, stdenv, tasty
+, tasty-hunit, tasty-quickcheck, transformers, x509
 }:
 mkDerivation {
   pname = "pkcs10";

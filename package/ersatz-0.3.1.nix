@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, data-default
-, directory, doctest, filepath, lens, mtl, parsec, process
+, directory, doctest, filepath, lens, mtl, parsec, process, stdenv
 , temporary, transformers, unordered-containers
 }:
 mkDerivation {

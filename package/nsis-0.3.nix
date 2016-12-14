@@ -1,4 +1,6 @@
-{ mkDerivation, base, directory, process, transformers, uniplate }:
+{ mkDerivation, base, directory, process, stdenv, transformers
+, uniplate
+}:
 mkDerivation {
   pname = "nsis";
   version = "0.3";

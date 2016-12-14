@@ -1,4 +1,4 @@
-{ mkDerivation, base, lens, time }:
+{ mkDerivation, base, lens, stdenv, time }:
 mkDerivation {
   pname = "lens-datetime";
   version = "0.3";

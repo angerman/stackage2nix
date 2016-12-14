@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, random }:
+{ mkDerivation, base, deepseq, random, stdenv }:
 mkDerivation {
   pname = "Yampa";
   version = "0.10.5";

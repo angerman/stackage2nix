@@ -1,7 +1,7 @@
 { mkDerivation, array, base, bifunctors, comonad, containers
 , contravariant, ghc-prim, hspec, profunctors, QuickCheck
-, semigroups, StateVar, stm, tagged, template-haskell, transformers
-, transformers-compat, unordered-containers
+, semigroups, StateVar, stdenv, stm, tagged, template-haskell
+, transformers, transformers-compat, unordered-containers
 }:
 mkDerivation {
   pname = "invariant";

@@ -1,4 +1,5 @@
-{ mkDerivation, aeson, base, ekg-core, text, unordered-containers
+{ mkDerivation, aeson, base, ekg-core, stdenv, text
+, unordered-containers
 }:
 mkDerivation {
   pname = "ekg-json";

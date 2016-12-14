@@ -1,6 +1,6 @@
 { mkDerivation, base, base-compat, bytestring, case-insensitive
 , hspec, hspec-core, hspec-expectations, http-types, QuickCheck
-, text, transformers, wai, wai-extra, with-location
+, stdenv, text, transformers, wai, wai-extra, with-location
 }:
 mkDerivation {
   pname = "hspec-wai";

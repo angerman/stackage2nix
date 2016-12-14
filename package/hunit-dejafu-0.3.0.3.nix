@@ -1,4 +1,4 @@
-{ mkDerivation, base, dejafu, exceptions, HUnit }:
+{ mkDerivation, base, dejafu, exceptions, HUnit, stdenv }:
 mkDerivation {
   pname = "hunit-dejafu";
   version = "0.3.0.3";

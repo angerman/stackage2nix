@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra
-, exceptions, hspec, resourcet
+, exceptions, hspec, resourcet, stdenv
 }:
 mkDerivation {
   pname = "imagesize-conduit";

@@ -1,7 +1,7 @@
 { mkDerivation, base, blaze-builder, blaze-html, blaze-markup
 , bytestring, containers, cryptonite, directory, file-embed
 , filepath, hspec, http-date, http-types, memory, mime-types
-, mockery, network, old-locale, optparse-applicative
+, mockery, network, old-locale, optparse-applicative, stdenv
 , template-haskell, temporary, text, time, transformers
 , unix-compat, unordered-containers, wai, wai-extra, warp, zlib
 }:

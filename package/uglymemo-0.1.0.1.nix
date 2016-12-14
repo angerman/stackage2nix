@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers }:
+{ mkDerivation, base, containers, stdenv }:
 mkDerivation {
   pname = "uglymemo";
   version = "0.1.0.1";

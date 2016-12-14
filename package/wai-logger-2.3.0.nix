@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-builder, byteorder, bytestring
-, case-insensitive, doctest, fast-logger, http-types, network, unix
-, unix-time, wai
+, case-insensitive, doctest, fast-logger, http-types, network
+, stdenv, unix, unix-time, wai
 }:
 mkDerivation {
   pname = "wai-logger";

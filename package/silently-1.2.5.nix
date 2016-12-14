@@ -1,4 +1,6 @@
-{ mkDerivation, base, deepseq, directory, nanospec, temporary }:
+{ mkDerivation, base, deepseq, directory, nanospec, stdenv
+, temporary
+}:
 mkDerivation {
   pname = "silently";
   version = "1.2.5";

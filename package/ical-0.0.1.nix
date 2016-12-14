@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, containers, either, mtl
-, text, time, transformers
+, stdenv, text, time, transformers
 }:
 mkDerivation {
   pname = "ical";

@@ -1,5 +1,5 @@
 { mkDerivation, base, configurator, data-default, HsOpenSSL
-, http-client, http-client-openssl, soap, text
+, http-client, http-client-openssl, soap, stdenv, text
 }:
 mkDerivation {
   pname = "soap-openssl";

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bifunctors, binary, containers
 , data-default-class, deepseq, hashable, keys, mtl, profunctors
-, QuickCheck, quickcheck-instances, semigroupoids, tasty
+, QuickCheck, quickcheck-instances, semigroupoids, stdenv, tasty
 , tasty-quickcheck, transformers, transformers-compat
 , unordered-containers, vector, vector-instances
 }:

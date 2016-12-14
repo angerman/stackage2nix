@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring }:
+{ mkDerivation, base, bytestring, stdenv }:
 mkDerivation {
   pname = "appar";
   version = "0.1.4";

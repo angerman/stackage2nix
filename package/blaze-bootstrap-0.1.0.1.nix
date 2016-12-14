@@ -1,4 +1,4 @@
-{ mkDerivation, base, blaze-html, text }:
+{ mkDerivation, base, blaze-html, stdenv, text }:
 mkDerivation {
   pname = "blaze-bootstrap";
   version = "0.1.0.1";

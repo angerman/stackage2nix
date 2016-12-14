@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra, directory
-, process, resourcet, temporary, transformers, unix
+, process, resourcet, stdenv, temporary, transformers, unix
 }:
 mkDerivation {
   pname = "editor-open";

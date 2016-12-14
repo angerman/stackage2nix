@@ -1,4 +1,4 @@
-{ mkDerivation, base, shakespeare }:
+{ mkDerivation, base, shakespeare, stdenv }:
 mkDerivation {
   pname = "hamlet";
   version = "1.2.0";

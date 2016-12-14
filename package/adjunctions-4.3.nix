@@ -1,6 +1,6 @@
 { mkDerivation, array, base, comonad, containers, contravariant
 , distributive, free, mtl, profunctors, semigroupoids, semigroups
-, tagged, transformers, transformers-compat, void
+, stdenv, tagged, transformers, transformers-compat, void
 }:
 mkDerivation {
   pname = "adjunctions";

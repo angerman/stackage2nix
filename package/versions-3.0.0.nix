@@ -1,5 +1,5 @@
 { mkDerivation, base, either, megaparsec, microlens, semigroups
-, tasty, tasty-hunit, text
+, stdenv, tasty, tasty-hunit, text
 }:
 mkDerivation {
   pname = "versions";

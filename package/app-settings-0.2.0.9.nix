@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, hspec, HUnit, mtl
-, parsec, text
+, parsec, stdenv, text
 }:
 mkDerivation {
   pname = "app-settings";

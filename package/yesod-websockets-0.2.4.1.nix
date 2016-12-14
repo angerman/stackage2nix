@@ -1,6 +1,6 @@
 { mkDerivation, async, base, conduit, enclosed-exceptions
-, monad-control, transformers, wai, wai-websockets, websockets
-, yesod-core
+, monad-control, stdenv, transformers, wai, wai-websockets
+, websockets, yesod-core
 }:
 mkDerivation {
   pname = "yesod-websockets";

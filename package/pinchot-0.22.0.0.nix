@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, Earley, lens, ListLike
-, non-empty-sequence, pretty-show, semigroups, template-haskell
-, transformers
+, non-empty-sequence, pretty-show, semigroups, stdenv
+, template-haskell, transformers
 }:
 mkDerivation {
   pname = "pinchot";

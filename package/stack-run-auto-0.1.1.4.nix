@@ -1,6 +1,6 @@
 { mkDerivation, async, base, directory, extract-dependencies
 , file-modules, filepath, lens, lens-aeson, MissingH, process
-, stm-containers, text, time, wreq
+, stdenv, stm-containers, text, time, wreq
 }:
 mkDerivation {
   pname = "stack-run-auto";

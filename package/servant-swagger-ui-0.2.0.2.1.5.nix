@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, base-compat, blaze-markup, bytestring
 , directory, file-embed, filepath, http-media, lens, servant
-, servant-blaze, servant-server, servant-swagger, swagger2
+, servant-blaze, servant-server, servant-swagger, stdenv, swagger2
 , template-haskell, text, transformers, transformers-compat, wai
 , wai-app-static, warp
 }:

@@ -1,4 +1,4 @@
-{ mkDerivation, base, transformers, utility-ht }:
+{ mkDerivation, base, stdenv, transformers, utility-ht }:
 mkDerivation {
   pname = "storable-record";
   version = "0.0.3.1";

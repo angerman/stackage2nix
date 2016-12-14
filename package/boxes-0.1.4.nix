@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck, split }:
+{ mkDerivation, base, QuickCheck, split, stdenv }:
 mkDerivation {
   pname = "boxes";
   version = "0.1.4";

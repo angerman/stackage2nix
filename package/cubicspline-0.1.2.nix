@@ -1,4 +1,4 @@
-{ mkDerivation, base, hmatrix, safe }:
+{ mkDerivation, base, hmatrix, safe, stdenv }:
 mkDerivation {
   pname = "cubicspline";
   version = "0.1.2";

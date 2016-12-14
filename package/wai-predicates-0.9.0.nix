@@ -1,7 +1,7 @@
 { mkDerivation, attoparsec, base, blaze-builder, bytestring
 , bytestring-conversion, case-insensitive, cookie, http-types
-, singletons, tasty, tasty-hunit, tasty-quickcheck, transformers
-, vault, vector, wai
+, singletons, stdenv, tasty, tasty-hunit, tasty-quickcheck
+, transformers, vault, vector, wai
 }:
 mkDerivation {
   pname = "wai-predicates";

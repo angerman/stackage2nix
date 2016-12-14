@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, semigroups }:
+{ mkDerivation, base, containers, semigroups, stdenv }:
 mkDerivation {
   pname = "non-empty-sequence";
   version = "0.2.0.2";

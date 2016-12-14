@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, QuickCheck, random }:
+{ mkDerivation, array, base, QuickCheck, random, stdenv }:
 mkDerivation {
   pname = "checkers";
   version = "0.4.6";

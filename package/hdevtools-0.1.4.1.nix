@@ -1,6 +1,6 @@
 { mkDerivation, base, Cabal, cmdargs, directory, filepath, ghc
-, ghc-boot, ghc-paths, network, process, syb, time, transformers
-, unix
+, ghc-boot, ghc-paths, network, process, stdenv, syb, time
+, transformers, unix
 }:
 mkDerivation {
   pname = "hdevtools";

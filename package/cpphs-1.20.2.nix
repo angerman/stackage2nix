@@ -1,4 +1,6 @@
-{ mkDerivation, base, directory, old-locale, old-time, polyparse }:
+{ mkDerivation, base, directory, old-locale, old-time, polyparse
+, stdenv
+}:
 mkDerivation {
   pname = "cpphs";
   version = "1.20.2";

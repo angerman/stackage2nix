@@ -1,6 +1,6 @@
 { mkDerivation, base, base64-bytestring, blaze-builder, byteable
 , bytestring, containers, cookie, cryptohash, http-types, simple
-, transformers, wai, wai-extra
+, stdenv, transformers, wai, wai-extra
 }:
 mkDerivation {
   pname = "simple-session";

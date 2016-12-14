@@ -1,4 +1,4 @@
-{ mkDerivation, base, lens, stm }:
+{ mkDerivation, base, lens, stdenv, stm }:
 mkDerivation {
   pname = "zoom-refs";
   version = "0.0.0.1";

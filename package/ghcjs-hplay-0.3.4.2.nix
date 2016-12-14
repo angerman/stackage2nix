@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, ghcjs-perch, mtl, transformers
-, transient, transient-universe
+{ mkDerivation, base, containers, ghcjs-perch, mtl, stdenv
+, transformers, transient, transient-universe
 }:
 mkDerivation {
   pname = "ghcjs-hplay";

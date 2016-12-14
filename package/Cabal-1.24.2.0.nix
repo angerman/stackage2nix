@@ -1,7 +1,7 @@
 { mkDerivation, array, base, binary, bytestring, containers
 , deepseq, directory, exceptions, filepath, old-time, pretty
-, process, QuickCheck, regex-posix, tagged, tasty, tasty-hunit
-, tasty-quickcheck, time, transformers, unix
+, process, QuickCheck, regex-posix, stdenv, tagged, tasty
+, tasty-hunit, tasty-quickcheck, time, transformers, unix
 }:
 mkDerivation {
   pname = "Cabal";

@@ -1,8 +1,9 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, clash-prelude
 , concurrent-supply, containers, deepseq, directory, errors, fgl
 , filepath, ghc, hashable, integer-gmp, lens, mtl, pretty, process
-, template-haskell, text, time, transformers, unbound-generics
-, unordered-containers, uu-parsinglib, wl-pprint-text
+, stdenv, template-haskell, text, time, transformers
+, unbound-generics, unordered-containers, uu-parsinglib
+, wl-pprint-text
 }:
 mkDerivation {
   pname = "clash-lib";

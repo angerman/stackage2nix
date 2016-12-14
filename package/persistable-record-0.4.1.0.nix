@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, dlist, names-th
+{ mkDerivation, array, base, containers, dlist, names-th, stdenv
 , template-haskell, th-data-compat, transformers
 }:
 mkDerivation {

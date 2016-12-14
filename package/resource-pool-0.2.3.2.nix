@@ -1,4 +1,4 @@
-{ mkDerivation, base, hashable, monad-control, stm, time
+{ mkDerivation, base, hashable, monad-control, stdenv, stm, time
 , transformers, transformers-base, vector
 }:
 mkDerivation {

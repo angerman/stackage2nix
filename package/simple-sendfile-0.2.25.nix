@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra, directory
-, hspec, HUnit, network, process, resourcet, unix
+, hspec, HUnit, network, process, resourcet, stdenv, unix
 }:
 mkDerivation {
   pname = "simple-sendfile";

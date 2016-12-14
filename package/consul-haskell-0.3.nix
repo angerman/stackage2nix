@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, base64-bytestring, bytestring
 , connection, either, http-client, http-client-tls, http-types
-, HUnit, lifted-async, lifted-base, monad-control, network, stm
-, tasty, tasty-hunit, text, transformers
+, HUnit, lifted-async, lifted-base, monad-control, network, stdenv
+, stm, tasty, tasty-hunit, text, transformers
 }:
 mkDerivation {
   pname = "consul-haskell";

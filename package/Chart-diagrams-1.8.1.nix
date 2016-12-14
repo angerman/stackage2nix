@@ -1,7 +1,7 @@
 { mkDerivation, base, blaze-markup, bytestring, Chart, colour
 , containers, data-default-class, diagrams-core, diagrams-lib
 , diagrams-postscript, diagrams-svg, lens, mtl, old-locale
-, operational, svg-builder, SVGFonts, text, time
+, operational, stdenv, svg-builder, SVGFonts, text, time
 }:
 mkDerivation {
   pname = "Chart-diagrams";

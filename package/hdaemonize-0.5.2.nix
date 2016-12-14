@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, extensible-exceptions, filepath
-, hsyslog, mtl, unix
+, hsyslog, mtl, stdenv, unix
 }:
 mkDerivation {
   pname = "hdaemonize";

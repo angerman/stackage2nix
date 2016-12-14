@@ -1,4 +1,5 @@
-{ mkDerivation, asn1-encoding, asn1-types, base, bytestring }:
+{ mkDerivation, asn1-encoding, asn1-types, base, bytestring, stdenv
+}:
 mkDerivation {
   pname = "asn1-parse";
   version = "0.9.4";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, blaze-html, cheapskate, lucid }:
+{ mkDerivation, base, blaze-html, cheapskate, lucid, stdenv }:
 mkDerivation {
   pname = "cheapskate-lucid";
   version = "0.1.0.0";

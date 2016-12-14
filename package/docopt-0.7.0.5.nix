@@ -1,5 +1,5 @@
 { mkDerivation, aeson, ansi-terminal, base, bytestring, containers
-, HUnit, parsec, split, template-haskell, text, th-lift
+, HUnit, parsec, split, stdenv, template-haskell, text, th-lift
 }:
 mkDerivation {
   pname = "docopt";

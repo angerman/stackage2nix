@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, cryptohash
-, data-binary-ieee754, mtl, network, QuickCheck, test-framework
-, test-framework-quickcheck2, text, time
+, data-binary-ieee754, mtl, network, QuickCheck, stdenv
+, test-framework, test-framework-quickcheck2, text, time
 }:
 mkDerivation {
   pname = "bson";

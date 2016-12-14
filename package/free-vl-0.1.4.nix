@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, mtl, tasty, tasty-hunit }:
+{ mkDerivation, base, containers, mtl, stdenv, tasty, tasty-hunit
+}:
 mkDerivation {
   pname = "free-vl";
   version = "0.1.4";

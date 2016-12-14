@@ -1,5 +1,5 @@
 { mkDerivation, base, base-prelude, HTF, mmorph, monad-control, mtl
-, mtl-prelude, transformers, transformers-base
+, mtl-prelude, stdenv, transformers, transformers-base
 }:
 mkDerivation {
   pname = "list-t";

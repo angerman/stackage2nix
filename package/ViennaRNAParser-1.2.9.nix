@@ -1,4 +1,5 @@
-{ mkDerivation, base, hspec, parsec, process, transformers }:
+{ mkDerivation, base, hspec, parsec, process, stdenv, transformers
+}:
 mkDerivation {
   pname = "ViennaRNAParser";
   version = "1.2.9";

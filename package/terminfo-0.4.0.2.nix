@@ -1,4 +1,4 @@
-{ mkDerivation, base, ncurses }:
+{ mkDerivation, base, ncurses, stdenv }:
 mkDerivation {
   pname = "terminfo";
   version = "0.4.0.2";

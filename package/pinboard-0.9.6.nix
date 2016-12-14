@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, containers, either, hspec
 , http-client, http-client-tls, http-types, mtl, network
-, old-locale, profunctors, QuickCheck, random, semigroups, text
-, time, transformers, unordered-containers, vector
+, old-locale, profunctors, QuickCheck, random, semigroups, stdenv
+, text, time, transformers, unordered-containers, vector
 }:
 mkDerivation {
   pname = "pinboard";

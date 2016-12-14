@@ -1,6 +1,6 @@
 { mkDerivation, adjunctions, array, base, comonad, containers
-, contravariant, distributive, free, mtl, semigroupoids, tagged
-, transformers
+, contravariant, distributive, free, mtl, semigroupoids, stdenv
+, tagged, transformers
 }:
 mkDerivation {
   pname = "kan-extensions";

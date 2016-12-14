@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, pointed, QuickCheck
-, tasty, tasty-quickcheck
+, stdenv, tasty, tasty-quickcheck
 }:
 mkDerivation {
   pname = "grouped-list";

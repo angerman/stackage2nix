@@ -1,4 +1,4 @@
-{ mkDerivation, base, data-memocombinators, time }:
+{ mkDerivation, base, data-memocombinators, stdenv, time }:
 mkDerivation {
   pname = "runmemo";
   version = "1.0.0.1";

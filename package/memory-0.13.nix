@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, deepseq, ghc-prim, tasty
+{ mkDerivation, base, bytestring, deepseq, ghc-prim, stdenv, tasty
 , tasty-hunit, tasty-quickcheck
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, either, gitrev, optparse-applicative
+{ mkDerivation, base, either, gitrev, optparse-applicative, stdenv
 , template-haskell, transformers
 }:
 mkDerivation {

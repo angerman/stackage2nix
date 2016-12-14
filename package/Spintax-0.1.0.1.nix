@@ -1,4 +1,5 @@
-{ mkDerivation, attoparsec, base, extra, mwc-random, text }:
+{ mkDerivation, attoparsec, base, extra, mwc-random, stdenv, text
+}:
 mkDerivation {
   pname = "Spintax";
   version = "0.1.0.1";

@@ -1,9 +1,9 @@
 { mkDerivation, attoparsec, base, blaze-builder, blaze-html
 , blaze-markup, bytestring, case-insensitive, containers, cookie
 , hspec, hspec-core, html-conduit, http-types, HUnit, lifted-base
-, monad-control, network, persistent, pretty-show, text, time
-, transformers, wai, wai-extra, xml-conduit, xml-types, yesod-core
-, yesod-form
+, monad-control, network, persistent, pretty-show, stdenv, text
+, time, transformers, wai, wai-extra, xml-conduit, xml-types
+, yesod-core, yesod-form
 }:
 mkDerivation {
   pname = "yesod-test";

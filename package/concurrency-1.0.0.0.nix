@@ -1,5 +1,5 @@
 { mkDerivation, array, atomic-primops, base, exceptions
-, monad-control, mtl, stm, transformers
+, monad-control, mtl, stdenv, stm, transformers
 }:
 mkDerivation {
   pname = "concurrency";

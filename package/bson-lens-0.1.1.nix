@@ -1,4 +1,4 @@
-{ mkDerivation, base, bson, lens, text }:
+{ mkDerivation, base, bson, lens, stdenv, text }:
 mkDerivation {
   pname = "bson-lens";
   version = "0.1.1";

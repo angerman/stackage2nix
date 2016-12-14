@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, haskell-src-exts
-, haskell-src-meta, mtl, template-haskell, utf8-string
+, haskell-src-meta, mtl, stdenv, template-haskell, utf8-string
 }:
 mkDerivation {
   pname = "hsx2hs";

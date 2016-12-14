@@ -1,4 +1,6 @@
-{ mkDerivation, base, dependent-sum, template-haskell, th-extras }:
+{ mkDerivation, base, dependent-sum, stdenv, template-haskell
+, th-extras
+}:
 mkDerivation {
   pname = "dependent-sum-template";
   version = "0.0.0.5";

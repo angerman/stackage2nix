@@ -1,5 +1,5 @@
 { mkDerivation, base, drifter, either, mtl, postgresql-simple
-, tasty, tasty-hunit, text, time
+, stdenv, tasty, tasty-hunit, text, time
 }:
 mkDerivation {
   pname = "drifter-postgresql";

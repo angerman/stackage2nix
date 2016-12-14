@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, containers, protocol-buffers }:
+{ mkDerivation, base, bytestring, containers, protocol-buffers
+, stdenv
+}:
 mkDerivation {
   pname = "protocol-buffers-descriptor";
   version = "2.4.0";

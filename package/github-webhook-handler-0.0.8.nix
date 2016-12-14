@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, cryptohash, github-types
-, text, transformers, uuid, vector
+, stdenv, text, transformers, uuid, vector
 }:
 mkDerivation {
   pname = "github-webhook-handler";

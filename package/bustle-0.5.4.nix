@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, cairo, containers, dbus
 , directory, filepath, gio, glib, gtk3, hgettext, HUnit, mtl, pango
-, parsec, pcap, process, QuickCheck, setlocale, system-glib
+, parsec, pcap, process, QuickCheck, setlocale, stdenv, system-glib
 , test-framework, test-framework-hunit, text, time
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
-{ mkDerivation, base, safe, transformers, transformers-compat
-, unexceptionalio
+{ mkDerivation, base, safe, stdenv, transformers
+, transformers-compat, unexceptionalio
 }:
 mkDerivation {
   pname = "errors";

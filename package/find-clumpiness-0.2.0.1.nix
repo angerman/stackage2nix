@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, clumpiness, containers
-, optparse-applicative, text, text-show, tree-fun
+, optparse-applicative, stdenv, text, text-show, tree-fun
 , unordered-containers, vector
 }:
 mkDerivation {

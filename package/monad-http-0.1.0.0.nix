@@ -1,6 +1,6 @@
 { mkDerivation, base, base-compat, bytestring, exceptions
 , http-client, http-client-tls, http-types, monad-logger
-, monadcryptorandom, MonadRandom, mtl, text, transformers
+, monadcryptorandom, MonadRandom, mtl, stdenv, text, transformers
 , transformers-compat
 }:
 mkDerivation {

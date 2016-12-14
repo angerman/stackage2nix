@@ -1,5 +1,5 @@
 { mkDerivation, array, base, containers, mtl, QuickCheck, random
-, syb
+, stdenv, syb
 }:
 mkDerivation {
   pname = "ChasingBottoms";

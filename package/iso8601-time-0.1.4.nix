@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, HUnit, time }:
+{ mkDerivation, base, hspec, HUnit, stdenv, time }:
 mkDerivation {
   pname = "iso8601-time";
   version = "0.1.4";

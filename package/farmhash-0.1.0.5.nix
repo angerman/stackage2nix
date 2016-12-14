@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, hspec, QuickCheck }:
+{ mkDerivation, base, bytestring, hspec, QuickCheck, stdenv }:
 mkDerivation {
   pname = "farmhash";
   version = "0.1.0.5";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, template-haskell }:
+{ mkDerivation, base, containers, stdenv, template-haskell }:
 mkDerivation {
   pname = "names-th";
   version = "0.2.0.2";

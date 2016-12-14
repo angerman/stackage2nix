@@ -1,4 +1,4 @@
-{ mkDerivation, base, base-unicode-symbols, containers }:
+{ mkDerivation, base, base-unicode-symbols, containers, stdenv }:
 mkDerivation {
   pname = "containers-unicode-symbols";
   version = "0.3.1.1";

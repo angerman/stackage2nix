@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, mtl, parallel, pipes
+{ mkDerivation, base, bytestring, mtl, parallel, pipes, stdenv
 , streaming-commons
 }:
 mkDerivation {

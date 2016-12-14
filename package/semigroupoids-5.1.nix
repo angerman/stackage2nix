@@ -1,6 +1,6 @@
 { mkDerivation, base, base-orphans, bifunctors, comonad, containers
 , contravariant, directory, distributive, doctest, filepath
-, semigroups, tagged, transformers, transformers-compat
+, semigroups, stdenv, tagged, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "semigroupoids";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl }:
+{ mkDerivation, base, mtl, stdenv }:
 mkDerivation {
   pname = "EdisonAPI";
   version = "1.3.1";

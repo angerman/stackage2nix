@@ -1,4 +1,6 @@
-{ mkDerivation, array, base, bytestring, containers, regex-base }:
+{ mkDerivation, array, base, bytestring, containers, regex-base
+, stdenv
+}:
 mkDerivation {
   pname = "regex-pcre-builtin";
   version = "0.94.4.8.8.35";

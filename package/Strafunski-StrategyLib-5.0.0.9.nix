@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, mtl, syb, transformers }:
+{ mkDerivation, base, directory, mtl, stdenv, syb, transformers }:
 mkDerivation {
   pname = "Strafunski-StrategyLib";
   version = "5.0.0.9";

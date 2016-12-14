@@ -1,5 +1,5 @@
-{ mkDerivation, base, ghc, ghc-tcplugins-extra, integer-gmp, tasty
-, tasty-hunit, template-haskell
+{ mkDerivation, base, ghc, ghc-tcplugins-extra, integer-gmp, stdenv
+, tasty, tasty-hunit, template-haskell
 }:
 mkDerivation {
   pname = "ghc-typelits-natnormalise";

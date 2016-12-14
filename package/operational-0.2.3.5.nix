@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, random }:
+{ mkDerivation, base, mtl, random, stdenv }:
 mkDerivation {
   pname = "operational";
   version = "0.2.3.5";

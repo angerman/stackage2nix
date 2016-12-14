@@ -1,4 +1,6 @@
-{ mkDerivation, base, byteable, bytestring, ghc-prim, memory }:
+{ mkDerivation, base, byteable, bytestring, ghc-prim, memory
+, stdenv
+}:
 mkDerivation {
   pname = "securemem";
   version = "0.1.9";

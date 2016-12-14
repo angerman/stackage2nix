@@ -1,4 +1,4 @@
-{ mkDerivation, base, utf8-string }:
+{ mkDerivation, base, stdenv, utf8-string }:
 mkDerivation {
   pname = "url";
   version = "2.1.3";

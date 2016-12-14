@@ -1,4 +1,4 @@
-{ mkDerivation, base, microlens, mtl, transformers
+{ mkDerivation, base, microlens, mtl, stdenv, transformers
 , transformers-compat
 }:
 mkDerivation {

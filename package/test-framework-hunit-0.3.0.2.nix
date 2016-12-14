@@ -1,4 +1,5 @@
-{ mkDerivation, base, extensible-exceptions, HUnit, test-framework
+{ mkDerivation, base, extensible-exceptions, HUnit, stdenv
+, test-framework
 }:
 mkDerivation {
   pname = "test-framework-hunit";

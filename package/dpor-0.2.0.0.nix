@@ -1,4 +1,6 @@
-{ mkDerivation, base, containers, deepseq, random, semigroups }:
+{ mkDerivation, base, containers, deepseq, random, semigroups
+, stdenv
+}:
 mkDerivation {
   pname = "dpor";
   version = "0.2.0.0";

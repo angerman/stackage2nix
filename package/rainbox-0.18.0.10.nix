@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, lens-simple
-, QuickCheck, rainbow, tasty, tasty-quickcheck, text
+, QuickCheck, rainbow, stdenv, tasty, tasty-quickcheck, text
 }:
 mkDerivation {
   pname = "rainbox";

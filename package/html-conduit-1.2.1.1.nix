@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra
-, containers, hspec, HUnit, resourcet, tagstream-conduit, text
-, transformers, xml-conduit, xml-types
+, containers, hspec, HUnit, resourcet, stdenv, tagstream-conduit
+, text, transformers, xml-conduit, xml-types
 }:
 mkDerivation {
   pname = "html-conduit";

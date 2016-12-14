@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, dlist, mtl, text, xml-conduit
-, xml-types
+{ mkDerivation, base, containers, dlist, mtl, stdenv, text
+, xml-conduit, xml-types
 }:
 mkDerivation {
   pname = "xml-conduit-writer";

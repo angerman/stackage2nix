@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, directory, filepath, hspec
-, temporary, text, unix-compat
+, stdenv, temporary, text, unix-compat
 }:
 mkDerivation {
   pname = "atomic-write";

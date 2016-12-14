@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, ghc-prim, text
+{ mkDerivation, base, containers, ghc-prim, stdenv, text
 , unordered-containers
 }:
 mkDerivation {

@@ -1,7 +1,7 @@
 { mkDerivation, AC-Vector, base, bytestring, containers, deepseq
 , directory, ghc-prim, GLUT, hPDB, IfElse, iterable, mtl, Octree
-, OpenGL, process, QuickCheck, template-haskell, text, text-format
-, time, vector
+, OpenGL, process, QuickCheck, stdenv, template-haskell, text
+, text-format, time, vector
 }:
 mkDerivation {
   pname = "hPDB-examples";

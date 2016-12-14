@@ -1,4 +1,6 @@
-{ mkDerivation, base, blaze-builder, bytestring, http-types, wai }:
+{ mkDerivation, base, blaze-builder, bytestring, http-types, stdenv
+, wai
+}:
 mkDerivation {
   pname = "wai-middleware-caching";
   version = "0.1.0.2";

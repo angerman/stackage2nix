@@ -1,7 +1,7 @@
 { mkDerivation, array, base, containers, directory
 , errorcall-eq-instance, filepath, hslogger, HUnit, mtl, network
 , old-locale, old-time, parsec, process, QuickCheck, random
-, regex-compat, testpack, time, unix
+, regex-compat, stdenv, testpack, time, unix
 }:
 mkDerivation {
   pname = "MissingH";

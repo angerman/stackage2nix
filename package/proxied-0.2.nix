@@ -1,4 +1,4 @@
-{ mkDerivation, base, generic-deriving, tagged }:
+{ mkDerivation, base, generic-deriving, stdenv, tagged }:
 mkDerivation {
   pname = "proxied";
   version = "0.2";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, mtl, QuickCheck, tagshare, template-haskell
+{ mkDerivation, base, mtl, QuickCheck, stdenv, tagshare
+, template-haskell
 }:
 mkDerivation {
   pname = "testing-feat";

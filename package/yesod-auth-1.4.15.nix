@@ -4,9 +4,9 @@
 , containers, cryptohash, data-default, email-validate, file-embed
 , http-client, http-conduit, http-types, lifted-base, mime-mail
 , network-uri, nonce, persistent, persistent-template, random
-, resourcet, safe, shakespeare, template-haskell, text, time
-, transformers, unordered-containers, wai, yesod-core, yesod-form
-, yesod-persistent
+, resourcet, safe, shakespeare, stdenv, template-haskell, text
+, time, transformers, unordered-containers, wai, yesod-core
+, yesod-form, yesod-persistent
 }:
 mkDerivation {
   pname = "yesod-auth";

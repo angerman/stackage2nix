@@ -1,5 +1,6 @@
 { mkDerivation, array, base, cairo, Chart, colour
-, data-default-class, lens, mtl, old-locale, operational, time
+, data-default-class, lens, mtl, old-locale, operational, stdenv
+, time
 }:
 mkDerivation {
   pname = "Chart-cairo";

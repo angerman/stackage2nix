@@ -1,5 +1,5 @@
 { mkDerivation, base, errors, exceptions, hashable, http-types
-, mmorph, monad-logger, mtl, resourcet, transformers
+, mmorph, monad-logger, mtl, resourcet, stdenv, transformers
 , transformers-base, unordered-containers, wai
 }:
 mkDerivation {

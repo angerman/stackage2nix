@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, convertible, dlist, HDBC
 , HDBC-session, names-th, persistable-record, relational-query
-, relational-schemas, template-haskell, th-data-compat
+, relational-schemas, stdenv, template-haskell, th-data-compat
 , transformers
 }:
 mkDerivation {

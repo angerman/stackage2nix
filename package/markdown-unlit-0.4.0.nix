@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, directory, hspec, QuickCheck
-, silently, stringbuilder, temporary
+, silently, stdenv, stringbuilder, temporary
 }:
 mkDerivation {
   pname = "markdown-unlit";

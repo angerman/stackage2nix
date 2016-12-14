@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, mtl, old-locale, tasty, tasty-hunit
-, tasty-quickcheck, time
+{ mkDerivation, base, deepseq, mtl, old-locale, stdenv, tasty
+, tasty-hunit, tasty-quickcheck, time
 }:
 mkDerivation {
   pname = "hourglass";

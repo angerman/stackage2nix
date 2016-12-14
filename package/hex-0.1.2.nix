@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring }:
+{ mkDerivation, base, bytestring, stdenv }:
 mkDerivation {
   pname = "hex";
   version = "0.1.2";

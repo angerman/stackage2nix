@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, doctest, Glob, http-api-data
-, http-client, lens, lens-aeson, mtl, servant, servant-client, text
-, time, transformers
+, http-client, lens, lens-aeson, mtl, servant, servant-client
+, stdenv, text, time, transformers
 }:
 mkDerivation {
   pname = "yahoo-finance-api";

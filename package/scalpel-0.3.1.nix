@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, curl, data-default
-, HUnit, regex-base, regex-tdfa, tagsoup, text
+, HUnit, regex-base, regex-tdfa, stdenv, tagsoup, text
 }:
 mkDerivation {
   pname = "scalpel";

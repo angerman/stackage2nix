@@ -1,6 +1,6 @@
 { mkDerivation, alex, array, base, blaze-builder, bytestring, Cabal
-, containers, happy, hspec, mtl, QuickCheck, text, utf8-light
-, utf8-string
+, containers, happy, hspec, mtl, QuickCheck, stdenv, text
+, utf8-light, utf8-string
 }:
 mkDerivation {
   pname = "language-javascript";

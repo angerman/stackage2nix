@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, Cabal
 , containers, cpphs, deepseq, directory, filepath, mtl, old-locale
-, profunctors, QuickCheck, random, system-posix-redirect, text
-, time, vector, vector-space, vector-th-unbox
+, profunctors, QuickCheck, random, stdenv, system-posix-redirect
+, text, time, vector, vector-space, vector-th-unbox
 }:
 mkDerivation {
   pname = "thyme";

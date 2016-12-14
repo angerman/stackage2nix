@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, binary, bytestring, hedis
 , http-api-data, monad-control, mtl, path-pieces, persistent
-, persistent-template, scientific, template-haskell, text, time
-, transformers, utf8-string
+, persistent-template, scientific, stdenv, template-haskell, text
+, time, transformers, utf8-string
 }:
 mkDerivation {
   pname = "persistent-redis";

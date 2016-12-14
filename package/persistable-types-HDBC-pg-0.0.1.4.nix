@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, convertible, HDBC
-, persistable-record, relational-query-HDBC, text-postgresql
+, persistable-record, relational-query-HDBC, stdenv
+, text-postgresql
 }:
 mkDerivation {
   pname = "persistable-types-HDBC-pg";

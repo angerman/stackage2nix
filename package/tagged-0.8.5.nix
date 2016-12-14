@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, template-haskell, transformers
-, transformers-compat
+{ mkDerivation, base, deepseq, stdenv, template-haskell
+, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "tagged";

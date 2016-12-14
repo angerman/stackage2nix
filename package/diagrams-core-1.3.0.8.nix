@@ -1,5 +1,5 @@
 { mkDerivation, adjunctions, base, containers, distributive
-, dual-tree, lens, linear, monoid-extras, mtl, semigroups
+, dual-tree, lens, linear, monoid-extras, mtl, semigroups, stdenv
 , unordered-containers
 }:
 mkDerivation {

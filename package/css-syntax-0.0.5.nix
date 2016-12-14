@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, directory, hspec
-, scientific, text
+, scientific, stdenv, text
 }:
 mkDerivation {
   pname = "css-syntax";

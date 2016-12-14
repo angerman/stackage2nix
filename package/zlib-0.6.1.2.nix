@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, QuickCheck, tasty, tasty-hunit
-, tasty-quickcheck, zlib
+{ mkDerivation, base, bytestring, QuickCheck, stdenv, tasty
+, tasty-hunit, tasty-quickcheck, zlib
 }:
 mkDerivation {
   pname = "zlib";

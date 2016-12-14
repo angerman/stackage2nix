@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, bytestring, containers, mtl }:
+{ mkDerivation, array, base, bytestring, containers, mtl, stdenv }:
 mkDerivation {
   pname = "regex-base";
   version = "0.93.2";

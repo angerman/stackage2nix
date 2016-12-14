@@ -1,5 +1,5 @@
-{ mkDerivation, base, hspec, lens, QuickCheck, template-haskell
-, transformers
+{ mkDerivation, base, hspec, lens, QuickCheck, stdenv
+, template-haskell, transformers
 }:
 mkDerivation {
   pname = "quickcheck-arbitrary-adt";

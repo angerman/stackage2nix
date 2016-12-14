@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, system-filepath, text }:
+{ mkDerivation, base, bytestring, stdenv, system-filepath, text }:
 mkDerivation {
   pname = "stringable";
   version = "0.1.3";

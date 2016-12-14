@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, text }:
+{ mkDerivation, base, mtl, stdenv, text }:
 mkDerivation {
   pname = "hsp";
   version = "0.10.0";

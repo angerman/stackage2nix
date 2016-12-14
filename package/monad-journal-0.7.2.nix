@@ -1,5 +1,5 @@
-{ mkDerivation, base, either, monad-control, mtl, transformers
-, transformers-base
+{ mkDerivation, base, either, monad-control, mtl, stdenv
+, transformers, transformers-base
 }:
 mkDerivation {
   pname = "monad-journal";

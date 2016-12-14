@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, containers, directory
-, explicit-exception, fgl, filepath, process, transformers
+, explicit-exception, fgl, filepath, process, stdenv, transformers
 , utility-ht
 }:
 mkDerivation {

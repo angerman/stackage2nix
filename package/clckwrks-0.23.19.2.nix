@@ -4,7 +4,7 @@
 , happstack-server, happstack-server-tls, hsp, hsx-jmacro, hsx2hs
 , ixset, jmacro, lens, mtl, network, network-uri, old-locale
 , openssl, process, random, reform, reform-happstack, reform-hsp
-, safecopy, stm, text, time, time-locale-compat
+, safecopy, stdenv, stm, text, time, time-locale-compat
 , unordered-containers, userid, utf8-string, uuid-orphans
 , uuid-types, vector, web-plugins, web-routes, web-routes-happstack
 , web-routes-hsp, web-routes-th, xss-sanitize

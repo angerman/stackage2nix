@@ -1,4 +1,4 @@
-{ mkDerivation, base, hxt, parsec, split }:
+{ mkDerivation, base, hxt, parsec, split, stdenv }:
 mkDerivation {
   pname = "hxt-css";
   version = "0.1.0.3";

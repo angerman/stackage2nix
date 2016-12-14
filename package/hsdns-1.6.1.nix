@@ -1,4 +1,4 @@
-{ mkDerivation, adns, base, containers, network }:
+{ mkDerivation, adns, base, containers, network, stdenv }:
 mkDerivation {
   pname = "hsdns";
   version = "1.6.1";

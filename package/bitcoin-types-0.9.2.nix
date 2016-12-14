@@ -1,5 +1,5 @@
 { mkDerivation, base, base58string, binary, bytestring, hexstring
-, hspec, text
+, hspec, stdenv, text
 }:
 mkDerivation {
   pname = "bitcoin-types";

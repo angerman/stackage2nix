@@ -1,4 +1,4 @@
-{ mkDerivation, base, HTTP, HUnit, network, network-uri
+{ mkDerivation, base, HTTP, HUnit, network, network-uri, stdenv
 , test-framework, test-framework-hunit
 }:
 mkDerivation {

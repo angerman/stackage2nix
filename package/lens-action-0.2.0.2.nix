@@ -1,6 +1,6 @@
 { mkDerivation, base, comonad, contravariant, directory, doctest
 , filepath, lens, mtl, profunctors, semigroupoids, semigroups
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "lens-action";

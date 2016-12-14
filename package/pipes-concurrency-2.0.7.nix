@@ -1,4 +1,6 @@
-{ mkDerivation, async, base, contravariant, pipes, stm, void }:
+{ mkDerivation, async, base, contravariant, pipes, stdenv, stm
+, void
+}:
 mkDerivation {
   pname = "pipes-concurrency";
   version = "2.0.7";

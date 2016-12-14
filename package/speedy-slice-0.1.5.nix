@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, lens, mcmc-types, mwc-probability
-, pipes, primitive, transformers
+, pipes, primitive, stdenv, transformers
 }:
 mkDerivation {
   pname = "speedy-slice";

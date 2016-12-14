@@ -1,6 +1,6 @@
 { mkDerivation, aeson, async, base, bytestring, Cabal, cmdargs
 , containers, curl, directory, directory-tree, hpc, HUnit, process
-, pureMD5, regex-posix, retry, safe, split, transformers
+, pureMD5, regex-posix, retry, safe, split, stdenv, transformers
 }:
 mkDerivation {
   pname = "hpc-coveralls";

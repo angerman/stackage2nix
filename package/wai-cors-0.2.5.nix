@@ -1,7 +1,7 @@
 { mkDerivation, attoparsec, base, base-unicode-symbols, bytestring
 , case-insensitive, directory, filepath, http-types, mtl, network
-, process, tasty, tasty-hunit, text, transformers, wai, wai-extra
-, wai-websockets, warp, websockets
+, process, stdenv, tasty, tasty-hunit, text, transformers, wai
+, wai-extra, wai-websockets, warp, websockets
 }:
 mkDerivation {
   pname = "wai-cors";

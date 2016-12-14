@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, gi-glib, gi-gobject
-, glib, gobjectIntrospection, haskell-gi, haskell-gi-base, text
-, transformers
+, glib, gobjectIntrospection, haskell-gi, haskell-gi-base, stdenv
+, text, transformers
 }:
 mkDerivation {
   pname = "gi-gio";

@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, generic-deriving, ghc-prim
-, hspec, template-haskell
+, hspec, stdenv, template-haskell
 }:
 mkDerivation {
   pname = "lift-generics";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, ghc-prim, HUnit, integer-gmp
-, QuickCheck, random, test-framework, test-framework-hunit
+, QuickCheck, random, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, unix
 }:
 mkDerivation {

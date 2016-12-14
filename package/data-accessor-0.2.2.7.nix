@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, transformers }:
+{ mkDerivation, array, base, containers, stdenv, transformers }:
 mkDerivation {
   pname = "data-accessor";
   version = "0.2.2.7";

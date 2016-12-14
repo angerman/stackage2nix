@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, bytestring }:
+{ mkDerivation, base, binary, bytestring, stdenv }:
 mkDerivation {
   pname = "bytestring-trie";
   version = "0.2.4.1";

@@ -1,5 +1,5 @@
 { mkDerivation, array, base, containers, directory, happy, old-time
-, unix
+, stdenv, unix
 }:
 mkDerivation {
   pname = "Ebnf2ps";

@@ -1,7 +1,7 @@
 { mkDerivation, aeson, aeson-compat, base, bytestring, containers
 , ghc-prim, hspec, http-api-data, monad-control, monad-logger
-, path-pieces, persistent, QuickCheck, tagged, template-haskell
-, text, transformers, unordered-containers
+, path-pieces, persistent, QuickCheck, stdenv, tagged
+, template-haskell, text, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "persistent-template";

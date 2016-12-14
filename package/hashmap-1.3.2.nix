@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, deepseq, hashable }:
+{ mkDerivation, base, containers, deepseq, hashable, stdenv }:
 mkDerivation {
   pname = "hashmap";
   version = "1.3.2";

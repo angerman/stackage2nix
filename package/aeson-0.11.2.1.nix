@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, base-orphans, bytestring
 , containers, deepseq, dlist, fail, ghc-prim, hashable, HUnit, mtl
-, QuickCheck, quickcheck-instances, scientific, syb, tagged
+, QuickCheck, quickcheck-instances, scientific, stdenv, syb, tagged
 , template-haskell, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, time, transformers
 , unordered-containers, vector

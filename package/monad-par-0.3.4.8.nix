@@ -1,7 +1,8 @@
 { mkDerivation, abstract-deque, abstract-par, array, base
 , containers, deepseq, HUnit, monad-par-extras, mtl, mwc-random
-, parallel, QuickCheck, test-framework, test-framework-hunit
-, test-framework-quickcheck2, test-framework-th, time
+, parallel, QuickCheck, stdenv, test-framework
+, test-framework-hunit, test-framework-quickcheck2
+, test-framework-th, time
 }:
 mkDerivation {
   pname = "monad-par";

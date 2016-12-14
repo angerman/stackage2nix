@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, blaze-builder, bytestring
-, data-binary-ieee754, network, QuickCheck, test-framework
+, data-binary-ieee754, network, QuickCheck, stdenv, test-framework
 , test-framework-quickcheck2, time, transformers
 }:
 mkDerivation {

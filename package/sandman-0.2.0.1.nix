@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, containers, directory, filepath
-, optparse-applicative, process, text, unix-compat
+, optparse-applicative, process, stdenv, text, unix-compat
 }:
 mkDerivation {
   pname = "sandman";

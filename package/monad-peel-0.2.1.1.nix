@@ -1,5 +1,5 @@
-{ mkDerivation, base, extensible-exceptions, HUnit, test-framework
-, test-framework-hunit, transformers
+{ mkDerivation, base, extensible-exceptions, HUnit, stdenv
+, test-framework, test-framework-hunit, transformers
 }:
 mkDerivation {
   pname = "monad-peel";

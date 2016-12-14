@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, directory, filepath
-, http-types, regex-applicative, tasty, tasty-hunit
+, http-types, regex-applicative, stdenv, tasty, tasty-hunit
 , template-haskell, text, wai, wai-extra
 }:
 mkDerivation {

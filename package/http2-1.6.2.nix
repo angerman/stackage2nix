@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-pretty, array, base, bytestring
 , bytestring-builder, case-insensitive, containers, directory
-, doctest, filepath, Glob, hex, hspec, psqueues, stm, text
+, doctest, filepath, Glob, hex, hspec, psqueues, stdenv, stm, text
 , unordered-containers, vector, word8
 }:
 mkDerivation {

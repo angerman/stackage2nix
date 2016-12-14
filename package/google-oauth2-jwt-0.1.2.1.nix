@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, bytestring, HsOpenSSL, RSA
-, text, unix-time
+, stdenv, text, unix-time
 }:
 mkDerivation {
   pname = "google-oauth2-jwt";

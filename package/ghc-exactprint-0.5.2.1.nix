@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, directory, filemanip
 , filepath, free, ghc, ghc-boot, ghc-paths, HUnit, mtl, silently
-, syb
+, stdenv, syb
 }:
 mkDerivation {
   pname = "ghc-exactprint";

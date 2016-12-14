@@ -1,5 +1,5 @@
 { mkDerivation, advapi32, base, bytestring, gdi32, shell32
-, shfolder, user32, winmm
+, shfolder, stdenv, user32, winmm
 }:
 mkDerivation {
   pname = "Win32";

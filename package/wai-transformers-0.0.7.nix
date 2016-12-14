@@ -1,5 +1,5 @@
-{ mkDerivation, base, exceptions, transformers, wai, wai-websockets
-, websockets
+{ mkDerivation, base, exceptions, stdenv, transformers, wai
+, wai-websockets, websockets
 }:
 mkDerivation {
   pname = "wai-transformers";

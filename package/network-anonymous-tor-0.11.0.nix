@@ -1,7 +1,7 @@
 { mkDerivation, attoparsec, base, base32string, bytestring
 , exceptions, hexstring, hspec, hspec-attoparsec
 , hspec-expectations, network, network-attoparsec, network-simple
-, socks, splice, text, transformers
+, socks, splice, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "network-anonymous-tor";

@@ -1,5 +1,6 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, pipes
-, pipes-attoparsec, pipes-bytestring, pipes-parse, transformers
+, pipes-attoparsec, pipes-bytestring, pipes-parse, stdenv
+, transformers
 }:
 mkDerivation {
   pname = "pipes-aeson";

@@ -1,4 +1,4 @@
-{ mkDerivation, universe-instances-base
+{ mkDerivation, stdenv, universe-instances-base
 , universe-instances-extended, universe-instances-trans
 , universe-reverse-instances
 }:

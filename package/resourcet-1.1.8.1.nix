@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, exceptions, hspec, lifted-base
-, mmorph, monad-control, mtl, transformers, transformers-base
-, transformers-compat
+, mmorph, monad-control, mtl, stdenv, transformers
+, transformers-base, transformers-compat
 }:
 mkDerivation {
   pname = "resourcet";

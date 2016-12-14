@@ -1,5 +1,5 @@
-{ mkDerivation, base-prelude, contravariant, template-haskell
-, tuple-th
+{ mkDerivation, base-prelude, contravariant, stdenv
+, template-haskell, tuple-th
 }:
 mkDerivation {
   pname = "contravariant-extras";

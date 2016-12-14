@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, fast-logger, hsyslog
-, monad-logger, text, transformers
+, monad-logger, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "monad-logger-syslog";

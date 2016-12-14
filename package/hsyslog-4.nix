@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, QuickCheck }:
+{ mkDerivation, base, bytestring, QuickCheck, stdenv }:
 mkDerivation {
   pname = "hsyslog";
   version = "4";

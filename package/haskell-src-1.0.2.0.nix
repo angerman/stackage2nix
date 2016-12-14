@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, happy, pretty, syb }:
+{ mkDerivation, array, base, happy, pretty, stdenv, syb }:
 mkDerivation {
   pname = "haskell-src";
   version = "1.0.2.0";

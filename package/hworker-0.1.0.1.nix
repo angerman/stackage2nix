@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, hedis, hspec
-, hspec-contrib, HUnit, text, time, uuid
+, hspec-contrib, HUnit, stdenv, text, time, uuid
 }:
 mkDerivation {
   pname = "hworker";

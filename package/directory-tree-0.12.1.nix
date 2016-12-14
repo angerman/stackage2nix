@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath, process }:
+{ mkDerivation, base, directory, filepath, process, stdenv }:
 mkDerivation {
   pname = "directory-tree";
   version = "0.12.1";

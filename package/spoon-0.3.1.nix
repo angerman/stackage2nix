@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq }:
+{ mkDerivation, base, deepseq, stdenv }:
 mkDerivation {
   pname = "spoon";
   version = "0.3.1";

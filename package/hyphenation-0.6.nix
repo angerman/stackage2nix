@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, directory, doctest
-, filepath, unordered-containers, zlib
+, filepath, stdenv, unordered-containers, zlib
 }:
 mkDerivation {
   pname = "hyphenation";

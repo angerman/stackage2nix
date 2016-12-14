@@ -1,8 +1,8 @@
 { mkDerivation, base, base16-bytestring, bytestring, conduit
 , conduit-combinators, containers, directory, exceptions, filepath
 , hashable, lifted-async, lifted-base, monad-control, mtl
-, resourcet, semigroups, tagged, text, time, transformers, unix
-, unordered-containers
+, resourcet, semigroups, stdenv, tagged, text, time, transformers
+, unix, unordered-containers
 }:
 mkDerivation {
   pname = "gitlib";

@@ -1,4 +1,6 @@
-{ mkDerivation, base, hspec, hspec-core, QuickCheck, smallcheck }:
+{ mkDerivation, base, hspec, hspec-core, QuickCheck, smallcheck
+, stdenv
+}:
 mkDerivation {
   pname = "hspec-smallcheck";
   version = "0.4.1";

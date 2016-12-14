@@ -1,4 +1,4 @@
-{ mkDerivation, base, hmatrix, hmatrix-gsl }:
+{ mkDerivation, base, hmatrix, hmatrix-gsl, stdenv }:
 mkDerivation {
   pname = "hmatrix-special";
   version = "0.4.0.1";

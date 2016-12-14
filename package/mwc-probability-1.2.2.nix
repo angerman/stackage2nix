@@ -1,4 +1,5 @@
-{ mkDerivation, base, mwc-random, primitive, transformers }:
+{ mkDerivation, base, mwc-random, primitive, stdenv, transformers
+}:
 mkDerivation {
   pname = "mwc-probability";
   version = "1.2.2";

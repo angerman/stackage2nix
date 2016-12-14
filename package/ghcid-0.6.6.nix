@@ -1,5 +1,5 @@
 { mkDerivation, ansi-terminal, base, cmdargs, containers, directory
-, extra, filepath, fsnotify, process, tasty, tasty-hunit
+, extra, filepath, fsnotify, process, stdenv, tasty, tasty-hunit
 , terminal-size, time, unix
 }:
 mkDerivation {

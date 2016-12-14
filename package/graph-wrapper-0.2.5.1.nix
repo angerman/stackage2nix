@@ -1,4 +1,5 @@
 { mkDerivation, array, base, containers, deepseq, hspec, QuickCheck
+, stdenv
 }:
 mkDerivation {
   pname = "graph-wrapper";

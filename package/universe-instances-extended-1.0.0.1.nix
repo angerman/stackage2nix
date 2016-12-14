@@ -1,5 +1,5 @@
-{ mkDerivation, adjunctions, base, comonad, universe-instances-base
-, void
+{ mkDerivation, adjunctions, base, comonad, stdenv
+, universe-instances-base, void
 }:
 mkDerivation {
   pname = "universe-instances-extended";

@@ -3,7 +3,7 @@
 , containers, cryptohash, cryptohash-conduit, css-text
 , data-default, directory, exceptions, file-embed, filepath
 , hashable, hjsmin, hspec, http-types, HUnit, mime-types, old-time
-, process, resourcet, template-haskell, text, transformers
+, process, resourcet, stdenv, template-haskell, text, transformers
 , unix-compat, unordered-containers, wai, wai-app-static, wai-extra
 , yesod-core, yesod-test
 }:

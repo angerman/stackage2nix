@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, bytestring, case-insensitive
-, containers, http-types, mime-types, mtl, rest-core, text
+, containers, http-types, mime-types, mtl, rest-core, stdenv, text
 , unordered-containers, wai
 }:
 mkDerivation {

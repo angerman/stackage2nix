@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, directory, exceptions, filepath
-, mtl, process, process-extras, pureMD5, regex-tdfa, unix, zlib
+, mtl, process, process-extras, pureMD5, regex-tdfa, stdenv, unix
+, zlib
 }:
 mkDerivation {
   pname = "Unixutils";

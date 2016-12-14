@@ -1,4 +1,5 @@
-{ mkDerivation, base, deepseq, directory, filepath, process, tasty
+{ mkDerivation, base, deepseq, directory, filepath, process, stdenv
+, tasty
 }:
 mkDerivation {
   pname = "tasty-program";

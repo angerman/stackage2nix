@@ -1,4 +1,4 @@
-{ mkDerivation, base, unix }:
+{ mkDerivation, base, stdenv, unix }:
 mkDerivation {
   pname = "ansi-terminal";
   version = "0.6.2.3";

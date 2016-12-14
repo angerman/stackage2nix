@@ -1,4 +1,4 @@
-{ mkDerivation, base, time }:
+{ mkDerivation, base, stdenv, time }:
 mkDerivation {
   pname = "io-machine";
   version = "0.2.0.0";

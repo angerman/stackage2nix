@@ -1,4 +1,4 @@
-{ mkDerivation, base, transformers }:
+{ mkDerivation, base, stdenv, transformers }:
 mkDerivation {
   pname = "transformers-lift";
   version = "0.1.0.1";

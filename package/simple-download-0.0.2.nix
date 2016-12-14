@@ -1,5 +1,5 @@
 { mkDerivation, base, conduit-combinators, http-client
-, http-conduit, mtl, transformers
+, http-conduit, mtl, stdenv, transformers
 }:
 mkDerivation {
   pname = "simple-download";

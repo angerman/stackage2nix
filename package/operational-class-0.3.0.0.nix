@@ -1,4 +1,4 @@
-{ mkDerivation, base, operational, transformers }:
+{ mkDerivation, base, operational, stdenv, transformers }:
 mkDerivation {
   pname = "operational-class";
   version = "0.3.0.0";

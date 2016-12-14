@@ -1,6 +1,6 @@
 { mkDerivation, aeson, attoparsec, base, blaze-html, bytestring
-, containers, contravariant, jmacro, mtl, scientific, split, text
-, unordered-containers, vector
+, containers, contravariant, jmacro, mtl, scientific, split, stdenv
+, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "jmacro-rpc";

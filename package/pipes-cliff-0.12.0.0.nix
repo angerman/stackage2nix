@@ -1,5 +1,5 @@
 { mkDerivation, async, base, bytestring, pipes, pipes-safe, process
-, stm, unix
+, stdenv, stm, unix
 }:
 mkDerivation {
   pname = "pipes-cliff";

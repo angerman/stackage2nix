@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, byteable, bytedump, bytestring
 , containers, cryptohash, hourglass, mtl, parsec, patience, random
-, system-fileio, system-filepath, tasty, tasty-quickcheck
+, stdenv, system-fileio, system-filepath, tasty, tasty-quickcheck
 , unix-compat, utf8-string, vector, zlib, zlib-bindings
 }:
 mkDerivation {

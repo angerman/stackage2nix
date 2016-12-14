@@ -1,5 +1,5 @@
 { mkDerivation, base, flexible-defaults, mersenne-random-pure64
-, mtl, mwc-random, random, stateref, syb, template-haskell
+, mtl, mwc-random, random, stateref, stdenv, syb, template-haskell
 , th-extras
 }:
 mkDerivation {

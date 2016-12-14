@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, either, hspec, mtl, pcre-heavy
-, QuickCheck, semigroups, string-conversions, text
+, QuickCheck, semigroups, stdenv, string-conversions, text
 }:
 mkDerivation {
   pname = "validate-input";

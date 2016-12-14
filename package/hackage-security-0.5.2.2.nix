@@ -1,7 +1,7 @@
 { mkDerivation, base, base16-bytestring, base64-bytestring
 , bytestring, Cabal, containers, cryptohash-sha256, directory
 , ed25519, filepath, ghc-prim, HUnit, mtl, network, network-uri
-, parsec, pretty, QuickCheck, tar, tasty, tasty-hunit
+, parsec, pretty, QuickCheck, stdenv, tar, tasty, tasty-hunit
 , tasty-quickcheck, template-haskell, temporary, time, transformers
 , zlib
 }:

@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, process }:
+{ mkDerivation, base, mtl, process, stdenv }:
 mkDerivation {
   pname = "libgit";
   version = "0.3.1";

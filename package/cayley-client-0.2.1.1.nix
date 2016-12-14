@@ -1,6 +1,6 @@
 { mkDerivation, aeson, attoparsec, base, binary, bytestring
 , exceptions, hspec, http-client, http-conduit, lens, lens-aeson
-, mtl, text, transformers, unordered-containers, vector
+, mtl, stdenv, text, transformers, unordered-containers, vector
 }:
 mkDerivation {
   pname = "cayley-client";

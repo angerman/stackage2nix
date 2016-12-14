@@ -1,7 +1,7 @@
 { mkDerivation, aeson, async, attoparsec, base, binary, bytestring
 , containers, cryptohash, hslogger, HsOpenSSL, iproute, lens
-, lens-aeson, mtl, network, optparse-applicative, random, stm
-, strict, text, time, transformers, unordered-containers
+, lens-aeson, mtl, network, optparse-applicative, random, stdenv
+, stm, strict, text, time, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "moesocks";

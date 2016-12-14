@@ -1,4 +1,6 @@
-{ mkDerivation, base, mtl, transformers, transformers-compat }:
+{ mkDerivation, base, mtl, stdenv, transformers
+, transformers-compat
+}:
 mkDerivation {
   pname = "statestack";
   version = "0.2.0.5";

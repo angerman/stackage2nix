@@ -25,6 +25,7 @@ executable stackage2nix
   build-depends:       base >=4.9 && <4.10
                      , optparse-applicative
                      , unordered-containers
+                     , containers
                      , language-nix
                      , Cabal
                      , cabal2nix

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, clock, containers, http-client
-, http-client-tls, http-types, resource-pool, stm, text
+, http-client-tls, http-types, resource-pool, stdenv, stm, text
 }:
 mkDerivation {
   pname = "libinfluxdb";

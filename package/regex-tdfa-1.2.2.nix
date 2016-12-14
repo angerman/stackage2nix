@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, ghc-prim, mtl
-, parsec, regex-base
+, parsec, regex-base, stdenv
 }:
 mkDerivation {
   pname = "regex-tdfa";

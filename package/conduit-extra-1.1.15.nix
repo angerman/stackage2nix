@@ -1,7 +1,7 @@
 { mkDerivation, async, attoparsec, base, blaze-builder, bytestring
 , bytestring-builder, conduit, directory, exceptions, filepath
 , hspec, monad-control, network, primitive, process, QuickCheck
-, resourcet, stm, streaming-commons, text, transformers
+, resourcet, stdenv, stm, streaming-commons, text, transformers
 , transformers-base
 }:
 mkDerivation {

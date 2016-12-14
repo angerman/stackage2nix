@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, deepseq, HUnit, QuickCheck
-, test-framework, test-framework-hunit, test-framework-quickcheck2
-, text, utf8-string
+, stdenv, test-framework, test-framework-hunit
+, test-framework-quickcheck2, text, utf8-string
 }:
 mkDerivation {
   pname = "blaze-builder";

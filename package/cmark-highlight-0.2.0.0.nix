@@ -1,4 +1,6 @@
-{ mkDerivation, base, blaze-html, cmark, highlighting-kate, text }:
+{ mkDerivation, base, blaze-html, cmark, highlighting-kate, stdenv
+, text
+}:
 mkDerivation {
   pname = "cmark-highlight";
   version = "0.2.0.0";

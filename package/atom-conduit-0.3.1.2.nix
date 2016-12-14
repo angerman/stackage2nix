@@ -1,6 +1,6 @@
 { mkDerivation, base, conduit, conduit-parse, data-default
 , exceptions, foldl, hlint, lens-simple, mono-traversable, parsers
-, quickcheck-instances, resourcet, tasty, tasty-hunit
+, quickcheck-instances, resourcet, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, text, time, timerep, uri-bytestring
 , xml-conduit, xml-conduit-parse, xml-types
 }:

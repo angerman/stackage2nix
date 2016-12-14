@@ -1,4 +1,4 @@
-{ mkDerivation, base, dejafu, tagged, tasty }:
+{ mkDerivation, base, dejafu, stdenv, tagged, tasty }:
 mkDerivation {
   pname = "tasty-dejafu";
   version = "0.3.0.2";

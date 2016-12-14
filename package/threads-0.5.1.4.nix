@@ -1,5 +1,5 @@
-{ mkDerivation, base, concurrent-extra, HUnit, stm, test-framework
-, test-framework-hunit
+{ mkDerivation, base, concurrent-extra, HUnit, stdenv, stm
+, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "threads";

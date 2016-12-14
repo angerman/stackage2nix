@@ -1,4 +1,4 @@
-{ mkDerivation, base, cmdargs, IPv6Addr, text }:
+{ mkDerivation, base, cmdargs, IPv6Addr, stdenv, text }:
 mkDerivation {
   pname = "ip6addr";
   version = "0.5.1.4";

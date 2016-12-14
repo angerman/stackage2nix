@@ -1,4 +1,4 @@
-{ mkDerivation, base, cmark, lucid }:
+{ mkDerivation, base, cmark, lucid, stdenv }:
 mkDerivation {
   pname = "cmark-lucid";
   version = "0.1.0.0";

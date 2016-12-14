@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, optparse-applicative
+{ mkDerivation, base, bytestring, optparse-applicative, stdenv
 , system-filepath, text, time, transformers, void
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, cookie, data-default
-, entropy, postgresql-simple, resource-pool, text, time
+, entropy, postgresql-simple, resource-pool, stdenv, text, time
 , transformers, wai, wai-session
 }:
 mkDerivation {

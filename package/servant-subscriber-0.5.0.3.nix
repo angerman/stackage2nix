@@ -2,7 +2,7 @@
 , bytestring, case-insensitive, containers, directory, filepath
 , http-types, lens, lifted-base, monad-control, monad-logger
 , network-uri, purescript-bridge, servant, servant-foreign
-, servant-server, stm, text, time, transformers, wai
+, servant-server, stdenv, stm, text, time, transformers, wai
 , wai-websockets, warp, websockets
 }:
 mkDerivation {

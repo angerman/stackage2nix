@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, transformers }:
+{ mkDerivation, base, containers, stdenv, transformers }:
 mkDerivation {
   pname = "multiset-comb";
   version = "0.2.4.1";

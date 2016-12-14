@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, vector }:
+{ mkDerivation, base, bytestring, stdenv, vector }:
 mkDerivation {
   pname = "seqalign";
   version = "0.2.0.4";

@@ -1,6 +1,6 @@
 { mkDerivation, atomic-primops, base, bytestring, containers
-, doctest, hspec, mtl, QuickCheck, random-shuffle, stm, time
-, transformers, utf8-string
+, doctest, hspec, mtl, QuickCheck, random-shuffle, stdenv, stm
+, time, transformers, utf8-string
 }:
 mkDerivation {
   pname = "prometheus-client";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, data-accessor
-, network-transport, network-transport-tests, stm
+, network-transport, network-transport-tests, stdenv, stm
 }:
 mkDerivation {
   pname = "network-transport-inmemory";

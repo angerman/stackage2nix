@@ -1,7 +1,7 @@
 { mkDerivation, ascii-progress, async, base, bytestring
 , case-insensitive, concurrent-output, errors, iproute, irc-client
 , irc-dcc, monad-control, network, optparse-applicative, path
-, random, safe-exceptions, signal, stm, text, transformers
+, random, safe-exceptions, signal, stdenv, stm, text, transformers
 , transformers-base, unix-compat
 }:
 mkDerivation {

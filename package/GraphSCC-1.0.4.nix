@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers }:
+{ mkDerivation, array, base, containers, stdenv }:
 mkDerivation {
   pname = "GraphSCC";
   version = "1.0.4";

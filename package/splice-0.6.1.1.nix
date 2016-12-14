@@ -1,4 +1,4 @@
-{ mkDerivation, base, network }:
+{ mkDerivation, base, network, stdenv }:
 mkDerivation {
   pname = "splice";
   version = "0.6.1.1";

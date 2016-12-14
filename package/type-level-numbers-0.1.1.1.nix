@@ -1,4 +1,4 @@
-{ mkDerivation, base, template-haskell }:
+{ mkDerivation, base, stdenv, template-haskell }:
 mkDerivation {
   pname = "type-level-numbers";
   version = "0.1.1.1";

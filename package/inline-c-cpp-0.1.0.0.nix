@@ -1,4 +1,4 @@
-{ mkDerivation, base, inline-c, template-haskell }:
+{ mkDerivation, base, inline-c, stdenv, template-haskell }:
 mkDerivation {
   pname = "inline-c-cpp";
   version = "0.1.0.0";

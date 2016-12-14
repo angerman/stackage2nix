@@ -1,6 +1,6 @@
 { mkDerivation, base, base-compat, exceptions, hspec
-, hspec-megaparsec, megaparsec, optparse-applicative, process, text
-, transformers
+, hspec-megaparsec, megaparsec, optparse-applicative, process
+, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "dotenv";

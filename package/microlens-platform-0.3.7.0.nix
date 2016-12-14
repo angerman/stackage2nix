@@ -1,5 +1,6 @@
 { mkDerivation, base, hashable, microlens, microlens-ghc
-, microlens-mtl, microlens-th, text, unordered-containers, vector
+, microlens-mtl, microlens-th, stdenv, text, unordered-containers
+, vector
 }:
 mkDerivation {
   pname = "microlens-platform";

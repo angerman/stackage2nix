@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, split, text }:
+{ mkDerivation, base, bytestring, split, stdenv, text }:
 mkDerivation {
   pname = "unicode-transforms";
   version = "0.1.0.1";

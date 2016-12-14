@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, system-filepath, text }:
+{ mkDerivation, base, hspec, stdenv, system-filepath, text }:
 mkDerivation {
   pname = "ReadArgs";
   version = "1.2.3";

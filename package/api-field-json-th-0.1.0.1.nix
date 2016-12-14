@@ -1,5 +1,5 @@
-{ mkDerivation, aeson, base, HUnit, lens, split, template-haskell
-, text
+{ mkDerivation, aeson, base, HUnit, lens, split, stdenv
+, template-haskell, text
 }:
 mkDerivation {
   pname = "api-field-json-th";

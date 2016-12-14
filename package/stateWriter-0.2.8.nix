@@ -1,4 +1,6 @@
-{ mkDerivation, base, free, hspec, mtl, QuickCheck, transformers }:
+{ mkDerivation, base, free, hspec, mtl, QuickCheck, stdenv
+, transformers
+}:
 mkDerivation {
   pname = "stateWriter";
   version = "0.2.8";

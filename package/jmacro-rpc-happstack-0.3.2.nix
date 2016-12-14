@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, blaze-html, bytestring, containers
-, happstack-server, jmacro, jmacro-rpc, mtl
+, happstack-server, jmacro, jmacro-rpc, mtl, stdenv
 }:
 mkDerivation {
   pname = "jmacro-rpc-happstack";

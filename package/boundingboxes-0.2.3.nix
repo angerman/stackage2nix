@@ -1,4 +1,4 @@
-{ mkDerivation, base, lens }:
+{ mkDerivation, base, lens, stdenv }:
 mkDerivation {
   pname = "boundingboxes";
   version = "0.2.3";

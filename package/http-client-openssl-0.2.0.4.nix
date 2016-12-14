@@ -1,5 +1,5 @@
 { mkDerivation, base, HsOpenSSL, hspec, http-client, http-types
-, network
+, network, stdenv
 }:
 mkDerivation {
   pname = "http-client-openssl";

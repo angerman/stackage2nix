@@ -1,5 +1,5 @@
-{ mkDerivation, base, constraints, monad-control, transformers
-, transformers-base
+{ mkDerivation, base, constraints, monad-control, stdenv
+, transformers, transformers-base
 }:
 mkDerivation {
   pname = "monad-unlift";

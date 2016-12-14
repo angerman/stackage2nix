@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring }:
+{ mkDerivation, base, bytestring, stdenv }:
 mkDerivation {
   pname = "lazy-csv";
   version = "0.5.1";

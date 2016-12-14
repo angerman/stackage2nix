@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, monoid-subclasses, QuickCheck
-, tasty, tasty-hunit, tasty-quickcheck, text, time
+, stdenv, tasty, tasty-hunit, tasty-quickcheck, text, time
 }:
 mkDerivation {
   pname = "timerep";

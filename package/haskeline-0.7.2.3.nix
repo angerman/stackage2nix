@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, directory, filepath
-, terminfo, transformers, unix
+, stdenv, terminfo, transformers, unix
 }:
 mkDerivation {
   pname = "haskeline";

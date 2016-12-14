@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, base16-bytestring
 , bytestring, case-insensitive, containers, contravariant, multiset
 , postgresql-simple, pretty, product-profunctors, profunctors
-, QuickCheck, semigroups, text, time, time-locale-compat
+, QuickCheck, semigroups, stdenv, text, time, time-locale-compat
 , transformers, uuid, void
 }:
 mkDerivation {

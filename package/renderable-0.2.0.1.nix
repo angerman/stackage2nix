@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, hashable, transformers }:
+{ mkDerivation, base, containers, hashable, stdenv, transformers }:
 mkDerivation {
   pname = "renderable";
   version = "0.2.0.1";

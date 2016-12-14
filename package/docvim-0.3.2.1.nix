@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, containers, deepseq, directory
 , dlist, filepath, hlint, lens, mtl, optparse-applicative, parsec
-, pretty-show, process, split, tasty, tasty-golden, tasty-hunit
-, temporary
+, pretty-show, process, split, stdenv, tasty, tasty-golden
+, tasty-hunit, temporary
 }:
 mkDerivation {
   pname = "docvim";

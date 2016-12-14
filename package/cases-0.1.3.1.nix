@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, base-prelude, HTF, HUnit, loch-th
-, placeholders, QuickCheck, text
+, placeholders, QuickCheck, stdenv, text
 }:
 mkDerivation {
   pname = "cases";

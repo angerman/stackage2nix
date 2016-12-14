@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath, process, split
+{ mkDerivation, base, directory, filepath, process, split, stdenv
 , transformers
 }:
 mkDerivation {

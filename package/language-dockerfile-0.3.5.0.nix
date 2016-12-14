@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, directory, filepath, free, Glob
 , hspec, HUnit, mtl, parsec, pretty, process, QuickCheck
-, ShellCheck, split, template-haskell, test-framework
+, ShellCheck, split, stdenv, template-haskell, test-framework
 , test-framework-hunit, th-lift, th-lift-instances, transformers
 }:
 mkDerivation {

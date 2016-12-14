@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, QuickCheck, validity }:
+{ mkDerivation, base, hspec, QuickCheck, stdenv, validity }:
 mkDerivation {
   pname = "genvalidity";
   version = "0.2.0.4";

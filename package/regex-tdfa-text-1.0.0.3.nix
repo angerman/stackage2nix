@@ -1,4 +1,5 @@
-{ mkDerivation, array, base, regex-base, regex-tdfa, text }:
+{ mkDerivation, array, base, regex-base, regex-tdfa, stdenv, text
+}:
 mkDerivation {
   pname = "regex-tdfa-text";
   version = "1.0.0.3";

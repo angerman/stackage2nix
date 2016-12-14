@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, directory, file-embed
 , Glob, hastache, http-client, http-client-tls, http-types, mtl
-, optparse-applicative, process, text
+, optparse-applicative, process, stdenv, text
 }:
 mkDerivation {
   pname = "hackmanager";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, ncurses, process, readline }:
+{ mkDerivation, base, ncurses, process, readline, stdenv }:
 mkDerivation {
   pname = "readline";
   version = "1.0.3.0";

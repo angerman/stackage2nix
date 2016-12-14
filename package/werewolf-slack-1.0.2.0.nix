@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, extra, http-client
 , http-client-tls, http-types, mtl, optparse-applicative, process
-, text, wai, warp, werewolf
+, stdenv, text, wai, warp, werewolf
 }:
 mkDerivation {
   pname = "werewolf-slack";

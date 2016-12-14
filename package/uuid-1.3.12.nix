@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, cryptonite, HUnit, memory
-, network-info, QuickCheck, random, tasty, tasty-hunit
+, network-info, QuickCheck, random, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, text, time, uuid-types
 }:
 mkDerivation {

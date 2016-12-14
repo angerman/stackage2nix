@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq }:
+{ mkDerivation, base, deepseq, stdenv }:
 mkDerivation {
   pname = "abstract-par";
   version = "0.3.3";

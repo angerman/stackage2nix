@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, data-default, directory
-, exceptions, filepath, leveldb, mtl, QuickCheck, resourcet, tasty
-, tasty-quickcheck, temporary, transformers
+, exceptions, filepath, leveldb, mtl, QuickCheck, resourcet, stdenv
+, tasty, tasty-quickcheck, temporary, transformers
 }:
 mkDerivation {
   pname = "leveldb-haskell";

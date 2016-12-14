@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, base64-bytestring, bytestring
-, HTF, text
+, HTF, stdenv, text
 }:
 mkDerivation {
   pname = "dataurl";

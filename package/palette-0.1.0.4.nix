@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, colour, containers }:
+{ mkDerivation, array, base, colour, containers, stdenv }:
 mkDerivation {
   pname = "palette";
   version = "0.1.0.4";

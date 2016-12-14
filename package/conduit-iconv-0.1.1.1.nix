@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, conduit, iconv, mtl, QuickCheck
-, test-framework, test-framework-quickcheck2, text
+, stdenv, test-framework, test-framework-quickcheck2, text
 }:
 mkDerivation {
   pname = "conduit-iconv";

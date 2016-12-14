@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, mtl, network
-, old-locale, process, time, unix
+, old-locale, process, stdenv, time, unix
 }:
 mkDerivation {
   pname = "hslogger";

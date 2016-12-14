@@ -1,4 +1,4 @@
-{ mkDerivation, base, monoid-extras, newtype, semigroups }:
+{ mkDerivation, base, monoid-extras, newtype, semigroups, stdenv }:
 mkDerivation {
   pname = "dual-tree";
   version = "0.2.0.9";

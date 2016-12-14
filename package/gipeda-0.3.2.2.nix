@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, cassava, concurrent-output
 , containers, directory, extra, file-embed, filepath, gitlib
-, gitlib-libgit2, scientific, shake, split, tagged, text
+, gitlib-libgit2, scientific, shake, split, stdenv, tagged, text
 , transformers, unordered-containers, vector, yaml
 }:
 mkDerivation {

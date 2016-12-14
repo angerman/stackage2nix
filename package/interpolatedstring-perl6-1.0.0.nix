@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, haskell-src-meta
+{ mkDerivation, base, bytestring, haskell-src-meta, stdenv
 , template-haskell, text
 }:
 mkDerivation {

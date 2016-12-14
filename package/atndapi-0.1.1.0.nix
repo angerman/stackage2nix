@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, conduit, data-default
 , hspec, http-conduit, http-types, lifted-base, monad-control
-, monad-logger, mtl, parsec, QuickCheck, resourcet, text, time
-, transformers
+, monad-logger, mtl, parsec, QuickCheck, resourcet, stdenv, text
+, time, transformers
 }:
 mkDerivation {
   pname = "atndapi";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, template-haskell }:
+{ mkDerivation, base, hspec, stdenv, template-haskell }:
 mkDerivation {
   pname = "th-to-exp";
   version = "0.0.1.0";

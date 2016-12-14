@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, deepseq, directory
-, ghc-prim, HUnit, icu, QuickCheck, random, test-framework
+, ghc-prim, HUnit, icu, QuickCheck, random, stdenv, test-framework
 , test-framework-hunit, test-framework-quickcheck2, text
 }:
 mkDerivation {

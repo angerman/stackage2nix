@@ -1,7 +1,7 @@
 { mkDerivation, acid-state, attoparsec, base, blaze-html, cereal
 , clckwrks, containers, directory, filepath, gd, happstack-server
 , hsp, hsx2hs, ixset, magic, mtl, reform, reform-happstack
-, reform-hsp, safecopy, text, web-plugins, web-routes
+, reform-hsp, safecopy, stdenv, text, web-plugins, web-routes
 , web-routes-th
 }:
 mkDerivation {

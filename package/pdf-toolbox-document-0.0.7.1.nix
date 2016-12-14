@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, cipher-aes, cipher-rc4
 , containers, crypto-api, cryptohash, io-streams
-, pdf-toolbox-content, pdf-toolbox-core, text, transformers
+, pdf-toolbox-content, pdf-toolbox-core, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "pdf-toolbox-document";

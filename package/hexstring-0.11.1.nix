@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, base16-bytestring, binary, bytestring
-, hspec, text
+, hspec, stdenv, text
 }:
 mkDerivation {
   pname = "hexstring";

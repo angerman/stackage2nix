@@ -1,5 +1,5 @@
 { mkDerivation, abstract-par, base, cereal, deepseq, mtl, random
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "monad-par-extras";

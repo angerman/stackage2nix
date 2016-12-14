@@ -1,8 +1,9 @@
 { mkDerivation, async, base, blaze-builder, bytestring
 , case-insensitive, conduit, conduit-extra, containers
 , data-default-class, hspec, http-client, http-conduit, http-types
-, lifted-base, monad-control, network, resourcet, streaming-commons
-, text, transformers, wai, wai-logger, warp, word8
+, lifted-base, monad-control, network, resourcet, stdenv
+, streaming-commons, text, transformers, wai, wai-logger, warp
+, word8
 }:
 mkDerivation {
   pname = "http-reverse-proxy";

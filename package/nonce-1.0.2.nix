@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, bytestring, cprng-aes
-, crypto-random, text, transformers
+, crypto-random, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "nonce";

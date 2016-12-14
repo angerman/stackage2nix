@@ -1,5 +1,5 @@
 { mkDerivation, adjunctions, base, comonad, distributive
-, semigroupoids, semigroups
+, semigroupoids, semigroups, stdenv
 }:
 mkDerivation {
   pname = "streams";

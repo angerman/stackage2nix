@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, time, unix }:
+{ mkDerivation, base, bytestring, stdenv, time, unix }:
 mkDerivation {
   pname = "btrfs";
   version = "0.1.2.0";

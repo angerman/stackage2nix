@@ -1,4 +1,4 @@
-{ mkDerivation, base, syb, template-haskell }:
+{ mkDerivation, base, stdenv, syb, template-haskell }:
 mkDerivation {
   pname = "th-extras";
   version = "0.0.0.4";

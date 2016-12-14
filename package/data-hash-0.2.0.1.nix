@@ -1,5 +1,5 @@
-{ mkDerivation, array, base, containers, QuickCheck, test-framework
-, test-framework-quickcheck2
+{ mkDerivation, array, base, containers, QuickCheck, stdenv
+, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "data-hash";

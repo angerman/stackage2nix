@@ -1,4 +1,4 @@
-{ mkDerivation, base, tasty, tasty-hunit, text }:
+{ mkDerivation, base, stdenv, tasty, tasty-hunit, text }:
 mkDerivation {
   pname = "text-manipulate";
   version = "0.2.0.1";

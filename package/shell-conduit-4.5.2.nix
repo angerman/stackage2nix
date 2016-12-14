@@ -1,7 +1,7 @@
 { mkDerivation, async, base, bytestring, conduit, conduit-extra
 , control-monad-loop, directory, filepath, monad-control, monads-tf
-, process, resourcet, semigroups, split, template-haskell, text
-, transformers, transformers-base, unix
+, process, resourcet, semigroups, split, stdenv, template-haskell
+, text, transformers, transformers-base, unix
 }:
 mkDerivation {
   pname = "shell-conduit";

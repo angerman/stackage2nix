@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, lens, MonadRandom, mtl, random
-, random-shuffle, transformers, tree-fun
+, random-shuffle, stdenv, transformers, tree-fun
 }:
 mkDerivation {
   pname = "random-tree";

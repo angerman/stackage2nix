@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, bytestring-conversion
 , containers, dlist, double-conversion, operational, semigroups
-, split, transformers
+, split, stdenv, transformers
 }:
 mkDerivation {
   pname = "redis-resp";

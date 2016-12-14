@@ -1,4 +1,6 @@
-{ mkDerivation, aeson, attoparsec, base, bytestring, conduit }:
+{ mkDerivation, aeson, attoparsec, base, bytestring, conduit
+, stdenv
+}:
 mkDerivation {
   pname = "ndjson-conduit";
   version = "0.1.0.5";

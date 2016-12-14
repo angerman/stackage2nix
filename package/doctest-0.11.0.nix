@@ -1,6 +1,6 @@
 { mkDerivation, base, base-compat, deepseq, directory, filepath
 , ghc, ghc-paths, hspec, HUnit, process, QuickCheck, setenv
-, silently, stringbuilder, syb, transformers, with-location
+, silently, stdenv, stringbuilder, syb, transformers, with-location
 }:
 mkDerivation {
   pname = "doctest";

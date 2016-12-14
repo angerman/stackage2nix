@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring }:
+{ mkDerivation, base, bytestring, stdenv }:
 mkDerivation {
   pname = "murmur-hash";
   version = "0.1.0.9";

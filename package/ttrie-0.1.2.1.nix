@@ -1,5 +1,5 @@
 { mkDerivation, atomic-primops, base, containers, hashable
-, primitive, QuickCheck, stm, test-framework
+, primitive, QuickCheck, stdenv, stm, test-framework
 , test-framework-quickcheck2
 }:
 mkDerivation {

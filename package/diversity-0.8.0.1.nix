@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, data-ordlist, fasta
 , math-functions, MonadRandom, optparse-applicative, parsec, pipes
-, random-shuffle, scientific, split
+, random-shuffle, scientific, split, stdenv
 }:
 mkDerivation {
   pname = "diversity";

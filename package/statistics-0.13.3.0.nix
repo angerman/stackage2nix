@@ -1,7 +1,8 @@
 { mkDerivation, aeson, base, binary, deepseq, erf, HUnit, ieee754
 , math-functions, monad-par, mwc-random, primitive, QuickCheck
-, test-framework, test-framework-hunit, test-framework-quickcheck2
-, vector, vector-algorithms, vector-binary-instances
+, stdenv, test-framework, test-framework-hunit
+, test-framework-quickcheck2, vector, vector-algorithms
+, vector-binary-instances
 }:
 mkDerivation {
   pname = "statistics";

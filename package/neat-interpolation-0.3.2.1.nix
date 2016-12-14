@@ -1,5 +1,5 @@
-{ mkDerivation, base, base-prelude, HTF, parsec, template-haskell
-, text
+{ mkDerivation, base, base-prelude, HTF, parsec, stdenv
+, template-haskell, text
 }:
 mkDerivation {
   pname = "neat-interpolation";

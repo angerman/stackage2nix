@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, doctest, filepath, hspec
-, interpolate, markdown-unlit, mockery, QuickCheck, shake
+, interpolate, markdown-unlit, mockery, QuickCheck, shake, stdenv
 }:
 mkDerivation {
   pname = "generics-eot";

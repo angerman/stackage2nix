@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, conduit, containers, hspec
 , monad-control, monad-logger, old-locale, persistent
-, persistent-template, resource-pool, resourcet, temporary, text
-, time, transformers
+, persistent-template, resource-pool, resourcet, stdenv, temporary
+, text, time, transformers
 }:
 mkDerivation {
   pname = "persistent-sqlite";

@@ -1,5 +1,6 @@
 { mkDerivation, base, data-default-class, directory, doctest
-, fclabels, hspec, process, shake, split, unordered-containers
+, fclabels, hspec, process, shake, split, stdenv
+, unordered-containers
 }:
 mkDerivation {
   pname = "shake-language-c";

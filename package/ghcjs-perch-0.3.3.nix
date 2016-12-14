@@ -1,4 +1,4 @@
-{ mkDerivation, base, transformers }:
+{ mkDerivation, base, stdenv, transformers }:
 mkDerivation {
   pname = "ghcjs-perch";
   version = "0.3.3";

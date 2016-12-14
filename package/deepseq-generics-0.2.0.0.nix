@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, ghc-prim, HUnit, test-framework
-, test-framework-hunit
+{ mkDerivation, base, deepseq, ghc-prim, HUnit, stdenv
+, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "deepseq-generics";

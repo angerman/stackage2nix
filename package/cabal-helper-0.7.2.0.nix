@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, cabal-install, directory
-, extra, filepath, ghc-prim, mtl, process, template-haskell
+, extra, filepath, ghc-prim, mtl, process, stdenv, template-haskell
 , temporary, transformers, unix, utf8-string
 }:
 mkDerivation {

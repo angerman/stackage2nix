@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, hspec, HUnit
-, QuickCheck, template-haskell, text, transformers
+, QuickCheck, stdenv, template-haskell, text, transformers
 }:
 mkDerivation {
   pname = "th-printf";

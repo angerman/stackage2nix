@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, directory, filepath, pipes
-, pipes-bgzf
+, pipes-bgzf, stdenv
 }:
 mkDerivation {
   pname = "pipes-illumina";

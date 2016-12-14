@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath, transformers }:
+{ mkDerivation, base, directory, filepath, stdenv, transformers }:
 mkDerivation {
   pname = "pathwalk";
   version = "0.3.1.2";

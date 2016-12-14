@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, derive
-, directory, filepath, HUnit, old-locale, QuickCheck
+, directory, filepath, HUnit, old-locale, QuickCheck, stdenv
 , template-haskell, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, time, unordered-containers
 }:

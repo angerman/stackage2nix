@@ -1,4 +1,4 @@
-{ mkDerivation, base, clock, hspec, transformers }:
+{ mkDerivation, base, clock, hspec, stdenv, transformers }:
 mkDerivation {
   pname = "stopwatch";
   version = "0.1.0.3";

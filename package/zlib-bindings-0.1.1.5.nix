@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, hspec, QuickCheck, zlib }:
+{ mkDerivation, base, bytestring, hspec, QuickCheck, stdenv, zlib
+}:
 mkDerivation {
   pname = "zlib-bindings";
   version = "0.1.1.5";

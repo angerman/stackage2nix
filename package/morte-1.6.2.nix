@@ -1,8 +1,8 @@
 { mkDerivation, alex, array, base, binary, containers, deepseq
 , Earley, http-client, http-client-tls, microlens, microlens-mtl
-, mtl, optparse-applicative, pipes, QuickCheck, system-fileio
-, system-filepath, tasty, tasty-hunit, tasty-quickcheck, text
-, text-format, transformers
+, mtl, optparse-applicative, pipes, QuickCheck, stdenv
+, system-fileio, system-filepath, tasty, tasty-hunit
+, tasty-quickcheck, text, text-format, transformers
 }:
 mkDerivation {
   pname = "morte";

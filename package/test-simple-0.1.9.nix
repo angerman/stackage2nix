@@ -1,5 +1,5 @@
 { mkDerivation, base, executable-path, mtl, process, QuickCheck
-, state-plus, template-haskell
+, state-plus, stdenv, template-haskell
 }:
 mkDerivation {
   pname = "test-simple";

@@ -1,7 +1,7 @@
 { mkDerivation, adjunctions, base, comonad, containers, directory
 , distributive, doctest, filepath, free, mtl, pointed, profunctors
-, semigroupoids, semigroups, transformers, transformers-compat
-, void
+, semigroupoids, semigroups, stdenv, transformers
+, transformers-compat, void
 }:
 mkDerivation {
   pname = "machines";

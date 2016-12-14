@@ -1,4 +1,6 @@
-{ mkDerivation, base, containers, stm, template-haskell, time }:
+{ mkDerivation, base, containers, stdenv, stm, template-haskell
+, time
+}:
 mkDerivation {
   pname = "stm-stats";
   version = "0.2.0.0";

@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, containers, data-default-class
 , diagrams-core, diagrams-lib, filepath, FontyFruity, hashable
 , JuicyPixels, lens, mtl, optparse-applicative, Rasterific, split
-, unix
+, stdenv, unix
 }:
 mkDerivation {
   pname = "diagrams-rasterific";

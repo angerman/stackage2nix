@@ -1,4 +1,6 @@
-{ mkDerivation, ansi-terminal, base, readline, terminal-size }:
+{ mkDerivation, ansi-terminal, base, readline, stdenv
+, terminal-size
+}:
 mkDerivation {
   pname = "questioner";
   version = "0.1.1.0";

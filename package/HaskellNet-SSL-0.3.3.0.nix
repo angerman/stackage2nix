@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, connection, data-default
-, HaskellNet, network, tls
+, HaskellNet, network, stdenv, tls
 }:
 mkDerivation {
   pname = "HaskellNet-SSL";

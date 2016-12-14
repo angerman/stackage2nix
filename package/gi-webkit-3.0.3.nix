@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, containers, gi-atk, gi-cairo
 , gi-gdk, gi-gdkpixbuf, gi-gio, gi-glib, gi-gobject, gi-gtk
-, gi-javascriptcore, gi-soup, haskell-gi, haskell-gi-base, text
-, transformers, webkit
+, gi-javascriptcore, gi-soup, haskell-gi, haskell-gi-base, stdenv
+, text, transformers, webkit
 }:
 mkDerivation {
   pname = "gi-webkit";

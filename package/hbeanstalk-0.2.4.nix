@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, blaze-builder, bytestring
-, containers, network
+, containers, network, stdenv
 }:
 mkDerivation {
   pname = "hbeanstalk";

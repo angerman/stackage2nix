@@ -1,4 +1,4 @@
-{ mkDerivation, base, text }:
+{ mkDerivation, base, stdenv, text }:
 mkDerivation {
   pname = "cased";
   version = "0.1.0.0";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, template-haskell }:
+{ mkDerivation, base, ghc-prim, stdenv, template-haskell }:
 mkDerivation {
   pname = "th-lift";
   version = "0.7.6";

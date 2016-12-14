@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-html, blaze-markup, clay, comonad
 , lucid, mmorph, monad-control, monad-logger, mtl, path-extra
-, resourcet, text, transformers-base, urlpath
+, resourcet, stdenv, text, transformers-base, urlpath
 }:
 mkDerivation {
   pname = "markup";

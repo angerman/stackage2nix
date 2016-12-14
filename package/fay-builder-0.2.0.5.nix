@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, data-default, directory, fay, filepath
-, safe, split, text
+, safe, split, stdenv, text
 }:
 mkDerivation {
   pname = "fay-builder";

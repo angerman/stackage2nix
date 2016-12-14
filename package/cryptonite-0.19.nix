@@ -1,5 +1,5 @@
 { mkDerivation, base, byteable, bytestring, deepseq, ghc-prim
-, integer-gmp, memory, tasty, tasty-hunit, tasty-kat
+, integer-gmp, memory, stdenv, tasty, tasty-hunit, tasty-kat
 , tasty-quickcheck
 }:
 mkDerivation {

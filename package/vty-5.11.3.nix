@@ -1,8 +1,8 @@
 { mkDerivation, base, blaze-builder, bytestring, Cabal, containers
 , data-default, deepseq, directory, filepath, hashable, HUnit
 , microlens, microlens-mtl, microlens-th, mtl, parallel, parsec
-, QuickCheck, quickcheck-assertions, random, smallcheck, stm
-, string-qq, terminfo, test-framework, test-framework-hunit
+, QuickCheck, quickcheck-assertions, random, smallcheck, stdenv
+, stm, string-qq, terminfo, test-framework, test-framework-hunit
 , test-framework-smallcheck, text, transformers, unix, utf8-string
 , vector
 }:

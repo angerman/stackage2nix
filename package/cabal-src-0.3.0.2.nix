@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra
 , containers, directory, filepath, http-conduit, http-types
-, network, process, resourcet, shelly, system-fileio
+, network, process, resourcet, shelly, stdenv, system-fileio
 , system-filepath, tar, text, transformers
 }:
 mkDerivation {

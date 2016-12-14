@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bifunctors, parsec, parsers
-, tasty, tasty-hunit, template-haskell, text, time
+, stdenv, tasty, tasty-hunit, template-haskell, text, time
 }:
 mkDerivation {
   pname = "time-parsers";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, monad-control, mongoDB, pipes, text }:
+{ mkDerivation, base, monad-control, mongoDB, pipes, stdenv, text
+}:
 mkDerivation {
   pname = "pipes-mongodb";
   version = "0.1.0.0";

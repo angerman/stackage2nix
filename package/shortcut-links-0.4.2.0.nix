@@ -1,4 +1,4 @@
-{ mkDerivation, base, text }:
+{ mkDerivation, base, stdenv, text }:
 mkDerivation {
   pname = "shortcut-links";
   version = "0.4.2.0";

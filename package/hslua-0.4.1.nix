@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, hspec, hspec-contrib, HUnit
-, QuickCheck, quickcheck-instances, text
+, QuickCheck, quickcheck-instances, stdenv, text
 }:
 mkDerivation {
   pname = "hslua";

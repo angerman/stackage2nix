@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, QuickCheck
-, ruby, scientific, stm, text, unordered-containers, vector
+, ruby, scientific, stdenv, stm, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "hruby";

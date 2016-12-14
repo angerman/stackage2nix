@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, stm }:
+{ mkDerivation, base, mtl, stdenv, stm }:
 mkDerivation {
   pname = "stateref";
   version = "0.3";

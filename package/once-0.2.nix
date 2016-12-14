@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, hashable, template-haskell
-, unordered-containers
+{ mkDerivation, base, containers, hashable, stdenv
+, template-haskell, unordered-containers
 }:
 mkDerivation {
   pname = "once";

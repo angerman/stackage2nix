@@ -1,5 +1,5 @@
-{ mkDerivation, base, lifted-base, monad-control, transformers
-, unix
+{ mkDerivation, base, lifted-base, monad-control, stdenv
+, transformers, unix
 }:
 mkDerivation {
   pname = "flock";

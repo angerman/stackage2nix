@@ -1,4 +1,4 @@
-{ mkDerivation, base, pretty }:
+{ mkDerivation, base, pretty, stdenv }:
 mkDerivation {
   pname = "prettyclass";
   version = "1.0.0.0";

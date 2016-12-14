@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, clock, containers, http-client
-, http-client-tls, http-types, multiset, tls, transformers, xml
+, http-client-tls, http-types, multiset, stdenv, tls, transformers
+, xml
 }:
 mkDerivation {
   pname = "nationstates";

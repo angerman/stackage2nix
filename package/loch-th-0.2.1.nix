@@ -1,4 +1,4 @@
-{ mkDerivation, base, pretty, template-haskell }:
+{ mkDerivation, base, pretty, stdenv, template-haskell }:
 mkDerivation {
   pname = "loch-th";
   version = "0.2.1";

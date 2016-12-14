@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, containers, directory, filepath
-, hackage-db, process, temporary
+, hackage-db, process, stdenv, temporary
 }:
 mkDerivation {
   pname = "hackage-whatsnew";

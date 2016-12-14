@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, hashable
-, old-time, QuickCheck, scientific, text, time
+, old-time, QuickCheck, scientific, stdenv, text, time
 , unordered-containers, vector
 }:
 mkDerivation {

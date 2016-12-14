@@ -1,6 +1,6 @@
 { mkDerivation, ansi-wl-pprint, base, containers, hspec
 , hspec-discover, megaparsec, QuickCheck, scientific, semigroups
-, text, transformers
+, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "language-thrift";

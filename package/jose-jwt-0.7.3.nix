@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, cereal, containers
 , cryptonite, doctest, either, hspec, HUnit, memory, mtl
-, QuickCheck, text, time, unordered-containers, vector
+, QuickCheck, stdenv, text, time, unordered-containers, vector
 }:
 mkDerivation {
   pname = "jose-jwt";

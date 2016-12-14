@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, containers, cryptonite
 , data-default, doctest, http-types, HUnit, lens, lens-aeson
-, memory, network-uri, QuickCheck, scientific, semigroups, tasty
-, tasty-hunit, tasty-quickcheck, tasty-th, text, time
+, memory, network-uri, QuickCheck, scientific, semigroups, stdenv
+, tasty, tasty-hunit, tasty-quickcheck, tasty-th, text, time
 , unordered-containers, vector
 }:
 mkDerivation {

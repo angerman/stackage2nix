@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, bytestring, containers }:
+{ mkDerivation, array, base, bytestring, containers, stdenv }:
 mkDerivation {
   pname = "stringsearch";
   version = "0.3.6.6";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, primitive, time, vector }:
+{ mkDerivation, base, primitive, stdenv, time, vector }:
 mkDerivation {
   pname = "mwc-random";
   version = "0.13.5.0";

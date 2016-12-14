@@ -1,6 +1,7 @@
 { mkDerivation, array, async, base, base-compat, containers
 , crackNum, data-binary-ieee754, deepseq, directory, filepath, ghc
-, HUnit, mtl, old-time, pretty, process, QuickCheck, random, syb
+, HUnit, mtl, old-time, pretty, process, QuickCheck, random, stdenv
+, syb
 }:
 mkDerivation {
   pname = "sbv";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, base-compat, carray, fft, JuicyPixels, time
+{ mkDerivation, base, base-compat, carray, fft, JuicyPixels, stdenv
+, time
 }:
 mkDerivation {
   pname = "JuicyPixels-scale-dct";

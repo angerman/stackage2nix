@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, hspec, HUnit, mtl, syb
+{ mkDerivation, base, containers, hspec, HUnit, mtl, stdenv, syb
 , template-haskell, th-expand-syns, th-lift, th-orphans
 }:
 mkDerivation {

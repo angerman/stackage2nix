@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, doctest, filepath, lens
-, profunctors, semigroupoids
+, profunctors, semigroupoids, stdenv
 }:
 mkDerivation {
   pname = "zippers";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, postgresql-simple }:
+{ mkDerivation, base, postgresql-simple, stdenv }:
 mkDerivation {
   pname = "psql-helpers";
   version = "0.1.0.0";

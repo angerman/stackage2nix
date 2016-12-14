@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, fgl, tasty, tasty-hunit
+{ mkDerivation, base, containers, fgl, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, text
 }:
 mkDerivation {

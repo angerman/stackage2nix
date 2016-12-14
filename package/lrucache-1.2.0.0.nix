@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, contravariant }:
+{ mkDerivation, base, containers, contravariant, stdenv }:
 mkDerivation {
   pname = "lrucache";
   version = "1.2.0.0";

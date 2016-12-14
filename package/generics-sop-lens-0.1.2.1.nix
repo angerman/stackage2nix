@@ -1,4 +1,4 @@
-{ mkDerivation, base, generics-sop, lens }:
+{ mkDerivation, base, generics-sop, lens, stdenv }:
 mkDerivation {
   pname = "generics-sop-lens";
   version = "0.1.2.1";

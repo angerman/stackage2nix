@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, hspec, HTTP, hxt, hxt-http, mtl
-, network, network-uri, parsec, transformers
+, network, network-uri, parsec, stdenv, transformers
 }:
 mkDerivation {
   pname = "HandsomeSoup";

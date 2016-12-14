@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, cpu, QuickCheck, test-framework
-, test-framework-quickcheck2
+{ mkDerivation, base, bytestring, cpu, QuickCheck, stdenv
+, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "siphash";

@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-builder, bytestring, exceptions
 , ghc-prim, hspec, http-types, HUnit, mtl, parsec, QuickCheck
-, split, text, utf8-string
+, split, stdenv, text, utf8-string
 }:
 mkDerivation {
   pname = "web-routes";

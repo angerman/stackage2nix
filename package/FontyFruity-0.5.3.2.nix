@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, deepseq
-, directory, filepath, text, vector, xml
+, directory, filepath, stdenv, text, vector, xml
 }:
 mkDerivation {
   pname = "FontyFruity";

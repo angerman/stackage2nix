@@ -1,4 +1,4 @@
-{ mkDerivation, base, HUnit, monad-control, test-framework
+{ mkDerivation, base, HUnit, monad-control, stdenv, test-framework
 , test-framework-hunit, transformers, transformers-base
 , transformers-compat
 }:

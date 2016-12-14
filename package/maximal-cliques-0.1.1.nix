@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, vector }:
+{ mkDerivation, base, containers, stdenv, vector }:
 mkDerivation {
   pname = "maximal-cliques";
   version = "0.1.1";

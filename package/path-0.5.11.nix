@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, deepseq, exceptions
 , filepath, genvalidity, genvalidity-hspec, hspec, HUnit, mtl
-, QuickCheck, template-haskell, validity
+, QuickCheck, stdenv, template-haskell, validity
 }:
 mkDerivation {
   pname = "path";

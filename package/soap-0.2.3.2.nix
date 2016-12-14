@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, conduit, configurator
 , data-default, exceptions, hspec, http-client, http-types, HUnit
-, iconv, mtl, resourcet, text, unordered-containers, xml-conduit
-, xml-conduit-writer, xml-types
+, iconv, mtl, resourcet, stdenv, text, unordered-containers
+, xml-conduit, xml-conduit-writer, xml-types
 }:
 mkDerivation {
   pname = "soap";

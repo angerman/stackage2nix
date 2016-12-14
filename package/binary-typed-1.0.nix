@@ -1,5 +1,5 @@
-{ mkDerivation, base, binary, bytestring, murmur-hash, tasty
-, tasty-hunit, tasty-quickcheck
+{ mkDerivation, base, binary, bytestring, murmur-hash, stdenv
+, tasty, tasty-hunit, tasty-quickcheck
 }:
 mkDerivation {
   pname = "binary-typed";

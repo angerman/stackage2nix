@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, deepseq
-, rank1dynamic
+, rank1dynamic, stdenv
 }:
 mkDerivation {
   pname = "distributed-static";

@@ -1,4 +1,6 @@
-{ mkDerivation, base, doctest, prometheus-client, utf8-string }:
+{ mkDerivation, base, doctest, prometheus-client, stdenv
+, utf8-string
+}:
 mkDerivation {
   pname = "prometheus-metrics-ghc";
   version = "0.1.0.1";

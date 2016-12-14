@@ -1,4 +1,5 @@
-{ mkDerivation, attoparsec, base, deepseq, tasty, tasty-hunit, text
+{ mkDerivation, attoparsec, base, deepseq, stdenv, tasty
+, tasty-hunit, text
 }:
 mkDerivation {
   pname = "semver";

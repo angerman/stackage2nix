@@ -1,5 +1,5 @@
 { mkDerivation, ansi-terminal, ansi-wl-pprint, base, containers
-, hostname, old-locale, random, regex-posix, time, xml
+, hostname, old-locale, random, regex-posix, stdenv, time, xml
 }:
 mkDerivation {
   pname = "test-framework";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, ekg-core, http-types, QuickCheck
-, scotty, tasty, tasty-hunit, tasty-quickcheck, text, time
+, scotty, stdenv, tasty, tasty-hunit, tasty-quickcheck, text, time
 , transformers, wai, wai-extra
 }:
 mkDerivation {

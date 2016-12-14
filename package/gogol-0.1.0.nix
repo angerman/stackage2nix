@@ -2,8 +2,8 @@
 , conduit-extra, cryptonite, data-default-class, directory
 , exceptions, filepath, gogol-core, http-client, http-conduit
 , http-media, http-types, lens, memory, mime-types, monad-control
-, mtl, resourcet, text, time, transformers, transformers-base
-, unordered-containers, x509, x509-store
+, mtl, resourcet, stdenv, text, time, transformers
+, transformers-base, unordered-containers, x509, x509-store
 }:
 mkDerivation {
   pname = "gogol";

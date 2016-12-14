@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, http-client, http-types
-, text, time, transformers, unordered-containers
+, stdenv, text, time, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "hsebaysdk";

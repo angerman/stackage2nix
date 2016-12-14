@@ -1,6 +1,6 @@
 { mkDerivation, base, conduit, dlist, hlint, mtl, parsers
-, resourcet, safe, safe-exceptions, tasty, tasty-hunit, text
-, transformers
+, resourcet, safe, safe-exceptions, stdenv, tasty, tasty-hunit
+, text, transformers
 }:
 mkDerivation {
   pname = "conduit-parse";

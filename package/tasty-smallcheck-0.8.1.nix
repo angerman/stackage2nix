@@ -1,4 +1,4 @@
-{ mkDerivation, async, base, smallcheck, tagged, tasty }:
+{ mkDerivation, async, base, smallcheck, stdenv, tagged, tasty }:
 mkDerivation {
   pname = "tasty-smallcheck";
   version = "0.8.1";

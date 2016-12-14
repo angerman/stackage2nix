@@ -1,5 +1,5 @@
 { mkDerivation, ansi-terminal, base, bytestring, options, patience
-, random, template-haskell, text, transformers
+, random, stdenv, template-haskell, text, transformers
 }:
 mkDerivation {
   pname = "chell";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl, stm, text }:
+{ mkDerivation, base, containers, mtl, stdenv, stm, text }:
 mkDerivation {
   pname = "web-plugins";
   version = "0.2.9";

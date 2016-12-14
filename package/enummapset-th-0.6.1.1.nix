@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, deepseq, template-haskell }:
+{ mkDerivation, base, containers, deepseq, stdenv, template-haskell
+}:
 mkDerivation {
   pname = "enummapset-th";
   version = "0.6.1.1";

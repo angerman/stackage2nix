@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bitcoin-script, bitcoin-types
-, bytestring, cryptohash, hexstring, hspec, lens
+, bytestring, cryptohash, hexstring, hspec, lens, stdenv
 }:
 mkDerivation {
   pname = "bitcoin-tx";

@@ -1,7 +1,7 @@
 { mkDerivation, base, binary, bytestring, clock, connection
 , containers, data-binary-ieee754, hspec, hspec-expectations
-, monad-control, network, network-uri, split, stm, text, vector
-, xml
+, monad-control, network, network-uri, split, stdenv, stm, text
+, vector, xml
 }:
 mkDerivation {
   pname = "amqp";

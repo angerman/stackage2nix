@@ -1,4 +1,6 @@
-{ mkDerivation, aeson, base, binary, bytestring, hspec, text }:
+{ mkDerivation, aeson, base, binary, bytestring, hspec, stdenv
+, text
+}:
 mkDerivation {
   pname = "base32string";
   version = "0.9.1";

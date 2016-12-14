@@ -1,4 +1,4 @@
-{ mkDerivation, base, text, text-format, text-show }:
+{ mkDerivation, base, stdenv, text, text-format, text-show }:
 mkDerivation {
   pname = "text-all";
   version = "0.3.0.2";

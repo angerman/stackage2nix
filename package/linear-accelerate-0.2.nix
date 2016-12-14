@@ -1,4 +1,4 @@
-{ mkDerivation, accelerate, base, lens, linear }:
+{ mkDerivation, accelerate, base, lens, linear, stdenv }:
 mkDerivation {
   pname = "linear-accelerate";
   version = "0.2";

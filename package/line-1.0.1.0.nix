@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, base64-bytestring, bytestring
-, cryptohash-sha256, http-types, lens, text, time, transformers
-, wai, wreq
+, cryptohash-sha256, http-types, lens, stdenv, text, time
+, transformers, wai, wreq
 }:
 mkDerivation {
   pname = "line";

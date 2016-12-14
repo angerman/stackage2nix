@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, hspec, QuickCheck, time }:
+{ mkDerivation, base, containers, hspec, QuickCheck, stdenv, time
+}:
 mkDerivation {
   pname = "bank-holidays-england";
   version = "0.1.0.5";

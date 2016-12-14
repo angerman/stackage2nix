@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, cereal, network }:
+{ mkDerivation, base, bytestring, cereal, network, stdenv }:
 mkDerivation {
   pname = "socks";
   version = "0.5.5";

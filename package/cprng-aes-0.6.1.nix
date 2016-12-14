@@ -1,5 +1,5 @@
 { mkDerivation, base, byteable, bytestring, cipher-aes
-, crypto-random
+, crypto-random, stdenv
 }:
 mkDerivation {
   pname = "cprng-aes";

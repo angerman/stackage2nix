@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, hashable, HTF, mtl
-, QuickCheck, safe, unordered-containers, vector
+, QuickCheck, safe, stdenv, unordered-containers, vector
 }:
 mkDerivation {
   pname = "graph-core";

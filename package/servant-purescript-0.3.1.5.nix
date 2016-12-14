@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, containers, directory
 , filepath, http-types, lens, mainland-pretty, purescript-bridge
 , servant, servant-foreign, servant-server, servant-subscriber
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "servant-purescript";

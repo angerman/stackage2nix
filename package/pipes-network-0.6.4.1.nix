@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, network, network-simple, pipes
-, pipes-safe, transformers
+, pipes-safe, stdenv, transformers
 }:
 mkDerivation {
   pname = "pipes-network";

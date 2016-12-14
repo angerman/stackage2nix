@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl }:
+{ mkDerivation, base, mtl, stdenv }:
 mkDerivation {
   pname = "pattern-arrows";
   version = "0.0.2";

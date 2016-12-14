@@ -1,4 +1,4 @@
-{ mkDerivation, base, transformers }:
+{ mkDerivation, base, stdenv, transformers }:
 mkDerivation {
   pname = "phantom-state";
   version = "0.2.1.2";

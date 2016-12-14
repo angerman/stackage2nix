@@ -1,4 +1,4 @@
-{ mkDerivation, base, safecopy, text, th-lift, uuid-types
+{ mkDerivation, base, safecopy, stdenv, text, th-lift, uuid-types
 , web-routes
 }:
 mkDerivation {

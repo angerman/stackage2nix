@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, srcloc, text }:
+{ mkDerivation, base, containers, srcloc, stdenv, text }:
 mkDerivation {
   pname = "mainland-pretty";
   version = "0.4.1.4";

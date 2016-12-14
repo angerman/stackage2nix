@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, attoparsec-binary, base, bytestring
-, hspec, HUnit, storable-record, unordered-containers, vector
-, vector-th-unbox
+, hspec, HUnit, stdenv, storable-record, unordered-containers
+, vector, vector-th-unbox
 }:
 mkDerivation {
   pname = "netpbm";

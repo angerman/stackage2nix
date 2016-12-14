@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, cereal, crypto-api, tagged }:
+{ mkDerivation, base, bytestring, cereal, crypto-api, stdenv
+, tagged
+}:
 mkDerivation {
   pname = "cipher-aes128";
   version = "0.7.0.3";

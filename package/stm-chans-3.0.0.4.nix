@@ -1,4 +1,4 @@
-{ mkDerivation, base, stm }:
+{ mkDerivation, base, stdenv, stm }:
 mkDerivation {
   pname = "stm-chans";
   version = "3.0.0.4";

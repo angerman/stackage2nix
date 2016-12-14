@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, containers, QuickCheck
+{ mkDerivation, base, bytestring, containers, QuickCheck, stdenv
 , template-haskell, text, th-lift, vector
 }:
 mkDerivation {

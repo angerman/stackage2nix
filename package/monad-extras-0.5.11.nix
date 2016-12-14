@@ -1,5 +1,5 @@
-{ mkDerivation, base, mmorph, monad-control, stm, transformers
-, transformers-base
+{ mkDerivation, base, mmorph, monad-control, stdenv, stm
+, transformers, transformers-base
 }:
 mkDerivation {
   pname = "monad-extras";

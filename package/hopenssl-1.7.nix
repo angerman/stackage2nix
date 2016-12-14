@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, mtl, openssl }:
+{ mkDerivation, base, bytestring, mtl, openssl, stdenv }:
 mkDerivation {
   pname = "hopenssl";
   version = "1.7";

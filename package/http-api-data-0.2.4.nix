@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, directory, doctest, filepath
-, hspec, HUnit, QuickCheck, text, time, time-locale-compat
+, hspec, HUnit, QuickCheck, stdenv, text, time, time-locale-compat
 }:
 mkDerivation {
   pname = "http-api-data";

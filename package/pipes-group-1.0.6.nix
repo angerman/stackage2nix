@@ -1,5 +1,5 @@
 { mkDerivation, base, doctest, free, lens-family-core, pipes
-, pipes-parse, transformers
+, pipes-parse, stdenv, transformers
 }:
 mkDerivation {
   pname = "pipes-group";

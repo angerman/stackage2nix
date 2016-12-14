@@ -3,8 +3,8 @@
 , fclabels, filepath, ghc, ghc-boot, ghc-paths, ghc-syb-utils
 , haskell-src-exts, hlint, hspec, monad-control, monad-journal, mtl
 , old-time, optparse-applicative, pipes, pretty, process, safe
-, split, syb, template-haskell, temporary, text, time, transformers
-, transformers-base
+, split, stdenv, syb, template-haskell, temporary, text, time
+, transformers, transformers-base
 }:
 mkDerivation {
   pname = "ghc-mod";

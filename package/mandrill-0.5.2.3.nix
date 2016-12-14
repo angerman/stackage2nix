@@ -1,8 +1,8 @@
 { mkDerivation, aeson, base, base64-bytestring, blaze-html
 , bytestring, containers, email-validate, http-client
 , http-client-tls, http-types, lens, mtl, old-locale, QuickCheck
-, raw-strings-qq, tasty, tasty-hunit, tasty-quickcheck, text, time
-, unordered-containers
+, raw-strings-qq, stdenv, tasty, tasty-hunit, tasty-quickcheck
+, text, time, unordered-containers
 }:
 mkDerivation {
   pname = "mandrill";

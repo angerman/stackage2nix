@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, random, template-haskell
+{ mkDerivation, base, containers, random, stdenv, template-haskell
 , test-framework, tf-random, transformers
 }:
 mkDerivation {

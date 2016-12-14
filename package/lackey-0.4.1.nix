@@ -1,5 +1,5 @@
-{ mkDerivation, base, servant, servant-foreign, tasty, tasty-hspec
-, text
+{ mkDerivation, base, servant, servant-foreign, stdenv, tasty
+, tasty-hspec, text
 }:
 mkDerivation {
   pname = "lackey";

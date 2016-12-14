@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, logict, mtl }:
+{ mkDerivation, base, containers, logict, mtl, stdenv }:
 mkDerivation {
   pname = "unification-fd";
   version = "0.10.0.1";

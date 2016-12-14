@@ -1,7 +1,7 @@
 { mkDerivation, base, binary, bytestring, containers, deepseq
-, ghc-prim, hashable, integer-gmp, QuickCheck, smallcheck, tasty
-, tasty-ant-xml, tasty-hunit, tasty-quickcheck, tasty-smallcheck
-, text, vector
+, ghc-prim, hashable, integer-gmp, QuickCheck, smallcheck, stdenv
+, tasty, tasty-ant-xml, tasty-hunit, tasty-quickcheck
+, tasty-smallcheck, text, vector
 }:
 mkDerivation {
   pname = "scientific";

@@ -1,6 +1,6 @@
 { mkDerivation, array, base, data-default, deepseq, doctest
 , ghc-prim, ghc-typelits-extra, ghc-typelits-natnormalise
-, integer-gmp, lens, QuickCheck, reflection, singletons
+, integer-gmp, lens, QuickCheck, reflection, singletons, stdenv
 , template-haskell
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, directory, filepath
-, preprocessor-tools
+, preprocessor-tools, stdenv
 }:
 mkDerivation {
   pname = "hsb2hs";

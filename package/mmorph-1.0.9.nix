@@ -1,4 +1,6 @@
-{ mkDerivation, base, mtl, transformers, transformers-compat }:
+{ mkDerivation, base, mtl, stdenv, transformers
+, transformers-compat
+}:
 mkDerivation {
   pname = "mmorph";
   version = "1.0.9";

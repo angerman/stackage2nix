@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, directory, filepath
-, mtl, pandoc-types, parsec, process, split, syb, temporary, text
-, utf8-string, xml
+, mtl, pandoc-types, parsec, process, split, stdenv, syb, temporary
+, text, utf8-string, xml
 }:
 mkDerivation {
   pname = "texmath";

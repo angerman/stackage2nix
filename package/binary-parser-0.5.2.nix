@@ -1,4 +1,4 @@
-{ mkDerivation, base-prelude, bytestring, success, text
+{ mkDerivation, base-prelude, bytestring, stdenv, success, text
 , transformers
 }:
 mkDerivation {

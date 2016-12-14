@@ -1,4 +1,4 @@
-{ mkDerivation, base, HDBC }:
+{ mkDerivation, base, HDBC, stdenv }:
 mkDerivation {
   pname = "HDBC-session";
   version = "0.1.1.0";

@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, classy-prelude, conduit
 , conduit-combinators, hspec, monad-control, QuickCheck, resourcet
-, transformers, void
+, stdenv, transformers, void
 }:
 mkDerivation {
   pname = "classy-prelude-conduit";

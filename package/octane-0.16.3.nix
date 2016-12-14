@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bimap, binary, binary-bits, bytestring
 , containers, data-binary-ieee754, data-default-class, deepseq
 , file-embed, http-client, http-client-tls, overloaded-records
-, regex-compat, tasty, tasty-hspec, tasty-quickcheck, text
+, regex-compat, stdenv, tasty, tasty-hspec, tasty-quickcheck, text
 , unordered-containers, vector
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, text }:
+{ mkDerivation, base, deepseq, stdenv, text }:
 mkDerivation {
   pname = "xml-types";
   version = "0.3.6";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, case-insensitive, text, utf8-string }:
+{ mkDerivation, base, case-insensitive, stdenv, text, utf8-string
+}:
 mkDerivation {
   pname = "tostring";
   version = "0.2.1.1";

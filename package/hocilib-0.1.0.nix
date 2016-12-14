@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, c2hs, containers, inline-c
-, ocilib, tasty, tasty-hunit, template-haskell
+, ocilib, stdenv, tasty, tasty-hunit, template-haskell
 }:
 mkDerivation {
   pname = "hocilib";

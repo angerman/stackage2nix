@@ -1,8 +1,8 @@
 { mkDerivation, aeson, aeson-qq, attoparsec, base, base-compat
 , bytestring, conduit, containers, directory, enclosed-exceptions
 , filepath, hspec, HUnit, mockery, resourcet, scientific
-, semigroups, template-haskell, temporary, text, transformers
-, unordered-containers, vector
+, semigroups, stdenv, template-haskell, temporary, text
+, transformers, unordered-containers, vector
 }:
 mkDerivation {
   pname = "yaml";

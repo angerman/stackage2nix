@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, Glob, HTF, mtl, path, pcre-heavy
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "ignore";

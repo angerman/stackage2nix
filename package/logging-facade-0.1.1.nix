@@ -1,4 +1,5 @@
-{ mkDerivation, base, hspec, template-haskell, transformers }:
+{ mkDerivation, base, hspec, stdenv, template-haskell, transformers
+}:
 mkDerivation {
   pname = "logging-facade";
   version = "0.1.1";

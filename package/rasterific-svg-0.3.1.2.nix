@@ -1,7 +1,7 @@
 { mkDerivation, base, binary, bytestring, containers, directory
 , filepath, FontyFruity, JuicyPixels, lens, linear, mtl
-, optparse-applicative, Rasterific, scientific, svg-tree, text
-, transformers, vector
+, optparse-applicative, Rasterific, scientific, stdenv, svg-tree
+, text, transformers, vector
 }:
 mkDerivation {
   pname = "rasterific-svg";

@@ -1,5 +1,5 @@
 { mkDerivation, base, base16-bytestring, bytestring, hlint
-, QuickCheck, tasty, tasty-quickcheck
+, QuickCheck, stdenv, tasty, tasty-quickcheck
 }:
 mkDerivation {
   pname = "blake2";

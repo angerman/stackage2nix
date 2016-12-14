@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, HsOpenSSL, process }:
+{ mkDerivation, base, bytestring, HsOpenSSL, process, stdenv }:
 mkDerivation {
   pname = "HsOpenSSL-x509-system";
   version = "0.1.0.3";

@@ -1,5 +1,6 @@
 { mkDerivation, atomic-primops, base, containers, hashable
-, primitive, QuickCheck, test-framework, test-framework-quickcheck2
+, primitive, QuickCheck, stdenv, test-framework
+, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "ctrie";

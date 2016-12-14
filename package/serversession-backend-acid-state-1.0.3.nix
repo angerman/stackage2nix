@@ -1,5 +1,5 @@
 { mkDerivation, acid-state, base, containers, hspec, mtl, safecopy
-, serversession, unordered-containers
+, serversession, stdenv, unordered-containers
 }:
 mkDerivation {
   pname = "serversession-backend-acid-state";

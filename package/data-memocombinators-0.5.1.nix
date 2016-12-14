@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, data-inttrie }:
+{ mkDerivation, array, base, data-inttrie, stdenv }:
 mkDerivation {
   pname = "data-memocombinators";
   version = "0.5.1";

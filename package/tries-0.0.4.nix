@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, bytestring-trie, composition
 , composition-extra, containers, deepseq, hashable, keys, mtl
 , QuickCheck, quickcheck-instances, rose-trees, semigroups, sets
-, tasty, tasty-quickcheck, unordered-containers
+, stdenv, tasty, tasty-quickcheck, unordered-containers
 }:
 mkDerivation {
   pname = "tries";

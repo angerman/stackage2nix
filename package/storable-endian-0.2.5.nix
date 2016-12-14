@@ -1,4 +1,4 @@
-{ mkDerivation, base, byteorder }:
+{ mkDerivation, base, byteorder, stdenv }:
 mkDerivation {
   pname = "storable-endian";
   version = "0.2.5";

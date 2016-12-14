@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, http-conduit, http-types
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "hoauth2";

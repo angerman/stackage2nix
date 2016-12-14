@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, network, time }:
+{ mkDerivation, base, bytestring, network, stdenv, time }:
 mkDerivation {
   pname = "pcap";
   version = "0.4.5.2";

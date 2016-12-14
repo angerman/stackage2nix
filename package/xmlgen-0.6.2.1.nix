@@ -1,5 +1,6 @@
 { mkDerivation, base, blaze-builder, bytestring, containers
-, filepath, HUnit, hxt, mtl, process, QuickCheck, text, unix
+, filepath, HUnit, hxt, mtl, process, QuickCheck, stdenv, text
+, unix
 }:
 mkDerivation {
   pname = "xmlgen";

@@ -2,8 +2,9 @@
 , case-insensitive, clientsession, conduit, conduit-extra
 , containers, cpphs, directory, extensible-exceptions, http-types
 , monadloc, mtl, old-time, parsec, pwstore-fast, random
-, RefSerialize, resourcet, stm, TCache, text, time, transformers
-, utf8-string, vector, wai, wai-extra, warp, warp-tls, Workflow
+, RefSerialize, resourcet, stdenv, stm, TCache, text, time
+, transformers, utf8-string, vector, wai, wai-extra, warp, warp-tls
+, Workflow
 }:
 mkDerivation {
   pname = "MFlow";

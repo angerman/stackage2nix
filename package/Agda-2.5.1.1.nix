@@ -3,7 +3,7 @@
 , EdisonCore, edit-distance, emacs, equivalence, filemanip
 , filepath, geniplate-mirror, happy, hashable, hashtables
 , haskeline, haskell-src-exts, monadplus, mtl, parallel, pretty
-, process, QuickCheck, strict, template-haskell, text, time
+, process, QuickCheck, stdenv, strict, template-haskell, text, time
 , transformers, transformers-compat, unordered-containers, xhtml
 , zlib
 }:

@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, text }:
+{ mkDerivation, base, bytestring, stdenv, text }:
 mkDerivation {
   pname = "polyparse";
   version = "1.12";

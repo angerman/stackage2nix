@@ -2,7 +2,7 @@
 , blaze-builder, blaze-html, blaze-markup, bytestring, charset
 , comonad, containers, deepseq, directory, doctest, filepath
 , fingertree, ghc-prim, hashable, lens, mtl, parsers, profunctors
-, QuickCheck, reducers, semigroups, transformers
+, QuickCheck, reducers, semigroups, stdenv, transformers
 , unordered-containers, utf8-string
 }:
 mkDerivation {

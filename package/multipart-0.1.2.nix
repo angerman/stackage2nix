@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, parsec }:
+{ mkDerivation, base, bytestring, parsec, stdenv }:
 mkDerivation {
   pname = "multipart";
   version = "0.1.2";

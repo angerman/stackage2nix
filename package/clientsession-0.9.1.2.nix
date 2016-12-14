@@ -1,7 +1,7 @@
 { mkDerivation, base, base64-bytestring, bytestring, cereal
 , cipher-aes, containers, cprng-aes, crypto-api, crypto-random
 , directory, entropy, hspec, HUnit, QuickCheck, setenv, skein
-, tagged, transformers
+, stdenv, tagged, transformers
 }:
 mkDerivation {
   pname = "clientsession";

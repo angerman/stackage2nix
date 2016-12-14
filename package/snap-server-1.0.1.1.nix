@@ -3,7 +3,7 @@
 , containers, deepseq, directory, filepath, http-common
 , http-streams, HUnit, io-streams, io-streams-haproxy, lifted-base
 , monad-control, mtl, network, old-locale, parallel, QuickCheck
-, random, snap-core, test-framework, test-framework-hunit
+, random, snap-core, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, threads, time, transformers
 , unix, unix-compat, vector
 }:

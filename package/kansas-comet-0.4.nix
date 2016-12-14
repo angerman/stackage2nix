@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, containers, data-default-class, scotty
-, stm, text, time, transformers, unordered-containers
+, stdenv, stm, text, time, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "kansas-comet";

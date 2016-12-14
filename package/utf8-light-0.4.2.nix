@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, ghc-prim }:
+{ mkDerivation, base, bytestring, ghc-prim, stdenv }:
 mkDerivation {
   pname = "utf8-light";
   version = "0.4.2";

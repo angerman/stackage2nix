@@ -1,4 +1,6 @@
-{ mkDerivation, base, bmp, bytestring, containers, GLUT, OpenGL }:
+{ mkDerivation, base, bmp, bytestring, containers, GLUT, OpenGL
+, stdenv
+}:
 mkDerivation {
   pname = "gloss-rendering";
   version = "1.10.3.5";

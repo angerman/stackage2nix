@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, ghc-prim }:
+{ mkDerivation, base, bytestring, ghc-prim, stdenv }:
 mkDerivation {
   pname = "base16-bytestring";
   version = "0.1.1.6";

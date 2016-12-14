@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, data-default, file-embed
-, filepath, HUnit, pcre-light, tasty, tasty-hunit, tasty-quickcheck
-, text, yaml
+, filepath, HUnit, pcre-light, stdenv, tasty, tasty-hunit
+, tasty-quickcheck, text, yaml
 }:
 mkDerivation {
   pname = "ua-parser";

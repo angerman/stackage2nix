@@ -1,6 +1,6 @@
 { mkDerivation, base, exceptions, extra, fast-logger, filepath
 , monad-logger, monad-parallel, mtl, omnifmt, optparse-applicative
-, pipes, pipes-concurrency, process, temporary, text, time
+, pipes, pipes-concurrency, process, stdenv, temporary, text, time
 }:
 mkDerivation {
   pname = "git-fmt";

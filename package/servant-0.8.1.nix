@@ -2,7 +2,7 @@
 , bytestring-conversion, case-insensitive, directory, doctest
 , filemanip, filepath, hspec, http-api-data, http-media, http-types
 , mmorph, mtl, network-uri, QuickCheck, quickcheck-instances
-, string-conversions, text, url, vault
+, stdenv, string-conversions, text, url, vault
 }:
 mkDerivation {
   pname = "servant";

@@ -1,5 +1,6 @@
 { mkDerivation, base, byteable, bytestring, cryptonite, ghc-prim
-, HUnit, memory, QuickCheck, tasty, tasty-hunit, tasty-quickcheck
+, HUnit, memory, QuickCheck, stdenv, tasty, tasty-hunit
+, tasty-quickcheck
 }:
 mkDerivation {
   pname = "cryptohash";

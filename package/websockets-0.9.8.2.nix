@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, base64-bytestring, binary
 , blaze-builder, bytestring, case-insensitive, containers, entropy
-, HUnit, network, QuickCheck, random, SHA, test-framework
+, HUnit, network, QuickCheck, random, SHA, stdenv, test-framework
 , test-framework-hunit, test-framework-quickcheck2, text
 }:
 mkDerivation {

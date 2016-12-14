@@ -1,4 +1,6 @@
-{ mkDerivation, base, Cabal, directory, pretty, template-haskell }:
+{ mkDerivation, base, Cabal, directory, pretty, stdenv
+, template-haskell
+}:
 mkDerivation {
   pname = "cabal-file-th";
   version = "0.2.4";

@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, base16-bytestring, byteable
 , bytestring, cereal, conduit, containers, cryptohash, deepseq
 , either, entropy, HUnit, largeword, mtl, murmur3, network, pbkdf
-, QuickCheck, safe, scientific, secp256k1, split
+, QuickCheck, safe, scientific, secp256k1, split, stdenv
 , string-conversions, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, time, unordered-containers
 , vector

@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, blaze-html, blaze-markup
-, directory, hspec, hspec-attoparsec, text, unordered-containers
-, vector
+, directory, hspec, hspec-attoparsec, stdenv, text
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "taggy";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, text }:
+{ mkDerivation, base, bytestring, stdenv, text }:
 mkDerivation {
   pname = "irc-ctcp";
   version = "0.1.3.0";

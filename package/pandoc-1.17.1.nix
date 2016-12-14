@@ -5,10 +5,10 @@
 , ghc-prim, haddock-library, highlighting-kate, hslua, HTTP
 , http-client, http-client-tls, http-types, HUnit, JuicyPixels, mtl
 , network, network-uri, old-time, pandoc-types, parsec, process
-, QuickCheck, random, scientific, SHA, syb, tagsoup, temporary
-, test-framework, test-framework-hunit, test-framework-quickcheck2
-, texmath, text, time, unordered-containers, vector, xml, yaml
-, zip-archive, zlib
+, QuickCheck, random, scientific, SHA, stdenv, syb, tagsoup
+, temporary, test-framework, test-framework-hunit
+, test-framework-quickcheck2, texmath, text, time
+, unordered-containers, vector, xml, yaml, zip-archive, zlib
 }:
 mkDerivation {
   pname = "pandoc";

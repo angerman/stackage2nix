@@ -1,6 +1,6 @@
 { mkDerivation, base, bifunctors, blaze-builder, bytestring
-, containers, hashable, hspec, HUnit, mmorph, mtl, parsec, text
-, transformers, unordered-containers
+, containers, hashable, hspec, HUnit, mmorph, mtl, parsec, stdenv
+, text, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "lucid";

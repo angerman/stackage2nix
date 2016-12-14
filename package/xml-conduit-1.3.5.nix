@@ -1,7 +1,7 @@
 { mkDerivation, attoparsec, base, blaze-builder, blaze-html
 , blaze-markup, bytestring, conduit, conduit-extra, containers
 , data-default, deepseq, hspec, HUnit, monad-control, resourcet
-, text, transformers, xml-types
+, stdenv, text, transformers, xml-types
 }:
 mkDerivation {
   pname = "xml-conduit";

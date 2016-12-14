@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, doctest, HUnit, test-framework
-, test-framework-hunit, unix
+{ mkDerivation, base, bytestring, doctest, HUnit, stdenv
+, test-framework, test-framework-hunit, unix
 }:
 mkDerivation {
   pname = "network";

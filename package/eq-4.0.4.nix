@@ -1,4 +1,4 @@
-{ mkDerivation, base, semigroupoids }:
+{ mkDerivation, base, semigroupoids, stdenv }:
 mkDerivation {
   pname = "eq";
   version = "4.0.4";

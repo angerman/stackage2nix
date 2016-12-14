@@ -1,7 +1,7 @@
 { mkDerivation, base, base64-bytestring, byteable, bytestring
 , conduit, cryptohash, http-client, http-conduit, http-types
-, mime-mail, old-locale, text, time, transformers, xml-conduit
-, xml-types
+, mime-mail, old-locale, stdenv, text, time, transformers
+, xml-conduit, xml-types
 }:
 mkDerivation {
   pname = "mime-mail-ses";

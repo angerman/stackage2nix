@@ -1,7 +1,7 @@
 { mkDerivation, async, attoparsec, base, bytestring, cron
 , directory, email-validate, filepath, hashable, hslogger
 , http-client, HUnit, lens, mime-mail, network-uri, QuickCheck
-, semigroups, shakespeare, strict, test-framework
+, semigroups, shakespeare, stdenv, strict, test-framework
 , test-framework-hunit, test-framework-quickcheck2, text
 , validation, wreq
 }:

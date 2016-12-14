@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, http-client, http-client-tls
-, pipes
+, pipes, stdenv
 }:
 mkDerivation {
   pname = "pipes-http";

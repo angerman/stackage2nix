@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, base64-bytestring, bytestring
 , case-insensitive, containers, cookie, directory, hashable, hspec
 , hspec-wai, http-types, hvect, mtl, old-locale, path-pieces
-, reroute, resourcet, stm, text, time, transformers
+, reroute, resourcet, stdenv, stm, text, time, transformers
 , unordered-containers, vault, wai, wai-extra, warp
 }:
 mkDerivation {

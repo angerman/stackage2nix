@@ -2,8 +2,8 @@
 , cmdargs, containers, csv, data-default, Decimal, deepseq
 , directory, doctest, filepath, Glob, HUnit, megaparsec, mtl
 , mtl-compat, old-time, parsec, pretty-show, regex-tdfa, safe
-, semigroups, split, test-framework, test-framework-hunit, text
-, time, transformers, uglymemo, utf8-string
+, semigroups, split, stdenv, test-framework, test-framework-hunit
+, text, time, transformers, uglymemo, utf8-string
 }:
 mkDerivation {
   pname = "hledger-lib";

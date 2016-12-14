@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, hashable, semigroups
-, tasty, tasty-quickcheck
+, stdenv, tasty, tasty-quickcheck
 }:
 mkDerivation {
   pname = "range-set-list";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, libsass }:
+{ mkDerivation, base, hspec, libsass, stdenv }:
 mkDerivation {
   pname = "hlibsass";
   version = "0.1.5.0";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, lens-family-core, mtl
+{ mkDerivation, base, containers, lens-family-core, mtl, stdenv
 , transformers
 }:
 mkDerivation {

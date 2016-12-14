@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, hspec, temporary, text
+{ mkDerivation, base, bytestring, hspec, stdenv, temporary, text
 , transformers
 }:
 mkDerivation {

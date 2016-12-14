@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, hourglass, memory }:
+{ mkDerivation, base, bytestring, hourglass, memory, stdenv }:
 mkDerivation {
   pname = "asn1-types";
   version = "0.3.2";

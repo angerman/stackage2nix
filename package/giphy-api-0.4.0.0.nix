@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, basic-prelude, bytestring, containers
 , directory, hspec, http-api-data, http-client, http-client-tls
 , lens, microlens, microlens-th, mtl, network-uri, servant
-, servant-client, text, transformers
+, servant-client, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "giphy-api";

@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, blaze-markup, blaze-svg
 , containers, data-default-class, diagrams-core, diagrams-lib
-, directory, parsec, split, text, tuple, vector, xml
+, directory, parsec, split, stdenv, text, tuple, vector, xml
 }:
 mkDerivation {
   pname = "SVGFonts";

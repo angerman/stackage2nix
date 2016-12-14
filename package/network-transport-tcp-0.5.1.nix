@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, data-accessor
-, network, network-transport, network-transport-tests
+, network, network-transport, network-transport-tests, stdenv
 }:
 mkDerivation {
   pname = "network-transport-tcp";

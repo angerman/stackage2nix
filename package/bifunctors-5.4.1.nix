@@ -1,6 +1,6 @@
 { mkDerivation, base, base-orphans, comonad, containers, hspec
-, QuickCheck, semigroups, tagged, template-haskell, transformers
-, transformers-compat
+, QuickCheck, semigroups, stdenv, tagged, template-haskell
+, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "bifunctors";

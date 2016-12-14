@@ -1,6 +1,7 @@
 { mkDerivation, aeson, base, bytestring, exceptions, http-client
 , http-conduit, http-types, mtl, safe, scientific, smallcheck
-, tasty, tasty-hunit, tasty-quickcheck, tasty-smallcheck, text
+, stdenv, tasty, tasty-hunit, tasty-quickcheck, tasty-smallcheck
+, text
 }:
 mkDerivation {
   pname = "kawhi";

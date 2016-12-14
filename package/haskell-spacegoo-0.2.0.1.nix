@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, conduit, conduit-extra
-, mtl, pretty, pretty-show, text, vector, vector-space
+, mtl, pretty, pretty-show, stdenv, text, vector, vector-space
 }:
 mkDerivation {
   pname = "haskell-spacegoo";

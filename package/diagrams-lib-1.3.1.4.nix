@@ -3,8 +3,8 @@
 , directory, distributive, dual-tree, exceptions, filepath
 , fingertree, fsnotify, hashable, intervals, JuicyPixels, lens
 , linear, monoid-extras, mtl, optparse-applicative, process
-, semigroups, tagged, tasty, tasty-hunit, text, transformers
-, unordered-containers
+, semigroups, stdenv, tagged, tasty, tasty-hunit, text
+, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "diagrams-lib";

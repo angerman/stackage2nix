@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, filepath }:
+{ mkDerivation, base, deepseq, filepath, stdenv }:
 mkDerivation {
   pname = "HUnit";
   version = "1.3.1.2";

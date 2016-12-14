@@ -5,7 +5,7 @@
 , fast-logger, hspec, hspec-expectations, http-types, HUnit
 , lifted-base, monad-control, monad-logger, mtl, mwc-random
 , network, old-locale, parsec, path-pieces, primitive, QuickCheck
-, random, resourcet, safe, semigroups, shakespeare
+, random, resourcet, safe, semigroups, shakespeare, stdenv
 , streaming-commons, template-haskell, text, time, transformers
 , transformers-base, unix-compat, unordered-containers, vector, wai
 , wai-extra, wai-logger, warp, word8

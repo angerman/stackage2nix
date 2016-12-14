@@ -1,5 +1,5 @@
 { mkDerivation, array, base, directory, pretty, process, QuickCheck
-, test-framework, test-framework-quickcheck2
+, stdenv, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "Diff";

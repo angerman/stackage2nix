@@ -1,6 +1,6 @@
 { mkDerivation, base, bindings-DSL, bytestring, bzip2, conduit
 , conduit-extra, data-default, hspec, mtl, QuickCheck, random
-, resourcet
+, resourcet, stdenv
 }:
 mkDerivation {
   pname = "bzlib-conduit";

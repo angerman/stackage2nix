@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, old-locale, time }:
+{ mkDerivation, base, hspec, old-locale, stdenv, time }:
 mkDerivation {
   pname = "friendly-time";
   version = "0.4";

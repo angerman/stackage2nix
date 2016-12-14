@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath }:
+{ mkDerivation, base, directory, filepath, stdenv }:
 mkDerivation {
   pname = "xdg-basedir";
   version = "0.2.2";

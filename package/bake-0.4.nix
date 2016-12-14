@@ -1,8 +1,8 @@
 { mkDerivation, aeson, base, bytestring, cmdargs, containers
 , deepseq, direct-sqlite, directory, disk-free-space, extra
 , filepath, hashable, HTTP, http-types, old-locale, process, random
-, safe, shake, smtp-mail, sqlite-simple, text, time, transformers
-, unordered-containers, wai, warp
+, safe, shake, smtp-mail, sqlite-simple, stdenv, text, time
+, transformers, unordered-containers, wai, warp
 }:
 mkDerivation {
   pname = "bake";

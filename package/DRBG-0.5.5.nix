@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, cereal, cipher-aes128
 , crypto-api, crypto-api-tests, cryptohash-cryptoapi, entropy
-, HUnit, mtl, parallel, prettyclass, QuickCheck, tagged
+, HUnit, mtl, parallel, prettyclass, QuickCheck, stdenv, tagged
 , test-framework, test-framework-hunit
 }:
 mkDerivation {

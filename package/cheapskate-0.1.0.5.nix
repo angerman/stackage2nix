@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-html, bytestring, containers
-, data-default, mtl, syb, text, uniplate, xss-sanitize
+, data-default, mtl, stdenv, syb, text, uniplate, xss-sanitize
 }:
 mkDerivation {
   pname = "cheapskate";

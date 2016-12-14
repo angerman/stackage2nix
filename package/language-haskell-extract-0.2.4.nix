@@ -1,4 +1,4 @@
-{ mkDerivation, base, regex-posix, template-haskell }:
+{ mkDerivation, base, regex-posix, stdenv, template-haskell }:
 mkDerivation {
   pname = "language-haskell-extract";
   version = "0.2.4";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, deepseq }:
+{ mkDerivation, base, containers, deepseq, stdenv }:
 mkDerivation {
   pname = "set-monad";
   version = "0.2.0.0";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, mtl, process, split
+{ mkDerivation, base, deepseq, mtl, process, split, stdenv
 , template-haskell
 }:
 mkDerivation {

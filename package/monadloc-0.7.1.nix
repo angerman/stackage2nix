@@ -1,4 +1,4 @@
-{ mkDerivation, base, template-haskell, transformers }:
+{ mkDerivation, base, stdenv, template-haskell, transformers }:
 mkDerivation {
   pname = "monadloc";
   version = "0.7.1";

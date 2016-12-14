@@ -1,6 +1,6 @@
 { mkDerivation, ansi-wl-pprint, base, binary, bytestring
 , containers, cryptohash, directory, filepath, hashable, hspec, mtl
-, parsec, parsers, QuickCheck, raw-strings-qq, regex-posix
+, parsec, parsers, QuickCheck, raw-strings-qq, regex-posix, stdenv
 , template-haskell, transformers, unordered-containers, vector
 }:
 mkDerivation {

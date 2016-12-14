@@ -1,8 +1,8 @@
 { mkDerivation, aeson-utils, base, bytestring, case-insensitive
 , data-default, exceptions, http-client, http-conduit, http-types
 , hxt, hxt-pickle-utils, monad-control, mtl, resourcet, rest-types
-, tostring, transformers, transformers-base, transformers-compat
-, uri-encode, utf8-string
+, stdenv, tostring, transformers, transformers-base
+, transformers-compat, uri-encode, utf8-string
 }:
 mkDerivation {
   pname = "rest-client";

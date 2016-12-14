@@ -3,7 +3,7 @@
 , ghc-paths, ghc-prim, ghc-syb-utils, gitrev, hslogger, hspec
 , HUnit, monad-control, monoid-extras, mtl, old-time
 , optparse-applicative, optparse-simple, parsec, pretty, process
-, QuickCheck, rosezipper, semigroups, silently
+, QuickCheck, rosezipper, semigroups, silently, stdenv
 , Strafunski-StrategyLib, stringbuilder, syb, syz, time
 , transformers, transformers-base
 }:

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, stm, transformers }:
+{ mkDerivation, base, hspec, stdenv, stm, transformers }:
 mkDerivation {
   pname = "io-region";
   version = "0.1.1";

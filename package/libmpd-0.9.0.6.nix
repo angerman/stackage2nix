@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, containers
 , data-default-class, filepath, hspec, mtl, network, old-locale
-, QuickCheck, text, time, unix, utf8-string
+, QuickCheck, stdenv, text, time, unix, utf8-string
 }:
 mkDerivation {
   pname = "libmpd";

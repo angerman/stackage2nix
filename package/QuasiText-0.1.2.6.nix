@@ -1,4 +1,4 @@
-{ mkDerivation, attoparsec, base, haskell-src-meta
+{ mkDerivation, attoparsec, base, haskell-src-meta, stdenv
 , template-haskell, text, th-lift-instances
 }:
 mkDerivation {

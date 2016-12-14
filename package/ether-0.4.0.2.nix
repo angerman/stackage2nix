@@ -1,5 +1,5 @@
 { mkDerivation, base, exceptions, mmorph, monad-control, mtl
-, QuickCheck, tasty, tasty-quickcheck, template-haskell
+, QuickCheck, stdenv, tasty, tasty-quickcheck, template-haskell
 , transformers, transformers-base, transformers-lift
 }:
 mkDerivation {

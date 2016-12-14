@@ -1,4 +1,6 @@
-{ mkDerivation, base, binary, bytestring, containers, parsec }:
+{ mkDerivation, base, binary, bytestring, containers, parsec
+, stdenv
+}:
 mkDerivation {
   pname = "bencode";
   version = "0.6.0.0";

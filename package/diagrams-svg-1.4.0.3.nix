@@ -1,8 +1,8 @@
 { mkDerivation, base, base64-bytestring, bytestring, colour
 , containers, diagrams-core, diagrams-lib, directory, filepath
 , hashable, JuicyPixels, lens, monoid-extras, mtl, old-time
-, optparse-applicative, process, semigroups, split, svg-builder
-, text, time
+, optparse-applicative, process, semigroups, split, stdenv
+, svg-builder, text, time
 }:
 mkDerivation {
   pname = "diagrams-svg";

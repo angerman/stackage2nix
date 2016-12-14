@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, ghc-prim, hspec, template-haskell
+{ mkDerivation, base, containers, ghc-prim, hspec, stdenv
+, template-haskell
 }:
 mkDerivation {
   pname = "generic-deriving";

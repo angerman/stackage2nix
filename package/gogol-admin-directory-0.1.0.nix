@@ -1,4 +1,4 @@
-{ mkDerivation, base, gogol-core }:
+{ mkDerivation, base, gogol-core, stdenv }:
 mkDerivation {
   pname = "gogol-admin-directory";
   version = "0.1.0";

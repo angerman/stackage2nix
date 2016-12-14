@@ -1,5 +1,5 @@
 { mkDerivation, base, data-default, hspec, hspec-discover, mtl
-, template-haskell, th-to-exp, transformers
+, stdenv, template-haskell, th-to-exp, transformers
 }:
 mkDerivation {
   pname = "test-fixture";

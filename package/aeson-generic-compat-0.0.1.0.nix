@@ -1,4 +1,4 @@
-{ mkDerivation, aeson, base }:
+{ mkDerivation, aeson, base, stdenv }:
 mkDerivation {
   pname = "aeson-generic-compat";
   version = "0.0.1.0";

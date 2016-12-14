@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, HUnit, QuickCheck
-, safecopy, syb, tasty, tasty-hunit, tasty-quickcheck
+, safecopy, stdenv, syb, tasty, tasty-hunit, tasty-quickcheck
 , template-haskell
 }:
 mkDerivation {

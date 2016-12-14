@@ -1,4 +1,4 @@
-{ mkDerivation, base, regex-applicative, text }:
+{ mkDerivation, base, regex-applicative, stdenv, text }:
 mkDerivation {
   pname = "regex-applicative-text";
   version = "0.1.0.1";

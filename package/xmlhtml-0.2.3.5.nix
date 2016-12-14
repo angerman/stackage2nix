@@ -1,7 +1,7 @@
 { mkDerivation, base, blaze-builder, blaze-html, blaze-markup
 , bytestring, containers, directory, HUnit, parsec, QuickCheck
-, test-framework, test-framework-hunit, test-framework-quickcheck2
-, text, unordered-containers
+, stdenv, test-framework, test-framework-hunit
+, test-framework-quickcheck2, text, unordered-containers
 }:
 mkDerivation {
   pname = "xmlhtml";

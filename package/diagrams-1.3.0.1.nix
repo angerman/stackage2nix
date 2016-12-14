@@ -1,5 +1,5 @@
 { mkDerivation, diagrams-contrib, diagrams-core, diagrams-lib
-, diagrams-svg
+, diagrams-svg, stdenv
 }:
 mkDerivation {
   pname = "diagrams";

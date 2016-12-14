@@ -1,4 +1,4 @@
-{ mkDerivation, base, template-haskell, units }:
+{ mkDerivation, base, stdenv, template-haskell, units }:
 mkDerivation {
   pname = "units-defs";
   version = "2.0.1.1";

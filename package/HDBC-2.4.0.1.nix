@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, convertible, mtl
-, old-time, text, time, utf8-string
+, old-time, stdenv, text, time, utf8-string
 }:
 mkDerivation {
   pname = "HDBC";

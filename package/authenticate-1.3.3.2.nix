@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, blaze-builder, bytestring
 , case-insensitive, conduit, containers, http-conduit, http-types
-, monad-control, network-uri, resourcet, tagstream-conduit, text
-, transformers, unordered-containers, xml-conduit
+, monad-control, network-uri, resourcet, stdenv, tagstream-conduit
+, text, transformers, unordered-containers, xml-conduit
 }:
 mkDerivation {
   pname = "authenticate";

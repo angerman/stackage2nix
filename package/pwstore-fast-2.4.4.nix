@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, binary, byteable
-, bytestring, cryptohash, random
+, bytestring, cryptohash, random, stdenv
 }:
 mkDerivation {
   pname = "pwstore-fast";

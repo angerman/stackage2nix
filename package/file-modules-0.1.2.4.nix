@@ -1,5 +1,5 @@
 { mkDerivation, async, base, directory, filepath, haskell-src-exts
-, MissingH, regex-compat, regex-pcre
+, MissingH, regex-compat, regex-pcre, stdenv
 }:
 mkDerivation {
   pname = "file-modules";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, logict, mtl, pretty }:
+{ mkDerivation, base, ghc-prim, logict, mtl, pretty, stdenv }:
 mkDerivation {
   pname = "smallcheck";
   version = "1.1.1";

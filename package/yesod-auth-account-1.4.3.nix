@@ -1,7 +1,7 @@
 { mkDerivation, base, blaze-html, bytestring, hspec, monad-logger
 , mtl, nonce, persistent, persistent-sqlite, pwstore-fast
-, resourcet, text, xml-conduit, yesod, yesod-auth, yesod-core
-, yesod-form, yesod-persistent, yesod-test
+, resourcet, stdenv, text, xml-conduit, yesod, yesod-auth
+, yesod-core, yesod-form, yesod-persistent, yesod-test
 }:
 mkDerivation {
   pname = "yesod-auth-account";

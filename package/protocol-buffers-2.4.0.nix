@@ -1,5 +1,5 @@
 { mkDerivation, array, base, binary, bytestring, containers
-, directory, filepath, mtl, parsec, syb, utf8-string
+, directory, filepath, mtl, parsec, stdenv, syb, utf8-string
 }:
 mkDerivation {
   pname = "protocol-buffers";

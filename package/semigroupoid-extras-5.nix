@@ -1,4 +1,4 @@
-{ mkDerivation, base, profunctors, semigroupoids }:
+{ mkDerivation, base, profunctors, semigroupoids, stdenv }:
 mkDerivation {
   pname = "semigroupoid-extras";
   version = "5";

@@ -1,4 +1,5 @@
-{ mkDerivation, array, base, bytestring, QuickCheck, random }:
+{ mkDerivation, array, base, bytestring, QuickCheck, random, stdenv
+}:
 mkDerivation {
   pname = "HCodecs";
   version = "0.5";

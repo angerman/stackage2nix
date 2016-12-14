@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, classy-prelude, classy-prelude-conduit
-, data-default, http-conduit, http-types, persistent, yesod
+, data-default, http-conduit, http-types, persistent, stdenv, yesod
 , yesod-newsfeed, yesod-static
 }:
 mkDerivation {

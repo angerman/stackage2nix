@@ -1,5 +1,5 @@
 { mkDerivation, base, deepseq, hashable, hspec, hvect, mtl
-, path-pieces, text, unordered-containers, vector
+, path-pieces, stdenv, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "reroute";

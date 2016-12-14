@@ -1,7 +1,7 @@
 { mkDerivation, async, base, base-prelude, bytestring, conduit
 , conduit-extra, consul-haskell, enclosed-exceptions, http-client
 , http-types, monad-control, monad-logger, network, process
-, resourcet, text, transformers, void, wai, wai-conduit
+, resourcet, stdenv, text, transformers, void, wai, wai-conduit
 }:
 mkDerivation {
   pname = "wai-middleware-consul";

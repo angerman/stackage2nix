@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-qq, base, base-compat, containers
 , deepseq, directory, filepath, Glob, hspec, interpolate, mockery
-, QuickCheck, temporary, text, unordered-containers, yaml
+, QuickCheck, stdenv, temporary, text, unordered-containers, yaml
 }:
 mkDerivation {
   pname = "hpack";

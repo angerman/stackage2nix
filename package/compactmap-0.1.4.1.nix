@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, hspec, QuickCheck, vector }:
+{ mkDerivation, base, containers, hspec, QuickCheck, stdenv, vector
+}:
 mkDerivation {
   pname = "compactmap";
   version = "0.1.4.1";

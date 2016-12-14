@@ -1,5 +1,5 @@
 { mkDerivation, base, base16-bytestring, binary, bytestring, cereal
-, cryptohash, entropy, HUnit, largeword, mtl, QuickCheck
+, cryptohash, entropy, HUnit, largeword, mtl, QuickCheck, stdenv
 , string-conversions, test-framework, test-framework-hunit
 , test-framework-quickcheck2
 }:

@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, bzip2 }:
+{ mkDerivation, base, bytestring, bzip2, stdenv }:
 mkDerivation {
   pname = "bzlib";
   version = "0.5.0.5";

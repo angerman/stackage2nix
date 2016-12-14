@@ -3,7 +3,7 @@
 , data-default-class, dlist, either, hashable, hashtables, loch-th
 , mtl, placeholders, postgresql-binary, postgresql-libpq
 , profunctors, QuickCheck, quickcheck-instances, rebase, scientific
-, semigroups, tasty, tasty-hunit, tasty-quickcheck
+, semigroups, stdenv, tasty, tasty-hunit, tasty-quickcheck
 , tasty-smallcheck, text, time, transformers, uuid, vector
 }:
 mkDerivation {

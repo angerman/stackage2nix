@@ -1,6 +1,7 @@
 { mkDerivation, aeson, base, bytestring, Cabal, containers, deepseq
 , directory, filepath, haskell-src-exts, hse-cpp, mtl
-, optparse-applicative, tagged, transformers, transformers-compat
+, optparse-applicative, stdenv, tagged, transformers
+, transformers-compat
 }:
 mkDerivation {
   pname = "haskell-packages";

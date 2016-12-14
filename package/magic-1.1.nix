@@ -1,4 +1,4 @@
-{ mkDerivation, base, file }:
+{ mkDerivation, base, file, stdenv }:
 mkDerivation {
   pname = "magic";
   version = "1.1";

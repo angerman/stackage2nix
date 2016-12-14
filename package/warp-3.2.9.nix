@@ -2,8 +2,9 @@
 , bytestring, bytestring-builder, case-insensitive, containers
 , directory, doctest, ghc-prim, hashable, hspec, HTTP, http-date
 , http-types, http2, HUnit, iproute, lifted-base, network, process
-, QuickCheck, silently, simple-sendfile, stm, streaming-commons
-, text, time, transformers, unix, unix-compat, vault, wai, word8
+, QuickCheck, silently, simple-sendfile, stdenv, stm
+, streaming-commons, text, time, transformers, unix, unix-compat
+, vault, wai, word8
 }:
 mkDerivation {
   pname = "warp";

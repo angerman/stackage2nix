@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, gdk_pixbuf, gi-gio
 , gi-glib, gi-gobject, gobjectIntrospection, haskell-gi
-, haskell-gi-base, text, transformers
+, haskell-gi-base, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "gi-gdkpixbuf";

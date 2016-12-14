@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, hspec, QuickCheck }:
+{ mkDerivation, base, ghc-prim, hspec, QuickCheck, stdenv }:
 mkDerivation {
   pname = "base-orphans";
   version = "0.5.4";

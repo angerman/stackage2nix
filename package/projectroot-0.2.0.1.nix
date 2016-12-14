@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, hspec, QuickCheck }:
+{ mkDerivation, base, directory, hspec, QuickCheck, stdenv }:
 mkDerivation {
   pname = "projectroot";
   version = "0.2.0.1";

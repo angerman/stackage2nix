@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, fgl, hspec, QuickCheck }:
+{ mkDerivation, base, containers, fgl, hspec, QuickCheck, stdenv }:
 mkDerivation {
   pname = "fgl-arbitrary";
   version = "0.2.0.2";

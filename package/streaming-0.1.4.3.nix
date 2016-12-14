@@ -1,5 +1,5 @@
 { mkDerivation, base, exceptions, ghc-prim, mmorph, monad-control
-, mtl, resourcet, time, transformers, transformers-base
+, mtl, resourcet, stdenv, time, transformers, transformers-base
 }:
 mkDerivation {
   pname = "streaming";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, repa, vector }:
+{ mkDerivation, base, repa, stdenv, vector }:
 mkDerivation {
   pname = "repa-algorithms";
   version = "3.4.1.1";

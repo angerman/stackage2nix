@@ -1,5 +1,5 @@
-{ mkDerivation, base, conduit, containers, data-default, text, time
-, xml-conduit, xml-types, yesod-core
+{ mkDerivation, base, conduit, containers, data-default, stdenv
+, text, time, xml-conduit, xml-types, yesod-core
 }:
 mkDerivation {
   pname = "yesod-sitemap";

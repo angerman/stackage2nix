@@ -1,6 +1,6 @@
 { mkDerivation, asn1-encoding, asn1-parse, asn1-types, base
 , bytestring, containers, cryptonite, hourglass, memory, mtl, pem
-, tasty, tasty-quickcheck
+, stdenv, tasty, tasty-quickcheck
 }:
 mkDerivation {
   pname = "x509";

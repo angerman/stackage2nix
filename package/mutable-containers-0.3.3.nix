@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, ghc-prim, hspec, mono-traversable
-, primitive, QuickCheck, vector
+, primitive, QuickCheck, stdenv, vector
 }:
 mkDerivation {
   pname = "mutable-containers";

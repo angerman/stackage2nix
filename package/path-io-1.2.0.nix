@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, exceptions, filepath
-, hspec, path, temporary, time, transformers, unix-compat
+, hspec, path, stdenv, temporary, time, transformers, unix-compat
 }:
 mkDerivation {
   pname = "path-io";

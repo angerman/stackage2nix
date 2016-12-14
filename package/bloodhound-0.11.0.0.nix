@@ -2,7 +2,7 @@
 , data-default-class, derive, directory, doctest, doctest-prop
 , errors, exceptions, filepath, hashable, hspec, http-client
 , http-types, mtl, mtl-compat, network-uri, QuickCheck
-, quickcheck-properties, scientific, semigroups, text, time
+, quickcheck-properties, scientific, semigroups, stdenv, text, time
 , transformers, unordered-containers, vector
 }:
 mkDerivation {

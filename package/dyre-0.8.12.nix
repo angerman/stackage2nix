@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, directory, executable-path, filepath
-, ghc-paths, io-storage, process, time, unix, xdg-basedir
+, ghc-paths, io-storage, process, stdenv, time, unix, xdg-basedir
 }:
 mkDerivation {
   pname = "dyre";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, optparse-applicative, text }:
+{ mkDerivation, base, hspec, optparse-applicative, stdenv, text }:
 mkDerivation {
   pname = "optparse-text";
   version = "0.1.1.0";

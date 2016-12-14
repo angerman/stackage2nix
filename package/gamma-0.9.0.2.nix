@@ -1,4 +1,4 @@
-{ mkDerivation, base, continued-fractions, converge
+{ mkDerivation, base, continued-fractions, converge, stdenv
 , template-haskell, vector
 }:
 mkDerivation {

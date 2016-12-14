@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, containers }:
+{ mkDerivation, base, bytestring, containers, stdenv }:
 mkDerivation {
   pname = "rfc5051";
   version = "0.1.0.3";

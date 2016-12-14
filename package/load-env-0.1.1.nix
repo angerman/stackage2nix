@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, hspec, HUnit, parsec }:
+{ mkDerivation, base, directory, hspec, HUnit, parsec, stdenv }:
 mkDerivation {
   pname = "load-env";
   version = "0.1.1";

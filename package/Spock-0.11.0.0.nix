@@ -1,7 +1,7 @@
 { mkDerivation, base, base64-bytestring, bytestring, containers
 , cryptonite, focus, hashable, hspec, hspec-wai, http-types, hvect
 , list-t, monad-control, mtl, reroute, resource-pool, resourcet
-, Spock-core, stm, stm-containers, text, time, transformers
+, Spock-core, stdenv, stm, stm-containers, text, time, transformers
 , transformers-base, unordered-containers, vault, wai, wai-extra
 }:
 mkDerivation {

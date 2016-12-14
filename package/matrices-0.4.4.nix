@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, primitive, tasty, tasty-hunit
-, tasty-quickcheck, vector
+{ mkDerivation, base, deepseq, primitive, stdenv, tasty
+, tasty-hunit, tasty-quickcheck, vector
 }:
 mkDerivation {
   pname = "matrices";

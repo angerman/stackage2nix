@@ -1,4 +1,6 @@
-{ mkDerivation, base, exception-transformers, mtl, transformers }:
+{ mkDerivation, base, exception-transformers, mtl, stdenv
+, transformers
+}:
 mkDerivation {
   pname = "exception-mtl";
   version = "0.4.0.1";

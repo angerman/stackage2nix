@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, conduit, containers
 , hw-bits, hw-conduit, hw-parser, hw-prim, hw-rankselect
-, mono-traversable, text, vector, word8
+, mono-traversable, stdenv, text, vector, word8
 }:
 mkDerivation {
   pname = "hw-succinct";

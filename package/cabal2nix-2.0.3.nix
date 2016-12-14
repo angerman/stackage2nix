@@ -1,8 +1,8 @@
 { mkDerivation, aeson, ansi-wl-pprint, base, bytestring, Cabal
 , containers, deepseq, directory, distribution-nixpkgs, filepath
 , hackage-db, language-nix, lens, monad-par, monad-par-extras, mtl
-, optparse-applicative, pretty, process, SHA, split, text, time
-, transformers, utf8-string, yaml
+, optparse-applicative, pretty, process, SHA, split, stdenv, text
+, time, transformers, utf8-string, yaml
 }:
 mkDerivation {
   pname = "cabal2nix";

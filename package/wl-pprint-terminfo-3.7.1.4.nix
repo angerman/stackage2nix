@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, nats, semigroups
-, terminfo, text, transformers, wl-pprint-extras
+, stdenv, terminfo, text, transformers, wl-pprint-extras
 }:
 mkDerivation {
   pname = "wl-pprint-terminfo";

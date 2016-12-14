@@ -1,5 +1,5 @@
 { mkDerivation, base, mtl, opaleye, postgresql-simple
-, product-profunctors, transformers, transformers-base
+, product-profunctors, stdenv, transformers, transformers-base
 }:
 mkDerivation {
   pname = "opaleye-trans";

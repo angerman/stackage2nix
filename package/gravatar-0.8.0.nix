@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, data-default, hspec, HTTP
-, pureMD5, text
+, pureMD5, stdenv, text
 }:
 mkDerivation {
   pname = "gravatar";

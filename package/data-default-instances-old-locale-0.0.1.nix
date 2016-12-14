@@ -1,4 +1,4 @@
-{ mkDerivation, base, data-default-class, old-locale }:
+{ mkDerivation, base, data-default-class, old-locale, stdenv }:
 mkDerivation {
   pname = "data-default-instances-old-locale";
   version = "0.0.1";

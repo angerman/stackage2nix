@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, errors, HTF, lifted-base, mtl
-, Spock, stm, text, time, transformers, vector
+, Spock, stdenv, stm, text, time, transformers, vector
 }:
 mkDerivation {
   pname = "Spock-worker";

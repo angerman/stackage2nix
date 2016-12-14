@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, bytestring-builder
 , deepseq, directory, filepath, HUnit, mtl, network, primitive
-, process, QuickCheck, test-framework, test-framework-hunit
+, process, QuickCheck, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, time, transformers, vector
 , zlib, zlib-bindings
 }:

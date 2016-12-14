@@ -1,4 +1,6 @@
-{ mkDerivation, base, cairo, diagrams-cairo, diagrams-lib, gtk }:
+{ mkDerivation, base, cairo, diagrams-cairo, diagrams-lib, gtk
+, stdenv
+}:
 mkDerivation {
   pname = "diagrams-gtk";
   version = "1.3.0.2";

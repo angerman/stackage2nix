@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, bytestring-conversion
 , errors, hspec, hspec-attoparsec, http-api-data, network-uri
-, QuickCheck, text
+, QuickCheck, stdenv, text
 }:
 mkDerivation {
   pname = "http-link-header";

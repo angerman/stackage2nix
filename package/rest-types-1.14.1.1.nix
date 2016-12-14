@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, base-compat, case-insensitive
 , generic-aeson, generic-xmlpickler, hxt, json-schema
-, rest-stringmap, text, uuid
+, rest-stringmap, stdenv, text, uuid
 }:
 mkDerivation {
   pname = "rest-types";

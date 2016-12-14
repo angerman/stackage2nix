@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, QuickCheck, random
+{ mkDerivation, array, base, containers, QuickCheck, random, stdenv
 , test-framework, test-framework-quickcheck2
 }:
 mkDerivation {

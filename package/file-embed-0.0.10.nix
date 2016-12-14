@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, directory, filepath
+{ mkDerivation, base, bytestring, directory, filepath, stdenv
 , template-haskell
 }:
 mkDerivation {

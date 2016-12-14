@@ -1,5 +1,5 @@
-{ mkDerivation, base, mtl, old-locale, process-extras, text, time
-, time-locale-compat
+{ mkDerivation, base, mtl, old-locale, process-extras, stdenv, text
+, time, time-locale-compat
 }:
 mkDerivation {
   pname = "pdfinfo";

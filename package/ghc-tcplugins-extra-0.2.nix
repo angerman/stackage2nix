@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc }:
+{ mkDerivation, base, ghc, stdenv }:
 mkDerivation {
   pname = "ghc-tcplugins-extra";
   version = "0.2";

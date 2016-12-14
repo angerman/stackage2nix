@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, containers
-, JuicyPixels, lens, linear, mtl, scientific, text, transformers
-, vector, xml
+, JuicyPixels, lens, linear, mtl, scientific, stdenv, text
+, transformers, vector, xml
 }:
 mkDerivation {
   pname = "svg-tree";

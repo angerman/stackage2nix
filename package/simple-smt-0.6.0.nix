@@ -1,4 +1,4 @@
-{ mkDerivation, base, process }:
+{ mkDerivation, base, process, stdenv }:
 mkDerivation {
   pname = "simple-smt";
   version = "0.6.0";

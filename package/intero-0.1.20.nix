@@ -1,6 +1,7 @@
 { mkDerivation, array, base, bytestring, containers, directory
 , filepath, ghc, ghc-boot-th, ghc-paths, ghci, haskeline, hspec
-, process, regex-compat, syb, temporary, time, transformers, unix
+, process, regex-compat, stdenv, syb, temporary, time, transformers
+, unix
 }:
 mkDerivation {
   pname = "intero";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, haskell-src-meta, mtl, parsec
+{ mkDerivation, base, haskell-src-meta, mtl, parsec, stdenv
 , template-haskell
 }:
 mkDerivation {

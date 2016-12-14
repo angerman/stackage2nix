@@ -1,5 +1,5 @@
 { mkDerivation, async, base, Cabal, containers
-, package-description-remote
+, package-description-remote, stdenv
 }:
 mkDerivation {
   pname = "extract-dependencies";

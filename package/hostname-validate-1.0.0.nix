@@ -1,4 +1,4 @@
-{ mkDerivation, attoparsec, base, bytestring }:
+{ mkDerivation, attoparsec, base, bytestring, stdenv }:
 mkDerivation {
   pname = "hostname-validate";
   version = "1.0.0";

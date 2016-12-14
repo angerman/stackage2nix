@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-html, directory, filepath, HaTeX
-, parsec, text, time, transformers
+, parsec, stdenv, text, time, transformers
 }:
 mkDerivation {
   pname = "hatex-guide";

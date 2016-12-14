@@ -2,8 +2,8 @@
 , bytestring, chunked-data, conduit, conduit-extra, containers
 , directory, filepath, hspec, monad-control, mono-traversable, mtl
 , mwc-random, primitive, QuickCheck, resourcet, safe, silently
-, text, transformers, transformers-base, unix, unix-compat, vector
-, void
+, stdenv, text, transformers, transformers-base, unix, unix-compat
+, vector, void
 }:
 mkDerivation {
   pname = "conduit-combinators";

@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bifunctors, bytestring, cassava
-, conduit, conduit-extra, containers, mtl, QuickCheck, text
+, conduit, conduit-extra, containers, mtl, QuickCheck, stdenv, text
 }:
 mkDerivation {
   pname = "cassava-conduit";

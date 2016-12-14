@@ -1,5 +1,5 @@
 { mkDerivation, base, clckwrks, happstack-authenticate, hsp
-, hsx-jmacro, hsx2hs, jmacro, mtl, text, web-plugins
+, hsx-jmacro, hsx2hs, jmacro, mtl, stdenv, text, web-plugins
 }:
 mkDerivation {
   pname = "clckwrks-theme-bootstrap";

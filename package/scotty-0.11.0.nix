@@ -1,8 +1,8 @@
 { mkDerivation, aeson, async, base, blaze-builder, bytestring
 , case-insensitive, data-default-class, directory, fail, hspec
 , hspec-wai, http-types, lifted-base, monad-control, mtl, nats
-, network, regex-compat, text, transformers, transformers-base
-, transformers-compat, wai, wai-extra, warp
+, network, regex-compat, stdenv, text, transformers
+, transformers-base, transformers-compat, wai, wai-extra, warp
 }:
 mkDerivation {
   pname = "scotty";

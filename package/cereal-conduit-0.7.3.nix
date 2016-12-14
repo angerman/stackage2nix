@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, conduit, HUnit, mtl
-, resourcet, transformers
+, resourcet, stdenv, transformers
 }:
 mkDerivation {
   pname = "cereal-conduit";

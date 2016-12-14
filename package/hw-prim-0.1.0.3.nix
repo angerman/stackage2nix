@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, deepseq, hspec, QuickCheck
-, random, vector
+, random, stdenv, vector
 }:
 mkDerivation {
   pname = "hw-prim";

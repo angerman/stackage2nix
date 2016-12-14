@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl }:
+{ mkDerivation, base, mtl, stdenv }:
 mkDerivation {
   pname = "IfElse";
   version = "0.85";

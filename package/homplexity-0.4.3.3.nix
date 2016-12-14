@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, cpphs, deepseq, directory
-, filepath, happy, haskell-src-exts, hflags, template-haskell
-, uniplate
+, filepath, happy, haskell-src-exts, hflags, stdenv
+, template-haskell, uniplate
 }:
 mkDerivation {
   pname = "homplexity";

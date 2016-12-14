@@ -1,5 +1,5 @@
-{ mkDerivation, base, blaze-builder, conduit, transformers, wai
-, wai-eventsource, wai-extra, yesod-core
+{ mkDerivation, base, blaze-builder, conduit, stdenv, transformers
+, wai, wai-eventsource, wai-extra, yesod-core
 }:
 mkDerivation {
   pname = "yesod-eventsource";

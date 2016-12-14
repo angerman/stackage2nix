@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers, deepseq
 , directory, exceptions, file-embed, filepath, hspec
-, hspec-megaparsec, megaparsec, mtl, template-haskell, text
+, hspec-megaparsec, megaparsec, mtl, stdenv, template-haskell, text
 , unordered-containers, vector, yaml
 }:
 mkDerivation {

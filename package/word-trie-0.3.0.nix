@@ -1,4 +1,5 @@
-{ mkDerivation, base, binary, containers, hspec, QuickCheck }:
+{ mkDerivation, base, binary, containers, hspec, QuickCheck, stdenv
+}:
 mkDerivation {
   pname = "word-trie";
   version = "0.3.0";

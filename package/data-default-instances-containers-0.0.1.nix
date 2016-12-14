@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, data-default-class }:
+{ mkDerivation, base, containers, data-default-class, stdenv }:
 mkDerivation {
   pname = "data-default-instances-containers";
   version = "0.0.1";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, containers, directory
-, filepath, split, tar, text, time
+, filepath, split, stdenv, tar, text, time
 }:
 mkDerivation {
   pname = "packdeps";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, transformers, transformers-base }:
+{ mkDerivation, base, stdenv, transformers, transformers-base }:
 mkDerivation {
   pname = "control-monad-loop";
   version = "0.1";

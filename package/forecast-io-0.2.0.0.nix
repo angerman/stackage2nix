@@ -1,4 +1,4 @@
-{ mkDerivation, aeson, base, text }:
+{ mkDerivation, aeson, base, stdenv, text }:
 mkDerivation {
   pname = "forecast-io";
   version = "0.2.0.0";

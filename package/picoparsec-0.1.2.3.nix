@@ -1,7 +1,7 @@
 { mkDerivation, array, base, bytestring, containers, deepseq
 , monoid-subclasses, QuickCheck, quickcheck-instances
-, quickcheck-unicode, scientific, tasty, tasty-quickcheck, text
-, vector
+, quickcheck-unicode, scientific, stdenv, tasty, tasty-quickcheck
+, text, vector
 }:
 mkDerivation {
   pname = "picoparsec";

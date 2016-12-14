@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl }:
+{ mkDerivation, base, containers, mtl, stdenv }:
 mkDerivation {
   pname = "tagshare";
   version = "0.0";

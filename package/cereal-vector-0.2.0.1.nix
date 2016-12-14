@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, cereal, QuickCheck, vector }:
+{ mkDerivation, base, bytestring, cereal, QuickCheck, stdenv
+, vector
+}:
 mkDerivation {
   pname = "cereal-vector";
   version = "0.2.0.1";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck, unfoldable-restricted }:
+{ mkDerivation, base, QuickCheck, stdenv, unfoldable-restricted }:
 mkDerivation {
   pname = "quickcheck-combinators";
   version = "0.0.1";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bifunctors, directory, doctest, filepath
-, lens, mtl, QuickCheck, semigroupoids, semigroups
+, lens, mtl, QuickCheck, semigroupoids, semigroups, stdenv
 , template-haskell, transformers
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, HUnit, mtl, test-framework
-, test-framework-hunit, text
+{ mkDerivation, base, bytestring, HUnit, mtl, stdenv
+, test-framework, test-framework-hunit, text
 }:
 mkDerivation {
   pname = "parsec";

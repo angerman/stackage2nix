@@ -1,6 +1,6 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, microlens
-, scientific, tasty, tasty-hunit, text, unordered-containers
-, vector
+, scientific, stdenv, tasty, tasty-hunit, text
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "microlens-aeson";

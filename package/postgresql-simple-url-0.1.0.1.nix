@@ -1,5 +1,5 @@
-{ mkDerivation, base, network-uri, postgresql-simple, split, tasty
-, tasty-quickcheck
+{ mkDerivation, base, network-uri, postgresql-simple, split, stdenv
+, tasty, tasty-quickcheck
 }:
 mkDerivation {
   pname = "postgresql-simple-url";

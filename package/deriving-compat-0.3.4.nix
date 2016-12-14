@@ -1,6 +1,6 @@
 { mkDerivation, base, base-compat, base-orphans, containers
-, ghc-boot-th, ghc-prim, hspec, QuickCheck, template-haskell
-, transformers, transformers-compat
+, ghc-boot-th, ghc-prim, hspec, QuickCheck, stdenv
+, template-haskell, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "deriving-compat";

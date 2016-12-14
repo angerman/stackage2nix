@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-builder, conduit, hspec, persistent
 , persistent-sqlite, persistent-template, resource-pool, resourcet
-, text, transformers, wai-extra, yesod-core
+, stdenv, text, transformers, wai-extra, yesod-core
 }:
 mkDerivation {
   pname = "yesod-persistent";

@@ -1,5 +1,5 @@
-{ mkDerivation, aeson, attoparsec, base, bytestring, filepath, text
-, unordered-containers, vector
+{ mkDerivation, aeson, attoparsec, base, bytestring, filepath
+, stdenv, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "profiteur";

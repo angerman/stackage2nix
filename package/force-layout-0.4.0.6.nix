@@ -1,4 +1,5 @@
 { mkDerivation, base, containers, data-default-class, lens, linear
+, stdenv
 }:
 mkDerivation {
   pname = "force-layout";

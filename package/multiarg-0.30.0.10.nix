@@ -1,4 +1,5 @@
-{ mkDerivation, base, QuickCheck, tasty, tasty-quickcheck, tasty-th
+{ mkDerivation, base, QuickCheck, stdenv, tasty, tasty-quickcheck
+, tasty-th
 }:
 mkDerivation {
   pname = "multiarg";

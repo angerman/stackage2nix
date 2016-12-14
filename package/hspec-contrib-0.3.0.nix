@@ -1,4 +1,5 @@
-{ mkDerivation, base, hspec, hspec-core, HUnit, QuickCheck }:
+{ mkDerivation, base, hspec, hspec-core, HUnit, QuickCheck, stdenv
+}:
 mkDerivation {
   pname = "hspec-contrib";
   version = "0.3.0";

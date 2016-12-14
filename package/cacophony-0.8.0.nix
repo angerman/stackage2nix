@@ -1,6 +1,7 @@
 { mkDerivation, aeson, async, base, base16-bytestring, bytestring
 , cryptonite, deepseq, directory, exceptions, free, hlint, lens
-, memory, monad-coroutine, mtl, safe-exceptions, text, transformers
+, memory, monad-coroutine, mtl, safe-exceptions, stdenv, text
+, transformers
 }:
 mkDerivation {
   pname = "cacophony";

@@ -1,7 +1,7 @@
 { mkDerivation, attoparsec, base, directory, exceptions, extra, mtl
 , optparse-applicative, pretty, QuickCheck, quickcheck-combinators
-, quickcheck-instances, tasty, tasty-quickcheck, text, transformers
-, unordered-containers
+, quickcheck-instances, stdenv, tasty, tasty-quickcheck, text
+, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "ltext";

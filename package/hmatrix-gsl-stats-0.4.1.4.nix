@@ -1,5 +1,5 @@
-{ mkDerivation, base, binary, gsl, hmatrix, storable-complex
-, vector
+{ mkDerivation, base, binary, gsl, hmatrix, stdenv
+, storable-complex, vector
 }:
 mkDerivation {
   pname = "hmatrix-gsl-stats";

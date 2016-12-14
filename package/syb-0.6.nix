@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, HUnit, mtl }:
+{ mkDerivation, base, containers, HUnit, mtl, stdenv }:
 mkDerivation {
   pname = "syb";
   version = "0.6";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, time }:
+{ mkDerivation, base, stdenv, time }:
 mkDerivation {
   pname = "snowflake";
   version = "0.1.1.1";

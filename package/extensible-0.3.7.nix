@@ -1,5 +1,5 @@
 { mkDerivation, base, constraints, monad-skeleton, profunctors
-, tagged, template-haskell, transformers
+, stdenv, tagged, template-haskell, transformers
 }:
 mkDerivation {
   pname = "extensible";

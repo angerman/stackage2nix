@@ -1,5 +1,5 @@
 { mkDerivation, array, base, colour, data-default-class, lens, mtl
-, old-locale, operational, time, vector
+, old-locale, operational, stdenv, time, vector
 }:
 mkDerivation {
   pname = "Chart";

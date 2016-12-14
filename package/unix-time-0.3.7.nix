@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, doctest, hspec
-, old-locale, old-time, QuickCheck, time
+, old-locale, old-time, QuickCheck, stdenv, time
 }:
 mkDerivation {
   pname = "unix-time";

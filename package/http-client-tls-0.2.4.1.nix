@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, connection, data-default-class
-, hspec, http-client, http-types, network, tls
+, hspec, http-client, http-types, network, stdenv, tls
 }:
 mkDerivation {
   pname = "http-client-tls";

@@ -1,5 +1,5 @@
-{ mkDerivation, aeson, attoparsec, base, bytestring, process, text
-, unordered-containers, utf8-string
+{ mkDerivation, aeson, attoparsec, base, bytestring, process
+, stdenv, text, unordered-containers, utf8-string
 }:
 mkDerivation {
   pname = "sourcemap";

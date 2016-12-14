@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-pretty, base, bytestring, directory
 , filepath, hspec, hspec-core, QuickCheck, quickcheck-arbitrary-adt
-, random, silently, transformers
+, random, silently, stdenv, transformers
 }:
 mkDerivation {
   pname = "hspec-golden-aeson";

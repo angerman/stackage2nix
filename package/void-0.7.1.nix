@@ -1,4 +1,6 @@
-{ mkDerivation, base, deepseq, ghc-prim, hashable, semigroups }:
+{ mkDerivation, base, deepseq, ghc-prim, hashable, semigroups
+, stdenv
+}:
 mkDerivation {
   pname = "void";
   version = "0.7.1";

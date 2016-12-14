@@ -1,5 +1,5 @@
 { mkDerivation, base, digits, integer-gmp, QuickCheck, smallcheck
-, tasty, tasty-quickcheck, tasty-smallcheck
+, stdenv, tasty, tasty-quickcheck, tasty-smallcheck
 }:
 mkDerivation {
   pname = "fast-digits";

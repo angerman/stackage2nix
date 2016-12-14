@@ -1,7 +1,7 @@
 { mkDerivation, array, base, bytestring, containers, dlist
 , names-th, persistable-record, quickcheck-simple, sql-words
-, template-haskell, text, th-reify-compat, time, time-locale-compat
-, transformers
+, stdenv, template-haskell, text, th-reify-compat, time
+, time-locale-compat, transformers
 }:
 mkDerivation {
   pname = "relational-query";

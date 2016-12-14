@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-pretty, base, bytestring
 , bytestring-conversion, case-insensitive, control-monad-omega
-, hashable, hspec, http-media, http-types, lens, servant
+, hashable, hspec, http-media, http-types, lens, servant, stdenv
 , string-conversions, text, unordered-containers
 }:
 mkDerivation {

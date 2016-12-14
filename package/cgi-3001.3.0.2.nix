@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, doctest, exceptions
-, mtl, multipart, network, network-uri, parsec, QuickCheck, time
-, xhtml
+, mtl, multipart, network, network-uri, parsec, QuickCheck, stdenv
+, time, xhtml
 }:
 mkDerivation {
   pname = "cgi";

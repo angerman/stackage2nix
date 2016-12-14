@@ -1,4 +1,4 @@
-{ mkDerivation, base, hashable, time }:
+{ mkDerivation, base, hashable, stdenv, time }:
 mkDerivation {
   pname = "hashable-time";
   version = "0.2";

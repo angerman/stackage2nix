@@ -1,4 +1,4 @@
-{ mkDerivation }:
+{ mkDerivation, stdenv }:
 mkDerivation {
   pname = "composition";
   version = "1.0.2.1";

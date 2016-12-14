@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, pcre
-, regex-base
+, regex-base, stdenv
 }:
 mkDerivation {
   pname = "regex-pcre";

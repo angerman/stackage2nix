@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, directory, filepath, hspec
-, taglib, text
+, stdenv, taglib, text
 }:
 mkDerivation {
   pname = "htaglib";

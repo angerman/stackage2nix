@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, stm, transformers }:
+{ mkDerivation, base, ghc-prim, stdenv, stm, transformers }:
 mkDerivation {
   pname = "speculation";
   version = "1.5.0.3";

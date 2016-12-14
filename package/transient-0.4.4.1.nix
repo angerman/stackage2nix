@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, directory, mtl, random, stm, time
-, transformers
+{ mkDerivation, base, containers, directory, mtl, random, stdenv
+, stm, time, transformers
 }:
 mkDerivation {
   pname = "transient";

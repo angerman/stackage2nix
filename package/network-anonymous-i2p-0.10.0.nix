@@ -1,6 +1,7 @@
 { mkDerivation, attoparsec, base, bytestring, exceptions, hspec
 , hspec-attoparsec, hspec-expectations, mtl, network
-, network-attoparsec, network-simple, text, transformers, uuid
+, network-attoparsec, network-simple, stdenv, text, transformers
+, uuid
 }:
 mkDerivation {
   pname = "network-anonymous-i2p";

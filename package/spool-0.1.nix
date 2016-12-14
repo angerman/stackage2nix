@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, vector }:
+{ mkDerivation, base, bytestring, stdenv, vector }:
 mkDerivation {
   pname = "spool";
   version = "0.1";

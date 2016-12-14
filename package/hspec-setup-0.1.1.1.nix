@@ -1,4 +1,6 @@
-{ mkDerivation, base, directory, filepath, process, projectroot }:
+{ mkDerivation, base, directory, filepath, process, projectroot
+, stdenv
+}:
 mkDerivation {
   pname = "hspec-setup";
   version = "0.1.1.1";

@@ -1,4 +1,5 @@
-{ mkDerivation, AC-Vector, base, markdown-unlit, QuickCheck }:
+{ mkDerivation, AC-Vector, base, markdown-unlit, QuickCheck, stdenv
+}:
 mkDerivation {
   pname = "Octree";
   version = "0.5.4.3";

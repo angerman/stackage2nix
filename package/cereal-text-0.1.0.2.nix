@@ -1,4 +1,4 @@
-{ mkDerivation, base, cereal, text }:
+{ mkDerivation, base, cereal, stdenv, text }:
 mkDerivation {
   pname = "cereal-text";
   version = "0.1.0.2";

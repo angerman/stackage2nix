@@ -1,5 +1,5 @@
 { mkDerivation, aeson, ansi-terminal, base, Diff, hscolour, hspec
-, HUnit, nicify-lib, text
+, HUnit, nicify-lib, stdenv, text
 }:
 mkDerivation {
   pname = "hspec-expectations-pretty-diff";

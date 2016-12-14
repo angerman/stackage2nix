@@ -1,6 +1,7 @@
 { mkDerivation, base, containers, contravariant, deepseq, mtl
-, profunctors, QuickCheck, tasty, tasty-hunit, tasty-quickcheck
-, template-haskell, transformers, transformers-compat
+, profunctors, QuickCheck, stdenv, tasty, tasty-hunit
+, tasty-quickcheck, template-haskell, transformers
+, transformers-compat
 }:
 mkDerivation {
   pname = "unbound-generics";

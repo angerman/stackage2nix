@@ -1,6 +1,6 @@
 { mkDerivation, ansi-terminal, async, base, deepseq, directory
 , filepath, hspec-expectations, HUnit, QuickCheck, quickcheck-io
-, random, setenv, time, transformers
+, random, setenv, stdenv, time, transformers
 }:
 mkDerivation {
   pname = "hspec-meta";

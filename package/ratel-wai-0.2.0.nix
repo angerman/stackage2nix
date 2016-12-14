@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, case-insensitive, containers
-, http-client, ratel, wai
+, http-client, ratel, stdenv, wai
 }:
 mkDerivation {
   pname = "ratel-wai";

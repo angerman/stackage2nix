@@ -1,4 +1,6 @@
-{ mkDerivation, base, Cabal, containers, directory, filepath }:
+{ mkDerivation, base, Cabal, containers, directory, filepath
+, stdenv
+}:
 mkDerivation {
   pname = "cabal-dependency-licenses";
   version = "0.1.2.0";

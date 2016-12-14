@@ -1,4 +1,5 @@
-{ mkDerivation, base, parallel, transformers, transformers-compat
+{ mkDerivation, base, parallel, stdenv, transformers
+, transformers-compat
 }:
 mkDerivation {
   pname = "monad-parallel";

@@ -1,4 +1,5 @@
-{ mkDerivation, array, base, bytestring, containers, HCodecs, Yampa
+{ mkDerivation, array, base, bytestring, containers, HCodecs
+, stdenv, Yampa
 }:
 mkDerivation {
   pname = "YampaSynth";

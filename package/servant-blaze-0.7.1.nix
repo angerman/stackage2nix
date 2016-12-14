@@ -1,4 +1,4 @@
-{ mkDerivation, base, blaze-html, http-media, servant }:
+{ mkDerivation, base, blaze-html, http-media, servant, stdenv }:
 mkDerivation {
   pname = "servant-blaze";
   version = "0.7.1";

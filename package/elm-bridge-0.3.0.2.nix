@@ -1,4 +1,4 @@
-{ mkDerivation, aeson, base, containers, hspec, QuickCheck
+{ mkDerivation, aeson, base, containers, hspec, QuickCheck, stdenv
 , template-haskell, text
 }:
 mkDerivation {

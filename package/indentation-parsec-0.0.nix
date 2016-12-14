@@ -1,4 +1,4 @@
-{ mkDerivation, base, indentation-core, mtl, parsec, tasty
+{ mkDerivation, base, indentation-core, mtl, parsec, stdenv, tasty
 , tasty-hunit
 }:
 mkDerivation {

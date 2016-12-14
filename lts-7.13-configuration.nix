@@ -2,7 +2,7 @@
 
 with import <nixpkgs/pkgs/development/haskell-modules/lib.nix> { inherit pkgs; };
 
-self: super: {
+self: super: rec {
   web-plugins = self.callPackage ./package/web-plugins-0.2.9.nix {};
   NumInstances = self.callPackage ./package/NumInstances-1.4.nix {};
   xenstore = self.callPackage ./package/xenstore-0.1.1.nix {};

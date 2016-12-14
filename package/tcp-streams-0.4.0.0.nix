@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, data-default-class, HsOpenSSL
 , HsOpenSSL-x509-system, HUnit, io-streams, network, openssl, pem
-, QuickCheck, test-framework, test-framework-hunit
+, QuickCheck, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2, tls, x509, x509-store, x509-system
 }:
 mkDerivation {

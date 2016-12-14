@@ -1,5 +1,5 @@
 { mkDerivation, base, configurator, containers, mtl, old-locale
-, optparse-applicative, process, stm, tasty, tasty-hunit
+, optparse-applicative, process, stdenv, stm, tasty, tasty-hunit
 , tasty-quickcheck, text, time, transformers, unix
 , unordered-containers
 }:

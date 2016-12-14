@@ -1,4 +1,4 @@
-{ mkDerivation, base, base-compat, constraints, reflection
+{ mkDerivation, base, base-compat, constraints, reflection, stdenv
 , transformers
 }:
 mkDerivation {

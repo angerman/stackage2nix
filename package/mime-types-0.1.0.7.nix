@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, containers, text }:
+{ mkDerivation, base, bytestring, containers, stdenv, text }:
 mkDerivation {
   pname = "mime-types";
   version = "0.1.0.7";

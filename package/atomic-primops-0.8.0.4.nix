@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, primitive }:
+{ mkDerivation, base, ghc-prim, primitive, stdenv }:
 mkDerivation {
   pname = "atomic-primops";
   version = "0.8.0.4";

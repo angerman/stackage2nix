@@ -1,4 +1,4 @@
-{ mkDerivation, aeson, base, doctest, Glob, mtl, text }:
+{ mkDerivation, aeson, base, doctest, Glob, mtl, stdenv, text }:
 mkDerivation {
   pname = "envelope";
   version = "0.1.0.0";

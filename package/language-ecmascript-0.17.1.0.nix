@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, data-default-class, Diff
-, directory, filepath, HUnit, mtl, parsec, QuickCheck
+, directory, filepath, HUnit, mtl, parsec, QuickCheck, stdenv
 , template-haskell, test-framework, test-framework-hunit
 , test-framework-quickcheck2, testing-feat, uniplate, wl-pprint
 }:

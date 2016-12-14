@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, HUnit, QuickCheck, test-framework
-, test-framework-hunit, test-framework-quickcheck2
+{ mkDerivation, base, deepseq, HUnit, QuickCheck, stdenv
+, test-framework, test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "Decimal";

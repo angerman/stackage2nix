@@ -1,4 +1,4 @@
-{ mkDerivation, array, base }:
+{ mkDerivation, array, base, stdenv }:
 mkDerivation {
   pname = "BoundedChan";
   version = "1.0.3.0";

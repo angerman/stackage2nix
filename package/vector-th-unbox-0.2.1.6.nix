@@ -1,4 +1,6 @@
-{ mkDerivation, base, data-default, template-haskell, vector }:
+{ mkDerivation, base, data-default, stdenv, template-haskell
+, vector
+}:
 mkDerivation {
   pname = "vector-th-unbox";
   version = "0.2.1.6";

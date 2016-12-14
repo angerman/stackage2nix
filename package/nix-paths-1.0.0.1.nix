@@ -1,4 +1,4 @@
-{ mkDerivation, base, nix, process }:
+{ mkDerivation, base, nix, process, stdenv }:
 mkDerivation {
   pname = "nix-paths";
   version = "1.0.0.1";

@@ -1,8 +1,8 @@
 { mkDerivation, aeson, ansi-terminal, base, bytestring, Cabal
 , directory, filepath, hastache, http-conduit, HUnit, lens
-, lens-aeson, process, QuickCheck, random, smallcheck, split, syb
-, tasty, tasty-hunit, tasty-quickcheck, tasty-smallcheck, text
-, time, unix
+, lens-aeson, process, QuickCheck, random, smallcheck, split
+, stdenv, syb, tasty, tasty-hunit, tasty-quickcheck
+, tasty-smallcheck, text, time, unix
 }:
 mkDerivation {
   pname = "holy-project";

@@ -1,6 +1,7 @@
 { mkDerivation, base, bytestring, conduit, connection, irc-conduit
-, irc-ctcp, network-conduit-tls, old-locale, stm, stm-conduit, text
-, time, tls, transformers, x509, x509-store, x509-validation
+, irc-ctcp, network-conduit-tls, old-locale, stdenv, stm
+, stm-conduit, text, time, tls, transformers, x509, x509-store
+, x509-validation
 }:
 mkDerivation {
   pname = "irc-client";

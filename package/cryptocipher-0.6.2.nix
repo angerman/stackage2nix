@@ -1,5 +1,5 @@
 { mkDerivation, base, cipher-aes, cipher-blowfish, cipher-camellia
-, cipher-des, cipher-rc4, crypto-cipher-types
+, cipher-des, cipher-rc4, crypto-cipher-types, stdenv
 }:
 mkDerivation {
   pname = "cryptocipher";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, Boolean, MemoTrie, NumInstances }:
+{ mkDerivation, base, Boolean, MemoTrie, NumInstances, stdenv }:
 mkDerivation {
   pname = "vector-space";
   version = "0.10.4";

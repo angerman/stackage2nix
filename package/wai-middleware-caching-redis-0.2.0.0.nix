@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, hedis, http-types
-, text, wai, wai-middleware-caching
+, stdenv, text, wai, wai-middleware-caching
 }:
 mkDerivation {
   pname = "wai-middleware-caching-redis";

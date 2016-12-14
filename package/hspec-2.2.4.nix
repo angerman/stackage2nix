@@ -1,6 +1,6 @@
 { mkDerivation, base, directory, hspec-core, hspec-discover
-, hspec-expectations, hspec-meta, HUnit, QuickCheck, stringbuilder
-, transformers
+, hspec-expectations, hspec-meta, HUnit, QuickCheck, stdenv
+, stringbuilder, transformers
 }:
 mkDerivation {
   pname = "hspec";

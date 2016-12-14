@@ -1,5 +1,6 @@
 { mkDerivation, base, containers, descriptive, directory, ghc-prim
-, haskell-src-exts, hspec, monad-loops, mtl, text, transformers
+, haskell-src-exts, hspec, monad-loops, mtl, stdenv, text
+, transformers
 }:
 mkDerivation {
   pname = "hindent";

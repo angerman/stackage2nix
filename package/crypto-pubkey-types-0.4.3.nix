@@ -1,4 +1,4 @@
-{ mkDerivation, asn1-encoding, asn1-types, base }:
+{ mkDerivation, asn1-encoding, asn1-types, base, stdenv }:
 mkDerivation {
   pname = "crypto-pubkey-types";
   version = "0.4.3";

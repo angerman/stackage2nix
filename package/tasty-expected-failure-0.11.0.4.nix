@@ -1,4 +1,4 @@
-{ mkDerivation, base, tagged, tasty }:
+{ mkDerivation, base, stdenv, tagged, tasty }:
 mkDerivation {
   pname = "tasty-expected-failure";
   version = "0.11.0.4";

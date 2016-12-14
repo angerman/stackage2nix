@@ -1,5 +1,5 @@
 { mkDerivation, base, base-prelude, bytestring
-, quickcheck-instances, semigroups, tasty, tasty-hunit
+, quickcheck-instances, semigroups, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, tasty-smallcheck, text
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck, time }:
+{ mkDerivation, base, QuickCheck, stdenv, time }:
 mkDerivation {
   pname = "leapseconds-announced";
   version = "2017";

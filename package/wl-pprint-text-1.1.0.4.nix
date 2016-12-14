@@ -1,4 +1,4 @@
-{ mkDerivation, base, text }:
+{ mkDerivation, base, stdenv, text }:
 mkDerivation {
   pname = "wl-pprint-text";
   version = "1.1.0.4";

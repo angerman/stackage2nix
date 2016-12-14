@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, hw-prim
-, mono-traversable, text
+, mono-traversable, stdenv, text
 }:
 mkDerivation {
   pname = "hw-parser";

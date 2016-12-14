@@ -1,4 +1,4 @@
-{ mkDerivation, base, old-time }:
+{ mkDerivation, base, old-time, stdenv }:
 mkDerivation {
   pname = "mersenne-random";
   version = "1.0.0.1";

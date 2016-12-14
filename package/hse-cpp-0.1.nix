@@ -1,4 +1,4 @@
-{ mkDerivation, base, cpphs, haskell-src-exts }:
+{ mkDerivation, base, cpphs, haskell-src-exts, stdenv }:
 mkDerivation {
   pname = "hse-cpp";
   version = "0.1";

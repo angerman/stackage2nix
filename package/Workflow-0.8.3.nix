@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, containers, directory
 , exceptions, extensible-exceptions, mtl, old-time, RefSerialize
-, stm, TCache, vector
+, stdenv, stm, TCache, vector
 }:
 mkDerivation {
   pname = "Workflow";

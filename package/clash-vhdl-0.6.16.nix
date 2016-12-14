@@ -1,5 +1,5 @@
 { mkDerivation, base, clash-lib, clash-prelude, fgl, lens, mtl
-, text, unordered-containers, wl-pprint-text
+, stdenv, text, unordered-containers, wl-pprint-text
 }:
 mkDerivation {
   pname = "clash-vhdl";

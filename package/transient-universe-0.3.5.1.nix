@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, case-insensitive, containers
 , directory, filepath, hashable, HTTP, iproute, mtl, network
-, network-info, network-uri, process, random, stm, TCache, text
-, time, transformers, transient, vector, websockets
+, network-info, network-uri, process, random, stdenv, stm, TCache
+, text, time, transformers, transient, vector, websockets
 }:
 mkDerivation {
   pname = "transient-universe";

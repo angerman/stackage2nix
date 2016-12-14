@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, containers
-, language-javascript, optparse-applicative, text
+, language-javascript, optparse-applicative, stdenv, text
 }:
 mkDerivation {
   pname = "hjsmin";

@@ -1,4 +1,6 @@
-{ mkDerivation, base, HUnit, optional-args, parsec, text, turtle }:
+{ mkDerivation, base, HUnit, optional-args, parsec, stdenv, text
+, turtle
+}:
 mkDerivation {
   pname = "turtle-options";
   version = "0.1.0.4";

@@ -1,5 +1,5 @@
 { mkDerivation, aeson, amazonka, amazonka-core, amazonka-ses, base
-, hworker, lens, text, time, unordered-containers
+, hworker, lens, stdenv, text, time, unordered-containers
 }:
 mkDerivation {
   pname = "hworker-ses";

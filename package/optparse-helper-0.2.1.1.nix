@@ -1,4 +1,4 @@
-{ mkDerivation, base, optparse-applicative }:
+{ mkDerivation, base, optparse-applicative, stdenv }:
 mkDerivation {
   pname = "optparse-helper";
   version = "0.2.1.1";

@@ -1,5 +1,5 @@
-{ mkDerivation, base, HUnit, parsec, prettyclass, test-framework
-, test-framework-hunit
+{ mkDerivation, base, HUnit, parsec, prettyclass, stdenv
+, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "language-glsl";

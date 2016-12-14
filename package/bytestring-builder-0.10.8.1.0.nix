@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, deepseq }:
+{ mkDerivation, base, bytestring, deepseq, stdenv }:
 mkDerivation {
   pname = "bytestring-builder";
   version = "0.10.8.1.0";

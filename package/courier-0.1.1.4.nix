@@ -1,5 +1,5 @@
 { mkDerivation, async, base, bytestring, cereal, containers
-, directory, hslogger, HUnit, network, stm, test-framework
+, directory, hslogger, HUnit, network, stdenv, stm, test-framework
 , test-framework-hunit, text, uuid
 }:
 mkDerivation {

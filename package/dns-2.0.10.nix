@@ -1,6 +1,7 @@
 { mkDerivation, attoparsec, base, binary, bytestring
 , bytestring-builder, conduit, conduit-extra, containers, doctest
-, hspec, iproute, mtl, network, random, resourcet, safe, word8
+, hspec, iproute, mtl, network, random, resourcet, safe, stdenv
+, word8
 }:
 mkDerivation {
   pname = "dns";

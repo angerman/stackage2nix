@@ -1,7 +1,7 @@
 { mkDerivation, base, basic-prelude, bytestring, containers
 , cryptohash, hspec, http-conduit, http-types, monad-logger
 , network-uri, persistent, persistent-sqlite, pwstore-fast
-, resourcet, text, wai-extra, yesod, yesod-auth, yesod-core
+, resourcet, stdenv, text, wai-extra, yesod, yesod-auth, yesod-core
 , yesod-form, yesod-persistent, yesod-test
 }:
 mkDerivation {

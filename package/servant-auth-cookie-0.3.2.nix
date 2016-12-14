@@ -2,7 +2,7 @@
 , blaze-markup, bytestring, cereal, cookie, cryptonite
 , data-default, deepseq, exceptions, hspec, http-media, http-types
 , memory, mtl, QuickCheck, servant, servant-blaze, servant-server
-, text, time, transformers, wai, warp
+, stdenv, text, time, transformers, wai, warp
 }:
 mkDerivation {
   pname = "servant-auth-cookie";

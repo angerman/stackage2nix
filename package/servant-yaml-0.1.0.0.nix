@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, base-compat, bytestring, http-media
-, servant, servant-server, wai, warp, yaml
+, servant, servant-server, stdenv, wai, warp, yaml
 }:
 mkDerivation {
   pname = "servant-yaml";

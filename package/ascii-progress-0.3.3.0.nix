@@ -1,5 +1,5 @@
 { mkDerivation, async, base, concurrent-output, data-default, hspec
-, QuickCheck, time
+, QuickCheck, stdenv, time
 }:
 mkDerivation {
   pname = "ascii-progress";

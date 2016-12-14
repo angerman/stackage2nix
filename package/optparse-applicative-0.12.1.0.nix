@@ -1,4 +1,4 @@
-{ mkDerivation, ansi-wl-pprint, base, process, transformers
+{ mkDerivation, ansi-wl-pprint, base, process, stdenv, transformers
 , transformers-compat
 }:
 mkDerivation {

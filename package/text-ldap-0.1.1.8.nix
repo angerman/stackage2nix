@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, base64-bytestring, bytestring
 , containers, dlist, QuickCheck, quickcheck-simple, random
-, semigroups, transformers
+, semigroups, stdenv, transformers
 }:
 mkDerivation {
   pname = "text-ldap";

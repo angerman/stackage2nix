@@ -1,5 +1,5 @@
-{ mkDerivation, base, clock, hashable, hspec, stm, transformers
-, unordered-containers
+{ mkDerivation, base, clock, hashable, hspec, stdenv, stm
+, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "cache";

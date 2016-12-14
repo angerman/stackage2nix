@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, hspec, QuickCheck }:
+{ mkDerivation, base, containers, hspec, QuickCheck, stdenv }:
 mkDerivation {
   pname = "drawille";
   version = "0.1.2.0";

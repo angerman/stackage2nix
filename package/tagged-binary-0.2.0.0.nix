@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, bytestring, pureMD5 }:
+{ mkDerivation, base, binary, bytestring, pureMD5, stdenv }:
 mkDerivation {
   pname = "tagged-binary";
   version = "0.2.0.0";

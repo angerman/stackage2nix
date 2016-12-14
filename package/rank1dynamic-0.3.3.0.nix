@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, HUnit, test-framework
+{ mkDerivation, base, binary, HUnit, stdenv, test-framework
 , test-framework-hunit
 }:
 mkDerivation {

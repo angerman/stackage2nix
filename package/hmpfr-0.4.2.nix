@@ -1,4 +1,4 @@
-{ mkDerivation, base, integer-gmp, mpfr }:
+{ mkDerivation, base, integer-gmp, mpfr, stdenv }:
 mkDerivation {
   pname = "hmpfr";
   version = "0.4.2";

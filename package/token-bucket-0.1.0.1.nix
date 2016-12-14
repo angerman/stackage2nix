@@ -1,4 +1,4 @@
-{ mkDerivation, base, time }:
+{ mkDerivation, base, stdenv, time }:
 mkDerivation {
   pname = "token-bucket";
   version = "0.1.0.1";

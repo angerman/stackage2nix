@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, deepseq
-, QuickCheck, quickcheck-unicode, scientific, tasty
+, QuickCheck, quickcheck-unicode, scientific, stdenv, tasty
 , tasty-quickcheck, text, transformers, vector
 }:
 mkDerivation {

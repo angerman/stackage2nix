@@ -1,4 +1,4 @@
-{ mkDerivation, base, doctest, hspec, lens, taggy, text
+{ mkDerivation, base, doctest, hspec, lens, stdenv, taggy, text
 , unordered-containers
 }:
 mkDerivation {

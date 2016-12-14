@@ -1,6 +1,6 @@
 { mkDerivation, array, base, bytestring, Cabal, containers, deepseq
 , directory, filepath, ghc, ghc-boot, ghc-paths, haddock-library
-, hspec, QuickCheck, transformers, xhtml
+, hspec, QuickCheck, stdenv, transformers, xhtml
 }:
 mkDerivation {
   pname = "haddock-api";

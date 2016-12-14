@@ -1,4 +1,4 @@
-{ mkDerivation, base, bindings-GLFW, HUnit, test-framework
+{ mkDerivation, base, bindings-GLFW, HUnit, stdenv, test-framework
 , test-framework-hunit
 }:
 mkDerivation {

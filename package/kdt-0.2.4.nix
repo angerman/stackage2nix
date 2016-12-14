@@ -1,4 +1,5 @@
 { mkDerivation, base, deepseq, deepseq-generics, heap, QuickCheck
+, stdenv
 }:
 mkDerivation {
   pname = "kdt";

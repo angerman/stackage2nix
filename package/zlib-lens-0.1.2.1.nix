@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, profunctors, zlib }:
+{ mkDerivation, base, bytestring, profunctors, stdenv, zlib }:
 mkDerivation {
   pname = "zlib-lens";
   version = "0.1.2.1";

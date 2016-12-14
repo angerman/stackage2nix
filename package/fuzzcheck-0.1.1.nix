@@ -1,5 +1,5 @@
 { mkDerivation, base, hspec, hspec-expectations, HUnit, lifted-base
-, monad-control, QuickCheck, random, transformers
+, monad-control, QuickCheck, random, stdenv, transformers
 }:
 mkDerivation {
   pname = "fuzzcheck";

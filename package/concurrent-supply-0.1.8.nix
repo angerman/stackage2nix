@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, ghc-prim, hashable }:
+{ mkDerivation, base, containers, ghc-prim, hashable, stdenv }:
 mkDerivation {
   pname = "concurrent-supply";
   version = "0.1.8";

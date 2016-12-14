@@ -1,6 +1,6 @@
 { mkDerivation, alex, array, base, bytestring, containers
 , directory, fgl, filepath, GenericPretty, happy, hspec, mtl
-, pretty, text, uniplate
+, pretty, stdenv, text, uniplate
 }:
 mkDerivation {
   pname = "fortran-src";

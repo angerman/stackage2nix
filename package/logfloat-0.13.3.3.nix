@@ -1,4 +1,4 @@
-{ mkDerivation, array, base }:
+{ mkDerivation, array, base, stdenv }:
 mkDerivation {
   pname = "logfloat";
   version = "0.13.3.3";

@@ -1,5 +1,5 @@
 { mkDerivation, base, haskell-src-exts, language-haskell-extract
-, regex-posix, template-haskell, test-framework
+, regex-posix, stdenv, template-haskell, test-framework
 }:
 mkDerivation {
   pname = "test-framework-th";

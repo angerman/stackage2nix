@@ -1,4 +1,4 @@
-{ mkDerivation, base, template-haskell }:
+{ mkDerivation, base, stdenv, template-haskell }:
 mkDerivation {
   pname = "lens-family-th";
   version = "0.5.0.0";

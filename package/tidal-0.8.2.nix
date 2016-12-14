@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, colour, containers
 , hashable, hmt, hosc, mersenne-random-pure64, mtl, parsec, process
-, text, time, transformers, websockets
+, stdenv, text, time, transformers, websockets
 }:
 mkDerivation {
   pname = "tidal";

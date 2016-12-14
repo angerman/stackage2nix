@@ -1,5 +1,6 @@
 { mkDerivation, base, biocore, biofasta, blastxml, bytestring
-, conduit, HTTP, http-conduit, hxt, mtl, network, transformers
+, conduit, HTTP, http-conduit, hxt, mtl, network, stdenv
+, transformers
 }:
 mkDerivation {
   pname = "BlastHTTP";

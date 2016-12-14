@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, mtl }:
+{ mkDerivation, array, base, containers, mtl, stdenv }:
 mkDerivation {
   pname = "network-house";
   version = "0.1.0.2";

@@ -1,6 +1,6 @@
 { mkDerivation, base, deepseq, erf, HUnit, primitive, QuickCheck
-, test-framework, test-framework-hunit, test-framework-quickcheck2
-, vector, vector-th-unbox
+, stdenv, test-framework, test-framework-hunit
+, test-framework-quickcheck2, vector, vector-th-unbox
 }:
 mkDerivation {
   pname = "math-functions";

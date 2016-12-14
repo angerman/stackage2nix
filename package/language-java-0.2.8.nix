@@ -1,5 +1,5 @@
 { mkDerivation, alex, array, base, cpphs, directory, filepath
-, HUnit, mtl, parsec, pretty, QuickCheck, test-framework
+, HUnit, mtl, parsec, pretty, QuickCheck, stdenv, test-framework
 , test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {

@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, random, template-haskell }:
+{ mkDerivation, base, bytestring, random, stdenv, template-haskell
+}:
 mkDerivation {
   pname = "include-file";
   version = "0.1.0.3";

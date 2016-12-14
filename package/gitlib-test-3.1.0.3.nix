@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, conduit, conduit-combinators
 , exceptions, gitlib, hspec, hspec-expectations, HUnit
-, monad-control, tagged, text, time, transformers
+, monad-control, stdenv, tagged, text, time, transformers
 }:
 mkDerivation {
   pname = "gitlib-test";

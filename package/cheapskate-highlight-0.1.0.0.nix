@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-html, cheapskate, highlighting-kate
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "cheapskate-highlight";

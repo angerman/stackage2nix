@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, charsetdetect-ae
 , data-default, deepseq, fingertree, hspec, QuickCheck
-, quickcheck-instances, text, text-icu
+, quickcheck-instances, stdenv, text, text-icu
 }:
 mkDerivation {
   pname = "yi-rope";

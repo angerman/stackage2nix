@@ -1,4 +1,4 @@
-{ mkDerivation, base, bindings-DSL, libzip }:
+{ mkDerivation, base, bindings-DSL, libzip, stdenv }:
 mkDerivation {
   pname = "bindings-libzip";
   version = "1.0.1";

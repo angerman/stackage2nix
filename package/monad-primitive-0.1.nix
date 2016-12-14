@@ -1,4 +1,4 @@
-{ mkDerivation, base, primitive, transformers }:
+{ mkDerivation, base, primitive, stdenv, transformers }:
 mkDerivation {
   pname = "monad-primitive";
   version = "0.1";

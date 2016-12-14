@@ -1,4 +1,4 @@
-{ mkDerivation, base, mmorph, mtl }:
+{ mkDerivation, base, mmorph, mtl, stdenv }:
 mkDerivation {
   pname = "tardis";
   version = "0.4.1.0";

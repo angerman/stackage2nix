@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec }:
+{ mkDerivation, base, hspec, stdenv }:
 mkDerivation {
   pname = "do-list";
   version = "1.0.1";

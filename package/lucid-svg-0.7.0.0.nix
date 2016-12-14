@@ -1,4 +1,6 @@
-{ mkDerivation, base, blaze-builder, lucid, text, transformers }:
+{ mkDerivation, base, blaze-builder, lucid, stdenv, text
+, transformers
+}:
 mkDerivation {
   pname = "lucid-svg";
   version = "0.7.0.0";

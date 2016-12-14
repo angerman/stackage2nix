@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, entropy }:
+{ mkDerivation, base, bytestring, entropy, stdenv }:
 mkDerivation {
   pname = "crypto-random-api";
   version = "0.2.0";

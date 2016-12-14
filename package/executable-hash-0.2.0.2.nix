@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cryptohash, directory
-, executable-path, file-embed, template-haskell
+, executable-path, file-embed, stdenv, template-haskell
 }:
 mkDerivation {
   pname = "executable-hash";

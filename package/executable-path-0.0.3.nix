@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath }:
+{ mkDerivation, base, directory, filepath, stdenv }:
 mkDerivation {
   pname = "executable-path";
   version = "0.0.3";

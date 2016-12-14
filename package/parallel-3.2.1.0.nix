@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, deepseq }:
+{ mkDerivation, array, base, containers, deepseq, stdenv }:
 mkDerivation {
   pname = "parallel";
   version = "3.2.1.0";

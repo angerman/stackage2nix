@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath, hspec-meta }:
+{ mkDerivation, base, directory, filepath, hspec-meta, stdenv }:
 mkDerivation {
   pname = "hspec-discover";
   version = "2.2.4";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hvect, mtl, Spock-api, Spock-core }:
+{ mkDerivation, base, hvect, mtl, Spock-api, Spock-core, stdenv }:
 mkDerivation {
   pname = "Spock-api-server";
   version = "0.11.0.0";

@@ -1,4 +1,6 @@
-{ mkDerivation, base, hsp, jmacro, mtl, text, wl-pprint-text }:
+{ mkDerivation, base, hsp, jmacro, mtl, stdenv, text
+, wl-pprint-text
+}:
 mkDerivation {
   pname = "hsx-jmacro";
   version = "7.3.8";

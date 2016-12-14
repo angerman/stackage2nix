@@ -1,4 +1,4 @@
-{ mkDerivation, attoparsec, base, bytestring }:
+{ mkDerivation, attoparsec, base, bytestring, stdenv }:
 mkDerivation {
   pname = "attoparsec-binary";
   version = "0.2";

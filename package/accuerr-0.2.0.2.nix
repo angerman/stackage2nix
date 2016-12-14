@@ -1,4 +1,4 @@
-{ mkDerivation, base, bifunctors, lens, semigroups }:
+{ mkDerivation, base, bifunctors, lens, semigroups, stdenv }:
 mkDerivation {
   pname = "accuerr";
   version = "0.2.0.2";

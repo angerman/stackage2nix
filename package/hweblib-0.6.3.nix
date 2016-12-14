@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, containers, HUnit
-, mtl, text, transformers
+, mtl, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "hweblib";

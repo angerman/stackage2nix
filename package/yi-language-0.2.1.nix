@@ -1,7 +1,7 @@
 { mkDerivation, alex, array, base, binary, containers, data-default
 , filepath, hashable, hspec, microlens-platform, oo-prototypes
-, pointedlist, QuickCheck, regex-base, regex-tdfa, template-haskell
-, transformers-base, unordered-containers
+, pointedlist, QuickCheck, regex-base, regex-tdfa, stdenv
+, template-haskell, transformers-base, unordered-containers
 }:
 mkDerivation {
   pname = "yi-language";

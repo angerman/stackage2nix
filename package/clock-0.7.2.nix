@@ -1,4 +1,4 @@
-{ mkDerivation, base, tasty, tasty-quickcheck }:
+{ mkDerivation, base, stdenv, tasty, tasty-quickcheck }:
 mkDerivation {
   pname = "clock";
   version = "0.7.2";

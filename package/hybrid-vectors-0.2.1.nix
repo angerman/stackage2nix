@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, primitive, vector }:
+{ mkDerivation, base, deepseq, primitive, stdenv, vector }:
 mkDerivation {
   pname = "hybrid-vectors";
   version = "0.2.1";

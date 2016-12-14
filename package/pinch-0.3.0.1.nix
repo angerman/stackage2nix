@@ -1,6 +1,6 @@
 { mkDerivation, array, base, bytestring, containers, deepseq
-, ghc-prim, hashable, hspec, hspec-discover, QuickCheck, text
-, unordered-containers, vector
+, ghc-prim, hashable, hspec, hspec-discover, QuickCheck, stdenv
+, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "pinch";

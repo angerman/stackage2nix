@@ -1,4 +1,4 @@
-{ mkDerivation, base, csv, html, mtl }:
+{ mkDerivation, base, csv, html, mtl, stdenv }:
 mkDerivation {
   pname = "tabular";
   version = "0.2.2.7";

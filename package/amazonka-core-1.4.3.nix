@@ -2,8 +2,8 @@
 , case-insensitive, conduit, conduit-extra, cryptonite, deepseq
 , exceptions, hashable, http-conduit, http-types, lens, memory, mtl
 , QuickCheck, quickcheck-unicode, resourcet, scientific, semigroups
-, tagged, tasty, tasty-hunit, tasty-quickcheck, template-haskell
-, text, time, transformers, transformers-compat
+, stdenv, tagged, tasty, tasty-hunit, tasty-quickcheck
+, template-haskell, text, time, transformers, transformers-compat
 , unordered-containers, xml-conduit, xml-types
 }:
 mkDerivation {

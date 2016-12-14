@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, bytestring, deepseq, hashable
+{ mkDerivation, base, binary, bytestring, deepseq, hashable, stdenv
 , transformers
 }:
 mkDerivation {

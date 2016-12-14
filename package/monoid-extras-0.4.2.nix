@@ -1,4 +1,4 @@
-{ mkDerivation, base, groups, semigroupoids, semigroups }:
+{ mkDerivation, base, groups, semigroupoids, semigroups, stdenv }:
 mkDerivation {
   pname = "monoid-extras";
   version = "0.4.2";

@@ -1,4 +1,6 @@
-{ mkDerivation, base, deepseq, exceptions, hspec, QuickCheck }:
+{ mkDerivation, base, deepseq, exceptions, hspec, QuickCheck
+, stdenv
+}:
 mkDerivation {
   pname = "pagination";
   version = "0.1.1";

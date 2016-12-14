@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, containers, cookie
-, http-types, StateVar, time, transformers, vault, wai
+, http-types, StateVar, stdenv, time, transformers, vault, wai
 }:
 mkDerivation {
   pname = "wai-session";

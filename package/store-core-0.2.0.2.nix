@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, fail, ghc-prim, primitive, text
-, transformers
+{ mkDerivation, base, bytestring, fail, ghc-prim, primitive, stdenv
+, text, transformers
 }:
 mkDerivation {
   pname = "store-core";

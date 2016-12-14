@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, exceptions, monad-control, mtl
-, pipes, transformers, transformers-base
+, pipes, stdenv, transformers, transformers-base
 }:
 mkDerivation {
   pname = "pipes-safe";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, Cabal }:
+{ mkDerivation, base, Cabal, stdenv }:
 mkDerivation {
   pname = "jailbreak-cabal";
   version = "1.3.1";

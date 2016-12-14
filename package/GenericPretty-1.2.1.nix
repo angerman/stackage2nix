@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, pretty }:
+{ mkDerivation, base, ghc-prim, pretty, stdenv }:
 mkDerivation {
   pname = "GenericPretty";
   version = "1.2.1";

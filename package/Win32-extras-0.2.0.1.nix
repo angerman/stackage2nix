@@ -1,4 +1,4 @@
-{ mkDerivation, base, imm32, msimg32, Win32 }:
+{ mkDerivation, base, imm32, msimg32, stdenv, Win32 }:
 mkDerivation {
   pname = "Win32-extras";
   version = "0.2.0.1";

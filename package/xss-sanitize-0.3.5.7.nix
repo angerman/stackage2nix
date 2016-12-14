@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, containers, css-text, hspec
-, HUnit, network-uri, tagsoup, text, utf8-string
+, HUnit, network-uri, stdenv, tagsoup, text, utf8-string
 }:
 mkDerivation {
   pname = "xss-sanitize";

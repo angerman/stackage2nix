@@ -1,7 +1,7 @@
 { mkDerivation, adjunctions, base, base-orphans, binary, bytes
 , bytestring, cereal, containers, deepseq, directory, distributive
 , doctest, filepath, ghc-prim, hashable, HUnit, lens, reflection
-, semigroupoids, semigroups, simple-reflect, tagged
+, semigroupoids, semigroups, simple-reflect, stdenv, tagged
 , template-haskell, test-framework, test-framework-hunit
 , transformers, transformers-compat, unordered-containers, vector
 , void

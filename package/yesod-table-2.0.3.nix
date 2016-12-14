@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, contravariant
-, semigroups, text, yesod-core
+, semigroups, stdenv, text, yesod-core
 }:
 mkDerivation {
   pname = "yesod-table";

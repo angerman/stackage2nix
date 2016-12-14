@@ -1,4 +1,6 @@
-{ mkDerivation, base, mtl, transformers, writer-cps-transformers }:
+{ mkDerivation, base, mtl, stdenv, transformers
+, writer-cps-transformers
+}:
 mkDerivation {
   pname = "writer-cps-mtl";
   version = "0.1.1.0";

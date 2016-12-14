@@ -1,5 +1,5 @@
 { mkDerivation, base, lens-family, lens-family-core, lens-family-th
-, mtl, transformers
+, mtl, stdenv, transformers
 }:
 mkDerivation {
   pname = "lens-simple";

@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, hspec, QuickCheck
-, text, yaml
+, stdenv, text, yaml
 }:
 mkDerivation {
   pname = "frontmatter";

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-casing, base, bytestring, file-embed
-, network, random, scientific, tasty, tasty-hunit, text, time
-, vector
+, network, random, scientific, stdenv, tasty, tasty-hunit, text
+, time, vector
 }:
 mkDerivation {
   pname = "graylog";

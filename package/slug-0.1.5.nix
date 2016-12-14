@@ -1,5 +1,6 @@
 { mkDerivation, aeson, base, exceptions, path-pieces, persistent
-, QuickCheck, test-framework, test-framework-quickcheck2, text
+, QuickCheck, stdenv, test-framework, test-framework-quickcheck2
+, text
 }:
 mkDerivation {
   pname = "slug";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, hashable, syb
+{ mkDerivation, base, containers, hashable, stdenv, syb
 , unordered-containers
 }:
 mkDerivation {

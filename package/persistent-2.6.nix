@@ -2,7 +2,7 @@
 , blaze-html, blaze-markup, bytestring, conduit, containers
 , exceptions, fast-logger, hspec, http-api-data, lifted-base
 , monad-control, monad-logger, mtl, old-locale, path-pieces
-, resource-pool, resourcet, scientific, silently, tagged
+, resource-pool, resourcet, scientific, silently, stdenv, tagged
 , template-haskell, text, time, transformers, transformers-base
 , unordered-containers, vector
 }:

@@ -1,4 +1,4 @@
-{ mkDerivation, base, composition, contravariant }:
+{ mkDerivation, base, composition, contravariant, stdenv }:
 mkDerivation {
   pname = "composition-extra";
   version = "2.0.0";

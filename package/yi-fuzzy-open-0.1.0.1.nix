@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, containers, data-default, directory
-, filepath, mtl, text, transformers-base, vector, yi, yi-language
-, yi-rope
+, filepath, mtl, stdenv, text, transformers-base, vector, yi
+, yi-language, yi-rope
 }:
 mkDerivation {
   pname = "yi-fuzzy-open";

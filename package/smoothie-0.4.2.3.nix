@@ -1,4 +1,4 @@
-{ mkDerivation, aeson, base, linear, text, vector }:
+{ mkDerivation, aeson, base, linear, stdenv, text, vector }:
 mkDerivation {
   pname = "smoothie";
   version = "0.4.2.3";

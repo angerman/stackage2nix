@@ -1,4 +1,5 @@
 { mkDerivation, array, base, containers, EdisonAPI, mtl, QuickCheck
+, stdenv
 }:
 mkDerivation {
   pname = "EdisonCore";

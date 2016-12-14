@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, data-default, hashable, hspec
-, hspec-core, HUnit, lifted-base, stm, text, transformers
+, hspec-core, HUnit, lifted-base, stdenv, stm, text, transformers
 , unordered-containers, webdriver
 }:
 mkDerivation {

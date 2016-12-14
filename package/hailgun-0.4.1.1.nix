@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, email-validate, exceptions
-, filepath, http-client, http-client-tls, http-types, tagsoup, text
-, time, transformers
+, filepath, http-client, http-client-tls, http-types, stdenv
+, tagsoup, text, time, transformers
 }:
 mkDerivation {
   pname = "hailgun";

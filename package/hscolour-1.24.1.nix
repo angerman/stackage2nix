@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers }:
+{ mkDerivation, base, containers, stdenv }:
 mkDerivation {
   pname = "hscolour";
   version = "1.24.1";

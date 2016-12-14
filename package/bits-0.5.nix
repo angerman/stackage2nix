@@ -1,5 +1,5 @@
 { mkDerivation, base, bytes, directory, doctest, filepath, mtl
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "bits";

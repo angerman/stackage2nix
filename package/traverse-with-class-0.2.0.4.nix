@@ -1,4 +1,4 @@
-{ mkDerivation, base, template-haskell, transformers }:
+{ mkDerivation, base, stdenv, template-haskell, transformers }:
 mkDerivation {
   pname = "traverse-with-class";
   version = "0.2.0.4";

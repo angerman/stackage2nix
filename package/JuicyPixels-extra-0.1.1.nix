@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, JuicyPixels }:
+{ mkDerivation, base, hspec, JuicyPixels, stdenv }:
 mkDerivation {
   pname = "JuicyPixels-extra";
   version = "0.1.1";

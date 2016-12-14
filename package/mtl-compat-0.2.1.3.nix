@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl }:
+{ mkDerivation, base, mtl, stdenv }:
 mkDerivation {
   pname = "mtl-compat";
   version = "0.2.1.3";

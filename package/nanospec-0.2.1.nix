@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, silently }:
+{ mkDerivation, base, hspec, silently, stdenv }:
 mkDerivation {
   pname = "nanospec";
   version = "0.2.1";

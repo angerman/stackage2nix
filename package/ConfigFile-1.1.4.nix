@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, MissingH, mtl, parsec }:
+{ mkDerivation, base, containers, MissingH, mtl, parsec, stdenv }:
 mkDerivation {
   pname = "ConfigFile";
   version = "1.1.4";

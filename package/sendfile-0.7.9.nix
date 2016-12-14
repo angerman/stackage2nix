@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, network }:
+{ mkDerivation, base, bytestring, network, stdenv }:
 mkDerivation {
   pname = "sendfile";
   version = "0.7.9";

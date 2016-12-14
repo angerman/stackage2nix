@@ -1,6 +1,6 @@
 { mkDerivation, aeson, amazonka-core, base, bifunctors, bytestring
 , case-insensitive, conduit, conduit-extra, groom, http-client
-, http-types, process, resourcet, tasty, tasty-hunit
+, http-types, process, resourcet, stdenv, tasty, tasty-hunit
 , template-haskell, temporary, text, time, unordered-containers
 , yaml
 }:

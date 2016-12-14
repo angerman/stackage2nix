@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, mtl, ref-fd, transformers }:
+{ mkDerivation, base, containers, mtl, ref-fd, stdenv, transformers
+}:
 mkDerivation {
   pname = "persistent-refs";
   version = "0.4";

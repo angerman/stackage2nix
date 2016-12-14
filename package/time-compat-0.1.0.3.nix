@@ -1,4 +1,4 @@
-{ mkDerivation, base, old-time, time }:
+{ mkDerivation, base, old-time, stdenv, time }:
 mkDerivation {
   pname = "time-compat";
   version = "0.1.0.3";

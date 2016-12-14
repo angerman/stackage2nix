@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, pipes
-, pipes-attoparsec, pipes-bytestring
+, pipes-attoparsec, pipes-bytestring, stdenv
 }:
 mkDerivation {
   pname = "pipes-fastx";

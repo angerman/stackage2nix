@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, data-binary-ieee754
-, network, text, text-icu, xml
+, network, stdenv, text, text-icu, xml
 }:
 mkDerivation {
   pname = "sphinx";

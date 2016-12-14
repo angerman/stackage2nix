@@ -1,4 +1,4 @@
-{ mkDerivation, base, clock, old-locale, scientific, text
+{ mkDerivation, base, clock, old-locale, scientific, stdenv, text
 , text-format, time
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
 { mkDerivation, aeson, aeson-qq, base, bytestring, case-insensitive
-, hspec, hspec-wai, template-haskell
+, hspec, hspec-wai, stdenv, template-haskell
 }:
 mkDerivation {
   pname = "hspec-wai-json";

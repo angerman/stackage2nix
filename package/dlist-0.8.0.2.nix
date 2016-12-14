@@ -1,4 +1,4 @@
-{ mkDerivation, base, Cabal, deepseq, QuickCheck }:
+{ mkDerivation, base, Cabal, deepseq, QuickCheck, stdenv }:
 mkDerivation {
   pname = "dlist";
   version = "0.8.0.2";

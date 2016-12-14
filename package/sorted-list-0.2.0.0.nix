@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq }:
+{ mkDerivation, base, deepseq, stdenv }:
 mkDerivation {
   pname = "sorted-list";
   version = "0.2.0.0";

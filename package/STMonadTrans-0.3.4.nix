@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, Cabal, mtl }:
+{ mkDerivation, array, base, Cabal, mtl, stdenv }:
 mkDerivation {
   pname = "STMonadTrans";
   version = "0.3.4";

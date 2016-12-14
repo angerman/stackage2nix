@@ -1,6 +1,6 @@
 { mkDerivation, base, commutative, composition, containers
 , contravariant, hashable, keys, mtl, QuickCheck
-, quickcheck-instances, semigroupoids, semigroups, tasty
+, quickcheck-instances, semigroupoids, semigroups, stdenv, tasty
 , tasty-hunit, tasty-quickcheck, transformers, transformers-base
 , unordered-containers, witherable
 }:

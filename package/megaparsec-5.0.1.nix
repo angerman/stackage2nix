@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, deepseq, exceptions
-, HUnit, mtl, QuickCheck, scientific, test-framework
+, HUnit, mtl, QuickCheck, scientific, stdenv, test-framework
 , test-framework-hunit, test-framework-quickcheck2, text
 , transformers
 }:

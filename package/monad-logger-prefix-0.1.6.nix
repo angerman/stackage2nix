@@ -1,6 +1,6 @@
 { mkDerivation, base, doctest, exceptions, Glob, hspec
-, monad-control, monad-logger, mtl, QuickCheck, resourcet, text
-, transformers, transformers-base
+, monad-control, monad-logger, mtl, QuickCheck, resourcet, stdenv
+, text, transformers, transformers-base
 }:
 mkDerivation {
   pname = "monad-logger-prefix";

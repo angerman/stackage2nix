@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, ghc-prim, QuickCheck
+{ mkDerivation, base, bytestring, ghc-prim, QuickCheck, stdenv
 , template-haskell, vector
 }:
 mkDerivation {

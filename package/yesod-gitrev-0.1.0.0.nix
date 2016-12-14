@@ -1,4 +1,5 @@
-{ mkDerivation, aeson, base, gitrev, template-haskell, yesod-core
+{ mkDerivation, aeson, base, gitrev, stdenv, template-haskell
+, yesod-core
 }:
 mkDerivation {
   pname = "yesod-gitrev";

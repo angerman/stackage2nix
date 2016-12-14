@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, containers, HUnit, QuickCheck
-, test-framework, test-framework-hunit, test-framework-quickcheck2
+, stdenv, test-framework, test-framework-hunit
+, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "base64-bytestring";

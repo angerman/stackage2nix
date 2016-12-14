@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, mtl, optparse-applicative
-, reducers, split, stm, tagged, tasty, transformers
+, reducers, split, stdenv, stm, tagged, tasty, transformers
 }:
 mkDerivation {
   pname = "tasty-rerun";

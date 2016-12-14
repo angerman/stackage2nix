@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, deepseq, HUnit
-, test-framework, test-framework-hunit, test-framework-th, unix
-, vector
+, stdenv, test-framework, test-framework-hunit, test-framework-th
+, unix, vector
 }:
 mkDerivation {
   pname = "tzdata";

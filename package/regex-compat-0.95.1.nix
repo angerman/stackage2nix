@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, regex-base, regex-posix }:
+{ mkDerivation, array, base, regex-base, regex-posix, stdenv }:
 mkDerivation {
   pname = "regex-compat";
   version = "0.95.1";

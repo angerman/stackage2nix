@@ -1,4 +1,4 @@
-{ mkDerivation, base, blaze-markup, mtl }:
+{ mkDerivation, base, blaze-markup, mtl, stdenv }:
 mkDerivation {
   pname = "blaze-svg";
   version = "0.3.6";

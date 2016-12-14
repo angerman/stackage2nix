@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, bytestring, directory, filepath
-, hspec, logging-facade, temporary
+, hspec, logging-facade, stdenv, temporary
 }:
 mkDerivation {
   pname = "mockery";

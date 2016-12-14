@@ -2,8 +2,8 @@
 , bytestring, conduit, conduit-extra, ConfigFile, directory
 , filepath, free, hashable, hspec, hspec-expectations, mtl
 , optparse-applicative, parallel, parsec, pretty, pretty-show
-, process, QuickCheck, random, semigroups, syb, template, text
-, time, transformers, unordered-containers, vector, yaml
+, process, QuickCheck, random, semigroups, stdenv, syb, template
+, text, time, transformers, unordered-containers, vector, yaml
 }:
 mkDerivation {
   pname = "b9";

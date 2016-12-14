@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, hspec, hspec-webdriver
-, language-javascript, template-haskell, text, transformers
+, language-javascript, stdenv, template-haskell, text, transformers
 , unordered-containers, wai-app-static, warp, webdriver
 }:
 mkDerivation {

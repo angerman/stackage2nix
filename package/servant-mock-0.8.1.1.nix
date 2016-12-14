@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, bytestring-conversion
 , hspec, hspec-wai, http-types, QuickCheck, servant, servant-server
-, transformers, wai, warp
+, stdenv, transformers, wai, warp
 }:
 mkDerivation {
   pname = "servant-mock";

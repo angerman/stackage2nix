@@ -1,4 +1,5 @@
-{ mkDerivation, attoparsec, base, hspec, QuickCheck, text }:
+{ mkDerivation, attoparsec, base, hspec, QuickCheck, stdenv, text
+}:
 mkDerivation {
   pname = "css-text";
   version = "0.1.2.2";

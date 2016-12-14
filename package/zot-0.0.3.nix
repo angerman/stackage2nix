@@ -1,4 +1,4 @@
-{ mkDerivation, base, monads-tf }:
+{ mkDerivation, base, monads-tf, stdenv }:
 mkDerivation {
   pname = "zot";
   version = "0.0.3";

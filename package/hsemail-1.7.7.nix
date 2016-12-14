@@ -1,4 +1,5 @@
-{ mkDerivation, base, doctest, hspec, mtl, old-time, parsec }:
+{ mkDerivation, base, doctest, hspec, mtl, old-time, parsec, stdenv
+}:
 mkDerivation {
   pname = "hsemail";
   version = "1.7.7";

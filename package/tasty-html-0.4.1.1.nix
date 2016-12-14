@@ -1,5 +1,6 @@
 { mkDerivation, base, blaze-html, bytestring, containers, filepath
-, generic-deriving, mtl, stm, tagged, tasty, text, transformers
+, generic-deriving, mtl, stdenv, stm, tagged, tasty, text
+, transformers
 }:
 mkDerivation {
   pname = "tasty-html";

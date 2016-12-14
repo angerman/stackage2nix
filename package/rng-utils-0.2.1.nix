@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, mwc-random, vector }:
+{ mkDerivation, base, bytestring, mwc-random, stdenv, vector }:
 mkDerivation {
   pname = "rng-utils";
   version = "0.2.1";

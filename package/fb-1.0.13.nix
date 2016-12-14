@@ -3,7 +3,8 @@
 , containers, crypto-api, cryptohash, cryptohash-cryptoapi
 , data-default, hspec, http-conduit, http-types, HUnit, lifted-base
 , monad-control, monad-logger, old-locale, QuickCheck, resourcet
-, text, time, transformers, transformers-base, unordered-containers
+, stdenv, text, time, transformers, transformers-base
+, unordered-containers
 }:
 mkDerivation {
   pname = "fb";

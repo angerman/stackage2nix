@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, doctest, Glob }:
+{ mkDerivation, base, containers, doctest, Glob, stdenv }:
 mkDerivation {
   pname = "multiset";
   version = "0.3.3";

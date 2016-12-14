@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, glib, gtk, libnotify }:
+{ mkDerivation, base, bytestring, glib, gtk, libnotify, stdenv }:
 mkDerivation {
   pname = "libnotify";
   version = "0.2";

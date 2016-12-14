@@ -1,4 +1,4 @@
-{ mkDerivation, base, syb }:
+{ mkDerivation, base, stdenv, syb }:
 mkDerivation {
   pname = "hs-bibutils";
   version = "5.5";

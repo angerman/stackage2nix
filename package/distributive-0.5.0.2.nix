@@ -1,5 +1,5 @@
 { mkDerivation, base, base-orphans, directory, doctest, filepath
-, tagged, transformers, transformers-compat
+, stdenv, tagged, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "distributive";

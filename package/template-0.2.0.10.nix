@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, text }:
+{ mkDerivation, base, mtl, stdenv, text }:
 mkDerivation {
   pname = "template";
   version = "0.2.0.10";

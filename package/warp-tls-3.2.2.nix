@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cryptonite, data-default-class
-, network, streaming-commons, tls, wai, warp
+, network, stdenv, streaming-commons, tls, wai, warp
 }:
 mkDerivation {
   pname = "warp-tls";

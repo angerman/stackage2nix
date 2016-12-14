@@ -1,4 +1,4 @@
-{ mkDerivation, base, old-locale }:
+{ mkDerivation, base, old-locale, stdenv }:
 mkDerivation {
   pname = "old-time";
   version = "1.1.0.3";

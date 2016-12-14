@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, cereal, entropy, tagged
+{ mkDerivation, base, bytestring, cereal, entropy, stdenv, tagged
 , transformers
 }:
 mkDerivation {

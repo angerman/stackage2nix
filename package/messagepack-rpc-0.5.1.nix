@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, containers, messagepack
-, network-simple
+, network-simple, stdenv
 }:
 mkDerivation {
   pname = "messagepack-rpc";

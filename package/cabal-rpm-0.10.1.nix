@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, directory, filepath, old-locale
-, process, time, unix
+, process, stdenv, time, unix
 }:
 mkDerivation {
   pname = "cabal-rpm";

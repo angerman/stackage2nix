@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, hspec, JuicyPixels }:
+{ mkDerivation, base, bytestring, hspec, JuicyPixels, stdenv }:
 mkDerivation {
   pname = "identicon";
   version = "0.1.0";

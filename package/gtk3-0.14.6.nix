@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, Cabal, cairo, containers
-, gio, glib, gtk2hs-buildtools, gtk3, mtl, pango, text
+, gio, glib, gtk2hs-buildtools, gtk3, mtl, pango, stdenv, text
 }:
 mkDerivation {
   pname = "gtk3";

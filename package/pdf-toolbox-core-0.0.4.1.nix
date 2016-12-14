@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, containers, errors
-, io-streams, scientific, transformers, zlib-bindings
+, io-streams, scientific, stdenv, transformers, zlib-bindings
 }:
 mkDerivation {
   pname = "pdf-toolbox-core";

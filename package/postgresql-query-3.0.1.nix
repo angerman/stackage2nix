@@ -3,9 +3,10 @@
 , haskell-src-meta, hreader, hset, inflections, monad-control
 , monad-logger, mtl, postgresql-simple, QuickCheck
 , quickcheck-assertions, quickcheck-instances, resource-pool
-, semigroups, tasty, tasty-hunit, tasty-quickcheck, tasty-th
-, template-haskell, text, th-lift, th-lift-instances, time
-, transformers, transformers-base, transformers-compat, type-fun
+, semigroups, stdenv, tasty, tasty-hunit, tasty-quickcheck
+, tasty-th, template-haskell, text, th-lift, th-lift-instances
+, time, transformers, transformers-base, transformers-compat
+, type-fun
 }:
 mkDerivation {
   pname = "postgresql-query";

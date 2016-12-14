@@ -1,4 +1,4 @@
-{ mkDerivation, attoparsec, base }:
+{ mkDerivation, attoparsec, base, stdenv }:
 mkDerivation {
   pname = "attoparsec-expr";
   version = "0.1.1.2";

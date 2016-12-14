@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, hspec, mtl, postgresql-simple
-, text, time, users, users-test, uuid
+, stdenv, text, time, users, users-test, uuid
 }:
 mkDerivation {
   pname = "users-postgresql-simple";

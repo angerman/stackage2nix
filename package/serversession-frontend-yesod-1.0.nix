@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, cookie, data-default
-, path-pieces, serversession, text, time, transformers
+, path-pieces, serversession, stdenv, text, time, transformers
 , unordered-containers, wai, yesod-core
 }:
 mkDerivation {

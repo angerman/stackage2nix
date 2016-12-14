@@ -1,6 +1,6 @@
 { mkDerivation, ansi-terminal, base, cmdargs, containers, cpphs
 , directory, extra, filepath, haskell-src-exts, hscolour, process
-, refact, transformers, uniplate
+, refact, stdenv, transformers, uniplate
 }:
 mkDerivation {
   pname = "hlint";

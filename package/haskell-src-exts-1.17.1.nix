@@ -1,6 +1,6 @@
 { mkDerivation, array, base, containers, cpphs, directory, filepath
-, ghc-prim, happy, mtl, pretty, pretty-show, smallcheck, syb, tasty
-, tasty-golden, tasty-smallcheck
+, ghc-prim, happy, mtl, pretty, pretty-show, smallcheck, stdenv
+, syb, tasty, tasty-golden, tasty-smallcheck
 }:
 mkDerivation {
   pname = "haskell-src-exts";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, containers, text }:
+{ mkDerivation, base, bytestring, containers, stdenv, text }:
 mkDerivation {
   pname = "tagsoup";
   version = "0.14";

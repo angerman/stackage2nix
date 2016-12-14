@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, generic-deriving, mtl
-, tagged, text, unordered-containers, vector
+, stdenv, tagged, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "generic-aeson";

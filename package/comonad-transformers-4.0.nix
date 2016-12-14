@@ -1,4 +1,4 @@
-{ mkDerivation, base, comonad }:
+{ mkDerivation, base, comonad, stdenv }:
 mkDerivation {
   pname = "comonad-transformers";
   version = "4.0";

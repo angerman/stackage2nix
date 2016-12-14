@@ -1,4 +1,4 @@
-{ mkDerivation, base, HUnit }:
+{ mkDerivation, base, HUnit, stdenv }:
 mkDerivation {
   pname = "hspec-expectations";
   version = "0.7.2";

@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, regex-applicative, srcloc, tasty
-, tasty-hunit
+{ mkDerivation, base, deepseq, regex-applicative, srcloc, stdenv
+, tasty, tasty-hunit
 }:
 mkDerivation {
   pname = "lexer-applicative";

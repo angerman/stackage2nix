@@ -3,8 +3,8 @@
 , cryptohash, deepseq, directory, fail, filepath, ghc-prim
 , hashable, hspec, hspec-smallcheck, integer-gmp, lifted-base
 , monad-control, mono-traversable, primitive, resourcet, safe
-, semigroups, smallcheck, store-core, syb, template-haskell, text
-, th-lift, th-lift-instances, th-orphans, th-reify-many
+, semigroups, smallcheck, stdenv, store-core, syb, template-haskell
+, text, th-lift, th-lift-instances, th-orphans, th-reify-many
 , th-utilities, time, transformers, unordered-containers, vector
 , vector-binary-instances, void, weigh
 }:

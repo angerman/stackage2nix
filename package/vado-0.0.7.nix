@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, directory, filepath, process
-, QuickCheck, text
+, QuickCheck, stdenv, text
 }:
 mkDerivation {
   pname = "vado";

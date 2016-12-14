@@ -1,4 +1,6 @@
-{ mkDerivation, base, chunked-data, deepseq, transformers-base }:
+{ mkDerivation, base, chunked-data, deepseq, stdenv
+, transformers-base
+}:
 mkDerivation {
   pname = "encoding-io";
   version = "0.0.1";

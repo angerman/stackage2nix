@@ -1,7 +1,8 @@
 { mkDerivation, aeson, ansi-wl-pprint, base, bifunctors, bytestring
 , comonad, directory, filepath, free, lens, mtl, parsers
-, scientific, semigroups, tasty, tasty-golden, text, text-format
-, text-manipulate, trifecta, unordered-containers, vector
+, scientific, semigroups, stdenv, tasty, tasty-golden, text
+, text-format, text-manipulate, trifecta, unordered-containers
+, vector
 }:
 mkDerivation {
   pname = "ede";

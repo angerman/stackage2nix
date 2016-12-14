@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl }:
+{ mkDerivation, base, mtl, stdenv }:
 mkDerivation {
   pname = "indentation-core";
   version = "0.0";

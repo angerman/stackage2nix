@@ -1,4 +1,4 @@
-{ mkDerivation, base, c2hs, libsndfile }:
+{ mkDerivation, base, c2hs, libsndfile, stdenv }:
 mkDerivation {
   pname = "hsndfile";
   version = "0.8.0";

@@ -1,6 +1,6 @@
 { mkDerivation, array, base, binary, bytestring, deepseq, directory
 , ghc-prim, HUnit, integer-gmp, QuickCheck, quickcheck-unicode
-, random, test-framework, test-framework-hunit
+, random, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2
 }:
 mkDerivation {

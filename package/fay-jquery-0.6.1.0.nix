@@ -1,4 +1,4 @@
-{ mkDerivation, fay-base, fay-text }:
+{ mkDerivation, fay-base, fay-text, stdenv }:
 mkDerivation {
   pname = "fay-jquery";
   version = "0.6.1.0";

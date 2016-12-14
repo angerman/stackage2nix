@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc, syb }:
+{ mkDerivation, base, ghc, stdenv, syb }:
 mkDerivation {
   pname = "ghc-syb-utils";
   version = "0.2.3";

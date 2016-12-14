@@ -1,5 +1,5 @@
 { mkDerivation, base, byteable, bytestring, cereal, cipher-aes
-, cryptohash, directory, filepath, mmap, QuickCheck, random
+, cryptohash, directory, filepath, mmap, QuickCheck, random, stdenv
 , storable-endian, test-framework, test-framework-quickcheck2, text
 , time
 }:

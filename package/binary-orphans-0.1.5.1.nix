@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, binary, case-insensitive, hashable
-, QuickCheck, quickcheck-instances, scientific, tagged, tasty
-, tasty-quickcheck, text, text-binary, time, unordered-containers
-, vector, vector-binary-instances
+, QuickCheck, quickcheck-instances, scientific, stdenv, tagged
+, tasty, tasty-quickcheck, text, text-binary, time
+, unordered-containers, vector, vector-binary-instances
 }:
 mkDerivation {
   pname = "binary-orphans";

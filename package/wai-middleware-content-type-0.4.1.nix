@@ -1,9 +1,9 @@
 { mkDerivation, aeson, base, blaze-builder, blaze-html, bytestring
 , clay, exceptions, hashable, hspec, hspec-wai, http-media
 , http-types, lucid, mmorph, monad-control, monad-logger, mtl
-, pandoc, pandoc-types, resourcet, shakespeare, tasty, tasty-hspec
-, text, transformers, transformers-base, unordered-containers
-, urlpath, wai, wai-transformers, warp
+, pandoc, pandoc-types, resourcet, shakespeare, stdenv, tasty
+, tasty-hspec, text, transformers, transformers-base
+, unordered-containers, urlpath, wai, wai-transformers, warp
 }:
 mkDerivation {
   pname = "wai-middleware-content-type";

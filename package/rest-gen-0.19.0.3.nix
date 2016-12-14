@@ -2,7 +2,7 @@
 , code-builder, directory, fclabels, filepath, hashable
 , haskell-src-exts, HStringTemplate, HUnit, hxt, json-schema
 , pretty, process, rest-core, safe, scientific, semigroups, split
-, test-framework, test-framework-hunit, text, uniplate
+, stdenv, test-framework, test-framework-hunit, text, uniplate
 , unordered-containers, vector
 }:
 mkDerivation {

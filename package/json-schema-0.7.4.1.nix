@@ -1,7 +1,7 @@
 { mkDerivation, aeson, aeson-utils, attoparsec, base, bytestring
 , containers, generic-aeson, generic-deriving, mtl, scientific
-, tasty, tasty-hunit, tasty-th, text, time, unordered-containers
-, vector
+, stdenv, tasty, tasty-hunit, tasty-th, text, time
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "json-schema";

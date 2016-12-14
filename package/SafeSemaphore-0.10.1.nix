@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, HUnit, stm }:
+{ mkDerivation, base, containers, HUnit, stdenv, stm }:
 mkDerivation {
   pname = "SafeSemaphore";
   version = "0.10.1";

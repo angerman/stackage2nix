@@ -1,5 +1,5 @@
-{ mkDerivation, base, conduit, fold-debounce, hspec, resourcet, stm
-, transformers, transformers-base
+{ mkDerivation, base, conduit, fold-debounce, hspec, resourcet
+, stdenv, stm, transformers, transformers-base
 }:
 mkDerivation {
   pname = "fold-debounce-conduit";

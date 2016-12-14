@@ -3,8 +3,8 @@
 , conduit, conduit-extra, containers, crypto-pubkey, cryptohash
 , directory, errors, fgl, graphviz, happy, hOpenPGP, http-client
 , http-client-tls, http-types, ixset-typed, lens, monad-loops
-, openpgp-asciiarmor, optparse-applicative, resourcet, text, time
-, time-locale-compat, transformers, unordered-containers
+, openpgp-asciiarmor, optparse-applicative, resourcet, stdenv, text
+, time, time-locale-compat, transformers, unordered-containers
 , wl-pprint-extras, wl-pprint-terminfo, yaml
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, containers, data-default
-, lens, text, xlsx
+, lens, stdenv, text, xlsx
 }:
 mkDerivation {
   pname = "xlsx-tabular";

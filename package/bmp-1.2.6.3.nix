@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, bytestring }:
+{ mkDerivation, base, binary, bytestring, stdenv }:
 mkDerivation {
   pname = "bmp";
   version = "1.2.6.3";

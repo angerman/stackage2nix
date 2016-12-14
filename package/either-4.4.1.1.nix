@@ -1,6 +1,6 @@
 { mkDerivation, base, bifunctors, exceptions, free, mmorph
 , monad-control, MonadRandom, mtl, profunctors, semigroupoids
-, semigroups, transformers, transformers-base
+, semigroups, stdenv, transformers, transformers-base
 }:
 mkDerivation {
   pname = "either";

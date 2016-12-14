@@ -1,4 +1,4 @@
-{ mkDerivation, base, tasty, tasty-hunit }:
+{ mkDerivation, base, stdenv, tasty, tasty-hunit }:
 mkDerivation {
   pname = "list-fusion-probe";
   version = "0.1.0.6";

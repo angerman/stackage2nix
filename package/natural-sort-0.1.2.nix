@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, parsec, text }:
+{ mkDerivation, base, bytestring, parsec, stdenv, text }:
 mkDerivation {
   pname = "natural-sort";
   version = "0.1.2";

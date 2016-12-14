@@ -1,5 +1,5 @@
 { mkDerivation, base, monad-primitive, mwc-random, primitive
-, transformers, vector
+, stdenv, transformers, vector
 }:
 mkDerivation {
   pname = "mwc-random-monad";

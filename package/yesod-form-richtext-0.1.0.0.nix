@@ -1,5 +1,5 @@
-{ mkDerivation, base, blaze-builder, blaze-html, shakespeare, text
-, xss-sanitize, yesod-core, yesod-form
+{ mkDerivation, base, blaze-builder, blaze-html, shakespeare
+, stdenv, text, xss-sanitize, yesod-core, yesod-form
 }:
 mkDerivation {
   pname = "yesod-form-richtext";

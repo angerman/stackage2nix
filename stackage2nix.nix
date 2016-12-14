@@ -1,5 +1,6 @@
-{ mkDerivation, base, Cabal, cabal2nix, language-nix, lens
-, optparse-applicative, pretty, stdenv, unordered-containers, yaml
+{ mkDerivation, base, Cabal, cabal2nix, containers, language-nix
+, lens, optparse-applicative, pretty, stdenv, unordered-containers
+, yaml
 }:
 mkDerivation {
   pname = "stackage2nix";
@@ -8,8 +9,8 @@ mkDerivation {
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [
-    base Cabal cabal2nix language-nix lens optparse-applicative pretty
-    unordered-containers yaml
+    base Cabal cabal2nix containers language-nix lens
+    optparse-applicative pretty unordered-containers yaml
   ];
   homepage = "https://github.com/angerman/stackage2nix";
   license = stdenv.lib.licenses.bsd3;

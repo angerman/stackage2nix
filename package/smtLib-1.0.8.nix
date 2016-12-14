@@ -1,4 +1,4 @@
-{ mkDerivation, base, pretty }:
+{ mkDerivation, base, pretty, stdenv }:
 mkDerivation {
   pname = "smtLib";
   version = "1.0.8";

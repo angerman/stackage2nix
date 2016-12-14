@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, HUnit, parsec, test-framework
-, test-framework-hunit, test-framework-quickcheck2
+{ mkDerivation, base, deepseq, HUnit, parsec, stdenv
+, test-framework, test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "network-uri";

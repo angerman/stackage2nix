@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, time }:
+{ mkDerivation, base, mtl, stdenv, time }:
 mkDerivation {
   pname = "monad-time";
   version = "0.2";

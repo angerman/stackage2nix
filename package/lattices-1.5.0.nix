@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, hashable, QuickCheck
-, semigroups, tagged, tasty, tasty-quickcheck, transformers
+, semigroups, stdenv, tagged, tasty, tasty-quickcheck, transformers
 , universe-base, universe-reverse-instances, unordered-containers
 , void
 }:

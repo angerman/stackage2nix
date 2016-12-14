@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, deepseq, hashable, mtl
 , QuickCheck, quickcheck-instances, semigroupoids, semigroups, sets
-, tasty, tasty-quickcheck, unordered-containers, witherable
+, stdenv, tasty, tasty-quickcheck, unordered-containers, witherable
 }:
 mkDerivation {
   pname = "rose-trees";

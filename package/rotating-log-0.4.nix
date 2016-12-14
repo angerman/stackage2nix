@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, directory, filepath, time }:
+{ mkDerivation, base, bytestring, directory, filepath, stdenv, time
+}:
 mkDerivation {
   pname = "rotating-log";
   version = "0.4";

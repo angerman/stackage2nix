@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, haskell-src-meta, hspec
-, QuickCheck, quickcheck-instances, template-haskell, text
+, QuickCheck, quickcheck-instances, stdenv, template-haskell, text
 }:
 mkDerivation {
   pname = "interpolate";

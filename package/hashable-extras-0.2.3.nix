@@ -1,5 +1,5 @@
 { mkDerivation, base, bifunctors, bytestring, directory, doctest
-, filepath, hashable, transformers, transformers-compat
+, filepath, hashable, stdenv, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "hashable-extras";

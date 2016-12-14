@@ -2,7 +2,7 @@
 , bytestring, bytestring-trie, case-insensitive, containers
 , cryptohash, directory, either, filepath, http-date, http-media
 , http-types, lifted-base, microlens, mime-types, mmorph
-, monad-control, mtl, network, old-locale, random, tasty
+, monad-control, mtl, network, old-locale, random, stdenv, tasty
 , tasty-hunit, tasty-quickcheck, text, time, transformers
 , transformers-base, unix, unordered-containers, wai, wai-extra
 }:

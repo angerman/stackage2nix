@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, mcmc-types, mwc-probability
-, pipes, primitive, transformers
+, pipes, primitive, stdenv, transformers
 }:
 mkDerivation {
   pname = "mighty-metropolis";

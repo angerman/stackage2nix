@@ -1,6 +1,7 @@
 { mkDerivation, base, bifunctors, comonad, containers, distributive
 , exceptions, mtl, prelude-extras, profunctors, semigroupoids
-, semigroups, template-haskell, transformers, transformers-compat
+, semigroups, stdenv, template-haskell, transformers
+, transformers-compat
 }:
 mkDerivation {
   pname = "free";

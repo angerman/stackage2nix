@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, ieee754, QuickCheck }:
+{ mkDerivation, base, hspec, ieee754, QuickCheck, stdenv }:
 mkDerivation {
   pname = "quickcheck-assertions";
   version = "0.2.0";

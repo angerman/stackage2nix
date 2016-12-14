@@ -6,7 +6,7 @@
 , monad-control, monad-logger, mtl, network, optparse-applicative
 , parallel, parsec, pattern-arrows, pipes, pipes-http, process
 , protolude, regex-tdfa, safe, semigroups, silently, sourcemap
-, spdx, split, stm, syb, text, time, transformers
+, spdx, split, stdenv, stm, syb, text, time, transformers
 , transformers-base, transformers-compat, unordered-containers
 , utf8-string, vector, wai, wai-websockets, warp, websockets
 }:

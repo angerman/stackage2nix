@@ -1,4 +1,4 @@
-{ mkDerivation }:
+{ mkDerivation, stdenv }:
 mkDerivation {
   pname = "fail";
   version = "4.9.0.0";

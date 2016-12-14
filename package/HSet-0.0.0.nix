@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, hashable, hashtables }:
+{ mkDerivation, base, containers, hashable, hashtables, stdenv }:
 mkDerivation {
   pname = "HSet";
   version = "0.0.0";

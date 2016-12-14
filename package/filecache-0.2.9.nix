@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, exceptions, hashable, hinotify
-, lens, mtl, stm, strict-base-types, temporary
+, lens, mtl, stdenv, stm, strict-base-types, temporary
 , unordered-containers
 }:
 mkDerivation {

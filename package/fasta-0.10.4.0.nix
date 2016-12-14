@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, containers, foldl
 , lens, parsec, pipes, pipes-attoparsec, pipes-bytestring
-, pipes-group, pipes-text, split, text
+, pipes-group, pipes-text, split, stdenv, text
 }:
 mkDerivation {
   pname = "fasta";

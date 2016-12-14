@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers, directory
 , filepath, haskell-src-exts, HUnit, mtl, optparse-applicative
-, strict, syb, test-framework, test-framework-hunit, yaml
+, stdenv, strict, syb, test-framework, test-framework-hunit, yaml
 }:
 mkDerivation {
   pname = "stylish-haskell";

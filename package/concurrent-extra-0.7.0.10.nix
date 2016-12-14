@@ -1,5 +1,5 @@
-{ mkDerivation, async, base, HUnit, random, stm, test-framework
-, test-framework-hunit, unbounded-delays
+{ mkDerivation, async, base, HUnit, random, stdenv, stm
+, test-framework, test-framework-hunit, unbounded-delays
 }:
 mkDerivation {
   pname = "concurrent-extra";

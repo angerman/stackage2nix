@@ -1,5 +1,5 @@
 { mkDerivation, array, base, hmatrix, hmatrix-gsl-stats, random
-, vector
+, stdenv, vector
 }:
 mkDerivation {
   pname = "hstatistics";

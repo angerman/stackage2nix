@@ -1,6 +1,7 @@
 { mkDerivation, attoparsec, base, blaze-builder, bytestring
 , case-insensitive, conduit, conduit-extra, data-default, hspec
-, HUnit, QuickCheck, resourcet, text, transformers, xml-conduit
+, HUnit, QuickCheck, resourcet, stdenv, text, transformers
+, xml-conduit
 }:
 mkDerivation {
   pname = "tagstream-conduit";

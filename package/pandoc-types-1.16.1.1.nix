@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, containers, deepseq
-, ghc-prim, syb
+, ghc-prim, stdenv, syb
 }:
 mkDerivation {
   pname = "pandoc-types";

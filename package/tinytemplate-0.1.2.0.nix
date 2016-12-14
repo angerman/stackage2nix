@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck, text }:
+{ mkDerivation, base, QuickCheck, stdenv, text }:
 mkDerivation {
   pname = "tinytemplate";
   version = "0.1.2.0";

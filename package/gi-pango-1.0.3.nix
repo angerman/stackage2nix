@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, cairo, containers, gi-glib
 , gi-gobject, gobjectIntrospection, haskell-gi, haskell-gi-base
-, pango, text, transformers
+, pango, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "gi-pango";

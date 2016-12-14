@@ -1,6 +1,6 @@
 { mkDerivation, base, base-prelude, HTF, list-t, mmorph
 , partial-handler, QuickCheck, quickcheck-instances, SafeSemaphore
-, stm-containers, transformers
+, stdenv, stm-containers, transformers
 }:
 mkDerivation {
   pname = "slave-thread";

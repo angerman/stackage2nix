@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, microlens
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "microlens-ghc";

@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, case-insensitive
-, file-embed, http-types, network, text, transformers, wai
+, file-embed, http-types, network, stdenv, text, transformers, wai
 , wai-app-static, warp, websockets
 }:
 mkDerivation {

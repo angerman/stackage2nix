@@ -1,4 +1,4 @@
-{ mkDerivation, base, constraints, containers, hashable
+{ mkDerivation, base, constraints, containers, hashable, stdenv
 , transformers, unfoldable, unit-constraint, unordered-containers
 }:
 mkDerivation {

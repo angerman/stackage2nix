@@ -1,4 +1,6 @@
-{ mkDerivation, base, Cabal, containers, deepseq, QuickCheck }:
+{ mkDerivation, base, Cabal, containers, deepseq, QuickCheck
+, stdenv
+}:
 mkDerivation {
   pname = "IntervalMap";
   version = "0.5.2.0";

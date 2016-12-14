@@ -1,4 +1,5 @@
-{ mkDerivation, base, bifunctors, keys, mtl, transformers }:
+{ mkDerivation, base, bifunctors, keys, mtl, stdenv, transformers
+}:
 mkDerivation {
   pname = "result";
   version = "0.2.6.0";

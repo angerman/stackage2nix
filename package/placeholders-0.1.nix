@@ -1,4 +1,4 @@
-{ mkDerivation, base, template-haskell }:
+{ mkDerivation, base, stdenv, template-haskell }:
 mkDerivation {
   pname = "placeholders";
   version = "0.1";

@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, hspec, HUnit
-, iconv, text, time
+, iconv, stdenv, text, time
 }:
 mkDerivation {
   pname = "hsexif";

@@ -6,9 +6,9 @@ import GHC.Generics
 import qualified Data.Yaml as Yaml
 import qualified Options.Applicative as Opts
 import Data.Monoid ((<>))
-import Control.Lens ((#), (&), (.~))
+import Control.Lens ((#), (&), (.~), (%~))
 
-import Distribution.Nixpkgs.Haskell (src, Derivation)
+import Distribution.Nixpkgs.Haskell (src, Derivation, extraFunctionArgs)
 import Distribution.Nixpkgs.Haskell.PackageSourceSpec (getPackage, Package(..))
 import Distribution.Nixpkgs.Fetch (Source(..), Hash(UnknownHash))
 import Distribution.Nixpkgs.Haskell.FromCabal (fromGenericPackageDescription)
@@ -18,7 +18,8 @@ import Distribution.System (Platform(..), OS(OSX), Arch(X86_64))
 import Language.Nix (binding, path)
 import Text.PrettyPrint.HughesPJClass (Pretty(pPrint), render)
 
-import qualified Data.HashMap.Lazy as M (toList)
+import qualified Data.HashMap.Lazy as Map (toList)
+import qualified Data.Set as Set (union, fromList)
 
 import Control.Monad (forM_)
 
@@ -54,6 +55,9 @@ mkDeriv pkg = fromGenericPackageDescription
               []
               (pkgCabal pkg)
               & src .~ pkgSource pkg
+              -- Add "stdenv" to the arguments; this is essnetial, as we use
+              -- stdenv.licenses.xxx.
+              & extraFunctionArgs %~ Set.union (Set.fromList ["inherit stdenv"])
 
 -- | PackageName (e.g. package-1.2.3)
 type PackageName = String
@@ -78,7 +82,7 @@ processArgs args = do
       putStrLn "with import <nixpkgs/pkgs/development/haskell-modules/lib.nix> { inherit pkgs; };"
       putStrLn ""
       putStrLn "self: super: {"
-      forM_ (M.toList (packages s)) $ \(name, package) -> do
+      forM_ (Map.toList (packages s)) $ \(name, package) -> do
         nixExpr <- writePkgDeriv (output args) (name <> "-" <> version package)
         putStrLn $ "  " <> name <> " = self.callPackage ./" <> nixExpr <> " {};"
       putStrLn "}"

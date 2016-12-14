@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bmp, bytestring, old-time, repa
-, vector
+, stdenv, vector
 }:
 mkDerivation {
   pname = "repa-io";

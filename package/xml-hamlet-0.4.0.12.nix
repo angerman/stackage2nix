@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, hspec, HUnit, parsec, shakespeare
-, template-haskell, text, xml-conduit
+, stdenv, template-haskell, text, xml-conduit
 }:
 mkDerivation {
   pname = "xml-hamlet";

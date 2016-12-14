@@ -2,9 +2,10 @@
 , case-insensitive, containers, deepseq, directory, filepath
 , hashable, HUnit, io-streams, lifted-base, monad-control, mtl
 , old-locale, parallel, QuickCheck, random, readable, regex-posix
-, test-framework, test-framework-hunit, test-framework-quickcheck2
-, text, time, transformers, transformers-base, unix-compat
-, unordered-containers, vector, zlib
+, stdenv, test-framework, test-framework-hunit
+, test-framework-quickcheck2, text, time, transformers
+, transformers-base, unix-compat, unordered-containers, vector
+, zlib
 }:
 mkDerivation {
   pname = "snap-core";

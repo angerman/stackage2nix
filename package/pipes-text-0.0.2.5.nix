@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, pipes, pipes-bytestring
-, pipes-group, pipes-parse, pipes-safe, streaming-commons, text
-, transformers
+, pipes-group, pipes-parse, pipes-safe, stdenv, streaming-commons
+, text, transformers
 }:
 mkDerivation {
   pname = "pipes-text";

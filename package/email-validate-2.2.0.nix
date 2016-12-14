@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, ghc-prim, HUnit
-, QuickCheck, test-framework, test-framework-hunit
+, QuickCheck, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2
 }:
 mkDerivation {

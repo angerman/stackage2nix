@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, directory, doctest
-, filepath
+, filepath, stdenv
 }:
 mkDerivation {
   pname = "doctest-discover";

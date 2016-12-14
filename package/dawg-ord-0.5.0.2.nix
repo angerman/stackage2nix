@@ -1,6 +1,6 @@
-{ mkDerivation, base, containers, HUnit, mtl, smallcheck, tasty
-, tasty-hunit, tasty-quickcheck, tasty-smallcheck, transformers
-, vector
+{ mkDerivation, base, containers, HUnit, mtl, smallcheck, stdenv
+, tasty, tasty-hunit, tasty-quickcheck, tasty-smallcheck
+, transformers, vector
 }:
 mkDerivation {
   pname = "dawg-ord";

@@ -2,9 +2,9 @@
 , conduit-extra, connection, containers, deepseq, directory, extra
 , filepath, haskell-src-exts, http-conduit, http-types, js-flot
 , js-jquery, mmap, network, network-uri, network-uri-flag
-, old-locale, process, QuickCheck, resourcet, tar, template-haskell
-, text, time, transformers, uniplate, utf8-string, vector, wai
-, wai-logger, warp, warp-tls, zlib
+, old-locale, process, QuickCheck, resourcet, stdenv, tar
+, template-haskell, text, time, transformers, uniplate, utf8-string
+, vector, wai, wai-logger, warp, warp-tls, zlib
 }:
 mkDerivation {
   pname = "hoogle";

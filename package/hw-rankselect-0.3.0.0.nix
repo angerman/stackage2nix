@@ -1,4 +1,5 @@
-{ mkDerivation, base, hspec, hw-bits, hw-prim, QuickCheck, vector
+{ mkDerivation, base, hspec, hw-bits, hw-prim, QuickCheck, stdenv
+, vector
 }:
 mkDerivation {
   pname = "hw-rankselect";

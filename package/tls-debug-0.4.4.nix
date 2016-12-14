@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cryptonite, data-default-class
-, network, pem, time, tls, x509, x509-store, x509-system
+, network, pem, stdenv, time, tls, x509, x509-store, x509-system
 , x509-validation
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, stm }:
+{ mkDerivation, base, stdenv, stm }:
 mkDerivation {
   pname = "nano-erl";
   version = "0.1.0.1";

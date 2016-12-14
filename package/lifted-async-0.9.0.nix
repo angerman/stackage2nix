@@ -1,5 +1,5 @@
 { mkDerivation, async, base, constraints, HUnit, lifted-base
-, monad-control, mtl, tasty, tasty-hunit, tasty-th
+, monad-control, mtl, stdenv, tasty, tasty-hunit, tasty-th
 , transformers-base
 }:
 mkDerivation {

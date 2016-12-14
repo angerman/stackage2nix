@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, scientific
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "aeson-utils";

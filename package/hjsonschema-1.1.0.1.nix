@@ -1,8 +1,9 @@
 { mkDerivation, aeson, async, base, bytestring, containers
 , directory, file-embed, filepath, hjsonpointer, http-client
 , http-types, HUnit, pcre-heavy, profunctors, QuickCheck
-, scientific, semigroups, tasty, tasty-hunit, tasty-quickcheck
-, text, unordered-containers, vector, wai-app-static, warp
+, scientific, semigroups, stdenv, tasty, tasty-hunit
+, tasty-quickcheck, text, unordered-containers, vector
+, wai-app-static, warp
 }:
 mkDerivation {
   pname = "hjsonschema";

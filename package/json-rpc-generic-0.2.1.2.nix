@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-generic-compat, base, bytestring
 , containers, dlist, QuickCheck, quickcheck-simple, scientific
-, text, transformers, unordered-containers, vector
+, stdenv, text, transformers, unordered-containers, vector
 }:
 mkDerivation {
   pname = "json-rpc-generic";

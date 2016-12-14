@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, Cabal, containers, deepseq
 , doctest, hspec, language-nix, lens, pretty, process, QuickCheck
-, split
+, split, stdenv
 }:
 mkDerivation {
   pname = "distribution-nixpkgs";

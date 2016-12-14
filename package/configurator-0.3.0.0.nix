@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, directory, filepath
-, hashable, HUnit, test-framework, test-framework-hunit, text
-, unix-compat, unordered-containers
+, hashable, HUnit, stdenv, test-framework, test-framework-hunit
+, text, unix-compat, unordered-containers
 }:
 mkDerivation {
   pname = "configurator";

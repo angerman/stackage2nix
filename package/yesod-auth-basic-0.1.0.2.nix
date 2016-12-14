@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, bytestring, exceptions
-, hlint, hspec, text, wai, word8, yesod, yesod-test
+, hlint, hspec, stdenv, text, wai, word8, yesod, yesod-test
 }:
 mkDerivation {
   pname = "yesod-auth-basic";

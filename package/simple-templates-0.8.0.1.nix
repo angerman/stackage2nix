@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, hspec, HUnit, scientific
-, text, unordered-containers, vector
+, stdenv, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "simple-templates";

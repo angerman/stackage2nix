@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, mtl }:
+{ mkDerivation, array, base, containers, mtl, stdenv }:
 mkDerivation {
   pname = "frisby";
   version = "0.2";

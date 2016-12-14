@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, email-validate, resolv }:
+{ mkDerivation, base, bytestring, email-validate, resolv, stdenv }:
 mkDerivation {
   pname = "check-email";
   version = "1.0";

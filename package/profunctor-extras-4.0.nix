@@ -1,4 +1,4 @@
-{ mkDerivation, base, profunctors }:
+{ mkDerivation, base, profunctors, stdenv }:
 mkDerivation {
   pname = "profunctor-extras";
   version = "4.0";

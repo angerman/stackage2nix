@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, bytestring, hashable
+{ mkDerivation, base, binary, bytestring, hashable, stdenv
 , unordered-containers
 }:
 mkDerivation {

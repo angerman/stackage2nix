@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck }:
+{ mkDerivation, base, QuickCheck, stdenv }:
 mkDerivation {
   pname = "quickcheck-simple";
   version = "0.1.0.1";

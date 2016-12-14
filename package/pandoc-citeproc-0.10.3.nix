@@ -1,7 +1,7 @@
 { mkDerivation, aeson, aeson-pretty, attoparsec, base, bytestring
 , containers, data-default, directory, filepath, hs-bibutils, mtl
 , old-locale, pandoc, pandoc-types, parsec, process, rfc5051
-, setenv, split, syb, tagsoup, temporary, text, time
+, setenv, split, stdenv, syb, tagsoup, temporary, text, time
 , unordered-containers, vector, xml-conduit, yaml
 }:
 mkDerivation {

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, Cabal, containers, exceptions
-, hashable, safe, semigroups, text, time, unordered-containers
-, vector
+, hashable, safe, semigroups, stdenv, text, time
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "stackage-types";

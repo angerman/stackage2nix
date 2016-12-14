@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, http-types
-, lrucache, text, wai, wai-middleware-caching
+, lrucache, stdenv, text, wai, wai-middleware-caching
 }:
 mkDerivation {
   pname = "wai-middleware-caching-lru";

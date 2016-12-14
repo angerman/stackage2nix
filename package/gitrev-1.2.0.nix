@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath, process
+{ mkDerivation, base, directory, filepath, process, stdenv
 , template-haskell
 }:
 mkDerivation {

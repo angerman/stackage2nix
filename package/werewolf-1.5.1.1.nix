@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, containers, directory, extra, filepath
 , interpolate, lens, MonadRandom, mtl, optparse-applicative
-, random-shuffle, template-haskell, text, transformers
+, random-shuffle, stdenv, template-haskell, text, transformers
 }:
 mkDerivation {
   pname = "werewolf";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, freenect, freenect_sync, libfreenect, vector
+{ mkDerivation, base, freenect, freenect_sync, libfreenect, stdenv
+, vector
 }:
 mkDerivation {
   pname = "freenect";

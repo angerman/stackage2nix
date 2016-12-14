@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, QuickCheck, random
-, test-framework, test-framework-quickcheck2
+, stdenv, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "binary-bits";

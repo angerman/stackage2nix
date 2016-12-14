@@ -1,5 +1,5 @@
 { mkDerivation, async, base, bytestring, cli, hspec, JuicyPixels
-, pureMD5, QuickCheck, random, split
+, pureMD5, QuickCheck, random, split, stdenv
 }:
 mkDerivation {
   pname = "pixelated-avatar-generator";

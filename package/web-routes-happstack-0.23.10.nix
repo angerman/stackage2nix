@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, happstack-server, text
+{ mkDerivation, base, bytestring, happstack-server, stdenv, text
 , web-routes
 }:
 mkDerivation {

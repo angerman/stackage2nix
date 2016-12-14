@@ -1,4 +1,5 @@
-{ mkDerivation, base, cassava, http-media, servant, vector }:
+{ mkDerivation, base, cassava, http-media, servant, stdenv, vector
+}:
 mkDerivation {
   pname = "servant-cassava";
   version = "0.8";

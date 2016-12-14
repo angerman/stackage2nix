@@ -1,4 +1,5 @@
-{ mkDerivation, base, ghc-prim, hashable, primitive, vector }:
+{ mkDerivation, base, ghc-prim, hashable, primitive, stdenv, vector
+}:
 mkDerivation {
   pname = "hashtables";
   version = "1.2.1.0";

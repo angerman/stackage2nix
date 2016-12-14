@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, semigroups, transformers }:
+{ mkDerivation, base, containers, semigroups, stdenv, transformers
+}:
 mkDerivation {
   pname = "event";
   version = "0.1.4";

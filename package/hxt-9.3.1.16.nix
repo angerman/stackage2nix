@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, containers, deepseq
 , directory, filepath, hxt-charproperties, hxt-regex-xmlschema
-, hxt-unicode, mtl, network-uri, parsec
+, hxt-unicode, mtl, network-uri, parsec, stdenv
 }:
 mkDerivation {
   pname = "hxt";

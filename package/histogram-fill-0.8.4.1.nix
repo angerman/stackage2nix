@@ -1,5 +1,5 @@
 { mkDerivation, base, deepseq, ghc-prim, monad-primitive, primitive
-, vector
+, stdenv, vector
 }:
 mkDerivation {
   pname = "histogram-fill";

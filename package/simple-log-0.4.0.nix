@@ -1,5 +1,5 @@
 { mkDerivation, async, base, containers, deepseq, directory
-, exceptions, filepath, mtl, SafeSemaphore, text, time
+, exceptions, filepath, mtl, SafeSemaphore, stdenv, text, time
 , transformers
 }:
 mkDerivation {

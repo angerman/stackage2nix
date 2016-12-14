@@ -1,4 +1,4 @@
-{ mkDerivation, base, exceptions, path }:
+{ mkDerivation, base, exceptions, path, stdenv }:
 mkDerivation {
   pname = "path-extra";
   version = "0.0.3";

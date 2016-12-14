@@ -1,6 +1,6 @@
 { mkDerivation, base, configurator, connection, data-default
-, http-client, http-client-tls, soap, text, tls, x509, x509-store
-, x509-validation
+, http-client, http-client-tls, soap, stdenv, text, tls, x509
+, x509-store, x509-validation
 }:
 mkDerivation {
   pname = "soap-tls";

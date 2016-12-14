@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, transformers }:
+{ mkDerivation, base, ghc-prim, stdenv, transformers }:
 mkDerivation {
   pname = "transformers-compat";
   version = "0.5.1.4";

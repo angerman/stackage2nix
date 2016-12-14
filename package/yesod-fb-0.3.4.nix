@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, conduit, crypto-api, fb
-, http-conduit, text, wai, yesod-core
+, http-conduit, stdenv, text, wai, yesod-core
 }:
 mkDerivation {
   pname = "yesod-fb";

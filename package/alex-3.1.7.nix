@@ -1,5 +1,5 @@
 { mkDerivation, array, base, containers, directory, happy, process
-, QuickCheck
+, QuickCheck, stdenv
 }:
 mkDerivation {
   pname = "alex";

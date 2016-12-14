@@ -1,7 +1,7 @@
 { mkDerivation, base, containers, either, exceptions, free
-, hashable, monad-skeleton, mtl, profunctors, template-haskell
-, transformers, transformers-compat, unordered-containers, void
-, witherable
+, hashable, monad-skeleton, mtl, profunctors, stdenv
+, template-haskell, transformers, transformers-compat
+, unordered-containers, void, witherable
 }:
 mkDerivation {
   pname = "objective";

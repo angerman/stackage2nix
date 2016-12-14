@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, double-conversion
-, fast-logger, text, transformers, unix-time
+, fast-logger, stdenv, text, transformers, unix-time
 }:
 mkDerivation {
   pname = "tinylog";

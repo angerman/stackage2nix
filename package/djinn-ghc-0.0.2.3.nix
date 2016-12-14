@@ -1,5 +1,5 @@
 { mkDerivation, async, base, containers, djinn-lib, ghc, mtl
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "djinn-ghc";

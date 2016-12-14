@@ -1,5 +1,6 @@
 { mkDerivation, base, Cabal, containers, directory, filepath, mtl
-, process, syb, tasty, tasty-golden, template-haskell, th-desugar
+, process, stdenv, syb, tasty, tasty-golden, template-haskell
+, th-desugar
 }:
 mkDerivation {
   pname = "singletons";

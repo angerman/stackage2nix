@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, dlist, mtl, scientific
-, text, transformers, transformers-compat, unordered-containers
-, vector, void
+, stdenv, text, transformers, transformers-compat
+, unordered-containers, vector, void
 }:
 mkDerivation {
   pname = "aeson-better-errors";

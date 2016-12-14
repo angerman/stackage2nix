@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, connection, network, websockets
+{ mkDerivation, base, bytestring, connection, network, stdenv
+, websockets
 }:
 mkDerivation {
   pname = "wuss";

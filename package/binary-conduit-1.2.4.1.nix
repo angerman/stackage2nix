@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, conduit, hspec
-, QuickCheck, quickcheck-assertions, resourcet, vector
+, QuickCheck, quickcheck-assertions, resourcet, stdenv, vector
 }:
 mkDerivation {
   pname = "binary-conduit";

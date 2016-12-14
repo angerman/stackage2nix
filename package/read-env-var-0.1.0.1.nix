@@ -1,4 +1,4 @@
-{ mkDerivation, base, doctest, Glob }:
+{ mkDerivation, base, doctest, Glob, stdenv }:
 mkDerivation {
   pname = "read-env-var";
   version = "0.1.0.1";

@@ -1,6 +1,6 @@
 { mkDerivation, array, base, bytestring, containers, directory
 , dlist, filepath, HUnit, language-c, pretty, process, shelly
-, test-framework, test-framework-hunit, text, transformers
+, stdenv, test-framework, test-framework-hunit, text, transformers
 }:
 mkDerivation {
   pname = "c2hs";

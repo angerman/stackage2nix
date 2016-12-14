@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, HUnit, hxt-charproperties, parsec
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "hxt-regex-xmlschema";

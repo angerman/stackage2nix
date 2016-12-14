@@ -1,5 +1,5 @@
 { mkDerivation, base, deepseq, ghc-prim, primitive, QuickCheck
-, random, template-haskell, test-framework
+, random, stdenv, template-haskell, test-framework
 , test-framework-quickcheck2, transformers
 }:
 mkDerivation {

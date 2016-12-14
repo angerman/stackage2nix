@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, exceptions, extensible-exceptions
-, filepath, ghc, ghc-paths, HUnit, mtl, random, unix
+, filepath, ghc, ghc-paths, HUnit, mtl, random, stdenv, unix
 }:
 mkDerivation {
   pname = "hint";

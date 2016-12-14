@@ -2,7 +2,7 @@
 , bytestring, case-insensitive, conduit, conduit-extra, containers
 , data-default, doctest, exceptions, hlint, hspec, http-client
 , http-conduit, http-types, lens, lens-aeson, network-uri
-, resourcet, template-haskell, text, time, transformers
+, resourcet, stdenv, template-haskell, text, time, transformers
 , transformers-base, twitter-types, twitter-types-lens
 }:
 mkDerivation {

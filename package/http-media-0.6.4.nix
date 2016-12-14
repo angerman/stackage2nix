@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, case-insensitive, containers
-, QuickCheck, test-framework, test-framework-quickcheck2
+, QuickCheck, stdenv, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "http-media";

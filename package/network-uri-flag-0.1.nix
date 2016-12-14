@@ -1,4 +1,4 @@
-{ mkDerivation, network, network-uri }:
+{ mkDerivation, network, network-uri, stdenv }:
 mkDerivation {
   pname = "network-uri-flag";
   version = "0.1";

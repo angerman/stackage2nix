@@ -1,4 +1,4 @@
-{ mkDerivation }:
+{ mkDerivation, stdenv }:
 mkDerivation {
   pname = "nats";
   version = "1.1.1";

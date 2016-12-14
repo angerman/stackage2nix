@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, deepseq, phantom-state
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "binary-list";

@@ -1,7 +1,8 @@
 { mkDerivation, alex, array, base, bytestring, containers
 , exception-mtl, exception-transformers, filepath, happy
-, haskell-src-meta, HUnit, mainland-pretty, mtl, srcloc, syb
-, symbol, template-haskell, test-framework, test-framework-hunit
+, haskell-src-meta, HUnit, mainland-pretty, mtl, srcloc, stdenv
+, syb, symbol, template-haskell, test-framework
+, test-framework-hunit
 }:
 mkDerivation {
   pname = "language-c-quote";

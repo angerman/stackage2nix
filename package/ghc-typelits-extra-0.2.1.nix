@@ -1,6 +1,7 @@
 { mkDerivation, base, ghc, ghc-tcplugins-extra
 , ghc-typelits-knownnat, ghc-typelits-natnormalise, integer-gmp
-, singletons, tasty, tasty-hunit, template-haskell, transformers
+, singletons, stdenv, tasty, tasty-hunit, template-haskell
+, transformers
 }:
 mkDerivation {
   pname = "ghc-typelits-extra";

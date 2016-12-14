@@ -1,7 +1,7 @@
 { mkDerivation, aeson, aeson-qq, base, base-compat, bytestring
 , containers, doctest, generics-sop, Glob, hashable, hspec
 , http-media, HUnit, insert-ordered-containers, lens, mtl, network
-, QuickCheck, scientific, template-haskell, text, time
+, QuickCheck, scientific, stdenv, template-haskell, text, time
 , transformers, unordered-containers, uuid-types, vector
 }:
 mkDerivation {

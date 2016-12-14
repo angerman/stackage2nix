@@ -1,4 +1,4 @@
-{ mkDerivation, base, http-media, lucid, servant }:
+{ mkDerivation, base, http-media, lucid, servant, stdenv }:
 mkDerivation {
   pname = "servant-lucid";
   version = "0.7.1";

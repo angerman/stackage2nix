@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers }:
+{ mkDerivation, base, containers, stdenv }:
 mkDerivation {
   pname = "data-reify";
   version = "0.6.1";

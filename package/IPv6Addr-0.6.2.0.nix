@@ -1,5 +1,6 @@
 { mkDerivation, attoparsec, base, HUnit, iproute, network
-, network-info, random, test-framework, test-framework-hunit, text
+, network-info, random, stdenv, test-framework
+, test-framework-hunit, text
 }:
 mkDerivation {
   pname = "IPv6Addr";

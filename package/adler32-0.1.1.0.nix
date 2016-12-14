@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, hspec, zlib }:
+{ mkDerivation, base, bytestring, hspec, stdenv, zlib }:
 mkDerivation {
   pname = "adler32";
   version = "0.1.1.0";

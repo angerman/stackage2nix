@@ -1,8 +1,8 @@
 { mkDerivation, aeson, attoparsec, base, base16-bytestring
 , bytestring, bytestring-builder, case-insensitive, containers
 , cryptohash, filepath, hashable, HUnit, postgresql-libpq
-, scientific, tasty, tasty-golden, tasty-hunit, template-haskell
-, text, time, transformers, uuid-types, vector
+, scientific, stdenv, tasty, tasty-golden, tasty-hunit
+, template-haskell, text, time, transformers, uuid-types, vector
 }:
 mkDerivation {
   pname = "postgresql-simple";

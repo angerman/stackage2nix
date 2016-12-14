@@ -2,7 +2,7 @@
 , binary, bson, bytestring, containers, cryptohash
 , data-default-class, hashtables, hspec, lifted-base, monad-control
 , mtl, network, nonce, old-locale, parsec, random, random-shuffle
-, text, time, tls, transformers-base
+, stdenv, text, time, tls, transformers-base
 }:
 mkDerivation {
   pname = "mongoDB";

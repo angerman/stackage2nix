@@ -3,7 +3,7 @@
 , directory, doctest, exceptions, filemanip, filepath, hspec
 , hspec-wai, http-api-data, http-types, mtl, network, network-uri
 , parsec, QuickCheck, safe, servant, should-not-typecheck, split
-, string-conversions, system-filepath, temporary, text
+, stdenv, string-conversions, system-filepath, temporary, text
 , transformers, transformers-compat, wai, wai-app-static, wai-extra
 , warp, word8
 }:

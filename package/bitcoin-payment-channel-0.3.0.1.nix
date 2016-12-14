@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, base16-bytestring, base58string
 , base64-bytestring, bytestring, cereal, errors, haskoin-core
-, hexstring, QuickCheck, scientific, text, time
+, hexstring, QuickCheck, scientific, stdenv, text, time
 }:
 mkDerivation {
   pname = "bitcoin-payment-channel";

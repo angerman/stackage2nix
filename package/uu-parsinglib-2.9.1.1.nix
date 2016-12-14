@@ -1,4 +1,4 @@
-{ mkDerivation, base, ListLike, time, uu-interleaved }:
+{ mkDerivation, base, ListLike, stdenv, time, uu-interleaved }:
 mkDerivation {
   pname = "uu-parsinglib";
   version = "2.9.1.1";

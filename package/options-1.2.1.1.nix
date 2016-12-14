@@ -1,5 +1,5 @@
 { mkDerivation, base, chell, chell-quickcheck, containers
-, monads-tf, transformers
+, monads-tf, stdenv, transformers
 }:
 mkDerivation {
   pname = "options";

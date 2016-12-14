@@ -1,4 +1,4 @@
-{ mkDerivation, base, hxt-charproperties }:
+{ mkDerivation, base, hxt-charproperties, stdenv }:
 mkDerivation {
   pname = "hxt-unicode";
   version = "9.0.2.4";

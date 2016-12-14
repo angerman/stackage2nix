@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, derive, HUnit, mtl
-, QuickCheck, template-haskell, test-framework
+, QuickCheck, stdenv, template-haskell, test-framework
 , test-framework-hunit, test-framework-quickcheck2, th-expand-syns
 , transformers, tree-view
 }:

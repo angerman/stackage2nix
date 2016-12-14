@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra
-, containers, libnotify, process, resourcet, time, transformers
+, containers, libnotify, process, resourcet, stdenv, time
+, transformers
 }:
 mkDerivation {
   pname = "osdkeys";

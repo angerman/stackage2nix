@@ -1,5 +1,5 @@
 { mkDerivation, array, attoparsec, base, bytestring, HUnit, mtl
-, regex-pcre-builtin, vector
+, regex-pcre-builtin, stdenv, vector
 }:
 mkDerivation {
   pname = "pcre-utils";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, pretty, show-type }:
+{ mkDerivation, base, pretty, show-type, stdenv }:
 mkDerivation {
   pname = "type-spec";
   version = "0.2.0.0";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, process, tagsoup, text }:
+{ mkDerivation, base, directory, process, stdenv, tagsoup, text }:
 mkDerivation {
   pname = "xml-to-json-fast";
   version = "2.0.0";

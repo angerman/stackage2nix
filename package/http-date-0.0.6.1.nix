@@ -1,5 +1,5 @@
 { mkDerivation, array, attoparsec, base, bytestring, doctest, hspec
-, old-locale, time
+, old-locale, stdenv, time
 }:
 mkDerivation {
   pname = "http-date";

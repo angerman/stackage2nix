@@ -1,4 +1,5 @@
-{ mkDerivation, base, deepseq, profunctors, tagged, vinyl }:
+{ mkDerivation, base, deepseq, profunctors, stdenv, tagged, vinyl
+}:
 mkDerivation {
   pname = "union";
   version = "0.1.1.1";

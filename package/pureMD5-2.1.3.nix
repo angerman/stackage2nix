@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, cereal, crypto-api
-, crypto-api-tests, pretty-hex, QuickCheck, tagged, test-framework
-, test-framework-quickcheck2
+, crypto-api-tests, pretty-hex, QuickCheck, stdenv, tagged
+, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "pureMD5";

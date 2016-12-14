@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl, safe }:
+{ mkDerivation, base, containers, mtl, safe, stdenv }:
 mkDerivation {
   pname = "pure-io";
   version = "0.2.1";

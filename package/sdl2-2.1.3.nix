@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, exceptions, linear, SDL2
-, StateVar, text, transformers, vector
+, StateVar, stdenv, text, transformers, vector
 }:
 mkDerivation {
   pname = "sdl2";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, Cabal, directory, filepath }:
+{ mkDerivation, base, Cabal, directory, filepath, stdenv }:
 mkDerivation {
   pname = "autoexporter";
   version = "0.2.2";

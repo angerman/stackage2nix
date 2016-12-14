@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, deepseq, generic-deriving
-, ListLike, process, text
+, ListLike, process, stdenv, text
 }:
 mkDerivation {
   pname = "process-extras";

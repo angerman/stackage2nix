@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, containers, fixed, half, text
-, transformers
+{ mkDerivation, base, bytestring, containers, fixed, half, stdenv
+, text, transformers
 }:
 mkDerivation {
   pname = "OpenGLRaw";

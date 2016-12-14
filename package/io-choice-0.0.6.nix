@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, lifted-base, monad-control
+{ mkDerivation, base, hspec, lifted-base, monad-control, stdenv
 , template-haskell, transformers, transformers-base
 }:
 mkDerivation {

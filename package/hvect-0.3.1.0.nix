@@ -1,4 +1,4 @@
-{ mkDerivation, base, HTF }:
+{ mkDerivation, base, HTF, stdenv }:
 mkDerivation {
   pname = "hvect";
   version = "0.3.1.0";

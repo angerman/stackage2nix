@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, hmatrix, hmatrix-gsl
 , hmatrix-special, HUnit, mersenne-random, parallel, QuickCheck
-, statistics, test-framework, test-framework-hunit
+, statistics, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2, time, vector, vector-algorithms
 }:
 mkDerivation {

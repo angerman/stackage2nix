@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck }:
+{ mkDerivation, base, QuickCheck, stdenv }:
 mkDerivation {
   pname = "utility-ht";
   version = "0.0.12";

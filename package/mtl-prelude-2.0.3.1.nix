@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, transformers }:
+{ mkDerivation, base, mtl, stdenv, transformers }:
 mkDerivation {
   pname = "mtl-prelude";
   version = "2.0.3.1";

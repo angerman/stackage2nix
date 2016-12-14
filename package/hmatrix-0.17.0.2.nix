@@ -1,5 +1,5 @@
 { mkDerivation, array, base, binary, blas, bytestring, deepseq
-, liblapack, random, split, storable-complex, vector
+, liblapack, random, split, stdenv, storable-complex, vector
 }:
 mkDerivation {
   pname = "hmatrix";

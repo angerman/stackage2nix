@@ -1,4 +1,5 @@
-{ mkDerivation, base, hspec, QuickCheck, time, transformers }:
+{ mkDerivation, base, hspec, QuickCheck, stdenv, time, transformers
+}:
 mkDerivation {
   pname = "varying";
   version = "0.5.0.3";

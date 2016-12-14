@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, enclosed-exceptions, http-types
-, lifted-base, process, temporary, text, wai, yesod-core
+, lifted-base, process, stdenv, temporary, text, wai, yesod-core
 }:
 mkDerivation {
   pname = "yesod-gitrepo";

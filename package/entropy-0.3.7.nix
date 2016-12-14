@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, unix }:
+{ mkDerivation, base, bytestring, stdenv, unix }:
 mkDerivation {
   pname = "entropy";
   version = "0.3.7";

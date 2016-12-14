@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, base64-bytestring, bytestring
-, cereal, HUnit, test-framework, test-framework-hunit
+, cereal, HUnit, stdenv, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "openpgp-asciiarmor";

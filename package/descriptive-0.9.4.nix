@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bifunctors, containers, hspec, HUnit
-, mtl, scientific, text, transformers, vector
+, mtl, scientific, stdenv, text, transformers, vector
 }:
 mkDerivation {
   pname = "descriptive";

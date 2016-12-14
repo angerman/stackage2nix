@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, cereal, clientsession
-, happstack-server, monad-control, mtl, safecopy, transformers-base
+, happstack-server, monad-control, mtl, safecopy, stdenv
+, transformers-base
 }:
 mkDerivation {
   pname = "happstack-clientsession";

@@ -1,5 +1,5 @@
-{ mkDerivation, base, hspec, hspec-core, QuickCheck, random, tagged
-, tasty, tasty-quickcheck, tasty-smallcheck
+{ mkDerivation, base, hspec, hspec-core, QuickCheck, random, stdenv
+, tagged, tasty, tasty-quickcheck, tasty-smallcheck
 }:
 mkDerivation {
   pname = "tasty-hspec";

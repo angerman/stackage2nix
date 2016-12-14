@@ -2,7 +2,7 @@
 , data-default, directory, dlist, dynamic-state, dyre, exceptions
 , filepath, hashable, Hclip, hint, HUnit, lens, mtl, old-locale
 , oo-prototypes, parsec, pointedlist, process, QuickCheck, random
-, safe, semigroups, split, stm, tasty, tasty-hunit
+, safe, semigroups, split, stdenv, stm, tasty, tasty-hunit
 , tasty-quickcheck, template-haskell, text, text-icu, time
 , transformers-base, unix, unix-compat, unordered-containers, vty
 , word-trie, xdg-basedir, yi-language, yi-rope

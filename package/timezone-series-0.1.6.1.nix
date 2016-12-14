@@ -1,4 +1,4 @@
-{ mkDerivation, base, time }:
+{ mkDerivation, base, stdenv, time }:
 mkDerivation {
   pname = "timezone-series";
   version = "0.1.6.1";

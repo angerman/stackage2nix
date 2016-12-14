@@ -1,7 +1,7 @@
 { mkDerivation, AC-Vector, base, bytestring, containers, deepseq
 , directory, ghc-prim, iterable, mmap, mtl, Octree, parallel
-, QuickCheck, tagged, template-haskell, text, unordered-containers
-, vector, zlib
+, QuickCheck, stdenv, tagged, template-haskell, text
+, unordered-containers, vector, zlib
 }:
 mkDerivation {
   pname = "hPDB";

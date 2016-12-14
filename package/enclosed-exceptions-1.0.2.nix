@@ -1,5 +1,6 @@
 { mkDerivation, async, base, deepseq, hspec, lifted-base
-, monad-control, QuickCheck, stm, transformers, transformers-base
+, monad-control, QuickCheck, stdenv, stm, transformers
+, transformers-base
 }:
 mkDerivation {
   pname = "enclosed-exceptions";

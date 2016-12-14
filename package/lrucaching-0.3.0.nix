@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, containers, deepseq, hashable
-, hspec, psqueues, QuickCheck, transformers, vector
+, hspec, psqueues, QuickCheck, stdenv, transformers, vector
 }:
 mkDerivation {
   pname = "lrucaching";

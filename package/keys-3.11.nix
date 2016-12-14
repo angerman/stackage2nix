@@ -1,6 +1,6 @@
 { mkDerivation, array, base, comonad, containers, free, hashable
-, semigroupoids, semigroups, transformers, transformers-compat
-, unordered-containers
+, semigroupoids, semigroups, stdenv, transformers
+, transformers-compat, unordered-containers
 }:
 mkDerivation {
   pname = "keys";

@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, ekg-core, ekg-json
-, filepath, network, snap-core, snap-server, text, time
+, filepath, network, snap-core, snap-server, stdenv, text, time
 , transformers, unordered-containers
 }:
 mkDerivation {

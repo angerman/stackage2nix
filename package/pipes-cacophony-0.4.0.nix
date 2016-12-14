@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, cacophony, hlint, pipes }:
+{ mkDerivation, base, bytestring, cacophony, hlint, pipes, stdenv
+}:
 mkDerivation {
   pname = "pipes-cacophony";
   version = "0.4.0";

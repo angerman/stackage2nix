@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, bifunctors, bytestring
 , case-insensitive, conduit, dlist, exceptions, hashable
 , http-api-data, http-client, http-media, http-types, lens, memory
-, resourcet, scientific, servant, tasty, text, time
+, resourcet, scientific, servant, stdenv, tasty, text, time
 , unordered-containers
 }:
 mkDerivation {

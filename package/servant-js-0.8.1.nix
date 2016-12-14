@@ -1,6 +1,6 @@
 { mkDerivation, base, base-compat, charset, hspec
 , hspec-expectations, language-ecmascript, lens, servant
-, servant-foreign, text
+, servant-foreign, stdenv, text
 }:
 mkDerivation {
   pname = "servant-js";

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers, directory
-, filepath, lens, lens-aeson, random, split, text, transformers
-, wreq
+, filepath, lens, lens-aeson, random, split, stdenv, text
+, transformers, wreq
 }:
 mkDerivation {
   pname = "handwriting";

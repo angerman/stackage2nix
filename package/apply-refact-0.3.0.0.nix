@@ -1,7 +1,7 @@
 { mkDerivation, base, containers, directory, filemanip, filepath
 , ghc, ghc-exactprint, mtl, optparse-applicative, process, refact
-, silently, syb, tasty, tasty-expected-failure, tasty-golden
-, temporary, transformers, unix-compat
+, silently, stdenv, syb, tasty, tasty-expected-failure
+, tasty-golden, temporary, transformers, unix-compat
 }:
 mkDerivation {
   pname = "apply-refact";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec }:
+{ mkDerivation, base, hspec, stdenv }:
 mkDerivation {
   pname = "dockerfile";
   version = "0.1.0.1";

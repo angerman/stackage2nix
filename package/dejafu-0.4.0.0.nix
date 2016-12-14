@@ -1,6 +1,6 @@
 { mkDerivation, base, concurrency, containers, deepseq, dpor
-, exceptions, monad-loops, mtl, ref-fd, semigroups, transformers
-, transformers-base
+, exceptions, monad-loops, mtl, ref-fd, semigroups, stdenv
+, transformers, transformers-base
 }:
 mkDerivation {
   pname = "dejafu";

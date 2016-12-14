@@ -1,6 +1,6 @@
-{ mkDerivation, base, mtl, QuickCheck, stm, template-haskell
-, test-framework, test-framework-quickcheck2, transformers
-, transformers-compat
+{ mkDerivation, base, mtl, QuickCheck, stdenv, stm
+, template-haskell, test-framework, test-framework-quickcheck2
+, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "exceptions";

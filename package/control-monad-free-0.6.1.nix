@@ -1,4 +1,4 @@
-{ mkDerivation, base, prelude-extras, transformers }:
+{ mkDerivation, base, prelude-extras, stdenv, transformers }:
 mkDerivation {
   pname = "control-monad-free";
   version = "0.6.1";

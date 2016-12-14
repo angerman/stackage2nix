@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers
 , data-lens-light, filemanip, filepath, haskell-src-exts, mtl
-, pretty-show, tasty, tasty-golden, transformers
+, pretty-show, stdenv, tasty, tasty-golden, transformers
 , traverse-with-class, uniplate
 }:
 mkDerivation {

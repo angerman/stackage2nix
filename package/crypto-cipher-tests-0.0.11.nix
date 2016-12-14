@@ -1,5 +1,5 @@
 { mkDerivation, base, byteable, bytestring, crypto-cipher-types
-, HUnit, mtl, QuickCheck, securemem, test-framework
+, HUnit, mtl, QuickCheck, securemem, stdenv, test-framework
 , test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {

@@ -1,6 +1,6 @@
 { mkDerivation, asn1-encoding, asn1-types, base, byteable
 , bytestring, containers, cryptonite, data-default-class, hourglass
-, memory, mtl, pem, x509, x509-store
+, memory, mtl, pem, stdenv, x509, x509-store
 }:
 mkDerivation {
   pname = "x509-validation";

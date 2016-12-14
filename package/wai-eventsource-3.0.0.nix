@@ -1,4 +1,4 @@
-{ mkDerivation, wai }:
+{ mkDerivation, stdenv, wai }:
 mkDerivation {
   pname = "wai-eventsource";
   version = "3.0.0";

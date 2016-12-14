@@ -1,5 +1,5 @@
 { mkDerivation, acid-state, base, clckwrks, haskeline, mtl, network
-, parsec
+, parsec, stdenv
 }:
 mkDerivation {
   pname = "clckwrks-cli";

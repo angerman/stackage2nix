@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, mtl, multimap, parsec, syb, tasty
-, tasty-hunit, template-haskell
+{ mkDerivation, base, containers, mtl, multimap, parsec, stdenv
+, syb, tasty, tasty-hunit, template-haskell
 }:
 mkDerivation {
   pname = "units-parser";

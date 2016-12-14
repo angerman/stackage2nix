@@ -1,5 +1,5 @@
 { mkDerivation, array, base, carray, fftw, fftwFloat, ix-shapable
-, QuickCheck, storable-complex, syb, transformers
+, QuickCheck, stdenv, storable-complex, syb, transformers
 }:
 mkDerivation {
   pname = "fft";

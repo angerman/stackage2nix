@@ -1,4 +1,4 @@
-{ mkDerivation, base, unix }:
+{ mkDerivation, base, stdenv, unix }:
 mkDerivation {
   pname = "setenv";
   version = "0.1.1.3";

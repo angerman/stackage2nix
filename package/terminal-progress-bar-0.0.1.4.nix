@@ -1,5 +1,5 @@
-{ mkDerivation, base, base-unicode-symbols, HUnit, stm, stm-chans
-, test-framework, test-framework-hunit
+{ mkDerivation, base, base-unicode-symbols, HUnit, stdenv, stm
+, stm-chans, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "terminal-progress-bar";

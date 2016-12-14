@@ -1,5 +1,5 @@
 { mkDerivation, array, base, base64-bytestring, binary, bytestring
-, containers, errors, HTF, mtl, random, vector, zlib
+, containers, errors, HTF, mtl, random, stdenv, vector, zlib
 }:
 mkDerivation {
   pname = "HPDF";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hxt, mtl }:
+{ mkDerivation, base, hxt, mtl, stdenv }:
 mkDerivation {
   pname = "hxt-pickle-utils";
   version = "0.1.0.3";

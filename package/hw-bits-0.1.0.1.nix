@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, criterion, hspec, hw-prim, mmap
-, parsec, QuickCheck, resourcet, safe, vector
+, parsec, QuickCheck, resourcet, safe, stdenv, vector
 }:
 mkDerivation {
   pname = "hw-bits";

@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, dlist, http-types
-, insert-ordered-containers, lens, mtl, solga, swagger2, text
-, unordered-containers
+, insert-ordered-containers, lens, mtl, solga, stdenv, swagger2
+, text, unordered-containers
 }:
 mkDerivation {
   pname = "solga-swagger";

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, binary, bytestring, containers
 , hashable, hspec, hspec-smallcheck, mtl, network, old-locale
-, scientific, smallcheck, stm, template-haskell, text, time
+, scientific, smallcheck, stdenv, stm, template-haskell, text, time
 , unordered-containers, vector
 }:
 mkDerivation {

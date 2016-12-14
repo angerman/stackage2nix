@@ -1,7 +1,7 @@
 { mkDerivation, aeson, array, async, base, bytestring, cereal
 , connection, containers, dns, dotnet-timespan, http-client
-, protobuf, random, semigroups, stm, tasty, tasty-hunit, text, time
-, unordered-containers, uuid
+, protobuf, random, semigroups, stdenv, stm, tasty, tasty-hunit
+, text, time, unordered-containers, uuid
 }:
 mkDerivation {
   pname = "eventstore";

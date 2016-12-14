@@ -1,5 +1,5 @@
 { mkDerivation, aeson, attoparsec, base, base-compat, bytestring
-, cmdargs, scientific, text, unordered-containers, vector
+, cmdargs, scientific, stdenv, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "aeson-pretty";

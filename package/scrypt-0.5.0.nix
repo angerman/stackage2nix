@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, bytestring, entropy, HUnit
-, QuickCheck, test-framework, test-framework-hunit
+, QuickCheck, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2
 }:
 mkDerivation {

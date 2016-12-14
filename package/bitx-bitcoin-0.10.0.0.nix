@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, directory, doctest
 , exceptions, hspec, http-client, http-client-tls, http-types
 , microlens, microlens-th, network, QuickCheck, safe, scientific
-, split, text, time
+, split, stdenv, text, time
 }:
 mkDerivation {
   pname = "bitx-bitcoin";

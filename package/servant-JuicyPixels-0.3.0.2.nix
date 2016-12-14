@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, http-media, JuicyPixels, servant
-, servant-server, wai, warp
+, servant-server, stdenv, wai, warp
 }:
 mkDerivation {
   pname = "servant-JuicyPixels";

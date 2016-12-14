@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, filepath, http-client
-, http-client-tls, http-types, mtl
+, http-client-tls, http-types, mtl, stdenv
 }:
 mkDerivation {
   pname = "koofr-client";

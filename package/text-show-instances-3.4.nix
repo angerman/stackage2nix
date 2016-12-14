@@ -1,10 +1,10 @@
 { mkDerivation, base, base-compat, bifunctors, binary, bytestring
 , containers, directory, generic-deriving, ghc-boot, ghc-prim
 , haskeline, hoopl, hpc, hspec, old-locale, old-time, pretty
-, QuickCheck, quickcheck-instances, random, semigroups, tagged
-, template-haskell, terminfo, text, text-show, th-orphans, time
-, transformers, transformers-compat, unix, unordered-containers
-, vector, xhtml
+, QuickCheck, quickcheck-instances, random, semigroups, stdenv
+, tagged, template-haskell, terminfo, text, text-show, th-orphans
+, time, transformers, transformers-compat, unix
+, unordered-containers, vector, xhtml
 }:
 mkDerivation {
   pname = "text-show-instances";

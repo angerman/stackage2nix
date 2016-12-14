@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, data-default, entropy, memory }:
+{ mkDerivation, base, bytestring, data-default, entropy, memory
+, stdenv
+}:
 mkDerivation {
   pname = "bcrypt";
   version = "0.0.10";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, directory, filepath
-, haskell-src-exts, pretty, process, syb, template-haskell
+, haskell-src-exts, pretty, process, stdenv, syb, template-haskell
 , transformers, uniplate
 }:
 mkDerivation {

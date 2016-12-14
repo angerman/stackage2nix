@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec }:
+{ mkDerivation, base, hspec, stdenv }:
 mkDerivation {
   pname = "word8";
   version = "0.1.2";

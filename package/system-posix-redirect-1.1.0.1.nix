@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, unix }:
+{ mkDerivation, base, bytestring, stdenv, unix }:
 mkDerivation {
   pname = "system-posix-redirect";
   version = "1.1.0.1";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hsp, hsx2hs, reform, text }:
+{ mkDerivation, base, hsp, hsx2hs, reform, stdenv, text }:
 mkDerivation {
   pname = "reform-hsp";
   version = "0.2.7.1";

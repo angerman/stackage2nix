@@ -1,4 +1,4 @@
-{ mkDerivation, base, pcre-light, QuickCheck, tagged, tasty
+{ mkDerivation, base, pcre-light, QuickCheck, stdenv, tagged, tasty
 , tasty-hunit
 }:
 mkDerivation {

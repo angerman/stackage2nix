@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, deepseq, exceptions, mmorph, mtl
-, resourcet, streaming, transformers, transformers-base
+, resourcet, stdenv, streaming, transformers, transformers-base
 }:
 mkDerivation {
   pname = "streaming-bytestring";

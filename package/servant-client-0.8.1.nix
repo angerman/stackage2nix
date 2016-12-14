@@ -2,8 +2,8 @@
 , bytestring, deepseq, exceptions, hspec, http-api-data
 , http-client, http-client-tls, http-media, http-types, HUnit
 , network, network-uri, QuickCheck, safe, servant, servant-server
-, string-conversions, text, transformers, transformers-compat, wai
-, warp
+, stdenv, string-conversions, text, transformers
+, transformers-compat, wai, warp
 }:
 mkDerivation {
   pname = "servant-client";

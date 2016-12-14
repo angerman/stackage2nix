@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-qq, base, base-compat, bytestring
 , Cabal, containers, deepseq, directory, filepath, Glob, hspec
-, interpolate, mockery, pretty, QuickCheck, temporary, text
+, interpolate, mockery, pretty, QuickCheck, stdenv, temporary, text
 , unordered-containers, vector, yaml
 }:
 mkDerivation {

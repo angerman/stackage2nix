@@ -1,6 +1,6 @@
 { mkDerivation, array, base, binary, boxes, containers, directory
 , filepath, gamma, HUnit, mtl, mwc-random, parsec, pretty
-, QuickCheck, random, split, statistics, test-framework
+, QuickCheck, random, split, statistics, stdenv, test-framework
 , test-framework-hunit, test-framework-quickcheck2, vector
 }:
 mkDerivation {

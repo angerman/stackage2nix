@@ -1,5 +1,5 @@
 { mkDerivation, base, deepseq, fixed-vector, ghc-prim
-, missing-foreign, primitive, template-haskell
+, missing-foreign, primitive, stdenv, template-haskell
 }:
 mkDerivation {
   pname = "yarr";

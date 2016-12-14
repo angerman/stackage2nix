@@ -1,5 +1,6 @@
 { mkDerivation, asn1-encoding, asn1-types, base, bytestring
-, containers, cryptonite, directory, filepath, mtl, pem, x509
+, containers, cryptonite, directory, filepath, mtl, pem, stdenv
+, x509
 }:
 mkDerivation {
   pname = "x509-store";

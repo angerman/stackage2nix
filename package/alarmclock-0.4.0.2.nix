@@ -1,4 +1,6 @@
-{ mkDerivation, async, base, clock, stm, time, unbounded-delays }:
+{ mkDerivation, async, base, clock, stdenv, stm, time
+, unbounded-delays
+}:
 mkDerivation {
   pname = "alarmclock";
   version = "0.4.0.2";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl, pretty }:
+{ mkDerivation, base, containers, mtl, pretty, stdenv }:
 mkDerivation {
   pname = "djinn-lib";
   version = "0.0.1.2";

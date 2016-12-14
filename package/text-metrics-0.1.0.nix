@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, QuickCheck, text }:
+{ mkDerivation, base, hspec, QuickCheck, stdenv, text }:
 mkDerivation {
   pname = "text-metrics";
   version = "0.1.0";

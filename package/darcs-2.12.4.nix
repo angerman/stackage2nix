@@ -3,8 +3,8 @@
 , data-ordlist, directory, fgl, filepath, FindBin, graphviz
 , hashable, haskeline, html, HTTP, HUnit, mmap, mtl, network
 , network-uri, old-time, parsec, process, QuickCheck, random
-, regex-applicative, regex-compat-tdfa, sandi, shelly, split, tar
-, terminfo, test-framework, test-framework-hunit
+, regex-applicative, regex-compat-tdfa, sandi, shelly, split
+, stdenv, tar, terminfo, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, time, transformers
 , transformers-compat, unix, unix-compat, utf8-string, vector
 , zip-archive, zlib

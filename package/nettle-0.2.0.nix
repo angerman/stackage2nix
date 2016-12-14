@@ -1,6 +1,6 @@
 { mkDerivation, array, base, byteable, bytestring
 , crypto-cipher-tests, crypto-cipher-types, HUnit, nettle
-, QuickCheck, securemem, tagged, test-framework
+, QuickCheck, securemem, stdenv, tagged, test-framework
 , test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {

@@ -1,4 +1,5 @@
 { mkDerivation, array, base, containers, hspec, HUnit, QuickCheck
+, stdenv
 }:
 mkDerivation {
   pname = "hierarchical-clustering";

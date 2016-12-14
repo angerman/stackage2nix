@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, data-default, doctest, http-types
-, prometheus-client, text, time, wai
+, prometheus-client, stdenv, text, time, wai
 }:
 mkDerivation {
   pname = "wai-middleware-prometheus";

@@ -1,6 +1,6 @@
 { mkDerivation, base, base-prelude, focus, free, hashable, HTF
 , list-t, loch-th, mtl, mtl-prelude, placeholders, primitive
-, QuickCheck, transformers, unordered-containers
+, QuickCheck, stdenv, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "stm-containers";

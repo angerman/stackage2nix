@@ -1,5 +1,5 @@
 { mkDerivation, array, base, containers, deepseq, hspec, QuickCheck
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "fgl";

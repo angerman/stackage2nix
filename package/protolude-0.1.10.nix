@@ -1,5 +1,5 @@
 { mkDerivation, async, base, bytestring, containers, deepseq
-, ghc-prim, mtl, safe, stm, text, transformers
+, ghc-prim, mtl, safe, stdenv, stm, text, transformers
 }:
 mkDerivation {
   pname = "protolude";

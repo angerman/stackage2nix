@@ -1,4 +1,4 @@
-{ mkDerivation, base, biocore, bytestring, cmdargs
+{ mkDerivation, base, biocore, bytestring, cmdargs, stdenv
 , unordered-containers
 }:
 mkDerivation {

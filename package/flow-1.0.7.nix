@@ -1,4 +1,5 @@
-{ mkDerivation, base, doctest, QuickCheck, template-haskell }:
+{ mkDerivation, base, doctest, QuickCheck, stdenv, template-haskell
+}:
 mkDerivation {
   pname = "flow";
   version = "1.0.7";

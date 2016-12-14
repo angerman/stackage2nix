@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, bzlib-conduit, case-insensitive
 , cereal, conduit, conduit-extra, containers, digest, exceptions
 , filepath, hspec, mtl, path, path-io, plan-b, QuickCheck
-, resourcet, text, time, transformers
+, resourcet, stdenv, text, time, transformers
 }:
 mkDerivation {
   pname = "zip";

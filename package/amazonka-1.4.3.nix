@@ -1,7 +1,7 @@
 { mkDerivation, amazonka-core, base, bytestring, conduit
 , conduit-extra, directory, exceptions, http-conduit, ini, mmorph
-, monad-control, mtl, resourcet, retry, tasty, tasty-hunit, text
-, time, transformers, transformers-base, transformers-compat
+, monad-control, mtl, resourcet, retry, stdenv, tasty, tasty-hunit
+, text, time, transformers, transformers-base, transformers-compat
 }:
 mkDerivation {
   pname = "amazonka";

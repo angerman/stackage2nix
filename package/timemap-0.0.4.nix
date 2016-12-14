@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, focus, hashable, list-t
-, QuickCheck, quickcheck-instances, stm, stm-containers, tasty
-, tasty-hunit, tasty-quickcheck, time, unordered-containers
+, QuickCheck, quickcheck-instances, stdenv, stm, stm-containers
+, tasty, tasty-hunit, tasty-quickcheck, time, unordered-containers
 }:
 mkDerivation {
   pname = "timemap";

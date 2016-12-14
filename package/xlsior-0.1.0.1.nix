@@ -1,7 +1,7 @@
 { mkDerivation, attoparsec, base, blaze-markup, bytestring, conduit
 , conduit-extra, data-default, exceptions, mtl, resourcet
-, scientific, text, time, time-locale-compat, vector, xml-conduit
-, xml-types, zip-archive
+, scientific, stdenv, text, time, time-locale-compat, vector
+, xml-conduit, xml-types, zip-archive
 }:
 mkDerivation {
   pname = "xlsior";

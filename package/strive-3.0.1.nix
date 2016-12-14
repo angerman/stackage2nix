@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, data-default, gpolyline
-, http-client, http-client-tls, http-types, markdown-unlit
+, http-client, http-client-tls, http-types, markdown-unlit, stdenv
 , template-haskell, text, time, transformers
 }:
 mkDerivation {

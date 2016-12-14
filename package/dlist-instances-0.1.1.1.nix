@@ -1,4 +1,4 @@
-{ mkDerivation, base, dlist, semigroups }:
+{ mkDerivation, base, dlist, semigroups, stdenv }:
 mkDerivation {
   pname = "dlist-instances";
   version = "0.1.1.1";

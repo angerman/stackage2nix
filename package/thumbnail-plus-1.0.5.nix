@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra
 , data-default, directory, either, gd, hspec, imagesize-conduit
-, resourcet, temporary, transformers
+, resourcet, stdenv, temporary, transformers
 }:
 mkDerivation {
   pname = "thumbnail-plus";

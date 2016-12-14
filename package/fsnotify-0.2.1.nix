@@ -1,5 +1,5 @@
 { mkDerivation, async, base, containers, directory, filepath
-, hfsevents, tasty, tasty-hunit, temporary-rc, text, time
+, hfsevents, stdenv, tasty, tasty-hunit, temporary-rc, text, time
 , unix-compat
 }:
 mkDerivation {

@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, enclosed-exceptions
 , exceptions, hspec, lifted-base, monad-control, mtl, network
-, network-simple, transformers
+, network-simple, stdenv, transformers
 }:
 mkDerivation {
   pname = "network-attoparsec";

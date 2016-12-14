@@ -1,5 +1,5 @@
 { mkDerivation, base, base16-bytestring, binary, bytestring, hspec
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "bitcoin-script";

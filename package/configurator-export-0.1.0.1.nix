@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, configurator, pretty, semigroups
-, text, unordered-containers
+, stdenv, text, unordered-containers
 }:
 mkDerivation {
   pname = "configurator-export";

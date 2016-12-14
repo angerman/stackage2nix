@@ -1,4 +1,6 @@
-{ mkDerivation, attoparsec, base, text, unordered-containers }:
+{ mkDerivation, attoparsec, base, stdenv, text
+, unordered-containers
+}:
 mkDerivation {
   pname = "ini";
   version = "0.3.5";

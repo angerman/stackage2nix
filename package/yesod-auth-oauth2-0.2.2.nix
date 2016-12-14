@@ -1,7 +1,7 @@
 { mkDerivation, aeson, authenticate, base, bytestring, hoauth2
 , hspec, http-client, http-conduit, http-types, lifted-base
-, network-uri, random, text, transformers, vector, yesod-auth
-, yesod-core, yesod-form
+, network-uri, random, stdenv, text, transformers, vector
+, yesod-auth, yesod-core, yesod-form
 }:
 mkDerivation {
   pname = "yesod-auth-oauth2";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, template-haskell, text }:
+{ mkDerivation, base, containers, stdenv, template-haskell, text }:
 mkDerivation {
   pname = "hflags";
   version = "0.4.2";

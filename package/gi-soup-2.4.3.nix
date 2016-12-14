@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, gi-gio, gi-glib
-, gi-gobject, haskell-gi, haskell-gi-base, libsoup, text
+, gi-gobject, haskell-gi, haskell-gi-base, libsoup, stdenv, text
 , transformers
 }:
 mkDerivation {

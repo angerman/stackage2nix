@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, data-default-class, diagrams-core
 , diagrams-lib, dlist, filepath, hashable, lens, monoid-extras, mtl
-, semigroups, split, statestack
+, semigroups, split, statestack, stdenv
 }:
 mkDerivation {
   pname = "diagrams-postscript";

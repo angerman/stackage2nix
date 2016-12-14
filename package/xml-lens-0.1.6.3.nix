@@ -1,5 +1,5 @@
-{ mkDerivation, base, case-insensitive, containers, lens, text
-, xml-conduit
+{ mkDerivation, base, case-insensitive, containers, lens, stdenv
+, text, xml-conduit
 }:
 mkDerivation {
   pname = "xml-lens";

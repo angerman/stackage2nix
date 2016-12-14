@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bifunctors, binary, deepseq, ghc-prim
-, hashable, lens, QuickCheck, strict
+, hashable, lens, QuickCheck, stdenv, strict
 }:
 mkDerivation {
   pname = "strict-base-types";

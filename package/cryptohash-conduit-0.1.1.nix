@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra
-, cryptohash, resourcet, transformers
+, cryptohash, resourcet, stdenv, transformers
 }:
 mkDerivation {
   pname = "cryptohash-conduit";

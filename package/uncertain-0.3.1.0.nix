@@ -1,5 +1,5 @@
 { mkDerivation, ad, base, base-compat, containers, free, mwc-random
-, primitive, transformers
+, primitive, stdenv, transformers
 }:
 mkDerivation {
   pname = "uncertain";

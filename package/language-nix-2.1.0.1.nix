@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, Cabal, deepseq, doctest, lens
-, pretty, QuickCheck
+, pretty, QuickCheck, stdenv
 }:
 mkDerivation {
   pname = "language-nix";

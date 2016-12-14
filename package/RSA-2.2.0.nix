@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, crypto-api
-, crypto-pubkey-types, DRBG, pureMD5, QuickCheck, SHA, tagged
-, test-framework, test-framework-quickcheck2
+, crypto-pubkey-types, DRBG, pureMD5, QuickCheck, SHA, stdenv
+, tagged, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "RSA";

@@ -1,5 +1,6 @@
 { mkDerivation, array, base, bytestring, containers, deepseq, dlist
-, fmlist, HUnit, QuickCheck, random, text, utf8-string, vector
+, fmlist, HUnit, QuickCheck, random, stdenv, text, utf8-string
+, vector
 }:
 mkDerivation {
   pname = "ListLike";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, monad-control, mtl, postgresql-simple }:
+{ mkDerivation, base, monad-control, mtl, postgresql-simple, stdenv
+}:
 mkDerivation {
   pname = "postgresql-transactional";
   version = "1.1.1";

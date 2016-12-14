@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, containers, hashable, hxt, json-schema
-, tostring, unordered-containers
+, stdenv, tostring, unordered-containers
 }:
 mkDerivation {
   pname = "rest-stringmap";

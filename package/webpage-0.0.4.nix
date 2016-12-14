@@ -1,4 +1,5 @@
-{ mkDerivation, base, blaze-html, data-default, lucid, text }:
+{ mkDerivation, base, blaze-html, data-default, lucid, stdenv, text
+}:
 mkDerivation {
   pname = "webpage";
   version = "0.0.4";

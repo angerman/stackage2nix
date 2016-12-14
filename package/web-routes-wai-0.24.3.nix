@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, http-types, text, wai, web-routes
+{ mkDerivation, base, bytestring, http-types, stdenv, text, wai
+, web-routes
 }:
 mkDerivation {
   pname = "web-routes-wai";

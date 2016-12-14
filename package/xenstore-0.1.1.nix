@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, cereal, mtl, network }:
+{ mkDerivation, base, bytestring, cereal, mtl, network, stdenv }:
 mkDerivation {
   pname = "xenstore";
   version = "0.1.1";

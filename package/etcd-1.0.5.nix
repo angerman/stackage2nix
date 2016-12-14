@@ -1,5 +1,5 @@
 { mkDerivation, aeson, async, base, bytestring, hspec, http-conduit
-, MonadRandom, mtl, text, time
+, MonadRandom, mtl, stdenv, text, time
 }:
 mkDerivation {
   pname = "etcd";

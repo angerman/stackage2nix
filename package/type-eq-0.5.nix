@@ -1,4 +1,4 @@
-{ mkDerivation, base, cpphs }:
+{ mkDerivation, base, cpphs, stdenv }:
 mkDerivation {
   pname = "type-eq";
   version = "0.5";

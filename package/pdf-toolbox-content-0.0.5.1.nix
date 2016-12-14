@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, base16-bytestring, bytestring
-, containers, io-streams, pdf-toolbox-core, text
+, containers, io-streams, pdf-toolbox-core, stdenv, text
 }:
 mkDerivation {
   pname = "pdf-toolbox-content";

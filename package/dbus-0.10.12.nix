@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, cereal, chell, chell-quickcheck
 , containers, directory, filepath, libxml-sax, network, parsec
-, process, QuickCheck, random, text, transformers, unix, vector
-, xml-types
+, process, QuickCheck, random, stdenv, text, transformers, unix
+, vector, xml-types
 }:
 mkDerivation {
   pname = "dbus";

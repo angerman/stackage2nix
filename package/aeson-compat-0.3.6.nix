@@ -1,8 +1,8 @@
 { mkDerivation, aeson, attoparsec, base, base-compat, base-orphans
 , bytestring, containers, exceptions, hashable, nats, QuickCheck
-, quickcheck-instances, scientific, semigroups, tagged, tasty
-, tasty-hunit, tasty-quickcheck, text, time, time-locale-compat
-, unordered-containers, vector
+, quickcheck-instances, scientific, semigroups, stdenv, tagged
+, tasty, tasty-hunit, tasty-quickcheck, text, time
+, time-locale-compat, unordered-containers, vector
 }:
 mkDerivation {
   pname = "aeson-compat";

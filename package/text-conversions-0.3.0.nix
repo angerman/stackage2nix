@@ -1,5 +1,5 @@
 { mkDerivation, base, base16-bytestring, base64-bytestring
-, bytestring, errors, hspec, hspec-discover, text
+, bytestring, errors, hspec, hspec-discover, stdenv, text
 }:
 mkDerivation {
   pname = "text-conversions";

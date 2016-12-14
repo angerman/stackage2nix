@@ -1,4 +1,5 @@
-{ mkDerivation, base, free, mmorph, mtl, transformers-base }:
+{ mkDerivation, base, free, mmorph, mtl, stdenv, transformers-base
+}:
 mkDerivation {
   pname = "ChannelT";
   version = "0.0.0.2";

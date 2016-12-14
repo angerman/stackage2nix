@@ -1,6 +1,7 @@
 { mkDerivation, base, cmdargs, containers, data-default-class
 , diagrams-core, diagrams-lib, lens, mtl, NumInstances
-, optparse-applicative, split, statestack, static-canvas, text
+, optparse-applicative, split, statestack, static-canvas, stdenv
+, text
 }:
 mkDerivation {
   pname = "diagrams-html5";

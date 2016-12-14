@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, HUnit, tagged, type-fun }:
+{ mkDerivation, base, deepseq, HUnit, stdenv, tagged, type-fun }:
 mkDerivation {
   pname = "hset";
   version = "2.2.0";

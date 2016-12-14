@@ -1,5 +1,5 @@
 { mkDerivation, base, ChasingBottoms, containers, deepseq, hashable
-, HUnit, QuickCheck, test-framework, test-framework-hunit
+, HUnit, QuickCheck, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2
 }:
 mkDerivation {

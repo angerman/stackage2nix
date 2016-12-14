@@ -1,4 +1,4 @@
-{ mkDerivation, base, base-orphans, containers, hashable
+{ mkDerivation, base, base-orphans, containers, hashable, stdenv
 , transformers, unordered-containers, vector
 }:
 mkDerivation {

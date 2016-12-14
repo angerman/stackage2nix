@@ -2,8 +2,8 @@
 , blaze-builder, bytestring, case-insensitive, clientsession
 , containers, cookie, gitrev, http-client, http-client-tls
 , http-reverse-proxy, http-types, optparse-applicative, resourcet
-, template-haskell, text, time, transformers, unix-compat, vault
-, wai, wai-app-static, wai-extra, warp
+, stdenv, template-haskell, text, time, transformers, unix-compat
+, vault, wai, wai-app-static, wai-extra, warp
 }:
 mkDerivation {
   pname = "wai-middleware-crowd";

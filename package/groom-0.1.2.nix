@@ -1,4 +1,4 @@
-{ mkDerivation, base, haskell-src-exts }:
+{ mkDerivation, base, haskell-src-exts, stdenv }:
 mkDerivation {
   pname = "groom";
   version = "0.1.2";

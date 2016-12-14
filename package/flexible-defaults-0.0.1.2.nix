@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, template-haskell, th-extras
-, transformers
+{ mkDerivation, base, containers, stdenv, template-haskell
+, th-extras, transformers
 }:
 mkDerivation {
   pname = "flexible-defaults";

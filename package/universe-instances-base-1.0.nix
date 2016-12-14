@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, universe-base }:
+{ mkDerivation, base, containers, stdenv, universe-base }:
 mkDerivation {
   pname = "universe-instances-base";
   version = "1.0";

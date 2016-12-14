@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, doctest, filepath }:
+{ mkDerivation, base, directory, doctest, filepath, stdenv }:
 mkDerivation {
   pname = "heaps";
   version = "0.3.3";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, process }:
+{ mkDerivation, base, process, stdenv }:
 mkDerivation {
   pname = "open-browser";
   version = "0.2.1.0";

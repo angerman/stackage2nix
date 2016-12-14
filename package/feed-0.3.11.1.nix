@@ -1,5 +1,6 @@
-{ mkDerivation, base, HUnit, old-locale, old-time, test-framework
-, test-framework-hunit, time, time-locale-compat, utf8-string, xml
+{ mkDerivation, base, HUnit, old-locale, old-time, stdenv
+, test-framework, test-framework-hunit, time, time-locale-compat
+, utf8-string, xml
 }:
 mkDerivation {
   pname = "feed";

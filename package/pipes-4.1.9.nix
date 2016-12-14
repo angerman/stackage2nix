@@ -1,5 +1,5 @@
-{ mkDerivation, base, mmorph, mtl, QuickCheck, test-framework
-, test-framework-quickcheck2, transformers
+{ mkDerivation, base, mmorph, mtl, QuickCheck, stdenv
+, test-framework, test-framework-quickcheck2, transformers
 }:
 mkDerivation {
   pname = "pipes";

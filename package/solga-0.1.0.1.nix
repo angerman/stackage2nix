@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers, hashable
 , hspec, hspec-wai, hspec-wai-json, http-types, QuickCheck
-, resourcet, safe-exceptions, scientific, text
+, resourcet, safe-exceptions, scientific, stdenv, text
 , unordered-containers, vector, wai, wai-extra
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, expat, fontconfig, freetype, gd
-, libjpeg, libpng, zlib
+, libjpeg, libpng, stdenv, zlib
 }:
 mkDerivation {
   pname = "gd";

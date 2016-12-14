@@ -1,6 +1,6 @@
 { mkDerivation, base, byteable, bytestring, crypto-cipher-tests
-, crypto-cipher-types, QuickCheck, securemem, test-framework
-, test-framework-quickcheck2
+, crypto-cipher-types, QuickCheck, securemem, stdenv
+, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "cipher-des";

@@ -1,5 +1,5 @@
 { mkDerivation, base, doctest, genvalidity, hspec, QuickCheck
-, validity
+, stdenv, validity
 }:
 mkDerivation {
   pname = "genvalidity-hspec";

@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, HUnit, mmorph, pipes
-, pipes-parse, tasty, tasty-hunit, text, transformers
+, pipes-parse, stdenv, tasty, tasty-hunit, text, transformers
 }:
 mkDerivation {
   pname = "pipes-attoparsec";

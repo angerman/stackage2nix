@@ -1,5 +1,5 @@
-{ mkDerivation, aeson, base, bytestring, tasty, tasty-hunit, text
-, time, transformers
+{ mkDerivation, aeson, base, bytestring, stdenv, tasty, tasty-hunit
+, text, time, transformers
 }:
 mkDerivation {
   pname = "swagger";

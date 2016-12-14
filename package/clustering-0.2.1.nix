@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, containers, hierarchical-clustering
-, matrices, mwc-random, parallel, primitive, Rlang-QQ, split, tasty
-, tasty-hunit, tasty-quickcheck, vector
+, matrices, mwc-random, parallel, primitive, Rlang-QQ, split
+, stdenv, tasty, tasty-hunit, tasty-quickcheck, vector
 }:
 mkDerivation {
   pname = "clustering";

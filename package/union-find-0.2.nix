@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, transformers }:
+{ mkDerivation, base, containers, stdenv, transformers }:
 mkDerivation {
   pname = "union-find";
   version = "0.2";

@@ -1,8 +1,8 @@
 { mkDerivation, aeson, base, base-compat, base64-bytestring
 , bytestring, colour, containers, data-default-class, directory
-, http-types, kansas-comet, mime-types, process, scotty, shake, stm
-, text, text-show, time, transformers, unix, vector, wai, wai-extra
-, warp
+, http-types, kansas-comet, mime-types, process, scotty, shake
+, stdenv, stm, text, text-show, time, transformers, unix, vector
+, wai, wai-extra, warp
 }:
 mkDerivation {
   pname = "blank-canvas";

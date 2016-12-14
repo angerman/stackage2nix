@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, OpenGL, StateVar
+{ mkDerivation, array, base, containers, OpenGL, StateVar, stdenv
 , transformers
 }:
 mkDerivation {

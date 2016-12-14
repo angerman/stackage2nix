@@ -2,8 +2,8 @@
 , bytestring, Cabal, containers, cryptohash-sha256, directory
 , filepath, hackage-security, hashable, HTTP, mtl, network
 , network-uri, pretty, process, QuickCheck, random, regex-posix
-, stm, tagged, tar, tasty, tasty-hunit, tasty-quickcheck, time
-, unix, zlib
+, stdenv, stm, tagged, tar, tasty, tasty-hunit, tasty-quickcheck
+, time, unix, zlib
 }:
 mkDerivation {
   pname = "cabal-install";

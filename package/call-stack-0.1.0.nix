@@ -1,4 +1,4 @@
-{ mkDerivation, base, nanospec }:
+{ mkDerivation, base, nanospec, stdenv }:
 mkDerivation {
   pname = "call-stack";
   version = "0.1.0";

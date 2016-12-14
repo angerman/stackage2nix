@@ -1,6 +1,6 @@
 { mkDerivation, array, base, blaze-builder, bytestring
 , case-insensitive, doctest, hspec, QuickCheck
-, quickcheck-instances, text
+, quickcheck-instances, stdenv, text
 }:
 mkDerivation {
   pname = "http-types";

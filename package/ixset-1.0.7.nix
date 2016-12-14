@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, safecopy, syb, syb-with-class
-, template-haskell
+{ mkDerivation, base, containers, safecopy, stdenv, syb
+, syb-with-class, template-haskell
 }:
 mkDerivation {
   pname = "ixset";

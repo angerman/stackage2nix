@@ -1,4 +1,6 @@
-{ mkDerivation, base, deepseq, doctest, filemanip, primitive }:
+{ mkDerivation, base, deepseq, doctest, filemanip, primitive
+, stdenv
+}:
 mkDerivation {
   pname = "fixed-vector";
   version = "0.8.1.0";

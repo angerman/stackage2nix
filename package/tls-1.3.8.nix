@@ -1,7 +1,7 @@
 { mkDerivation, asn1-encoding, asn1-types, async, base, bytestring
 , cereal, cryptonite, data-default-class, hourglass, memory, mtl
-, network, QuickCheck, tasty, tasty-quickcheck, transformers, x509
-, x509-store, x509-validation
+, network, QuickCheck, stdenv, tasty, tasty-quickcheck
+, transformers, x509, x509-store, x509-validation
 }:
 mkDerivation {
   pname = "tls";

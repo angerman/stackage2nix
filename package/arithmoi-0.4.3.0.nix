@@ -1,5 +1,5 @@
 { mkDerivation, array, base, containers, ghc-prim, integer-gmp, mtl
-, QuickCheck, random, smallcheck, tasty, tasty-hunit
+, QuickCheck, random, smallcheck, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, tasty-smallcheck, transformers
 , transformers-compat
 }:

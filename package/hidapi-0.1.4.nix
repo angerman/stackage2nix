@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, deepseq, deepseq-generics }:
+{ mkDerivation, base, bytestring, deepseq, deepseq-generics, stdenv
+}:
 mkDerivation {
   pname = "hidapi";
   version = "0.1.4";

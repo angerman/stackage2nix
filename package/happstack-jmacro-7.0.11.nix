@@ -1,5 +1,6 @@
 { mkDerivation, base, base64-bytestring, bytestring, cereal, digest
-, happstack-server, jmacro, text, utf8-string, wl-pprint-text
+, happstack-server, jmacro, stdenv, text, utf8-string
+, wl-pprint-text
 }:
 mkDerivation {
   pname = "happstack-jmacro";

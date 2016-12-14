@@ -1,4 +1,5 @@
-{ mkDerivation, base, Cabal, Decimal, hledger-lib, mtl, text, time
+{ mkDerivation, base, Cabal, Decimal, hledger-lib, mtl, stdenv
+, text, time
 }:
 mkDerivation {
   pname = "hledger-interest";

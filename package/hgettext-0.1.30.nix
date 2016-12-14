@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, containers, directory, filepath
-, haskell-src-exts, process, setlocale, uniplate
+, haskell-src-exts, process, setlocale, stdenv, uniplate
 }:
 mkDerivation {
   pname = "hgettext";

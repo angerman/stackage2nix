@@ -1,6 +1,6 @@
 { mkDerivation, array, base, bytestring, cereal, containers, lens
-, lens-action, old-time, QuickCheck, quickcheck-instances, tasty
-, tasty-quickcheck, template-haskell, text, time, vector
+, lens-action, old-time, QuickCheck, quickcheck-instances, stdenv
+, tasty, tasty-quickcheck, template-haskell, text, time, vector
 }:
 mkDerivation {
   pname = "safecopy";

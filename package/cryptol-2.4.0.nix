@@ -2,8 +2,8 @@
 , base-compat, bytestring, containers, deepseq, directory, filepath
 , gitrev, GraphSCC, happy, haskeline, heredoc, monad-control
 , monadLib, old-time, presburger, pretty, process, QuickCheck
-, random, sbv, simple-smt, smtLib, syb, template-haskell, text
-, tf-random, transformers, transformers-base, utf8-string
+, random, sbv, simple-smt, smtLib, stdenv, syb, template-haskell
+, text, tf-random, transformers, transformers-base, utf8-string
 }:
 mkDerivation {
   pname = "cryptol";

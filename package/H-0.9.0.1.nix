@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cmdargs, file-embed, inline-r
-, pretty, process, temporary, vector
+, pretty, process, stdenv, temporary, vector
 }:
 mkDerivation {
   pname = "H";

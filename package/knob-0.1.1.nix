@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, transformers }:
+{ mkDerivation, base, bytestring, stdenv, transformers }:
 mkDerivation {
   pname = "knob";
   version = "0.1.1";

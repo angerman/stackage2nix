@@ -1,6 +1,6 @@
 { mkDerivation, array, base, binary, bytestring, containers, digest
 , directory, filepath, HUnit, mtl, old-time, pretty, process
-, temporary, text, time, unix, zip, zlib
+, stdenv, temporary, text, time, unix, zip, zlib
 }:
 mkDerivation {
   pname = "zip-archive";

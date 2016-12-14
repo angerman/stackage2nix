@@ -1,5 +1,5 @@
 { mkDerivation, base, biocore, biofasta, bytestring, cmdargs
-, parsec, split
+, parsec, split, stdenv
 }:
 mkDerivation {
   pname = "Genbank";

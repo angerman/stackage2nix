@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, primitive, QuickCheck
-, vector
+, stdenv, vector
 }:
 mkDerivation {
   pname = "vector-algorithms";

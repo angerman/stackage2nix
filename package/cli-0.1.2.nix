@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, mtl, QuickCheck, tasty
+{ mkDerivation, base, directory, mtl, QuickCheck, stdenv, tasty
 , tasty-quickcheck, terminfo, transformers
 }:
 mkDerivation {

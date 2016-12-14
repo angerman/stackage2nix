@@ -1,7 +1,7 @@
 { mkDerivation, aeson, ansi-wl-pprint, base, binary, bytestring
 , cassava, containers, deepseq, directory, filepath, Glob, hastache
 , HUnit, mtl, mwc-random, optparse-applicative, parsec, QuickCheck
-, statistics, test-framework, test-framework-hunit
+, statistics, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text, time, transformers
 , transformers-compat, vector, vector-algorithms
 }:

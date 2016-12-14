@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, text, users }:
+{ mkDerivation, base, hspec, stdenv, text, users }:
 mkDerivation {
   pname = "users-test";
   version = "0.5.0.1";

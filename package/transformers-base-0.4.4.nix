@@ -1,4 +1,6 @@
-{ mkDerivation, base, stm, transformers, transformers-compat }:
+{ mkDerivation, base, stdenv, stm, transformers
+, transformers-compat
+}:
 mkDerivation {
   pname = "transformers-base";
   version = "0.4.4";

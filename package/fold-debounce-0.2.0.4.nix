@@ -1,5 +1,5 @@
-{ mkDerivation, base, data-default-class, hspec, stm, stm-delay
-, time
+{ mkDerivation, base, data-default-class, hspec, stdenv, stm
+, stm-delay, time
 }:
 mkDerivation {
   pname = "fold-debounce";

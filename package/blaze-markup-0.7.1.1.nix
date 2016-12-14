@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, containers, HUnit
-, QuickCheck, test-framework, test-framework-hunit
+, QuickCheck, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2, text
 }:
 mkDerivation {

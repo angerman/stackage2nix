@@ -1,9 +1,9 @@
 { mkDerivation, aeson, attoparsec, base, base64-bytestring
 , bytestring, data-default-class, directory, directory-tree
 , exceptions, filepath, http-client, http-types, lifted-base
-, monad-control, network, network-uri, scientific, temporary, text
-, time, transformers, transformers-base, unordered-containers
-, vector, zip-archive
+, monad-control, network, network-uri, scientific, stdenv
+, temporary, text, time, transformers, transformers-base
+, unordered-containers, vector, zip-archive
 }:
 mkDerivation {
   pname = "webdriver";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, doctest }:
+{ mkDerivation, base, doctest, stdenv }:
 mkDerivation {
   pname = "lca";
   version = "0.3";

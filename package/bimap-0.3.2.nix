@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, exceptions, QuickCheck
+{ mkDerivation, base, containers, exceptions, QuickCheck, stdenv
 , template-haskell
 }:
 mkDerivation {

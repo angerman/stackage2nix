@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, Cabal, containers
 , data-default, hashable, HTTP, http-client, http-client-tls
 , http-conduit, http-types, HUnit, lifted-base, mtl, network-uri
-, QuickCheck, resourcet, scientific, test-framework
+, QuickCheck, resourcet, scientific, stdenv, test-framework
 , test-framework-hunit, test-framework-quickcheck2
 , test-framework-th, text, transformers, transformers-base
 , transformers-compat, unordered-containers, vector

@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, exceptions, network, transformers
+{ mkDerivation, base, bytestring, exceptions, network, stdenv
+, transformers
 }:
 mkDerivation {
   pname = "network-simple";

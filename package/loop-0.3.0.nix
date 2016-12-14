@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, mtl }:
+{ mkDerivation, base, hspec, mtl, stdenv }:
 mkDerivation {
   pname = "loop";
   version = "0.3.0";

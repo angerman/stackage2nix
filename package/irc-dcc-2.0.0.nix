@@ -1,7 +1,7 @@
 { mkDerivation, attoparsec, base, binary, bytestring, errors
 , hspec-attoparsec, io-streams, iproute, irc-ctcp, mtl, network
-, path, safe-exceptions, tasty, tasty-hspec, tasty-quickcheck
-, transformers, utf8-string
+, path, safe-exceptions, stdenv, tasty, tasty-hspec
+, tasty-quickcheck, transformers, utf8-string
 }:
 mkDerivation {
   pname = "irc-dcc";

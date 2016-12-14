@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, lens-simple, process, QuickCheck
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "rainbow";

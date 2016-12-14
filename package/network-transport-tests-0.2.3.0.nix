@@ -1,5 +1,5 @@
 { mkDerivation, ansi-terminal, base, bytestring, containers, mtl
-, network-transport, random
+, network-transport, random, stdenv
 }:
 mkDerivation {
   pname = "network-transport-tests";

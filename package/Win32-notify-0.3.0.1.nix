@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, directory, Win32 }:
+{ mkDerivation, base, containers, directory, stdenv, Win32 }:
 mkDerivation {
   pname = "Win32-notify";
   version = "0.3.0.1";

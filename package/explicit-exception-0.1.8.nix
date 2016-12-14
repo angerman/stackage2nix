@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, transformers }:
+{ mkDerivation, base, deepseq, stdenv, transformers }:
 mkDerivation {
   pname = "explicit-exception";
   version = "0.1.8";

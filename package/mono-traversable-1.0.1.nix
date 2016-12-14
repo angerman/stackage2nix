@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, foldl, hashable
-, hspec, HUnit, QuickCheck, semigroups, split, text, transformers
-, unordered-containers, vector, vector-algorithms
+, hspec, HUnit, QuickCheck, semigroups, split, stdenv, text
+, transformers, unordered-containers, vector, vector-algorithms
 }:
 mkDerivation {
   pname = "mono-traversable";

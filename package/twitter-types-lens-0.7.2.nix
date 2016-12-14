@@ -1,4 +1,4 @@
-{ mkDerivation, base, lens, template-haskell, text, time
+{ mkDerivation, base, lens, stdenv, template-haskell, text, time
 , twitter-types
 }:
 mkDerivation {

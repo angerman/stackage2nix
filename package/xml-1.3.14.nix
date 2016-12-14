@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, text }:
+{ mkDerivation, base, bytestring, stdenv, text }:
 mkDerivation {
   pname = "xml";
   version = "1.3.14";

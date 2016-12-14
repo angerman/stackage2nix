@@ -1,6 +1,6 @@
 { mkDerivation, async, base, bytestring, containers, directory
 , enclosed-exceptions, exceptions, hspec, HUnit, lifted-async
-, lifted-base, monad-control, mtl, process, system-fileio
+, lifted-base, monad-control, mtl, process, stdenv, system-fileio
 , system-filepath, text, time, transformers, transformers-base
 , unix-compat
 }:

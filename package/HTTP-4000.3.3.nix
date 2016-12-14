@@ -1,7 +1,7 @@
 { mkDerivation, array, base, bytestring, case-insensitive, conduit
 , conduit-extra, deepseq, http-types, httpd-shed, HUnit, mtl
-, network, network-uri, parsec, pureMD5, split, test-framework
-, test-framework-hunit, time, wai, warp
+, network, network-uri, parsec, pureMD5, split, stdenv
+, test-framework, test-framework-hunit, time, wai, warp
 }:
 mkDerivation {
   pname = "HTTP";

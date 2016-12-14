@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, quickcheck-instances, tasty
-, tasty-quickcheck
+{ mkDerivation, base, containers, quickcheck-instances, stdenv
+, tasty, tasty-quickcheck
 }:
 mkDerivation {
   pname = "natural-transformation";

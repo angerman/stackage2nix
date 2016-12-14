@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, containers
 , data-binary-ieee754, directory, filepath, hspec, mtl, parsec
-, QuickCheck, quickcheck-instances, split, text
+, QuickCheck, quickcheck-instances, split, stdenv, text
 }:
 mkDerivation {
   pname = "protobuf-simple";

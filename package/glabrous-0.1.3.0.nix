@@ -1,5 +1,5 @@
 { mkDerivation, aeson, aeson-pretty, attoparsec, base, bytestring
-, cereal, cereal-text, directory, either, hspec, text
+, cereal, cereal-text, directory, either, hspec, stdenv, text
 , unordered-containers
 }:
 mkDerivation {

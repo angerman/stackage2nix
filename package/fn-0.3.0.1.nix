@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-builder, bytestring, directory
-, filepath, hspec, http-types, text, unordered-containers, wai
-, wai-extra
+, filepath, hspec, http-types, stdenv, text, unordered-containers
+, wai, wai-extra
 }:
 mkDerivation {
   pname = "fn";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, network, network-uri }:
+{ mkDerivation, base, network, network-uri, stdenv }:
 mkDerivation {
   pname = "httpd-shed";
   version = "0.4.0.3";

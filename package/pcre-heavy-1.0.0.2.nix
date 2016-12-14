@@ -1,5 +1,6 @@
 { mkDerivation, base, base-compat, bytestring, doctest, Glob
-, pcre-light, semigroups, string-conversions, template-haskell
+, pcre-light, semigroups, stdenv, string-conversions
+, template-haskell
 }:
 mkDerivation {
   pname = "pcre-heavy";

@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, containers, fclabels, process
-, regex-compat, split, strict
+, regex-compat, split, stdenv, strict
 }:
 mkDerivation {
   pname = "bumper";

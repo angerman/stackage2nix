@@ -1,4 +1,4 @@
-{ mkDerivation, base, unix }:
+{ mkDerivation, base, stdenv, unix }:
 mkDerivation {
   pname = "unix-compat";
   version = "0.4.3.1";

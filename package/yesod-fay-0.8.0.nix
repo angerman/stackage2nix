@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, data-default, directory
 , fay, fay-dom, filepath, monad-loops, process, pureMD5
-, shakespeare, template-haskell, text, transformers, utf8-string
-, yesod-core, yesod-form, yesod-static
+, shakespeare, stdenv, template-haskell, text, transformers
+, utf8-string, yesod-core, yesod-form, yesod-static
 }:
 mkDerivation {
   pname = "yesod-fay";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl, text }:
+{ mkDerivation, base, containers, mtl, stdenv, text }:
 mkDerivation {
   pname = "reform";
   version = "0.2.7.1";

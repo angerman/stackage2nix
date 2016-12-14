@@ -1,4 +1,4 @@
-{ mkDerivation, base, OpenGLRaw, transformers }:
+{ mkDerivation, base, OpenGLRaw, stdenv, transformers }:
 mkDerivation {
   pname = "GLURaw";
   version = "2.0.0.2";

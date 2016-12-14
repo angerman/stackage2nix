@@ -1,5 +1,5 @@
 { mkDerivation, async, base, conduit, directory, filepath, fsnotify
-, hspec, resourcet, temporary, transformers
+, hspec, resourcet, stdenv, temporary, transformers
 }:
 mkDerivation {
   pname = "fsnotify-conduit";

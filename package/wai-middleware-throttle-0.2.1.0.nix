@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, hashable, hspec
-, http-types, HUnit, network, stm, token-bucket, transformers, wai
-, wai-extra
+, http-types, HUnit, network, stdenv, stm, token-bucket
+, transformers, wai, wai-extra
 }:
 mkDerivation {
   pname = "wai-middleware-throttle";

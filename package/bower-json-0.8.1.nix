@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-better-errors, base, bytestring
-, deepseq, mtl, scientific, tasty, tasty-hunit, text, transformers
-, unordered-containers, vector
+, deepseq, mtl, scientific, stdenv, tasty, tasty-hunit, text
+, transformers, unordered-containers, vector
 }:
 mkDerivation {
   pname = "bower-json";

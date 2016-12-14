@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, QuickCheck, unix }:
+{ mkDerivation, base, hspec, QuickCheck, stdenv, unix }:
 mkDerivation {
   pname = "base-compat";
   version = "0.9.1";

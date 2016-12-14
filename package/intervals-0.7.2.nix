@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, distributive, ghc-prim }:
+{ mkDerivation, array, base, distributive, ghc-prim, stdenv }:
 mkDerivation {
   pname = "intervals";
   version = "0.7.2";

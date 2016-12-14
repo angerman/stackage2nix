@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, HTTP, hxt, network, network-uri
-, parsec
+, parsec, stdenv
 }:
 mkDerivation {
   pname = "hxt-http";

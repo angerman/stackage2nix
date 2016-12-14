@@ -1,4 +1,4 @@
-{ mkDerivation, base, numtype-dk }:
+{ mkDerivation, base, numtype-dk, stdenv }:
 mkDerivation {
   pname = "exact-pi";
   version = "0.4.1.2";

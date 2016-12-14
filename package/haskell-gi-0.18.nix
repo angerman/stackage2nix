@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, Cabal, containers, directory
 , filepath, glib, gobjectIntrospection, haskell-gi-base, mtl
-, pretty-show, process, safe, text, transformers, xdg-basedir
-, xml-conduit
+, pretty-show, process, safe, stdenv, text, transformers
+, xdg-basedir, xml-conduit
 }:
 mkDerivation {
   pname = "haskell-gi";

@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, semigroups
-, unordered-containers
+, stdenv, unordered-containers
 }:
 mkDerivation {
   pname = "charset";

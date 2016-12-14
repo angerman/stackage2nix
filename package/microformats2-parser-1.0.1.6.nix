@@ -3,9 +3,9 @@
 , data-default, either, errors, hspec
 , hspec-expectations-pretty-diff, html-conduit, lens-aeson, mtl
 , network, network-uri, options, pcre-heavy, raw-strings-qq, safe
-, scotty, streaming-commons, tagsoup, template-haskell, text, time
-, transformers, unordered-containers, vector, wai-extra, warp
-, xml-lens, xss-sanitize
+, scotty, stdenv, streaming-commons, tagsoup, template-haskell
+, text, time, transformers, unordered-containers, vector, wai-extra
+, warp, xml-lens, xss-sanitize
 }:
 mkDerivation {
   pname = "microformats2-parser";

@@ -1,6 +1,6 @@
 { mkDerivation, array, base, Cabal, cairo, containers, directory
 , filepath, glib, gtk2hs-buildtools, mtl, pango, pretty, process
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "pango";

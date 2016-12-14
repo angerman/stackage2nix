@@ -1,6 +1,6 @@
 { mkDerivation, base, blank-canvas, cmdargs, containers
 , data-default-class, diagrams-core, diagrams-lib, lens, mtl
-, NumInstances, optparse-applicative, statestack, text
+, NumInstances, optparse-applicative, statestack, stdenv, text
 }:
 mkDerivation {
   pname = "diagrams-canvas";

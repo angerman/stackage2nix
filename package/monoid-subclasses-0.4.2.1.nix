@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, containers, primes, QuickCheck
-, quickcheck-instances, tasty, tasty-quickcheck, text, vector
+, quickcheck-instances, stdenv, tasty, tasty-quickcheck, text
+, vector
 }:
 mkDerivation {
   pname = "monoid-subclasses";

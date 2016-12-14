@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, fasta, mtl, optparse-applicative
-, pipes, pipes-text, regex-tdfa, regex-tdfa-text, split, text
-, text-show
+, pipes, pipes-text, regex-tdfa, regex-tdfa-text, split, stdenv
+, text, text-show
 }:
 mkDerivation {
   pname = "modify-fasta";

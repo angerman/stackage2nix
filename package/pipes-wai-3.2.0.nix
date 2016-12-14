@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, http-types, pipes
-, transformers, wai
+, stdenv, transformers, wai
 }:
 mkDerivation {
   pname = "pipes-wai";

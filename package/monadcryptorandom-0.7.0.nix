@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, crypto-api, mtl, tagged
+{ mkDerivation, base, bytestring, crypto-api, mtl, stdenv, tagged
 , transformers
 }:
 mkDerivation {

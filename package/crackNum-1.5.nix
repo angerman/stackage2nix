@@ -1,4 +1,4 @@
-{ mkDerivation, base, data-binary-ieee754, ieee754 }:
+{ mkDerivation, base, data-binary-ieee754, ieee754, stdenv }:
 mkDerivation {
   pname = "crackNum";
   version = "1.5";

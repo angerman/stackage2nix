@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, deepseq, hashable, HUnit
+{ mkDerivation, base, bytestring, deepseq, hashable, HUnit, stdenv
 , test-framework, test-framework-hunit, text
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl }:
+{ mkDerivation, base, containers, mtl, stdenv }:
 mkDerivation {
   pname = "arrow-list";
   version = "0.7";

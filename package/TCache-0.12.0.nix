@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, directory, hashtables
-, mtl, old-time, RefSerialize, stm, text
+, mtl, old-time, RefSerialize, stdenv, stm, text
 }:
 mkDerivation {
   pname = "TCache";

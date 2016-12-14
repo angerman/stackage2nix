@@ -1,6 +1,6 @@
 { mkDerivation, array, base, blaze-builder, bytestring, containers
 , deepseq, directory, filepath, mtl, old-locale, parsec, pretty
-, syb, template-haskell, text, time, void
+, stdenv, syb, template-haskell, text, time, void
 }:
 mkDerivation {
   pname = "HStringTemplate";

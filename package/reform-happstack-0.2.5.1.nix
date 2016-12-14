@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, happstack-server, mtl, random
-, reform, text, utf8-string
+, reform, stdenv, text, utf8-string
 }:
 mkDerivation {
   pname = "reform-happstack";

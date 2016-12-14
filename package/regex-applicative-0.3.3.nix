@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, smallcheck, tasty, tasty-hunit
-, tasty-smallcheck, transformers
+{ mkDerivation, base, containers, smallcheck, stdenv, tasty
+, tasty-hunit, tasty-smallcheck, transformers
 }:
 mkDerivation {
   pname = "regex-applicative";

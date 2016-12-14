@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bitcoin-api, bitcoin-block
-, bitcoin-tx, bytestring, conduit, hspec, http-client, lens, stm
-, stm-chans, stm-conduit, text, transformers, wreq
+, bitcoin-tx, bytestring, conduit, hspec, http-client, lens, stdenv
+, stm, stm-chans, stm-conduit, text, transformers, wreq
 }:
 mkDerivation {
   pname = "bitcoin-api-extra";

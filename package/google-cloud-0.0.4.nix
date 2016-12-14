@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, http-client
-, http-client-tls, http-types, mtl, random, scientific, stm, text
-, time, unordered-containers
+, http-client-tls, http-types, mtl, random, scientific, stdenv, stm
+, text, time, unordered-containers
 }:
 mkDerivation {
   pname = "google-cloud";

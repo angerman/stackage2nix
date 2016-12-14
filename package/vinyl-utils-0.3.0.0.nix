@@ -1,4 +1,4 @@
-{ mkDerivation, base, contravariant, transformers, vinyl }:
+{ mkDerivation, base, contravariant, stdenv, transformers, vinyl }:
 mkDerivation {
   pname = "vinyl-utils";
   version = "0.3.0.0";

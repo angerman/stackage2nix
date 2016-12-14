@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, cassava, containers, hspec
-, hspec-megaparsec, megaparsec, unordered-containers, vector
+, hspec-megaparsec, megaparsec, stdenv, unordered-containers
+, vector
 }:
 mkDerivation {
   pname = "cassava-megaparsec";

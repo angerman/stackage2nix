@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, curl }:
+{ mkDerivation, base, bytestring, curl, stdenv }:
 mkDerivation {
   pname = "curl";
   version = "1.3.8";

@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, containers, http-api-data, http-client
-, servant, servant-client, servant-docs, text, time
+, servant, servant-client, servant-docs, stdenv, text, time
 }:
 mkDerivation {
   pname = "smsaero";

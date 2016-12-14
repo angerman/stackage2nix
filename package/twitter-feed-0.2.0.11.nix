@@ -1,5 +1,5 @@
 { mkDerivation, aeson, authenticate-oauth, base, bytestring
-, containers, http-conduit, HUnit, test-framework
+, containers, http-conduit, HUnit, stdenv, test-framework
 , test-framework-hunit
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, dependent-sum }:
+{ mkDerivation, base, containers, dependent-sum, stdenv }:
 mkDerivation {
   pname = "dependent-map";
   version = "0.2.3.0";

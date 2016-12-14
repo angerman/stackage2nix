@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, byteable, bytestring
-, random, SHA
+, random, SHA, stdenv
 }:
 mkDerivation {
   pname = "pwstore-purehaskell";

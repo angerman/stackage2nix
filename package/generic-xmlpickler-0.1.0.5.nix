@@ -1,5 +1,5 @@
 { mkDerivation, base, generic-deriving, hxt, hxt-pickle-utils
-, tasty, tasty-hunit, tasty-th, text
+, stdenv, tasty, tasty-hunit, tasty-th, text
 }:
 mkDerivation {
   pname = "generic-xmlpickler";

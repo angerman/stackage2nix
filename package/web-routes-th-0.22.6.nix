@@ -1,5 +1,5 @@
 { mkDerivation, base, hspec, HUnit, parsec, QuickCheck, split
-, template-haskell, text, web-routes
+, stdenv, template-haskell, text, web-routes
 }:
 mkDerivation {
   pname = "web-routes-th";

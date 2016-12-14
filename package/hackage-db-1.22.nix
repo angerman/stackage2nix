@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, containers, directory
-, filepath, tar, utf8-string
+, filepath, stdenv, tar, utf8-string
 }:
 mkDerivation {
   pname = "hackage-db";

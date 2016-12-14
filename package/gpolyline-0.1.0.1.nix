@@ -1,4 +1,4 @@
-{ mkDerivation, base, split }:
+{ mkDerivation, base, split, stdenv }:
 mkDerivation {
   pname = "gpolyline";
   version = "0.1.0.1";

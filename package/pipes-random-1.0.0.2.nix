@@ -1,4 +1,4 @@
-{ mkDerivation, base, mwc-random, pipes, vector }:
+{ mkDerivation, base, mwc-random, pipes, stdenv, vector }:
 mkDerivation {
   pname = "pipes-random";
   version = "1.0.0.2";

@@ -1,8 +1,8 @@
 { mkDerivation, base, bytestring, case-insensitive, containers
 , data-default, exceptions, haskeline, http-client, http-client-tls
 , http-types, lens, mtl, network, network-uri, optparse-applicative
-, transformers, transformers-base, transformers-compat, utf8-string
-, xml-conduit, xml-hamlet
+, stdenv, transformers, transformers-base, transformers-compat
+, utf8-string, xml-conduit, xml-hamlet
 }:
 mkDerivation {
   pname = "DAV";

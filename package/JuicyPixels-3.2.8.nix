@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, deepseq, mtl
-, primitive, transformers, vector, zlib
+, primitive, stdenv, transformers, vector, zlib
 }:
 mkDerivation {
   pname = "JuicyPixels";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, mtl, tagged, template-haskell, vector }:
+{ mkDerivation, base, mtl, stdenv, tagged, template-haskell, vector
+}:
 mkDerivation {
   pname = "iterable";
   version = "3.0";

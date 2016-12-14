@@ -1,4 +1,4 @@
-{ mkDerivation, base, byteable, bytestring, securemem }:
+{ mkDerivation, base, byteable, bytestring, securemem, stdenv }:
 mkDerivation {
   pname = "crypto-cipher-types";
   version = "0.0.9";

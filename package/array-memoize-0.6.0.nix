@@ -1,4 +1,4 @@
-{ mkDerivation, array, base }:
+{ mkDerivation, array, base, stdenv }:
 mkDerivation {
   pname = "array-memoize";
   version = "0.6.0";

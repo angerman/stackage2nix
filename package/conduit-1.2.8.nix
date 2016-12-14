@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, exceptions, hspec, lifted-base
-, mmorph, monad-control, mtl, QuickCheck, resourcet, safe
+, mmorph, monad-control, mtl, QuickCheck, resourcet, safe, stdenv
 , transformers, transformers-base
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
-{ mkDerivation, ansi-terminal, base, data-default, hspec, stm
-, terminal-size, vty
+{ mkDerivation, ansi-terminal, base, data-default, hspec, stdenv
+, stm, terminal-size, vty
 }:
 mkDerivation {
   pname = "list-prompt";

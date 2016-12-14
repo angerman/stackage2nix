@@ -1,4 +1,4 @@
-{ mkDerivation, base, data-default-class, dlist }:
+{ mkDerivation, base, data-default-class, dlist, stdenv }:
 mkDerivation {
   pname = "data-default-instances-dlist";
   version = "0.0.1";

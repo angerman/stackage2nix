@@ -1,6 +1,6 @@
 { mkDerivation, async, base, bytestring, containers, deepseq
-, directory, filepath, mtl, optparse-applicative, process, tagged
-, tasty, tasty-hunit, temporary, temporary-rc
+, directory, filepath, mtl, optparse-applicative, process, stdenv
+, tagged, tasty, tasty-hunit, temporary, temporary-rc
 }:
 mkDerivation {
   pname = "tasty-golden";

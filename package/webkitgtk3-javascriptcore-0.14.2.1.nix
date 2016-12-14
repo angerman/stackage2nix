@@ -1,4 +1,4 @@
-{ mkDerivation, base, Cabal, gtk2hs-buildtools, webkit }:
+{ mkDerivation, base, Cabal, gtk2hs-buildtools, stdenv, webkit }:
 mkDerivation {
   pname = "webkitgtk3-javascriptcore";
   version = "0.14.2.1";

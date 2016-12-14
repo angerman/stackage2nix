@@ -1,4 +1,4 @@
-{ mkDerivation, base, parallel }:
+{ mkDerivation, base, parallel, stdenv }:
 mkDerivation {
   pname = "integration";
   version = "0.2.1";

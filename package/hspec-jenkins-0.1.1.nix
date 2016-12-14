@@ -1,4 +1,4 @@
-{ mkDerivation, base, blaze-markup, hspec }:
+{ mkDerivation, base, blaze-markup, hspec, stdenv }:
 mkDerivation {
   pname = "hspec-jenkins";
   version = "0.1.1";

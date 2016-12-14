@@ -1,5 +1,5 @@
-{ mkDerivation, base, base16-bytestring, bytestring, SHA, tasty
-, tasty-hunit, tasty-quickcheck
+{ mkDerivation, base, base16-bytestring, bytestring, SHA, stdenv
+, tasty, tasty-hunit, tasty-quickcheck
 }:
 mkDerivation {
   pname = "cryptohash-sha256";

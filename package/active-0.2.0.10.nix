@@ -1,5 +1,5 @@
 { mkDerivation, base, lens, linear, QuickCheck, semigroupoids
-, semigroups, vector
+, semigroups, stdenv, vector
 }:
 mkDerivation {
   pname = "active";

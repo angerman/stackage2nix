@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, hspec
-, hspec-expectations, text
+, hspec-expectations, stdenv, text
 }:
 mkDerivation {
   pname = "hspec-attoparsec";

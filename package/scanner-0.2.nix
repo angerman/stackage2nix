@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, hspec }:
+{ mkDerivation, base, bytestring, hspec, stdenv }:
 mkDerivation {
   pname = "scanner";
   version = "0.2";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, exceptions, hspec, path, path-io
+{ mkDerivation, base, exceptions, hspec, path, path-io, stdenv
 , transformers
 }:
 mkDerivation {

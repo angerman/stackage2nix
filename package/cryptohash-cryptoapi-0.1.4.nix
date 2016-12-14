@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, crypto-api, cryptonite
-, memory, tagged
+, memory, stdenv, tagged
 }:
 mkDerivation {
   pname = "cryptohash-cryptoapi";

@@ -1,8 +1,8 @@
 { mkDerivation, aeson, base, bytestring, c2hs, containers
 , data-default-class, deepseq, directory, exceptions, filepath
 , ieee754, mtl, pretty, primitive, process, quickcheck-assertions
-, R, reflection, setenv, silently, singletons, strict, tasty
-, tasty-expected-failure, tasty-golden, tasty-hunit
+, R, reflection, setenv, silently, singletons, stdenv, strict
+, tasty, tasty-expected-failure, tasty-golden, tasty-hunit
 , tasty-quickcheck, template-haskell, temporary, text, th-lift
 , th-orphans, transformers, unix, vector
 }:

@@ -2,7 +2,7 @@
 , comonad, containers, contravariant, distributive, exceptions
 , filepath, free, ghc-prim, hashable, hlint, HUnit, kan-extensions
 , mtl, parallel, profunctors, QuickCheck, reflection, semigroupoids
-, semigroups, tagged, template-haskell, test-framework
+, semigroups, stdenv, tagged, template-haskell, test-framework
 , test-framework-hunit, test-framework-quickcheck2
 , test-framework-th, text, transformers, transformers-compat
 , unordered-containers, vector, void

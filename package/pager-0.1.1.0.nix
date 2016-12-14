@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra, directory
-, process, resourcet, safe, terminfo, text, transformers, unix
+, process, resourcet, safe, stdenv, terminfo, text, transformers
+, unix
 }:
 mkDerivation {
   pname = "pager";

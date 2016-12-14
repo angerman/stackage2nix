@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, byteable, bytedump, bytestring
-, cryptohash, utf8-string
+, cryptohash, stdenv, utf8-string
 }:
 mkDerivation {
   pname = "pbkdf";

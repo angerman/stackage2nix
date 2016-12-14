@@ -1,5 +1,5 @@
 { mkDerivation, base, bindings-libzip, bytestring, directory
-, filepath, HUnit, mtl, time, utf8-string
+, filepath, HUnit, mtl, stdenv, time, utf8-string
 }:
 mkDerivation {
   pname = "LibZip";

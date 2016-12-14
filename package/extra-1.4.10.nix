@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, filepath, process, QuickCheck
-, time, unix
+, stdenv, time, unix
 }:
 mkDerivation {
   pname = "extra";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, transformers }:
+{ mkDerivation, base, hspec, stdenv, transformers }:
 mkDerivation {
   pname = "ilist";
   version = "0.2.0.0";

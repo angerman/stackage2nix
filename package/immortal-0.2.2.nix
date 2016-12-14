@@ -1,5 +1,5 @@
-{ mkDerivation, base, lifted-base, monad-control, stm, tasty
-, tasty-hunit, transformers, transformers-base
+{ mkDerivation, base, lifted-base, monad-control, stdenv, stm
+, tasty, tasty-hunit, transformers, transformers-base
 }:
 mkDerivation {
   pname = "immortal";

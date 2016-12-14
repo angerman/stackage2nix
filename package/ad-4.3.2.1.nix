@@ -1,5 +1,5 @@
 { mkDerivation, array, base, comonad, containers, data-reify
-, directory, doctest, erf, filepath, free, nats, reflection
+, directory, doctest, erf, filepath, free, nats, reflection, stdenv
 , transformers
 }:
 mkDerivation {

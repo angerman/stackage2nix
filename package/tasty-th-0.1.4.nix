@@ -1,4 +1,4 @@
-{ mkDerivation, base, tasty, template-haskell }:
+{ mkDerivation, base, stdenv, tasty, template-haskell }:
 mkDerivation {
   pname = "tasty-th";
   version = "0.1.4";

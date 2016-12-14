@@ -1,4 +1,5 @@
-{ mkDerivation, async, base, bytestring, tasty, tasty-hunit }:
+{ mkDerivation, async, base, bytestring, stdenv, tasty, tasty-hunit
+}:
 mkDerivation {
   pname = "socket";
   version = "0.6.1.0";

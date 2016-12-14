@@ -1,5 +1,5 @@
 { mkDerivation, base, concurrency, dejafu, exceptions, HUnit
-, hunit-dejafu
+, hunit-dejafu, stdenv
 }:
 mkDerivation {
   pname = "async-dejafu";

@@ -1,5 +1,6 @@
 { mkDerivation, base, blaze-html, containers, Diff, directory
-, filepath, mtl, parsec, process, regex-pcre-builtin, utf8-string
+, filepath, mtl, parsec, process, regex-pcre-builtin, stdenv
+, utf8-string
 }:
 mkDerivation {
   pname = "highlighting-kate";

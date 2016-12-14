@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, mtl, time }:
+{ mkDerivation, base, bytestring, mtl, stdenv, time }:
 mkDerivation {
   pname = "benchpress";
   version = "0.2.2.8";

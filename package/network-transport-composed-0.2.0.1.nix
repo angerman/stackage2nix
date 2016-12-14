@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, network-transport }:
+{ mkDerivation, base, bytestring, network-transport, stdenv }:
 mkDerivation {
   pname = "network-transport-composed";
   version = "0.2.0.1";

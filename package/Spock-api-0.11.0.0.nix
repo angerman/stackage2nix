@@ -1,4 +1,4 @@
-{ mkDerivation, aeson, base, deepseq, hvect, reroute }:
+{ mkDerivation, aeson, base, deepseq, hvect, reroute, stdenv }:
 mkDerivation {
   pname = "Spock-api";
   version = "0.11.0.0";

@@ -1,5 +1,5 @@
-{ mkDerivation, aeson, base, tasty, tasty-hunit, tasty-quickcheck
-, tasty-th
+{ mkDerivation, aeson, base, stdenv, tasty, tasty-hunit
+, tasty-quickcheck, tasty-th
 }:
 mkDerivation {
   pname = "aeson-casing";

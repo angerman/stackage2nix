@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, iconv }:
+{ mkDerivation, base, bytestring, iconv, stdenv }:
 mkDerivation {
   pname = "iconv";
   version = "0.4.1.3";

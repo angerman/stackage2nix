@@ -1,5 +1,6 @@
 { mkDerivation, base, data-default-class, exceptions, ghc-prim
-, hspec, HUnit, mtl, QuickCheck, random, stm, time, transformers
+, hspec, HUnit, mtl, QuickCheck, random, stdenv, stm, time
+, transformers
 }:
 mkDerivation {
   pname = "retry";

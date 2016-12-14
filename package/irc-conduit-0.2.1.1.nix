@@ -1,6 +1,6 @@
 { mkDerivation, async, base, bytestring, conduit, conduit-extra
-, connection, irc, irc-ctcp, network-conduit-tls, text, time, tls
-, transformers, x509-validation
+, connection, irc, irc-ctcp, network-conduit-tls, stdenv, text
+, time, tls, transformers, x509-validation
 }:
 mkDerivation {
   pname = "irc-conduit";

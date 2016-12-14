@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, network-uri, text, utf8-string }:
+{ mkDerivation, base, bytestring, network-uri, stdenv, text
+, utf8-string
+}:
 mkDerivation {
   pname = "uri-encode";
   version = "1.5.0.5";

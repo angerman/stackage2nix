@@ -1,4 +1,5 @@
-{ mkDerivation, array, base, stm, transformers, transformers-compat
+{ mkDerivation, array, base, stdenv, stm, transformers
+, transformers-compat
 }:
 mkDerivation {
   pname = "monadic-arrays";

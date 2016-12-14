@@ -4,9 +4,10 @@
 , exceptions, filepath, ghc-prim, hashable, http-client
 , http-client-tls, http-types, HUnit, lens, lens-aeson, mime-types
 , network-info, psqueues, QuickCheck, snap-core, snap-server
-, template-haskell, temporary, test-framework, test-framework-hunit
-, test-framework-quickcheck2, text, time, time-locale-compat
-, transformers, unix-compat, unordered-containers, uuid, vector
+, stdenv, template-haskell, temporary, test-framework
+, test-framework-hunit, test-framework-quickcheck2, text, time
+, time-locale-compat, transformers, unix-compat
+, unordered-containers, uuid, vector
 }:
 mkDerivation {
   pname = "wreq";

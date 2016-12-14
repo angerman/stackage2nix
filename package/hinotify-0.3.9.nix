@@ -1,4 +1,4 @@
-{ mkDerivation, async, base, containers, directory, unix }:
+{ mkDerivation, async, base, containers, directory, stdenv, unix }:
 mkDerivation {
   pname = "hinotify";
   version = "0.3.9";

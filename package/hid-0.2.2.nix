@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, c2hs, hidapi, transformers }:
+{ mkDerivation, base, bytestring, c2hs, hidapi, stdenv
+, transformers
+}:
 mkDerivation {
   pname = "hid";
   version = "0.2.2";

@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, directory
-, mtl, test-simple, Unixutils, vector
+, mtl, stdenv, test-simple, Unixutils, vector
 }:
 mkDerivation {
   pname = "pure-cdb";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, mtl }:
+{ mkDerivation, base, containers, mtl, stdenv }:
 mkDerivation {
   pname = "tree-view";
   version = "0.4";

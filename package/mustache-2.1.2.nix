@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, base-unicode-symbols, bytestring
 , cmdargs, containers, directory, either, filepath, hspec, lens
-, mtl, parsec, process, scientific, tar, template-haskell
+, mtl, parsec, process, scientific, stdenv, tar, template-haskell
 , temporary, text, th-lift, unordered-containers, vector, wreq
 , yaml, zlib
 }:

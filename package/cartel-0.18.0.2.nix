@@ -1,6 +1,7 @@
 { mkDerivation, base, directory, filepath, multiarg
 , optparse-applicative, pretty-show, process, QuickCheck, random
-, split, tasty, tasty-quickcheck, tasty-th, time, transformers
+, split, stdenv, tasty, tasty-quickcheck, tasty-th, time
+, transformers
 }:
 mkDerivation {
   pname = "cartel";

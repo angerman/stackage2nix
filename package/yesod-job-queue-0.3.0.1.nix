@@ -1,6 +1,7 @@
 { mkDerivation, aeson, api-field-json-th, base, bytestring, cron
-, file-embed, hedis, lens, monad-control, monad-logger, stm, text
-, time, transformers, uuid, yesod, yesod-core, yesod-persistent
+, file-embed, hedis, lens, monad-control, monad-logger, stdenv, stm
+, text, time, transformers, uuid, yesod, yesod-core
+, yesod-persistent
 }:
 mkDerivation {
   pname = "yesod-job-queue";

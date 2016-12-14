@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, filepath, hxt, mtl
-, parsec, process, split, text
+, parsec, process, split, stdenv, text
 }:
 mkDerivation {
   pname = "vcswrapper";

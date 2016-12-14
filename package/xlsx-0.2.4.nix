@@ -1,7 +1,7 @@
 { mkDerivation, base, base64-bytestring, binary-search, bytestring
 , conduit, containers, data-default, Diff, errors, extra, filepath
 , groom, lens, mtl, mtl-compat, network-uri, old-locale
-, raw-strings-qq, safe, smallcheck, tasty, tasty-hunit
+, raw-strings-qq, safe, smallcheck, stdenv, tasty, tasty-hunit
 , tasty-smallcheck, text, time, transformers, vector, xml-conduit
 , zip-archive, zlib
 }:

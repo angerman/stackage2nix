@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, parallel, polynomials-bernstein
-, vector
+, stdenv, vector
 }:
 mkDerivation {
   pname = "typography-geometry";

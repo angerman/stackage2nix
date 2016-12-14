@@ -1,7 +1,7 @@
 { mkDerivation, array, base, bytestring, cairo, colour, containers
 , data-default-class, diagrams-core, diagrams-lib, filepath
 , hashable, JuicyPixels, lens, mtl, optparse-applicative, pango
-, split, statestack, transformers, unix, vector
+, split, statestack, stdenv, transformers, unix, vector
 }:
 mkDerivation {
   pname = "diagrams-cairo";

@@ -1,6 +1,6 @@
 { mkDerivation, base, base64-bytestring, bytestring, conduit
 , conduit-extra, containers, directory, filepath, hspec, mtl
-, QuickCheck, resourcet, text, transformers
+, QuickCheck, resourcet, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "project-template";

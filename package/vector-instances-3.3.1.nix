@@ -1,5 +1,5 @@
 { mkDerivation, base, comonad, keys, pointed, semigroupoids
-, semigroups, vector
+, semigroups, stdenv, vector
 }:
 mkDerivation {
   pname = "vector-instances";

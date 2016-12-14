@@ -1,6 +1,7 @@
 { mkDerivation, alex, array, base, binary, bytestring, containers
 , directory, filepath, haskell-src-exts, mtl, parsec
-, protocol-buffers, protocol-buffers-descriptor, utf8-string
+, protocol-buffers, protocol-buffers-descriptor, stdenv
+, utf8-string
 }:
 mkDerivation {
   pname = "hprotoc";

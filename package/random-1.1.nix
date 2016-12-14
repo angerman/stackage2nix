@@ -1,4 +1,4 @@
-{ mkDerivation, base, time }:
+{ mkDerivation, base, stdenv, time }:
 mkDerivation {
   pname = "random";
   version = "1.1";

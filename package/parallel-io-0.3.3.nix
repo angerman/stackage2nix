@@ -1,4 +1,6 @@
-{ mkDerivation, base, containers, extensible-exceptions, random }:
+{ mkDerivation, base, containers, extensible-exceptions, random
+, stdenv
+}:
 mkDerivation {
   pname = "parallel-io";
   version = "0.3.3";

@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, fasta, lens, optparse-applicative
-, pipes, pipes-text, split, text, text-show
+, pipes, pipes-text, split, stdenv, text, text-show
 }:
 mkDerivation {
   pname = "blosum";

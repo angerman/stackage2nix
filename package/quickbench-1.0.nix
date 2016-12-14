@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, docopt, pretty-show
-, process, safe, split, tabular, time
+, process, safe, split, stdenv, tabular, time
 }:
 mkDerivation {
   pname = "quickbench";

@@ -1,5 +1,5 @@
 { mkDerivation, array, base, binary, bytestring, ix-shapable
-, QuickCheck, syb
+, QuickCheck, stdenv, syb
 }:
 mkDerivation {
   pname = "carray";

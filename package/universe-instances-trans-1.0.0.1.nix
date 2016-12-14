@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, transformers, universe-base
+{ mkDerivation, base, mtl, stdenv, transformers, universe-base
 , universe-instances-base
 }:
 mkDerivation {

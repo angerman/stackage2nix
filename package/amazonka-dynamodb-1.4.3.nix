@@ -1,5 +1,5 @@
 { mkDerivation, amazonka-core, amazonka-test, base, bytestring
-, tasty, tasty-hunit, text, time, unordered-containers
+, stdenv, tasty, tasty-hunit, text, time, unordered-containers
 }:
 mkDerivation {
   pname = "amazonka-dynamodb";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, stm, transformers }:
+{ mkDerivation, base, stdenv, stm, transformers }:
 mkDerivation {
   pname = "ref-fd";
   version = "0.4.0.1";

@@ -1,8 +1,8 @@
 { mkDerivation, aeson, base, binary, bytestring, containers
 , directory, executable-path, filepath, hashable, haskeline, HPDF
 , JuicyPixels, mtl, natural-sort, optparse-applicative, parsec
-, process, random, split, spool, template-haskell, time, vector
-, yaml, zlib
+, process, random, split, spool, stdenv, template-haskell, time
+, vector, yaml, zlib
 }:
 mkDerivation {
   pname = "tttool";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, QuickCheck }:
+{ mkDerivation, base, ghc-prim, QuickCheck, stdenv }:
 mkDerivation {
   pname = "permutation";
   version = "0.5.0.5";

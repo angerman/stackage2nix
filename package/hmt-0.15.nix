@@ -1,6 +1,6 @@
 { mkDerivation, array, base, bytestring, colour, containers
 , data-ordlist, directory, filepath, lazy-csv, logict
-, multiset-comb, parsec, permutation, primes, safe, split
+, multiset-comb, parsec, permutation, primes, safe, split, stdenv
 , utf8-string
 }:
 mkDerivation {

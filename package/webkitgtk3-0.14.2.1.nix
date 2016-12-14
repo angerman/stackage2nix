@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, cairo, glib
-, gtk2hs-buildtools, gtk3, mtl, pango, text, transformers, webkit
+, gtk2hs-buildtools, gtk3, mtl, pango, stdenv, text, transformers
+, webkit
 }:
 mkDerivation {
   pname = "webkitgtk3";

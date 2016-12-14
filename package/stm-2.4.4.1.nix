@@ -1,4 +1,4 @@
-{ mkDerivation, array, base }:
+{ mkDerivation, array, base, stdenv }:
 mkDerivation {
   pname = "stm";
   version = "2.4.4.1";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, bytestring, HUnit, QuickCheck
+{ mkDerivation, base, binary, bytestring, HUnit, QuickCheck, stdenv
 , test-framework, test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {

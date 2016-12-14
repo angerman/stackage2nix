@@ -6,10 +6,11 @@
 , http-client-tls, http-conduit, lucid, mime-types, monad-unlift
 , monad-unlift-ref, mono-traversable, mtl, old-locale
 , optparse-applicative, optparse-simple, process, QuickCheck
-, resourcet, safe, semigroups, stm, store, streaming-commons, syb
-, system-fileio, system-filepath, tar, temporary, text, time
-, transformers, unix-compat, unordered-containers, utf8-string
-, vector, xml-conduit, xml-types, yaml, zlib
+, resourcet, safe, semigroups, stdenv, stm, store
+, streaming-commons, syb, system-fileio, system-filepath, tar
+, temporary, text, time, transformers, unix-compat
+, unordered-containers, utf8-string, vector, xml-conduit, xml-types
+, yaml, zlib
 }:
 mkDerivation {
   pname = "stackage-curator";

@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, base58string, binary, bitcoin-block
 , bitcoin-script, bitcoin-tx, bitcoin-types, bytestring, hexstring
-, hspec, http-client, lens, lens-aeson, text, unordered-containers
-, wreq
+, hspec, http-client, lens, lens-aeson, stdenv, text
+, unordered-containers, wreq
 }:
 mkDerivation {
   pname = "bitcoin-api";

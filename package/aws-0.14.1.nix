@@ -4,8 +4,8 @@
 , cryptohash, data-default, directory, errors, filepath
 , http-client, http-client-tls, http-conduit, http-types
 , lifted-base, monad-control, mtl, network, old-locale, QuickCheck
-, quickcheck-instances, resourcet, safe, scientific, tagged, tasty
-, tasty-hunit, tasty-quickcheck, text, time, transformers
+, quickcheck-instances, resourcet, safe, scientific, stdenv, tagged
+, tasty, tasty-hunit, tasty-quickcheck, text, time, transformers
 , transformers-base, unordered-containers, utf8-string, vector
 , xml-conduit
 }:

@@ -1,5 +1,5 @@
 { mkDerivation, base, base-orphans, bifunctors, comonad
-, contravariant, distributive, tagged, transformers
+, contravariant, distributive, stdenv, tagged, transformers
 }:
 mkDerivation {
   pname = "profunctors";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, monad-parallel, transformers
+{ mkDerivation, base, monad-parallel, stdenv, transformers
 , transformers-compat
 }:
 mkDerivation {

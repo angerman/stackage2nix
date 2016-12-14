@@ -1,4 +1,4 @@
-{ mkDerivation, base, base-compat, mtl, transformers
+{ mkDerivation, base, base-compat, mtl, stdenv, transformers
 , transformers-compat
 }:
 mkDerivation {

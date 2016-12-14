@@ -5,8 +5,8 @@
 , http-api-data, http-client, HUnit, lens, lens-aeson, megaparsec
 , memory, mtl, operational, optparse-applicative, parallel-io
 , parsec, pcre-utils, process, random, regex-pcre-builtin
-, scientific, semigroups, servant, servant-client, split, stm
-, strict-base-types, temporary, text, time, transformers, unix
+, scientific, semigroups, servant, servant-client, split, stdenv
+, stm, strict-base-types, temporary, text, time, transformers, unix
 , unordered-containers, vector, yaml
 }:
 mkDerivation {

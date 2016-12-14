@@ -1,4 +1,6 @@
-{ mkDerivation, base, fftw, primitive, storable-complex, vector }:
+{ mkDerivation, base, fftw, primitive, stdenv, storable-complex
+, vector
+}:
 mkDerivation {
   pname = "vector-fftw";
   version = "0.1.3.7";

@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, deepseq, ghc
-, template-haskell, transformers
+, stdenv, template-haskell, transformers
 }:
 mkDerivation {
   pname = "ghc-heap-view";

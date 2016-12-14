@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, containers, mtl, parsec, pretty
-, QuickCheck, RepLib, template-haskell, transformers
+, QuickCheck, RepLib, stdenv, template-haskell, transformers
 }:
 mkDerivation {
   pname = "unbound";

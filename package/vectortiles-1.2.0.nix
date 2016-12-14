@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, cereal, containers, deepseq, hex
-, protobuf, tasty, tasty-hunit, text, th-printf, transformers
-, vector
+, protobuf, stdenv, tasty, tasty-hunit, text, th-printf
+, transformers, vector
 }:
 mkDerivation {
   pname = "vectortiles";

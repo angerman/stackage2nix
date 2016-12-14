@@ -1,4 +1,4 @@
-{ mkDerivation, base, unix }:
+{ mkDerivation, base, stdenv, unix }:
 mkDerivation {
   pname = "signal";
   version = "0.1.0.3";

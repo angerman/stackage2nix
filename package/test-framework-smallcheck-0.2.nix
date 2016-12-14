@@ -1,4 +1,6 @@
-{ mkDerivation, base, smallcheck, test-framework, transformers }:
+{ mkDerivation, base, smallcheck, stdenv, test-framework
+, transformers
+}:
 mkDerivation {
   pname = "test-framework-smallcheck";
   version = "0.2";

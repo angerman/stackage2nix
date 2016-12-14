@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, biocore, bytestring, hashable
-, QuickCheck, random, unordered-containers, vector
+, QuickCheck, random, stdenv, unordered-containers, vector
 }:
 mkDerivation {
   pname = "seqloc";

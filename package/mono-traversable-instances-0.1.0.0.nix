@@ -1,5 +1,5 @@
 { mkDerivation, base, comonad, containers, dlist, dlist-instances
-, mono-traversable, semigroupoids, semigroups, transformers
+, mono-traversable, semigroupoids, semigroups, stdenv, transformers
 , vector-instances
 }:
 mkDerivation {

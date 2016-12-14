@@ -1,6 +1,6 @@
 { mkDerivation, base, hasty-hamiltonian, lens, mcmc-types
 , mighty-metropolis, mwc-probability, pipes, primitive
-, speedy-slice, transformers
+, speedy-slice, stdenv, transformers
 }:
 mkDerivation {
   pname = "declarative";

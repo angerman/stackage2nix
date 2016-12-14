@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, mtl, old-locale
-, old-time, text, time
+, old-time, stdenv, text, time
 }:
 mkDerivation {
   pname = "convertible";

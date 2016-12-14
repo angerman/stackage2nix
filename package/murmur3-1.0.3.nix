@@ -1,5 +1,5 @@
 { mkDerivation, base, base16-bytestring, bytestring, cereal, HUnit
-, QuickCheck, test-framework, test-framework-hunit
+, QuickCheck, stdenv, test-framework, test-framework-hunit
 , test-framework-quickcheck2
 }:
 mkDerivation {

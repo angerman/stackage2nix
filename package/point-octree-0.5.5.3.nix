@@ -1,5 +1,5 @@
 { mkDerivation, AC-Vector, base, hspec, markdown-unlit, QuickCheck
-, random, random-shuffle
+, random, random-shuffle, stdenv
 }:
 mkDerivation {
   pname = "point-octree";

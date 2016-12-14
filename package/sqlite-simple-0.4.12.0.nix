@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, base16-bytestring, blaze-builder
-, blaze-textual, bytestring, containers, direct-sqlite, HUnit, text
-, time, transformers
+, blaze-textual, bytestring, containers, direct-sqlite, HUnit
+, stdenv, text, time, transformers
 }:
 mkDerivation {
   pname = "sqlite-simple";

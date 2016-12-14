@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bifunctors, bytestring
 , bytestring-conversion, conduit, data-default-class, exceptions
 , generics-sop, http-client, http-types, lens, lens-aeson, mmorph
-, monad-control, mtl, template-haskell, text, time
+, monad-control, mtl, stdenv, template-haskell, text, time
 , time-locale-compat, transformers, transformers-base
 , transformers-compat, unordered-containers
 }:

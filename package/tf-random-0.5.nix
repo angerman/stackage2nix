@@ -1,4 +1,4 @@
-{ mkDerivation, base, primitive, random, time }:
+{ mkDerivation, base, primitive, random, stdenv, time }:
 mkDerivation {
   pname = "tf-random";
   version = "0.5";

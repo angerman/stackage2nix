@@ -1,5 +1,5 @@
 { mkDerivation, alex, array, base, bytestring, containers
-, directory, filepath, happy, pretty, process, syb
+, directory, filepath, happy, pretty, process, stdenv, syb
 }:
 mkDerivation {
   pname = "language-c";

@@ -1,5 +1,5 @@
-{ mkDerivation, base, gmp, gmpxx, symengine, tasty, tasty-hunit
-, tasty-quickcheck
+{ mkDerivation, base, gmp, gmpxx, stdenv, symengine, tasty
+, tasty-hunit, tasty-quickcheck
 }:
 mkDerivation {
   pname = "symengine";

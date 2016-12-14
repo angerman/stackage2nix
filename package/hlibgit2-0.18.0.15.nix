@@ -1,4 +1,6 @@
-{ mkDerivation, base, bindings-DSL, git, openssl, process, zlib }:
+{ mkDerivation, base, bindings-DSL, git, openssl, process, stdenv
+, zlib
+}:
 mkDerivation {
   pname = "hlibgit2";
   version = "0.18.0.15";

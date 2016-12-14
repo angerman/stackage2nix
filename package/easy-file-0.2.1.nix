@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath, time, unix }:
+{ mkDerivation, base, directory, filepath, stdenv, time, unix }:
 mkDerivation {
   pname = "easy-file";
   version = "0.2.1";

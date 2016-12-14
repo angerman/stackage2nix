@@ -1,6 +1,7 @@
 { mkDerivation, base, bytestring, conduit, conduit-extra
 , connection, cprng-aes, data-default, HUnit, monad-control, mtl
-, network, streaming-commons, tls, transformers, transformers-base
+, network, stdenv, streaming-commons, tls, transformers
+, transformers-base
 }:
 mkDerivation {
   pname = "network-conduit-tls";

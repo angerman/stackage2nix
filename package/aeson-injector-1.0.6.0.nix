@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bifunctors, deepseq, HUnit, lens
-, QuickCheck, quickcheck-text, scientific, servant-docs, swagger2
-, tasty, tasty-hunit, tasty-quickcheck, text, unordered-containers
-, vector
+, QuickCheck, quickcheck-text, scientific, servant-docs, stdenv
+, swagger2, tasty, tasty-hunit, tasty-quickcheck, text
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "aeson-injector";

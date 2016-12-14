@@ -1,6 +1,6 @@
 { mkDerivation, base, data-default-class
 , data-default-instances-containers, data-default-instances-dlist
-, data-default-instances-old-locale
+, data-default-instances-old-locale, stdenv
 }:
 mkDerivation {
   pname = "data-default";

@@ -1,6 +1,6 @@
-{ mkDerivation, base, containers, mtl, QuickCheck, STMonadTrans
-, template-haskell, test-framework, test-framework-quickcheck2
-, transformers, transformers-compat
+{ mkDerivation, base, containers, mtl, QuickCheck, stdenv
+, STMonadTrans, template-haskell, test-framework
+, test-framework-quickcheck2, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "equivalence";

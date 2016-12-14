@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, haskell-src-exts, mtl, syb
-, transformers
+{ mkDerivation, base, containers, haskell-src-exts, mtl, stdenv
+, syb, transformers
 }:
 mkDerivation {
   pname = "pointful";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, matrix, parsec
-, QuickCheck, tasty, tasty-quickcheck, text, transformers
+, QuickCheck, stdenv, tasty, tasty-quickcheck, text, transformers
 , wl-pprint-extras
 }:
 mkDerivation {

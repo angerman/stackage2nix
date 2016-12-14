@@ -1,4 +1,4 @@
-{ mkDerivation, base, comonad, haskell-src-meta, parsec
+{ mkDerivation, base, comonad, haskell-src-meta, parsec, stdenv
 , template-haskell, uniplate
 }:
 mkDerivation {

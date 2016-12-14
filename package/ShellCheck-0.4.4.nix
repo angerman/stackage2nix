@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, json, mtl, parsec
-, process, QuickCheck, regex-tdfa
+, process, QuickCheck, regex-tdfa, stdenv
 }:
 mkDerivation {
   pname = "ShellCheck";

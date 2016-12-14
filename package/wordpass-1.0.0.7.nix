@@ -1,5 +1,6 @@
 { mkDerivation, base, containers, deepseq, directory, filepath
-, hflags, random-fu, random-source, text, unix-compat, vector
+, hflags, random-fu, random-source, stdenv, text, unix-compat
+, vector
 }:
 mkDerivation {
   pname = "wordpass";

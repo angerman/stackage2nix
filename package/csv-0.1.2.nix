@@ -1,4 +1,4 @@
-{ mkDerivation, base, filepath, parsec }:
+{ mkDerivation, base, filepath, parsec, stdenv }:
 mkDerivation {
   pname = "csv";
   version = "0.1.2";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bmp, bytestring, containers, ghc-prim
-, gloss-rendering, GLUT, OpenGL
+, gloss-rendering, GLUT, OpenGL, stdenv
 }:
 mkDerivation {
   pname = "gloss";

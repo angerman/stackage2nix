@@ -1,6 +1,6 @@
 { mkDerivation, ansi-terminal, async, base, clock, containers
-, deepseq, mtl, optparse-applicative, regex-tdfa, stm, tagged
-, unbounded-delays
+, deepseq, mtl, optparse-applicative, regex-tdfa, stdenv, stm
+, tagged, unbounded-delays
 }:
 mkDerivation {
   pname = "tasty";

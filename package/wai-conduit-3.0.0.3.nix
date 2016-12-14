@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, conduit
-, http-types, transformers, wai
+, http-types, stdenv, transformers, wai
 }:
 mkDerivation {
   pname = "wai-conduit";

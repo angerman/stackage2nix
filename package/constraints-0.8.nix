@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, deepseq, ghc-prim, hashable, mtl
-, transformers, transformers-compat
+, stdenv, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "constraints";

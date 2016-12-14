@@ -1,4 +1,4 @@
-{ mkDerivation, base, fingertree }:
+{ mkDerivation, base, fingertree, stdenv }:
 mkDerivation {
   pname = "fingertree-psqueue";
   version = "0.3";

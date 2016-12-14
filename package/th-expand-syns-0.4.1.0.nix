@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, syb, template-haskell }:
+{ mkDerivation, base, containers, stdenv, syb, template-haskell }:
 mkDerivation {
   pname = "th-expand-syns";
   version = "0.4.1.0";

@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, contravariant
-, QuickCheck, rainbow, split, tasty, tasty-quickcheck, tasty-th
-, text, transformers
+, QuickCheck, rainbow, split, stdenv, tasty, tasty-quickcheck
+, tasty-th, text, transformers
 }:
 mkDerivation {
   pname = "prednote";

@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, blaze-builder, bytestring
 , containers, generics-sop, HUnit, lens-simple, QuickCheck
-, quickcheck-instances, semigroups, tasty, tasty-hunit
+, quickcheck-instances, semigroups, stdenv, tasty, tasty-hunit
 , tasty-quickcheck
 }:
 mkDerivation {

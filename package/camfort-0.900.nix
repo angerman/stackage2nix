@@ -1,7 +1,7 @@
 { mkDerivation, alex, array, base, bytestring, containers
 , directory, fgl, filepath, fortran-src, GenericPretty, ghc-prim
-, happy, hmatrix, hspec, matrix, mtl, QuickCheck, syb, syz, text
-, transformers, uniplate, vector
+, happy, hmatrix, hspec, matrix, mtl, QuickCheck, stdenv, syb, syz
+, text, transformers, uniplate, vector
 }:
 mkDerivation {
   pname = "camfort";

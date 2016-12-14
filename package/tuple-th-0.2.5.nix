@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, template-haskell }:
+{ mkDerivation, base, containers, stdenv, template-haskell }:
 mkDerivation {
   pname = "tuple-th";
   version = "0.2.5";

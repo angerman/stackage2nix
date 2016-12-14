@@ -1,5 +1,5 @@
 { mkDerivation, base, conduit, containers, hspec, HUnit, mtl
-, profunctors
+, profunctors, stdenv
 }:
 mkDerivation {
   pname = "withdependencies";

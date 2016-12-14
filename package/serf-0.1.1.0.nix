@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, conduit, conduit-extra, mtl
-, operational, process, resourcet, text
+, operational, process, resourcet, stdenv, text
 }:
 mkDerivation {
   pname = "serf";

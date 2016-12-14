@@ -1,4 +1,4 @@
-{ mkDerivation, base, tasty, tasty-hunit }:
+{ mkDerivation, base, stdenv, tasty, tasty-hunit }:
 mkDerivation {
   pname = "monad-loops";
   version = "0.4.3";

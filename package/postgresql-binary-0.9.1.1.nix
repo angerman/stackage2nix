@@ -1,9 +1,9 @@
 { mkDerivation, aeson, base, base-prelude, binary-parser
 , bytestring, conversion, conversion-bytestring, conversion-text
 , either, foldl, json-ast, loch-th, placeholders, postgresql-libpq
-, QuickCheck, quickcheck-instances, rebase, scientific, tasty
-, tasty-hunit, tasty-quickcheck, tasty-smallcheck, text, time
-, transformers, uuid, vector
+, QuickCheck, quickcheck-instances, rebase, scientific, stdenv
+, tasty, tasty-hunit, tasty-quickcheck, tasty-smallcheck, text
+, time, transformers, uuid, vector
 }:
 mkDerivation {
   pname = "postgresql-binary";

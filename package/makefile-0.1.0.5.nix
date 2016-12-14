@@ -1,4 +1,5 @@
-{ mkDerivation, attoparsec, base, bytestring, doctest, Glob }:
+{ mkDerivation, attoparsec, base, bytestring, doctest, Glob, stdenv
+}:
 mkDerivation {
   pname = "makefile";
   version = "0.1.0.5";

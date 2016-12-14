@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, base64-bytestring, binary, bytestring
-, containers, data-default, doctest, mtl, network, scientific, text
-, time, unordered-containers, utf8-string, vector
+, containers, data-default, doctest, mtl, network, scientific
+, stdenv, text, time, unordered-containers, utf8-string, vector
 }:
 mkDerivation {
   pname = "rethinkdb";

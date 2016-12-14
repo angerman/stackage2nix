@@ -1,5 +1,5 @@
 { mkDerivation, array, base, base64-string, bytestring, cryptohash
-, mime-mail, mtl, network, old-time, pretty, text
+, mime-mail, mtl, network, old-time, pretty, stdenv, text
 }:
 mkDerivation {
   pname = "HaskellNet";

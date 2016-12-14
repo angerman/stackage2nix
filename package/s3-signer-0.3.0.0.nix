@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, cryptohash, http-types
-, time, utf8-string
+, stdenv, time, utf8-string
 }:
 mkDerivation {
   pname = "s3-signer";

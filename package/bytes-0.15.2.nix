@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, cereal, containers
-, hashable, mtl, scientific, text, time, transformers
+, hashable, mtl, scientific, stdenv, text, time, transformers
 , transformers-compat, unordered-containers, void
 }:
 mkDerivation {

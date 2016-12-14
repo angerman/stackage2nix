@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, gi-atk, gi-cairo
 , gi-gdk, gi-gdkpixbuf, gi-gio, gi-glib, gi-gobject, gi-pango, gtk3
-, haskell-gi, haskell-gi-base, text, transformers
+, haskell-gi, haskell-gi-base, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "gi-gtk";

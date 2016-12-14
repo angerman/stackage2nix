@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, transformers }:
+{ mkDerivation, base, ghc-prim, stdenv, transformers }:
 mkDerivation {
   pname = "primitive";
   version = "0.6.1.0";

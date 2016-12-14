@@ -1,5 +1,5 @@
 { mkDerivation, array, base, filepath, ghc-prim, happy
-, haskell-lexer, pretty
+, haskell-lexer, pretty, stdenv
 }:
 mkDerivation {
   pname = "pretty-show";

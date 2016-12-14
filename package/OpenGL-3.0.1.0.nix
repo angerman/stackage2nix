@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, GLURaw, ObjectName
-, OpenGLRaw, StateVar, text, transformers
+, OpenGLRaw, StateVar, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "OpenGL";

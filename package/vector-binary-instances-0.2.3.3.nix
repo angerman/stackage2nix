@@ -1,4 +1,6 @@
-{ mkDerivation, base, binary, tasty, tasty-quickcheck, vector }:
+{ mkDerivation, base, binary, stdenv, tasty, tasty-quickcheck
+, vector
+}:
 mkDerivation {
   pname = "vector-binary-instances";
   version = "0.2.3.3";

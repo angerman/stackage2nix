@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, mtl, parsec
-, pretty, syb, text
+, pretty, stdenv, syb, text
 }:
 mkDerivation {
   pname = "json";

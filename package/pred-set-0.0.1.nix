@@ -1,4 +1,4 @@
-{ mkDerivation, base, hashable, hashtables, HSet }:
+{ mkDerivation, base, hashable, hashtables, HSet, stdenv }:
 mkDerivation {
   pname = "pred-set";
   version = "0.0.1";

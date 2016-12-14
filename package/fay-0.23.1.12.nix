@@ -1,8 +1,8 @@
 { mkDerivation, aeson, base, base-compat, bytestring, containers
 , data-default, data-lens-light, directory, filepath, ghc-paths
 , haskell-src-exts, language-ecmascript, mtl, mtl-compat
-, optparse-applicative, process, safe, sourcemap, split, spoon, syb
-, text, time, transformers, transformers-compat
+, optparse-applicative, process, safe, sourcemap, split, spoon
+, stdenv, syb, text, time, transformers, transformers-compat
 , traverse-with-class, type-eq, uniplate, unordered-containers
 , utf8-string, vector
 }:

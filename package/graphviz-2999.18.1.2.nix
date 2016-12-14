@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, colour, containers, directory
 , dlist, fgl, fgl-arbitrary, filepath, polyparse, process
-, QuickCheck, temporary, text, transformers, wl-pprint-text
+, QuickCheck, stdenv, temporary, text, transformers, wl-pprint-text
 }:
 mkDerivation {
   pname = "graphviz";

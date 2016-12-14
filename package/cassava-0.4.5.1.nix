@@ -1,7 +1,7 @@
 { mkDerivation, array, attoparsec, base, blaze-builder, bytestring
-, containers, deepseq, hashable, HUnit, QuickCheck, test-framework
-, test-framework-hunit, test-framework-quickcheck2, text
-, unordered-containers, vector
+, containers, deepseq, hashable, HUnit, QuickCheck, stdenv
+, test-framework, test-framework-hunit, test-framework-quickcheck2
+, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "cassava";

@@ -1,4 +1,6 @@
-{ mkDerivation, base, boomerang, mtl, parsec, text, web-routes }:
+{ mkDerivation, base, boomerang, mtl, parsec, stdenv, text
+, web-routes
+}:
 mkDerivation {
   pname = "web-routes-boomerang";
   version = "0.28.4.2";

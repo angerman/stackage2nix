@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, mtl, safe, template-haskell
-, th-expand-syns
+{ mkDerivation, base, containers, mtl, safe, stdenv
+, template-haskell, th-expand-syns
 }:
 mkDerivation {
   pname = "th-reify-many";

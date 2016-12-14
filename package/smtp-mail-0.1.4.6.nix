@@ -1,5 +1,6 @@
 { mkDerivation, array, base, base16-bytestring, base64-bytestring
-, bytestring, cryptohash, filepath, mime-mail, network, text
+, bytestring, cryptohash, filepath, mime-mail, network, stdenv
+, text
 }:
 mkDerivation {
   pname = "smtp-mail";

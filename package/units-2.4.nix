@@ -1,6 +1,7 @@
 { mkDerivation, base, containers, deepseq, HUnit-approx, lens
-, linear, mtl, multimap, singletons, syb, tasty, tasty-hunit
-, template-haskell, th-desugar, units-parser, vector-space
+, linear, mtl, multimap, singletons, stdenv, syb, tasty
+, tasty-hunit, template-haskell, th-desugar, units-parser
+, vector-space
 }:
 mkDerivation {
   pname = "units";

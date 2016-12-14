@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, template-haskell }:
+{ mkDerivation, base, ghc-prim, stdenv, template-haskell }:
 mkDerivation {
   pname = "generics-sop";
   version = "0.2.3.0";

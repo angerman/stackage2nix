@@ -1,6 +1,6 @@
 { mkDerivation, array, base, binary, blas, bytestring, gsl, hmatrix
 , hmatrix-gsl, hmatrix-gsl-stats, hstatistics, liblapack, mtl
-, storable-complex, vector
+, stdenv, storable-complex, vector
 }:
 mkDerivation {
   pname = "hsignal";

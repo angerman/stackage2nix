@@ -1,4 +1,4 @@
-{ mkDerivation, base, contravariant, profunctors, tagged
+{ mkDerivation, base, contravariant, profunctors, stdenv, tagged
 , template-haskell
 }:
 mkDerivation {

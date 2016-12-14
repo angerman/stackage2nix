@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, base-orphans, filepath
-, generics-sop, hspec, QuickCheck, safe, silently, tagged
+, generics-sop, hspec, QuickCheck, safe, silently, stdenv, tagged
 }:
 mkDerivation {
   pname = "getopt-generics";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, tree-fun }:
+{ mkDerivation, base, containers, stdenv, tree-fun }:
 mkDerivation {
   pname = "clumpiness";
   version = "0.17.0.0";

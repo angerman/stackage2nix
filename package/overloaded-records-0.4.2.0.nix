@@ -1,5 +1,5 @@
-{ mkDerivation, base, data-default-class, HUnit, template-haskell
-, test-framework, test-framework-hunit
+{ mkDerivation, base, data-default-class, HUnit, stdenv
+, template-haskell, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "overloaded-records";

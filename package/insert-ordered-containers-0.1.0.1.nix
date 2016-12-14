@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, base-compat, hashable, lens
-, QuickCheck, semigroupoids, semigroups, tasty, tasty-quickcheck
-, text, transformers, unordered-containers
+, QuickCheck, semigroupoids, semigroups, stdenv, tasty
+, tasty-quickcheck, text, transformers, unordered-containers
 }:
 mkDerivation {
   pname = "insert-ordered-containers";

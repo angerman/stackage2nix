@@ -1,4 +1,4 @@
-{ mkDerivation, base, ghc-prim, pipes, primitive, readable
+{ mkDerivation, base, ghc-prim, pipes, primitive, readable, stdenv
 , template-haskell, text, transformers, vector, vinyl
 }:
 mkDerivation {

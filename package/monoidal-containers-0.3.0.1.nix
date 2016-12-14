@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, hashable, lens, newtype
-, unordered-containers
+, stdenv, unordered-containers
 }:
 mkDerivation {
   pname = "monoidal-containers";

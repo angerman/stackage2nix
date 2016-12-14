@@ -1,4 +1,4 @@
-{ mkDerivation, base, pipes, transformers }:
+{ mkDerivation, base, pipes, stdenv, transformers }:
 mkDerivation {
   pname = "pipes-parse";
   version = "3.0.8";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, process }:
+{ mkDerivation, base, containers, process, stdenv }:
 mkDerivation {
   pname = "parseargs";
   version = "0.2.0.8";

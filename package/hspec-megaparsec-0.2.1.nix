@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, hspec, hspec-expectations
-, megaparsec
+, megaparsec, stdenv
 }:
 mkDerivation {
   pname = "hspec-megaparsec";

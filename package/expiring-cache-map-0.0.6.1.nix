@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, containers, hashable, time
-, unordered-containers
+{ mkDerivation, base, bytestring, containers, hashable, stdenv
+, time, unordered-containers
 }:
 mkDerivation {
   pname = "expiring-cache-map";

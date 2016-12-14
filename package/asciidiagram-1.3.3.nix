@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, directory, filepath
 , FontyFruity, JuicyPixels, lens, linear, mtl, optparse-applicative
-, rasterific-svg, svg-tree, text, vector
+, rasterific-svg, stdenv, svg-tree, text, vector
 }:
 mkDerivation {
   pname = "asciidiagram";

@@ -1,6 +1,6 @@
 { mkDerivation, async, base, bytestring, bytestring-lexing, deepseq
-, HUnit, mtl, network, resource-pool, scanner, slave-thread, stm
-, test-framework, test-framework-hunit, text, time
+, HUnit, mtl, network, resource-pool, scanner, slave-thread, stdenv
+, stm, test-framework, test-framework-hunit, text, time
 , unordered-containers, vector
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, mtl, process }:
+{ mkDerivation, array, base, containers, mtl, process, stdenv }:
 mkDerivation {
   pname = "happy";
   version = "1.19.5";

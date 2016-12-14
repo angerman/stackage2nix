@@ -1,5 +1,5 @@
 { mkDerivation, base, bifunctors, exceptions, hspec, mtl
-, QuickCheck, text
+, QuickCheck, stdenv, text
 }:
 mkDerivation {
   pname = "nagios-check";

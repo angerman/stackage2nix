@@ -1,4 +1,4 @@
-{ mkDerivation, base, singletons }:
+{ mkDerivation, base, singletons, stdenv }:
 mkDerivation {
   pname = "type-list";
   version = "0.5.0.0";

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, ansi-terminal, ansigraph, base, bytestring
 , directory, haskeline, hspec, http-conduit, mtl, QuickCheck
-, regex-posix, terminal-size, text
+, regex-posix, stdenv, terminal-size, text
 }:
 mkDerivation {
   pname = "quantum-random";

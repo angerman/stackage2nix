@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, unix, utf8-string, X11 }:
+{ mkDerivation, base, directory, stdenv, unix, utf8-string, X11 }:
 mkDerivation {
   pname = "Clipboard";
   version = "2.3.0.1";

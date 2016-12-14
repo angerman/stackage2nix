@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, pretty, QuickCheck }:
+{ mkDerivation, base, containers, pretty, QuickCheck, stdenv }:
 mkDerivation {
   pname = "presburger";
   version = "1.3.1";

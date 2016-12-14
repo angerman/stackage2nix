@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, containers, glib, text }:
+{ mkDerivation, base, bytestring, containers, glib, stdenv, text }:
 mkDerivation {
   pname = "haskell-gi-base";
   version = "0.18.4";

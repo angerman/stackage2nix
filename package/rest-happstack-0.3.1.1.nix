@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, happstack-server, mtl, rest-core
-, rest-gen, utf8-string
+, rest-gen, stdenv, utf8-string
 }:
 mkDerivation {
   pname = "rest-happstack";

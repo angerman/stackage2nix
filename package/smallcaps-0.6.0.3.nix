@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, containers, data-default
-, directory, filepath, parsec, text, transformers
+, directory, filepath, parsec, stdenv, text, transformers
 }:
 mkDerivation {
   pname = "smallcaps";

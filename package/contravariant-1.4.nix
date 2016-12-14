@@ -1,4 +1,4 @@
-{ mkDerivation, base, semigroups, StateVar, transformers
+{ mkDerivation, base, semigroups, StateVar, stdenv, transformers
 , transformers-compat, void
 }:
 mkDerivation {

@@ -1,6 +1,6 @@
 { mkDerivation, base, binary, bytestring, deepseq, directory, extra
 , filepath, hashable, js-flot, js-jquery, primitive, process
-, QuickCheck, random, time, transformers, unix
+, QuickCheck, random, stdenv, time, transformers, unix
 , unordered-containers, utf8-string
 }:
 mkDerivation {

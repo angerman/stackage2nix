@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, HsOpenSSL, HUnit, io-streams
-, network, test-framework, test-framework-hunit
+, network, stdenv, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "openssl-streams";

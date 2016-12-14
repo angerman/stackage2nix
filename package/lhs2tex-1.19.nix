@@ -1,5 +1,5 @@
 { mkDerivation, base, directory, filepath, mtl, process
-, regex-compat
+, regex-compat, stdenv
 }:
 mkDerivation {
   pname = "lhs2tex";

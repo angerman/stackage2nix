@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, chell, chell-quickcheck, deepseq
-, QuickCheck, text
+, QuickCheck, stdenv, text
 }:
 mkDerivation {
   pname = "system-filepath";

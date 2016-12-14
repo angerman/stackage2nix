@@ -1,4 +1,4 @@
-{ mkDerivation, ansi-terminal, base, hspec, QuickCheck }:
+{ mkDerivation, ansi-terminal, base, hspec, QuickCheck, stdenv }:
 mkDerivation {
   pname = "ansigraph";
   version = "0.2.0.0";

@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, hashtables
-, stringsearch
+, stdenv, stringsearch
 }:
 mkDerivation {
   pname = "RefSerialize";

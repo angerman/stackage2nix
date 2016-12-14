@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, ghc-prim, integer-gmp
+{ mkDerivation, base, bytestring, ghc-prim, integer-gmp, stdenv
 , test-framework, test-framework-quickcheck2, text
 }:
 mkDerivation {

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, conduit, conduit-extra
-, HTTP, http-conduit, http-types, monad-control, resourcet, text
-, time, time-locale-compat, transformers, vector, xml-conduit
+, HTTP, http-conduit, http-types, monad-control, resourcet, stdenv
+, text, time, time-locale-compat, transformers, vector, xml-conduit
 , xml-types
 }:
 mkDerivation {

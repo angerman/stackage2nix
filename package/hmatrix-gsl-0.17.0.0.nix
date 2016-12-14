@@ -1,4 +1,5 @@
-{ mkDerivation, array, base, gsl, hmatrix, process, random, vector
+{ mkDerivation, array, base, gsl, hmatrix, process, random, stdenv
+, vector
 }:
 mkDerivation {
   pname = "hmatrix-gsl";

@@ -1,5 +1,5 @@
 { mkDerivation, base, extensible-exceptions, QuickCheck, random
-, test-framework
+, stdenv, test-framework
 }:
 mkDerivation {
   pname = "test-framework-quickcheck2";

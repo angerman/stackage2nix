@@ -1,4 +1,4 @@
-{ mkDerivation, base, doctest, Glob }:
+{ mkDerivation, base, doctest, Glob, stdenv }:
 mkDerivation {
   pname = "human-readable-duration";
   version = "0.2.0.3";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, MonadPrompt, mtl, random-source, transformers
+{ mkDerivation, base, MonadPrompt, mtl, random-source, stdenv
+, transformers
 }:
 mkDerivation {
   pname = "rvar";

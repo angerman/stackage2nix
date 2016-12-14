@@ -1,4 +1,4 @@
-{ mkDerivation, base, parsec, transformers }:
+{ mkDerivation, base, parsec, stdenv, transformers }:
 mkDerivation {
   pname = "nicify-lib";
   version = "1.0.1";

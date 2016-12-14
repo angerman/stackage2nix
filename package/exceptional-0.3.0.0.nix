@@ -1,4 +1,4 @@
-{ mkDerivation, base, exceptions }:
+{ mkDerivation, base, exceptions, stdenv }:
 mkDerivation {
   pname = "exceptional";
   version = "0.3.0.0";

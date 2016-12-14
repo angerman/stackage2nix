@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, unix }:
+{ mkDerivation, base, bytestring, stdenv, unix }:
 mkDerivation {
   pname = "posix-realtime";
   version = "0.0.0.4";

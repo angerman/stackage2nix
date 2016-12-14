@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, blaze-builder, blaze-html
 , blaze-markup, byteable, bytestring, containers, data-default
 , email-validate, hspec, network-uri, persistent, resourcet
-, semigroups, shakespeare, template-haskell, text, time
+, semigroups, shakespeare, stdenv, template-haskell, text, time
 , transformers, wai, xss-sanitize, yesod-core, yesod-persistent
 }:
 mkDerivation {

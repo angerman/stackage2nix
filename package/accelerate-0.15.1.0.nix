@@ -1,5 +1,5 @@
 { mkDerivation, array, base, containers, fclabels, ghc-prim
-, hashable, hashtables, pretty, template-haskell
+, hashable, hashtables, pretty, stdenv, template-haskell
 , unordered-containers
 }:
 mkDerivation {

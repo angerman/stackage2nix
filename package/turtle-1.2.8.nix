@@ -1,7 +1,7 @@
 { mkDerivation, async, base, clock, directory, doctest, foldl
 , hostname, managed, optional-args, optparse-applicative, process
-, stm, system-fileio, system-filepath, temporary, text, time
-, transformers, unix
+, stdenv, stm, system-fileio, system-filepath, temporary, text
+, time, transformers, unix
 }:
 mkDerivation {
   pname = "turtle";

@@ -1,5 +1,5 @@
 { mkDerivation, base, free, hspec, hspec-discover, HUnit
-, kan-extensions, mtl, QuickCheck
+, kan-extensions, mtl, QuickCheck, stdenv
 }:
 mkDerivation {
   pname = "effect-handlers";

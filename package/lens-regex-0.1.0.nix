@@ -1,5 +1,5 @@
 { mkDerivation, array, base, directory, doctest, filepath, lens
-, regex-base, regex-posix, template-haskell
+, regex-base, regex-posix, stdenv, template-haskell
 }:
 mkDerivation {
   pname = "lens-regex";

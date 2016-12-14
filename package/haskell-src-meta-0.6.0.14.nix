@@ -1,4 +1,4 @@
-{ mkDerivation, base, haskell-src-exts, pretty, syb
+{ mkDerivation, base, haskell-src-exts, pretty, stdenv, syb
 , template-haskell, th-orphans
 }:
 mkDerivation {

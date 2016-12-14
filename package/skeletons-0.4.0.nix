@@ -1,5 +1,6 @@
 { mkDerivation, ansi-wl-pprint, base, containers, directory
-, filepath, text, tinytemplate, transformers, transformers-compat
+, filepath, stdenv, text, tinytemplate, transformers
+, transformers-compat
 }:
 mkDerivation {
   pname = "skeletons";

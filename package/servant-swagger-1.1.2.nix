@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-qq, base, bytestring, directory
 , doctest, filepath, hspec, http-media, insert-ordered-containers
-, lens, QuickCheck, servant, swagger2, text, time
+, lens, QuickCheck, servant, stdenv, swagger2, text, time
 , unordered-containers
 }:
 mkDerivation {

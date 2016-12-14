@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, libxml2, text, xml-types }:
+{ mkDerivation, base, bytestring, libxml2, stdenv, text, xml-types
+}:
 mkDerivation {
   pname = "libxml-sax";
   version = "0.7.5";

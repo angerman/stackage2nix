@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, HUnit, nats, semigroupoids
-, semigroups, test-framework, test-framework-hunit, text
+, semigroups, stdenv, test-framework, test-framework-hunit, text
 , utf8-string
 }:
 mkDerivation {

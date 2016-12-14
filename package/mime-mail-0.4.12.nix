@@ -1,5 +1,5 @@
 { mkDerivation, base, base64-bytestring, blaze-builder, bytestring
-, filepath, hspec, process, random, text
+, filepath, hspec, process, random, stdenv, text
 }:
 mkDerivation {
   pname = "mime-mail";

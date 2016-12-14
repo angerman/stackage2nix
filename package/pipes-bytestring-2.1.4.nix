@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, pipes, pipes-group, pipes-parse
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "pipes-bytestring";

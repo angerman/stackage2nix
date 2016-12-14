@@ -1,4 +1,4 @@
-{ mkDerivation, aeson, base, bytestring, mtl, text, time
+{ mkDerivation, aeson, base, bytestring, mtl, stdenv, text, time
 , transformers, unordered-containers
 }:
 mkDerivation {

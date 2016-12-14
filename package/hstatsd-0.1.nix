@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, mtl, network, text }:
+{ mkDerivation, base, bytestring, mtl, network, stdenv, text }:
 mkDerivation {
   pname = "hstatsd";
   version = "0.1";

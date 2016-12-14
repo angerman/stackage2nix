@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, blaze-html, blaze-markup, bytestring
 , containers, directory, exceptions, ghc-prim, hspec, HUnit, parsec
-, process, scientific, template-haskell, text, time, transformers
-, unordered-containers, vector
+, process, scientific, stdenv, template-haskell, text, time
+, transformers, unordered-containers, vector
 }:
 mkDerivation {
   pname = "shakespeare";

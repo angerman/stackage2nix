@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, directory, doctest, filepath
-, ghc-prim, hlint, QuickCheck
+, ghc-prim, hlint, QuickCheck, stdenv
 }:
 mkDerivation {
   pname = "ed25519";

@@ -2,7 +2,7 @@
 , bytestring, bytestring-builder, containers, contravariant
 , deriving-compat, generic-deriving, ghc-boot-th, ghc-prim, hspec
 , integer-gmp, nats, QuickCheck, quickcheck-instances, semigroups
-, tagged, template-haskell, text, th-lift, transformers
+, stdenv, tagged, template-haskell, text, th-lift, transformers
 , transformers-compat, void
 }:
 mkDerivation {

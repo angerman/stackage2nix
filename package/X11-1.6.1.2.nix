@@ -1,5 +1,5 @@
 { mkDerivation, base, data-default, libX11, libXext, libXinerama
-, libXrandr, libXrender
+, libXrandr, libXrender, stdenv
 }:
 mkDerivation {
   pname = "X11";

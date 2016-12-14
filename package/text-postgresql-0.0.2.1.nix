@@ -1,4 +1,4 @@
-{ mkDerivation, base, dlist, QuickCheck, quickcheck-simple
+{ mkDerivation, base, dlist, QuickCheck, quickcheck-simple, stdenv
 , transformers
 }:
 mkDerivation {

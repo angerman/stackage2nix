@@ -1,8 +1,8 @@
 { mkDerivation, base, blaze-builder, bytestring, conduit
 , conduit-extra, exceptions, fast-logger, lifted-base
-, monad-control, monad-loops, mtl, resourcet, stm, stm-chans
-, template-haskell, text, transformers, transformers-base
-, transformers-compat
+, monad-control, monad-loops, mtl, resourcet, stdenv, stm
+, stm-chans, template-haskell, text, transformers
+, transformers-base, transformers-compat
 }:
 mkDerivation {
   pname = "monad-logger";

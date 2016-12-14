@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, extensible-exceptions
-, time, timezone-series
+, stdenv, time, timezone-series
 }:
 mkDerivation {
   pname = "timezone-olson";

@@ -1,5 +1,5 @@
 { mkDerivation, base, mcmc-types, monad-par, monad-par-extras
-, mwc-probability, pipes, primitive, transformers, vector
+, mwc-probability, pipes, primitive, stdenv, transformers, vector
 }:
 mkDerivation {
   pname = "flat-mcmc";

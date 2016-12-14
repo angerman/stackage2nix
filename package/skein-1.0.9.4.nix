@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, crypto-api, filepath
-, hspec, tagged
+, hspec, stdenv, tagged
 }:
 mkDerivation {
   pname = "skein";

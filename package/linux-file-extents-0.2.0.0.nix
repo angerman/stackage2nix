@@ -1,4 +1,4 @@
-{ mkDerivation, base, unix }:
+{ mkDerivation, base, stdenv, unix }:
 mkDerivation {
   pname = "linux-file-extents";
   version = "0.2.0.0";

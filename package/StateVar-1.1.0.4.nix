@@ -1,4 +1,4 @@
-{ mkDerivation, base, stm, transformers }:
+{ mkDerivation, base, stdenv, stm, transformers }:
 mkDerivation {
   pname = "StateVar";
   version = "1.1.0.4";

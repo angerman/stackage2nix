@@ -1,8 +1,8 @@
 { mkDerivation, async, attoparsec, auto-update, base, bytestring
 , bytestring-conversion, containers, exceptions, iproute
 , monad-control, mtl, network, operational, redis-resp
-, resource-pool, semigroups, stm, tasty, tasty-hunit, time, tinylog
-, transformers, transformers-base
+, resource-pool, semigroups, stdenv, stm, tasty, tasty-hunit, time
+, tinylog, transformers, transformers-base
 }:
 mkDerivation {
   pname = "redis-io";

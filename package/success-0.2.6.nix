@@ -1,4 +1,4 @@
-{ mkDerivation, base, monad-control, mtl, transformers
+{ mkDerivation, base, monad-control, mtl, stdenv, transformers
 , transformers-base
 }:
 mkDerivation {

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, attoparsec, base, base-compat, ghc-prim
-, haskell-src-meta, hspec, parsec, scientific, template-haskell
-, text, vector
+, haskell-src-meta, hspec, parsec, scientific, stdenv
+, template-haskell, text, vector
 }:
 mkDerivation {
   pname = "aeson-qq";

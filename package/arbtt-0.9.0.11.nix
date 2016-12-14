@@ -1,8 +1,8 @@
 { mkDerivation, aeson, array, base, binary, bytestring
 , bytestring-progress, containers, deepseq, directory, filepath
-, parsec, pcre-light, process-extras, strict, tasty, tasty-golden
-, tasty-hunit, terminal-progress-bar, time, transformers, unix
-, utf8-string
+, parsec, pcre-light, process-extras, stdenv, strict, tasty
+, tasty-golden, tasty-hunit, terminal-progress-bar, time
+, transformers, unix, utf8-string
 }:
 mkDerivation {
   pname = "arbtt";

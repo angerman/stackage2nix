@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, constraints, hspec
-, QuickCheck, syb, template-haskell
+, QuickCheck, stdenv, syb, template-haskell
 }:
 mkDerivation {
   pname = "distributed-closure";

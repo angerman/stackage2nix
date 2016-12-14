@@ -1,4 +1,4 @@
-{ mkDerivation, base, foldl, HUnit, pipes, test-framework
+{ mkDerivation, base, foldl, HUnit, pipes, stdenv, test-framework
 , test-framework-hunit, transformers
 }:
 mkDerivation {

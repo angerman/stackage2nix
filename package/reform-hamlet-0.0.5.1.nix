@@ -1,4 +1,6 @@
-{ mkDerivation, base, blaze-markup, reform, shakespeare, text }:
+{ mkDerivation, base, blaze-markup, reform, shakespeare, stdenv
+, text
+}:
 mkDerivation {
   pname = "reform-hamlet";
   version = "0.0.5.1";

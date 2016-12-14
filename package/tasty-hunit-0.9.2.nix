@@ -1,4 +1,4 @@
-{ mkDerivation, base, tasty }:
+{ mkDerivation, base, stdenv, tasty }:
 mkDerivation {
   pname = "tasty-hunit";
   version = "0.9.2";

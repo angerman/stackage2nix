@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, containers, file-embed
+{ mkDerivation, base, bytestring, containers, file-embed, stdenv
 , template-haskell
 }:
 mkDerivation {

@@ -5,7 +5,7 @@
 , free, hashable, HaskellNet, HaskellNet-SSL, http-client
 , http-client-tls, http-types, mime-mail, mono-traversable
 , monoid-subclasses, network, opml-conduit, optparse-applicative
-, rainbow, rainbox, rss-conduit, text, time, timerep, tls
+, rainbow, rainbox, rss-conduit, stdenv, text, time, timerep, tls
 , transformers, uri-bytestring, xml, xml-conduit
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, filepath, fixed, half
-, hxt, split, transformers
+, hxt, split, stdenv, transformers
 }:
 mkDerivation {
   pname = "gl";

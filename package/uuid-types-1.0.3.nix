@@ -1,5 +1,6 @@
 { mkDerivation, base, binary, bytestring, deepseq, hashable, HUnit
-, QuickCheck, random, tasty, tasty-hunit, tasty-quickcheck, text
+, QuickCheck, random, stdenv, tasty, tasty-hunit, tasty-quickcheck
+, text
 }:
 mkDerivation {
   pname = "uuid-types";

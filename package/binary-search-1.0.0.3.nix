@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, directory, doctest, filepath
-, hspec, QuickCheck, transformers
+, hspec, QuickCheck, stdenv, transformers
 }:
 mkDerivation {
   pname = "binary-search";

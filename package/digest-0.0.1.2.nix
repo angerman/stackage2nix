@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, zlib }:
+{ mkDerivation, base, bytestring, stdenv, zlib }:
 mkDerivation {
   pname = "digest";
   version = "0.0.1.2";

@@ -1,6 +1,6 @@
 { mkDerivation, base, conduit, conduit-parse, containers
-, data-default, exceptions, hlint, parsers, resourcet, tasty
-, tasty-hunit, text, xml-conduit, xml-types
+, data-default, exceptions, hlint, parsers, resourcet, stdenv
+, tasty, tasty-hunit, text, xml-conduit, xml-types
 }:
 mkDerivation {
   pname = "xml-conduit-parse";

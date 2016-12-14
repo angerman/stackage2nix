@@ -3,9 +3,9 @@
 , hashable, hspec, lifted-async, lifted-base, monad-unlift
 , mono-traversable, mono-traversable-instances, mtl
 , mutable-containers, primitive, QuickCheck, safe-exceptions, say
-, semigroups, stm, stm-chans, text, time, time-locale-compat
-, transformers, transformers-base, unordered-containers, vector
-, vector-instances
+, semigroups, stdenv, stm, stm-chans, text, time
+, time-locale-compat, transformers, transformers-base
+, unordered-containers, vector, vector-instances
 }:
 mkDerivation {
   pname = "classy-prelude";

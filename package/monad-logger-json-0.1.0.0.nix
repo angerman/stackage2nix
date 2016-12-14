@@ -1,4 +1,5 @@
-{ mkDerivation, aeson, base, monad-logger, template-haskell, text
+{ mkDerivation, aeson, base, monad-logger, stdenv, template-haskell
+, text
 }:
 mkDerivation {
   pname = "monad-logger-json";

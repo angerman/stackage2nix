@@ -1,5 +1,5 @@
 { mkDerivation, base, deepseq, fixed-vector, ghc-prim, primitive
-, transformers
+, stdenv, transformers
 }:
 mkDerivation {
   pname = "fixed-vector-hetero";

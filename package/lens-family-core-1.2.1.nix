@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, transformers }:
+{ mkDerivation, base, containers, stdenv, transformers }:
 mkDerivation {
   pname = "lens-family-core";
   version = "1.2.1";

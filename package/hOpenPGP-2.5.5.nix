@@ -5,7 +5,7 @@
 , hashable, incremental-parser, ixset-typed, lens, memory
 , monad-loops, nettle, network, network-uri, newtype
 , openpgp-asciiarmor, QuickCheck, quickcheck-instances, resourcet
-, securemem, semigroups, split, tasty, tasty-hunit
+, securemem, semigroups, split, stdenv, tasty, tasty-hunit
 , tasty-quickcheck, text, time, time-locale-compat, transformers
 , unordered-containers, wl-pprint-extras, zlib
 }:

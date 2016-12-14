@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, base64-bytestring
 , blaze-builder, bytestring, cmdargs, directory, filepath, hspec
 , hspec-contrib, http-types, mime-types, monad-control, mtl
-, process, setenv, simple-templates, text, transformers
+, process, setenv, simple-templates, stdenv, text, transformers
 , transformers-base, unordered-containers, vector, wai, wai-extra
 }:
 mkDerivation {

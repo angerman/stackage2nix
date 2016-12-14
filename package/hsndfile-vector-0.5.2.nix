@@ -1,4 +1,4 @@
-{ mkDerivation, base, hsndfile, vector }:
+{ mkDerivation, base, hsndfile, stdenv, vector }:
 mkDerivation {
   pname = "hsndfile-vector";
   version = "0.5.2";

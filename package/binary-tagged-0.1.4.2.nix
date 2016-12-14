@@ -1,8 +1,8 @@
 { mkDerivation, aeson, array, base, base16-bytestring, bifunctors
 , binary, binary-orphans, bytestring, containers, generics-sop
 , hashable, nats, quickcheck-instances, scientific, semigroups, SHA
-, tagged, tasty, tasty-quickcheck, text, time, unordered-containers
-, vector
+, stdenv, tagged, tasty, tasty-quickcheck, text, time
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "binary-tagged";

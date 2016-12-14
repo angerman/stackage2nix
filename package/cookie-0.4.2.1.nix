@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-builder, bytestring, data-default-class
-, deepseq, HUnit, old-locale, QuickCheck, tasty, tasty-hunit
-, tasty-quickcheck, text, time
+, deepseq, HUnit, old-locale, QuickCheck, stdenv, tasty
+, tasty-hunit, tasty-quickcheck, text, time
 }:
 mkDerivation {
   pname = "cookie";

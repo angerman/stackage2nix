@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, generic-deriving, ghc-prim, mtl
-, stm, tagged, tasty, transformers, xml
+, stdenv, stm, tagged, tasty, transformers, xml
 }:
 mkDerivation {
   pname = "tasty-ant-xml";

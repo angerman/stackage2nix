@@ -1,4 +1,6 @@
-{ mkDerivation, base, blaze-html, blaze-markup, reform, text }:
+{ mkDerivation, base, blaze-html, blaze-markup, reform, stdenv
+, text
+}:
 mkDerivation {
   pname = "reform-blaze";
   version = "0.2.4.1";

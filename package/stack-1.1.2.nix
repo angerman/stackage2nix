@@ -11,8 +11,8 @@
 , optparse-applicative, optparse-simple, path, path-io, persistent
 , persistent-sqlite, persistent-template, pretty, process
 , project-template, QuickCheck, regex-applicative-text, resourcet
-, retry, safe, semigroups, split, stm, streaming-commons, tar
-, template-haskell, temporary, text, text-binary, time, tls
+, retry, safe, semigroups, split, stdenv, stm, streaming-commons
+, tar, template-haskell, temporary, text, text-binary, time, tls
 , transformers, transformers-base, unix, unix-compat
 , unordered-containers, vector, vector-binary-instances, yaml
 , zip-archive, zlib

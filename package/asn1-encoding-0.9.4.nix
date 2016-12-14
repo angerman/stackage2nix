@@ -1,5 +1,5 @@
-{ mkDerivation, asn1-types, base, bytestring, hourglass, mtl, tasty
-, tasty-quickcheck, text
+{ mkDerivation, asn1-types, base, bytestring, hourglass, mtl
+, stdenv, tasty, tasty-quickcheck, text
 }:
 mkDerivation {
   pname = "asn1-encoding";

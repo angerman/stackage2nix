@@ -1,4 +1,6 @@
-{ mkDerivation, base, bytestring, Cabal, lens, lens-aeson, wreq }:
+{ mkDerivation, base, bytestring, Cabal, lens, lens-aeson, stdenv
+, wreq
+}:
 mkDerivation {
   pname = "package-description-remote";
   version = "0.2.0.0";

@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, extensible-exceptions
 , happstack-server, hslogger, HsOpenSSL, network, openssl, sendfile
-, time, unix
+, stdenv, time, unix
 }:
 mkDerivation {
   pname = "happstack-server-tls";

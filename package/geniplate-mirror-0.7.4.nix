@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, template-haskell }:
+{ mkDerivation, base, mtl, stdenv, template-haskell }:
 mkDerivation {
   pname = "geniplate-mirror";
   version = "0.7.4";

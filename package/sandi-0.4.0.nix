@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, conduit, exceptions, HUnit
-, stringsearch, tasty, tasty-hunit, tasty-quickcheck, tasty-th
+, stdenv, stringsearch, tasty, tasty-hunit, tasty-quickcheck
+, tasty-th
 }:
 mkDerivation {
   pname = "sandi";

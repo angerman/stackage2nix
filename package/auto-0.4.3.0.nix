@@ -1,5 +1,5 @@
 { mkDerivation, base, base-orphans, bytestring, cereal, containers
-, deepseq, MonadRandom, profunctors, random, semigroups
+, deepseq, MonadRandom, profunctors, random, semigroups, stdenv
 , transformers
 }:
 mkDerivation {

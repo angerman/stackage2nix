@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, control-monad-free, haskeline
-, mtl, transformers
+, mtl, stdenv, transformers
 }:
 mkDerivation {
   pname = "wizards";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, safe, text, time, time-locale-compat }:
+{ mkDerivation, base, safe, stdenv, text, time, time-locale-compat
+}:
 mkDerivation {
   pname = "mbox";
   version = "0.3.3";

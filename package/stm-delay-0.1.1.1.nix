@@ -1,4 +1,4 @@
-{ mkDerivation, base, stm }:
+{ mkDerivation, base, stdenv, stm }:
 mkDerivation {
   pname = "stm-delay";
   version = "0.1.1.1";

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, integer-gmp, network, openssl
-, time
+, stdenv, time
 }:
 mkDerivation {
   pname = "HsOpenSSL";

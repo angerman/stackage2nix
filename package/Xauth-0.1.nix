@@ -1,4 +1,4 @@
-{ mkDerivation, base, libXau }:
+{ mkDerivation, base, libXau, stdenv }:
 mkDerivation {
   pname = "Xauth";
   version = "0.1";

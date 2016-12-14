@@ -1,5 +1,6 @@
 { mkDerivation, amazonka-core, amazonka-test, base, bytestring
-, lens, tasty, tasty-hunit, text, time, unordered-containers
+, lens, stdenv, tasty, tasty-hunit, text, time
+, unordered-containers
 }:
 mkDerivation {
   pname = "amazonka-s3";

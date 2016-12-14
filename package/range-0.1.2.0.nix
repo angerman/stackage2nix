@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, free, parsec, QuickCheck, random
-, test-framework, test-framework-quickcheck2
+, stdenv, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "range";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, deepseq, GeoIP }:
+{ mkDerivation, base, bytestring, deepseq, GeoIP, stdenv }:
 mkDerivation {
   pname = "hs-GeoIP";
   version = "0.3";

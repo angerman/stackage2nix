@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, binary, bytestring, QuickCheck
+{ mkDerivation, array, base, binary, bytestring, QuickCheck, stdenv
 , test-framework, test-framework-quickcheck2
 }:
 mkDerivation {

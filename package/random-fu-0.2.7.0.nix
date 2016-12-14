@@ -1,6 +1,6 @@
 { mkDerivation, base, erf, log-domain, math-functions, monad-loops
-, mtl, random-shuffle, random-source, rvar, syb, template-haskell
-, transformers, vector
+, mtl, random-shuffle, random-source, rvar, stdenv, syb
+, template-haskell, transformers, vector
 }:
 mkDerivation {
   pname = "random-fu";

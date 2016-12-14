@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bifunctors, bytestring, doctest
 , email-validate, Glob, http-api-data, opaleye, path-pieces
 , persistent, postgresql-simple, product-profunctors, profunctors
-, text
+, stdenv, text
 }:
 mkDerivation {
   pname = "emailaddress";

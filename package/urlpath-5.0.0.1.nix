@@ -1,5 +1,5 @@
 { mkDerivation, base, exceptions, mmorph, monad-control
-, monad-logger, mtl, path-extra, resourcet, transformers
+, monad-logger, mtl, path-extra, resourcet, stdenv, transformers
 , transformers-base
 }:
 mkDerivation {

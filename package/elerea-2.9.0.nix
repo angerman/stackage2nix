@@ -1,4 +1,5 @@
-{ mkDerivation, base, containers, transformers, transformers-base
+{ mkDerivation, base, containers, stdenv, transformers
+, transformers-base
 }:
 mkDerivation {
   pname = "elerea";

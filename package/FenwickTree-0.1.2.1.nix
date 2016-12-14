@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck, template-haskell }:
+{ mkDerivation, base, QuickCheck, stdenv, template-haskell }:
 mkDerivation {
   pname = "FenwickTree";
   version = "0.1.2.1";

@@ -1,5 +1,5 @@
 { mkDerivation, base, byteable, bytestring, containers
-, data-default-class, network, socks, tls, x509, x509-store
+, data-default-class, network, socks, stdenv, tls, x509, x509-store
 , x509-system, x509-validation
 }:
 mkDerivation {

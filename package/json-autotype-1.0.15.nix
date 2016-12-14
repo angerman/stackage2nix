@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers, directory
 , filepath, GenericPretty, hashable, hflags, lens, mmap, mtl
-, pretty, process, QuickCheck, scientific, smallcheck, text
+, pretty, process, QuickCheck, scientific, smallcheck, stdenv, text
 , uniplate, unordered-containers, vector, yaml
 }:
 mkDerivation {

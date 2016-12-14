@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, filepath, hashable
-, lifted-base, ReadArgs, safe, text, transformers
+, lifted-base, ReadArgs, safe, stdenv, text, transformers
 , unordered-containers, vector
 }:
 mkDerivation {

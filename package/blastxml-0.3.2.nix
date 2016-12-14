@@ -1,4 +1,6 @@
-{ mkDerivation, base, biocore, bytestring, parallel, tagsoup }:
+{ mkDerivation, base, biocore, bytestring, parallel, stdenv
+, tagsoup
+}:
 mkDerivation {
   pname = "blastxml";
   version = "0.3.2";

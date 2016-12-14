@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, mtl, tagged }:
+{ mkDerivation, base, hspec, mtl, stdenv, tagged }:
 mkDerivation {
   pname = "pretty-types";
   version = "0.2.3.1";

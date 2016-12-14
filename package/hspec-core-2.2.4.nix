@@ -1,6 +1,6 @@
 { mkDerivation, ansi-terminal, async, base, deepseq
 , hspec-expectations, hspec-meta, HUnit, process, QuickCheck
-, quickcheck-io, random, setenv, silently, tf-random, time
+, quickcheck-io, random, setenv, silently, stdenv, tf-random, time
 , transformers
 }:
 mkDerivation {

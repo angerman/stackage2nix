@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, deepseq, Earley
 , lexer-applicative, microlens, QuickCheck, regex-applicative
-, semigroups, srcloc, tasty, tasty-hunit, tasty-quickcheck
+, semigroups, srcloc, stdenv, tasty, tasty-hunit, tasty-quickcheck
 , transformers, unordered-containers, wl-pprint
 }:
 mkDerivation {

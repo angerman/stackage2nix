@@ -1,4 +1,6 @@
-{ mkDerivation, base, blaze-builder, lucid, Spock, transformers }:
+{ mkDerivation, base, blaze-builder, lucid, Spock, stdenv
+, transformers
+}:
 mkDerivation {
   pname = "Spock-lucid";
   version = "0.3.0.0";

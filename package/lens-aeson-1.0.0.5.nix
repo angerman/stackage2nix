@@ -1,6 +1,6 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, directory
 , doctest, filepath, generic-deriving, lens, scientific, semigroups
-, simple-reflect, text, unordered-containers, vector
+, simple-reflect, stdenv, text, unordered-containers, vector
 }:
 mkDerivation {
   pname = "lens-aeson";

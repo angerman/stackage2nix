@@ -1,4 +1,4 @@
-{ mkDerivation, base, data-accessor, mtl }:
+{ mkDerivation, base, data-accessor, mtl, stdenv }:
 mkDerivation {
   pname = "data-accessor-mtl";
   version = "0.2.0.4";

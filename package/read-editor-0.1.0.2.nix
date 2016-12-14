@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, process }:
+{ mkDerivation, base, directory, process, stdenv }:
 mkDerivation {
   pname = "read-editor";
   version = "0.1.0.2";

@@ -1,5 +1,5 @@
-{ mkDerivation, base, blaze-builder, bytestring, hashable, text
-, unordered-containers
+{ mkDerivation, base, blaze-builder, bytestring, hashable, stdenv
+, text, unordered-containers
 }:
 mkDerivation {
   pname = "svg-builder";

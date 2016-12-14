@@ -1,4 +1,6 @@
-{ mkDerivation, base, hspec, http-types, lens, servant, text }:
+{ mkDerivation, base, hspec, http-types, lens, servant, stdenv
+, text
+}:
 mkDerivation {
   pname = "servant-foreign";
   version = "0.8.1";

@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers
 , haskell-src-exts, haskell-src-meta, mtl, parseargs, parsec
-, regex-posix, safe, syb, template-haskell, text
+, regex-posix, safe, stdenv, syb, template-haskell, text
 , unordered-containers, vector, wl-pprint-text
 }:
 mkDerivation {

@@ -1,6 +1,6 @@
 { mkDerivation, base, base64-bytestring, blaze-builder, bytestring
 , crypto-pubkey-types, data-default, http-client, http-types
-, random, RSA, SHA, time, transformers
+, random, RSA, SHA, stdenv, time, transformers
 }:
 mkDerivation {
   pname = "authenticate-oauth";

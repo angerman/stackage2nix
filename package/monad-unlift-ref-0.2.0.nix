@@ -1,5 +1,5 @@
 { mkDerivation, base, constraints, exceptions, monad-control
-, monad-unlift, mtl, mutable-containers, resourcet, stm
+, monad-unlift, mtl, mutable-containers, resourcet, stdenv, stm
 , transformers, transformers-base
 }:
 mkDerivation {

@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, base-unicode-symbols, bytestring
-, containers, groups, hspec, lens, mtl, text
+, containers, groups, hspec, lens, mtl, stdenv, text
 }:
 mkDerivation {
   pname = "text-region";

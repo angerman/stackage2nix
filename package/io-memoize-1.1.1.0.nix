@@ -1,4 +1,4 @@
-{ mkDerivation, async, base }:
+{ mkDerivation, async, base, stdenv }:
 mkDerivation {
   pname = "io-memoize";
   version = "1.1.1.0";

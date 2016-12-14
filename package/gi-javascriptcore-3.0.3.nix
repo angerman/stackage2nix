@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, containers, haskell-gi
-, haskell-gi-base, javascriptcoregtk, text, transformers, webkitgtk
+, haskell-gi-base, javascriptcoregtk, stdenv, text, transformers
+, webkitgtk
 }:
 mkDerivation {
   pname = "gi-javascriptcore";

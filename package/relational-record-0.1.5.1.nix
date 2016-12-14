@@ -1,5 +1,5 @@
 { mkDerivation, base, persistable-types-HDBC-pg, relational-query
-, relational-query-HDBC
+, relational-query-HDBC, stdenv
 }:
 mkDerivation {
   pname = "relational-record";

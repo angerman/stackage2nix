@@ -2,8 +2,8 @@
 , csv, data-default, directory, file-embed, filepath, hashable
 , haskeline, hledger-lib, HUnit, megaparsec, mtl, mtl-compat
 , old-time, parsec, pretty-show, process, regex-tdfa, safe
-, shakespeare, split, tabular, temporary, terminfo, test-framework
-, test-framework-hunit, text, time, transformers
+, shakespeare, split, stdenv, tabular, temporary, terminfo
+, test-framework, test-framework-hunit, text, time, transformers
 , unordered-containers, utf8-string, wizards
 }:
 mkDerivation {

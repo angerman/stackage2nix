@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, HUnit, parsec, QuickCheck
+{ mkDerivation, base, containers, HUnit, parsec, QuickCheck, stdenv
 , test-framework, test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {

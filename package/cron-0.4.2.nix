@@ -1,6 +1,6 @@
 { mkDerivation, attoparsec, base, generics-sop, mtl, mtl-compat
-, old-locale, quickcheck-instances, semigroups, tasty, tasty-hunit
-, tasty-quickcheck, text, time, transformers-compat
+, old-locale, quickcheck-instances, semigroups, stdenv, tasty
+, tasty-hunit, tasty-quickcheck, text, time, transformers-compat
 }:
 mkDerivation {
   pname = "cron";

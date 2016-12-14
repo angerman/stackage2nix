@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, template-haskell }:
+{ mkDerivation, base, mtl, stdenv, template-haskell }:
 mkDerivation {
   pname = "data-lens-light";
   version = "0.1.2.2";

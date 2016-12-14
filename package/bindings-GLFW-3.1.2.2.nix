@@ -1,5 +1,5 @@
 { mkDerivation, base, bindings-DSL, HUnit, libXext, libXfixes
-, template-haskell, test-framework, test-framework-hunit
+, stdenv, template-haskell, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "bindings-GLFW";

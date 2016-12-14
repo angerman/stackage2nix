@@ -1,4 +1,4 @@
-{ mkDerivation, base, contravariant, microlens }:
+{ mkDerivation, base, contravariant, microlens, stdenv }:
 mkDerivation {
   pname = "microlens-contra";
   version = "0.1.0.1";

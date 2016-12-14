@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bimap, binary, directory, http-types
-, unix, wai, warp
+, stdenv, unix, wai, warp
 }:
 mkDerivation {
   pname = "bimap-server";

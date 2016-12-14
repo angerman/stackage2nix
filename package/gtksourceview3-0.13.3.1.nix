@@ -1,5 +1,5 @@
 { mkDerivation, array, base, Cabal, containers, glib
-, gtk2hs-buildtools, gtk3, gtksourceview, mtl, text
+, gtk2hs-buildtools, gtk3, gtksourceview, mtl, stdenv, text
 }:
 mkDerivation {
   pname = "gtksourceview3";

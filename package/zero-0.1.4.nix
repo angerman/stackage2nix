@@ -1,4 +1,4 @@
-{ mkDerivation, base, semigroups }:
+{ mkDerivation, base, semigroups, stdenv }:
 mkDerivation {
   pname = "zero";
   version = "0.1.4";

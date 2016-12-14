@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, exceptions, extra, fast-logger
 , filepath, monad-logger, monad-parallel, mtl, optparse-applicative
-, pipes, pipes-concurrency, temporary, text, time
+, pipes, pipes-concurrency, stdenv, temporary, text, time
 , unordered-containers, yaml
 }:
 mkDerivation {

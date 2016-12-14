@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, text, utf8-string }:
+{ mkDerivation, base, bytestring, stdenv, text, utf8-string }:
 mkDerivation {
   pname = "string-conversions";
   version = "0.4";

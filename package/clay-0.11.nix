@@ -1,4 +1,5 @@
-{ mkDerivation, base, hspec, hspec-expectations, mtl, text }:
+{ mkDerivation, base, hspec, hspec-expectations, mtl, stdenv, text
+}:
 mkDerivation {
   pname = "clay";
   version = "0.11";

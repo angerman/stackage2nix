@@ -1,5 +1,5 @@
 { mkDerivation, base, ghc, ghc-tcplugins-extra
-, ghc-typelits-natnormalise, singletons, tasty, tasty-hunit
+, ghc-typelits-natnormalise, singletons, stdenv, tasty, tasty-hunit
 , template-haskell, transformers
 }:
 mkDerivation {

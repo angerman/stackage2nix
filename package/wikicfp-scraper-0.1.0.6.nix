@@ -1,5 +1,5 @@
 { mkDerivation, attoparsec, base, bytestring, filepath, hspec
-, scalpel, text, time
+, scalpel, stdenv, text, time
 }:
 mkDerivation {
   pname = "wikicfp-scraper";

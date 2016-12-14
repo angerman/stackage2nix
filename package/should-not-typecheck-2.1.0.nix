@@ -1,4 +1,6 @@
-{ mkDerivation, base, deepseq, hspec, hspec-expectations, HUnit }:
+{ mkDerivation, base, deepseq, hspec, hspec-expectations, HUnit
+, stdenv
+}:
 mkDerivation {
   pname = "should-not-typecheck";
   version = "2.1.0";

@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, blaze-html, blaze-markup, bytestring
 , conduit, conduit-extra, data-default, directory, fast-logger
 , monad-control, monad-logger, resourcet, safe, semigroups
-, shakespeare, streaming-commons, template-haskell, text
+, shakespeare, stdenv, streaming-commons, template-haskell, text
 , transformers, unix, unordered-containers, wai, wai-extra
 , wai-logger, warp, yaml, yesod-auth, yesod-core, yesod-form
 , yesod-persistent

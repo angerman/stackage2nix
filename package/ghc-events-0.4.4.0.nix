@@ -1,4 +1,6 @@
-{ mkDerivation, array, base, binary, bytestring, containers, mtl }:
+{ mkDerivation, array, base, binary, bytestring, containers, mtl
+, stdenv
+}:
 mkDerivation {
   pname = "ghc-events";
   version = "0.4.4.0";

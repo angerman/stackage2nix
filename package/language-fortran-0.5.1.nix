@@ -1,4 +1,5 @@
-{ mkDerivation, alex, array, base, happy, haskell-src, parsec, syb
+{ mkDerivation, alex, array, base, happy, haskell-src, parsec
+, stdenv, syb
 }:
 mkDerivation {
   pname = "language-fortran";

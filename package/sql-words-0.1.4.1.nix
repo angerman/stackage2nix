@@ -1,4 +1,4 @@
-{ mkDerivation, base, QuickCheck, quickcheck-simple }:
+{ mkDerivation, base, QuickCheck, quickcheck-simple, stdenv }:
 mkDerivation {
   pname = "sql-words";
   version = "0.1.4.1";

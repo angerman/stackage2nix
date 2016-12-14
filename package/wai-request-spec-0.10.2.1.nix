@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, case-insensitive, containers
-, http-types, text, wai
+, http-types, stdenv, text, wai
 }:
 mkDerivation {
   pname = "wai-request-spec";

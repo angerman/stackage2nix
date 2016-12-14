@@ -1,6 +1,7 @@
 { mkDerivation, aeson, base, base64-bytestring, bytestring
 , containers, data-default, hashable, hspec, nonce, path-pieces
-, QuickCheck, text, time, transformers, unordered-containers
+, QuickCheck, stdenv, text, time, transformers
+, unordered-containers
 }:
 mkDerivation {
   pname = "serversession";

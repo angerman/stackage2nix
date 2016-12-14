@@ -1,5 +1,5 @@
 { mkDerivation, ansi-terminal, base, base-compat, Diff, directory
-, filepath, mtl, optparse-applicative, process, unix
+, filepath, mtl, optparse-applicative, process, stdenv, unix
 }:
 mkDerivation {
   pname = "resolve-trivial-conflicts";

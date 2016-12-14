@@ -1,5 +1,5 @@
 { mkDerivation, base, Cabal, containers, hspec, mtl, parsec
-, QuickCheck, random
+, QuickCheck, random, stdenv
 }:
 mkDerivation {
   pname = "yes-precure5-command";

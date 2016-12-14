@@ -4,7 +4,7 @@
 , filepath, fsnotify, ghc, ghc-paths, http-client, http-conduit
 , http-reverse-proxy, http-types, lifted-base, network
 , optparse-applicative, parsec, process, project-template
-, resourcet, shakespeare, split, streaming-commons, tar
+, resourcet, shakespeare, split, stdenv, streaming-commons, tar
 , template-haskell, text, time, transformers, transformers-compat
 , unix-compat, unordered-containers, wai, wai-extra, warp, warp-tls
 , yaml, zlib

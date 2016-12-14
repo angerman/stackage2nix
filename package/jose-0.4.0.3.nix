@@ -1,8 +1,8 @@
 { mkDerivation, aeson, attoparsec, base, base64-bytestring
 , bifunctors, byteable, bytestring, cryptonite, data-default-class
 , hspec, lens, memory, mtl, network-uri, QuickCheck
-, quickcheck-instances, safe, semigroups, tasty, tasty-hspec
-, tasty-quickcheck, template-haskell, text, time
+, quickcheck-instances, safe, semigroups, stdenv, tasty
+, tasty-hspec, tasty-quickcheck, template-haskell, text, time
 , unordered-containers, vector, x509
 }:
 mkDerivation {

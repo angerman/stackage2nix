@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, transformers
+{ mkDerivation, array, base, containers, stdenv, transformers
 , transformers-compat, void
 }:
 mkDerivation {

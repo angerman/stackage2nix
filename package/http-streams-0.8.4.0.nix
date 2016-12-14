@@ -2,7 +2,7 @@
 , base64-bytestring, blaze-builder, bytestring, case-insensitive
 , directory, ghc-prim, HsOpenSSL, hspec, hspec-expectations
 , http-common, HUnit, io-streams, lifted-base, mtl, network
-, network-uri, openssl-streams, snap-core, snap-server
+, network-uri, openssl-streams, snap-core, snap-server, stdenv
 , system-fileio, system-filepath, text, transformers
 , unordered-containers
 }:

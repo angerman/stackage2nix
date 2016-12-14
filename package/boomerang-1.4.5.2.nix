@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, template-haskell, text }:
+{ mkDerivation, base, mtl, stdenv, template-haskell, text }:
 mkDerivation {
   pname = "boomerang";
   version = "1.4.5.2";

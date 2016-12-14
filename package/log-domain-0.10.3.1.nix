@@ -1,7 +1,7 @@
 { mkDerivation, base, binary, bytes, cereal, comonad, deepseq
 , directory, distributive, doctest, filepath, generic-deriving
 , hashable, hashable-extras, safecopy, semigroupoids, semigroups
-, simple-reflect, vector
+, simple-reflect, stdenv, vector
 }:
 mkDerivation {
   pname = "log-domain";

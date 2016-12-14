@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, directory, filepath
-, mtl, pem, process, x509, x509-store
+, mtl, pem, process, stdenv, x509, x509-store
 }:
 mkDerivation {
   pname = "x509-system";

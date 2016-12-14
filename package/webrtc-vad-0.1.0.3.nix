@@ -1,4 +1,4 @@
-{ mkDerivation, base, primitive, vector }:
+{ mkDerivation, base, primitive, stdenv, vector }:
 mkDerivation {
   pname = "webrtc-vad";
   version = "0.1.0.3";

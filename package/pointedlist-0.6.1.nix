@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary }:
+{ mkDerivation, base, binary, stdenv }:
 mkDerivation {
   pname = "pointedlist";
   version = "0.6.1";

@@ -1,4 +1,6 @@
-{ mkDerivation, aeson, base, bcrypt, path-pieces, text, time }:
+{ mkDerivation, aeson, base, bcrypt, path-pieces, stdenv, text
+, time
+}:
 mkDerivation {
   pname = "users";
   version = "0.5.0.0";

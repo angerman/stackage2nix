@@ -1,9 +1,9 @@
 { mkDerivation, aeson, aeson-utils, base, base-compat, bytestring
 , case-insensitive, errors, fclabels, HUnit, hxt, hxt-pickle-utils
 , json-schema, mtl, mtl-compat, multipart, random, rest-stringmap
-, rest-types, safe, split, test-framework, test-framework-hunit
-, text, transformers, transformers-compat, unordered-containers
-, uri-encode, utf8-string, uuid
+, rest-types, safe, split, stdenv, test-framework
+, test-framework-hunit, text, transformers, transformers-compat
+, unordered-containers, uri-encode, utf8-string, uuid
 }:
 mkDerivation {
   pname = "rest-core";

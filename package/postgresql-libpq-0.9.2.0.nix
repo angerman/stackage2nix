@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, postgresql }:
+{ mkDerivation, base, bytestring, postgresql, stdenv }:
 mkDerivation {
   pname = "postgresql-libpq";
   version = "0.9.2.0";

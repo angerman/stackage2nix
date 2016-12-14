@@ -1,6 +1,6 @@
 { mkDerivation, aeson, base, bytestring, containers, file-embed
-, old-locale, parsec, tasty, tasty-hspec, tasty-hunit, text, time
-, unordered-containers, vector
+, old-locale, parsec, stdenv, tasty, tasty-hspec, tasty-hunit, text
+, time, unordered-containers, vector
 }:
 mkDerivation {
   pname = "htoml";

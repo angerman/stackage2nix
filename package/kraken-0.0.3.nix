@@ -1,5 +1,5 @@
 { mkDerivation, aeson, base, bytestring, http-client
-, http-client-tls, mtl
+, http-client-tls, mtl, stdenv
 }:
 mkDerivation {
   pname = "kraken";

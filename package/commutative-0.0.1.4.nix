@@ -1,5 +1,5 @@
 { mkDerivation, base, QuickCheck, quickcheck-instances, random
-, semigroups, tasty, tasty-hunit, tasty-quickcheck
+, semigroups, stdenv, tasty, tasty-hunit, tasty-quickcheck
 }:
 mkDerivation {
   pname = "commutative";

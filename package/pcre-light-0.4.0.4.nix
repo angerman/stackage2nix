@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, pcre }:
+{ mkDerivation, base, bytestring, pcre, stdenv }:
 mkDerivation {
   pname = "pcre-light";
   version = "0.4.0.4";

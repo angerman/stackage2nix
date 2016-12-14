@@ -3,7 +3,7 @@
 , case-insensitive, connection, data-default, deepseq, directory
 , dlist, enclosed-exceptions, filepath, http-client
 , http-client-tls, http-types, monad-control, mtl, network-uri
-, optparse-applicative, process, profunctors, text, tls
+, optparse-applicative, process, profunctors, stdenv, text, tls
 , transformers, unordered-containers, wai, warp, warp-tls, x509
 , x509-system, x509-validation, yaml
 }:

@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, directory, filepath, mtl
+{ mkDerivation, base, bytestring, directory, filepath, mtl, stdenv
 , unix-compat
 }:
 mkDerivation {

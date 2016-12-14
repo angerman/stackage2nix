@@ -1,7 +1,8 @@
 { mkDerivation, aeson, aeson-pretty, base, bytestring, directory
 , doctest, filepath, hspec, hspec-core, hspec-golden-aeson, mockery
 , QuickCheck, quickcheck-arbitrary-adt, quickcheck-instances
-, random, servant, silently, string-conversions, temporary, text
+, random, servant, silently, stdenv, string-conversions, temporary
+, text
 }:
 mkDerivation {
   pname = "servant-aeson-specs";

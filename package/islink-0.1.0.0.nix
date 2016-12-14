@@ -1,4 +1,4 @@
-{ mkDerivation, base, unordered-containers }:
+{ mkDerivation, base, stdenv, unordered-containers }:
 mkDerivation {
   pname = "islink";
   version = "0.1.0.0";

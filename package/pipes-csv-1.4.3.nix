@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, cassava, HUnit
-, MissingH, pipes, pipes-bytestring, test-framework
+, MissingH, pipes, pipes-bytestring, stdenv, test-framework
 , test-framework-hunit, unordered-containers, vector
 }:
 mkDerivation {

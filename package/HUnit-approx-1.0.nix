@@ -1,4 +1,4 @@
-{ mkDerivation, base, HUnit }:
+{ mkDerivation, base, HUnit, stdenv }:
 mkDerivation {
   pname = "HUnit-approx";
   version = "1.0";

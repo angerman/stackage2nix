@@ -1,4 +1,4 @@
-{ mkDerivation, base, biocore, bytestring }:
+{ mkDerivation, base, biocore, bytestring, stdenv }:
 mkDerivation {
   pname = "biofastq";
   version = "0.1";

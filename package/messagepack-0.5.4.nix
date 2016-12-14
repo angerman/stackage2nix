@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, containers, deepseq
-, QuickCheck, test-framework, test-framework-quickcheck2
+, QuickCheck, stdenv, test-framework, test-framework-quickcheck2
 , test-framework-th
 }:
 mkDerivation {

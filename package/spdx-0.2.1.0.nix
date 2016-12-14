@@ -1,4 +1,5 @@
-{ mkDerivation, base, tasty, tasty-quickcheck, transformers }:
+{ mkDerivation, base, stdenv, tasty, tasty-quickcheck, transformers
+}:
 mkDerivation {
   pname = "spdx";
   version = "0.2.1.0";

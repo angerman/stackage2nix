@@ -1,6 +1,7 @@
 { mkDerivation, base, base-orphans, bytestring, cereal, containers
-, data-binary-ieee754, deepseq, hex, HUnit, mtl, QuickCheck, tagged
-, tasty, tasty-hunit, tasty-quickcheck, text, unordered-containers
+, data-binary-ieee754, deepseq, hex, HUnit, mtl, QuickCheck, stdenv
+, tagged, tasty, tasty-hunit, tasty-quickcheck, text
+, unordered-containers
 }:
 mkDerivation {
   pname = "protobuf";

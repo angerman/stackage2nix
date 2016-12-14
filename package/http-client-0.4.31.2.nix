@@ -2,8 +2,8 @@
 , blaze-builder, bytestring, case-insensitive, containers, cookie
 , data-default-class, deepseq, directory, exceptions, filepath
 , ghc-prim, hspec, http-types, mime-types, monad-control, network
-, network-uri, random, streaming-commons, text, time, transformers
-, zlib
+, network-uri, random, stdenv, streaming-commons, text, time
+, transformers, zlib
 }:
 mkDerivation {
   pname = "http-client";

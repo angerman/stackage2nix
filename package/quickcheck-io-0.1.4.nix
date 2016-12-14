@@ -1,4 +1,4 @@
-{ mkDerivation, base, HUnit, QuickCheck }:
+{ mkDerivation, base, HUnit, QuickCheck, stdenv }:
 mkDerivation {
   pname = "quickcheck-io";
   version = "0.1.4";

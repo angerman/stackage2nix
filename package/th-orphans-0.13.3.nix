@@ -1,4 +1,4 @@
-{ mkDerivation, base, hspec, mtl, template-haskell, th-lift
+{ mkDerivation, base, hspec, mtl, stdenv, template-haskell, th-lift
 , th-lift-instances, th-reify-many
 }:
 mkDerivation {

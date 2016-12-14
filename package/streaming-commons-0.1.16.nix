@@ -1,6 +1,6 @@
 { mkDerivation, array, async, base, blaze-builder, bytestring
 , deepseq, directory, hspec, network, process, QuickCheck, random
-, stm, text, transformers, unix, zlib
+, stdenv, stm, text, transformers, unix, zlib
 }:
 mkDerivation {
   pname = "streaming-commons";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, parsec, pretty, time }:
+{ mkDerivation, base, parsec, pretty, stdenv, time }:
 mkDerivation {
   pname = "ofx";
   version = "0.4.2.0";

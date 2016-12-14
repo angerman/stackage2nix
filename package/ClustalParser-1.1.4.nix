@@ -1,4 +1,5 @@
-{ mkDerivation, base, cmdargs, either-unwrap, hspec, parsec, vector
+{ mkDerivation, base, cmdargs, either-unwrap, hspec, parsec, stdenv
+, vector
 }:
 mkDerivation {
   pname = "ClustalParser";

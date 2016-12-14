@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, parsec, syb }:
+{ mkDerivation, base, mtl, parsec, stdenv, syb }:
 mkDerivation {
   pname = "preprocessor-tools";
   version = "1.0.1";

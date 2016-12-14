@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, ghc-prim, process, QuickCheck
-, stm
+, stdenv, stm
 }:
 mkDerivation {
   pname = "fast-builder";

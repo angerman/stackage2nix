@@ -1,5 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, HUnit, QuickCheck
-, test-framework, test-framework-hunit, test-framework-quickcheck2
+, stdenv, test-framework, test-framework-hunit
+, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "irc";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, deepseq, vector }:
+{ mkDerivation, base, deepseq, stdenv, vector }:
 mkDerivation {
   pname = "vector-buffer";
   version = "0.4.1";

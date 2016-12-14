@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, text }:
+{ mkDerivation, base, binary, stdenv, text }:
 mkDerivation {
   pname = "text-binary";
   version = "0.2.1.1";

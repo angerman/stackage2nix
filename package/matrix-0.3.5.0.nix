@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, loop, primitive, QuickCheck, tasty
-, tasty-quickcheck, vector
+{ mkDerivation, base, deepseq, loop, primitive, QuickCheck, stdenv
+, tasty, tasty-quickcheck, vector
 }:
 mkDerivation {
   pname = "matrix";

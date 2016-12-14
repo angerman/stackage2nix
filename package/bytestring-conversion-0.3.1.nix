@@ -1,5 +1,6 @@
 { mkDerivation, attoparsec, base, bytestring, case-insensitive
-, double-conversion, QuickCheck, tasty, tasty-quickcheck, text
+, double-conversion, QuickCheck, stdenv, tasty, tasty-quickcheck
+, text
 }:
 mkDerivation {
   pname = "bytestring-conversion";

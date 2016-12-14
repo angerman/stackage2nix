@@ -1,4 +1,6 @@
-{ mkDerivation, base, ghc-prim, QuickCheck, random, transformers }:
+{ mkDerivation, base, ghc-prim, QuickCheck, random, stdenv
+, transformers
+}:
 mkDerivation {
   pname = "unfoldable";
   version = "0.8.4";

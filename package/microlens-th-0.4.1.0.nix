@@ -1,4 +1,6 @@
-{ mkDerivation, base, containers, microlens, template-haskell }:
+{ mkDerivation, base, containers, microlens, stdenv
+, template-haskell
+}:
 mkDerivation {
   pname = "microlens-th";
   version = "0.4.1.0";

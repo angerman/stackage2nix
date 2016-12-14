@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, data-default-class, filepath
-, hlibsass, hspec, hspec-discover, monad-loops, temporary
+, hlibsass, hspec, hspec-discover, monad-loops, stdenv, temporary
 , transformers
 }:
 mkDerivation {

@@ -1,4 +1,4 @@
-{ mkDerivation, base, base-unicode-symbols, hspec, text }:
+{ mkDerivation, base, base-unicode-symbols, hspec, stdenv, text }:
 mkDerivation {
   pname = "hformat";
   version = "0.1.0.1";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, mtl, process, strict }:
+{ mkDerivation, base, mtl, process, stdenv, strict }:
 mkDerivation {
   pname = "Hclip";
   version = "3.0.0.4";

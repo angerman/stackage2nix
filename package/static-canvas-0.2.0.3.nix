@@ -1,4 +1,4 @@
-{ mkDerivation, base, double-conversion, free, mtl, text }:
+{ mkDerivation, base, double-conversion, free, mtl, stdenv, text }:
 mkDerivation {
   pname = "static-canvas";
   version = "0.2.0.3";

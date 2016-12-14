@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-builder, bytestring, containers
-, directory, filepath, HUnit, ieee754, mtl, process, syb, text
-, transformers
+, directory, filepath, HUnit, ieee754, mtl, process, stdenv, syb
+, text, transformers
 }:
 mkDerivation {
   pname = "hastache";

@@ -1,5 +1,5 @@
-{ mkDerivation, base, directory, exceptions, filepath, transformers
-, unix
+{ mkDerivation, base, directory, exceptions, filepath, stdenv
+, transformers, unix
 }:
 mkDerivation {
   pname = "temporary-rc";

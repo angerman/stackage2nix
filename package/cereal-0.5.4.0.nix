@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, containers, ghc-prim
-, QuickCheck, test-framework, test-framework-quickcheck2
+, QuickCheck, stdenv, test-framework, test-framework-quickcheck2
 }:
 mkDerivation {
   pname = "cereal";

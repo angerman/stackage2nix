@@ -1,5 +1,5 @@
 { mkDerivation, base, blaze-builder, bytestring, bytestring-builder
-, hspec, http-types, network, text, transformers, vault
+, hspec, http-types, network, stdenv, text, transformers, vault
 }:
 mkDerivation {
   pname = "wai";

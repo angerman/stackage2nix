@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, silently, tasty, tasty-golden
-, tasty-hunit
+{ mkDerivation, base, bytestring, silently, stdenv, tasty
+, tasty-golden, tasty-hunit
 }:
 mkDerivation {
   pname = "countable";

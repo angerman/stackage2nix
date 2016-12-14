@@ -1,4 +1,5 @@
-{ mkDerivation, base, deepseq, exact-pi, HUnit, numtype-dk, vector
+{ mkDerivation, base, deepseq, exact-pi, HUnit, numtype-dk, stdenv
+, vector
 }:
 mkDerivation {
   pname = "dimensional";

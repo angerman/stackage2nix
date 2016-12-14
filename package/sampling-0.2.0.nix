@@ -1,4 +1,5 @@
-{ mkDerivation, base, foldl, mwc-random, primitive, vector }:
+{ mkDerivation, base, foldl, mwc-random, primitive, stdenv, vector
+}:
 mkDerivation {
   pname = "sampling";
   version = "0.2.0";

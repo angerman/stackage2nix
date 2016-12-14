@@ -1,5 +1,5 @@
 { mkDerivation, base, base16-bytestring, bytestring, directory
-, HUnit, temporary, text
+, HUnit, stdenv, temporary, text
 }:
 mkDerivation {
   pname = "direct-sqlite";

@@ -1,5 +1,5 @@
 { mkDerivation, alex, array, base, Cabal, containers, directory
-, filepath, happy, hashtables, pretty, process, random
+, filepath, happy, hashtables, pretty, process, random, stdenv
 }:
 mkDerivation {
   pname = "gtk2hs-buildtools";

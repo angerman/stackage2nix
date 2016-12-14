@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, blaze-builder, bytestring, conduit
 , containers, monad-control, monad-logger, persistent
 , postgresql-libpq, postgresql-simple, resource-pool, resourcet
-, text, time, transformers
+, stdenv, text, time, transformers
 }:
 mkDerivation {
   pname = "persistent-postgresql";

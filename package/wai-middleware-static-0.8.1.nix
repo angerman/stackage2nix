@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, containers, cryptonite, directory
 , expiring-cache-map, filepath, hpc-coveralls, http-types, memory
-, mime-types, mtl, old-locale, semigroups, text, time, wai
+, mime-types, mtl, old-locale, semigroups, stdenv, text, time, wai
 }:
 mkDerivation {
   pname = "wai-middleware-static";

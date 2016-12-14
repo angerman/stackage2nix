@@ -1,4 +1,4 @@
-{ mkDerivation, ansi-terminal, base }:
+{ mkDerivation, ansi-terminal, base, stdenv }:
 mkDerivation {
   pname = "ansi-wl-pprint";
   version = "0.6.7.3";

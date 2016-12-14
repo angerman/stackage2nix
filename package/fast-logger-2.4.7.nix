@@ -1,6 +1,6 @@
 { mkDerivation, array, auto-update, base, bytestring
-, bytestring-builder, directory, easy-file, filepath, hspec, text
-, unix, unix-time
+, bytestring-builder, directory, easy-file, filepath, hspec, stdenv
+, text, unix, unix-time
 }:
 mkDerivation {
   pname = "fast-logger";

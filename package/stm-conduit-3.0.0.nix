@@ -1,7 +1,7 @@
 { mkDerivation, async, base, cereal, cereal-conduit, conduit
 , conduit-combinators, conduit-extra, directory, doctest, ghc-prim
 , HUnit, lifted-async, lifted-base, monad-control, monad-loops
-, QuickCheck, resourcet, stm, stm-chans, test-framework
+, QuickCheck, resourcet, stdenv, stm, stm-chans, test-framework
 , test-framework-hunit, test-framework-quickcheck2, transformers
 , void
 }:

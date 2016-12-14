@@ -1,5 +1,5 @@
 { mkDerivation, base, byteable, bytestring, crypto-numbers
-, crypto-pubkey-types, crypto-random, cryptohash, tasty
+, crypto-pubkey-types, crypto-random, cryptohash, stdenv, tasty
 , tasty-hunit, tasty-kat, tasty-quickcheck
 }:
 mkDerivation {

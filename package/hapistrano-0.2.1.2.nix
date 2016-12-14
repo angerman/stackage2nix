@@ -1,5 +1,5 @@
 { mkDerivation, base, base-compat, directory, either, filepath
-, hspec, mtl, process, temporary, time, time-locale-compat
+, hspec, mtl, process, stdenv, temporary, time, time-locale-compat
 , transformers
 }:
 mkDerivation {

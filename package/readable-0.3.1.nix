@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, text }:
+{ mkDerivation, base, bytestring, stdenv, text }:
 mkDerivation {
   pname = "readable";
   version = "0.3.1";

@@ -1,5 +1,5 @@
 { mkDerivation, base, byteable, bytestring, crypto-random, ghc-prim
-, integer-gmp, tasty, tasty-hunit, tasty-quickcheck, vector
+, integer-gmp, stdenv, tasty, tasty-hunit, tasty-quickcheck, vector
 }:
 mkDerivation {
   pname = "crypto-numbers";

@@ -1,4 +1,5 @@
-{ mkDerivation, base, bytestring, feed, hspec, tagsoup, xml }:
+{ mkDerivation, base, bytestring, feed, hspec, stdenv, tagsoup, xml
+}:
 mkDerivation {
   pname = "download";
   version = "0.3.2.5";

@@ -1,4 +1,4 @@
-{ mkDerivation, base, doctest, HUnit, QuickCheck }:
+{ mkDerivation, base, doctest, HUnit, QuickCheck, stdenv }:
 mkDerivation {
   pname = "doctest-prop";
   version = "0.2.0.1";

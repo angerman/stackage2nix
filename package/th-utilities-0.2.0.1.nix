@@ -1,5 +1,6 @@
 { mkDerivation, base, bytestring, containers, directory, filepath
-, hspec, primitive, syb, template-haskell, text, th-orphans, vector
+, hspec, primitive, stdenv, syb, template-haskell, text, th-orphans
+, vector
 }:
 mkDerivation {
   pname = "th-utilities";

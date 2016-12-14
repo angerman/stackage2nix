@@ -1,5 +1,5 @@
 { mkDerivation, base, basic-prelude, optparse-applicative
-, postgresql-simple, shelly, text, time, time-locale-compat
+, postgresql-simple, shelly, stdenv, text, time, time-locale-compat
 }:
 mkDerivation {
   pname = "postgresql-schema";

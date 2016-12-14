@@ -1,5 +1,5 @@
-{ mkDerivation, base, deepseq, exceptions, hspec, transformers
-, void
+{ mkDerivation, base, deepseq, exceptions, hspec, stdenv
+, transformers, void
 }:
 mkDerivation {
   pname = "safe-exceptions";

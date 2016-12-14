@@ -1,6 +1,6 @@
 { mkDerivation, aeson, aeson-pretty, base, hspec, hspec-smallcheck
-, http-conduit, smallcheck, text, time, unordered-containers
-, vector
+, http-conduit, smallcheck, stdenv, text, time
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "github-types";

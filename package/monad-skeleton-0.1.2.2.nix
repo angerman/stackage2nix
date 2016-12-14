@@ -1,4 +1,4 @@
-{ mkDerivation, base, containers, ghc-prim }:
+{ mkDerivation, base, containers, ghc-prim, stdenv }:
 mkDerivation {
   pname = "monad-skeleton";
   version = "0.1.2.2";

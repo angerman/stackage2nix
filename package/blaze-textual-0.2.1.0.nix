@@ -1,6 +1,6 @@
 { mkDerivation, base, blaze-builder, bytestring, double-conversion
-, ghc-prim, integer-gmp, old-locale, QuickCheck, test-framework
-, test-framework-quickcheck2, text, time, vector
+, ghc-prim, integer-gmp, old-locale, QuickCheck, stdenv
+, test-framework, test-framework-quickcheck2, text, time, vector
 }:
 mkDerivation {
   pname = "blaze-textual";

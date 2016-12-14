@@ -2,8 +2,9 @@
 , case-insensitive, conduit, conduit-extra, connection, cookie
 , data-default-class, exceptions, hspec, http-client
 , http-client-tls, http-types, HUnit, lifted-base, monad-control
-, mtl, network, resourcet, streaming-commons, temporary, text, time
-, transformers, utf8-string, wai, wai-conduit, warp, warp-tls
+, mtl, network, resourcet, stdenv, streaming-commons, temporary
+, text, time, transformers, utf8-string, wai, wai-conduit, warp
+, warp-tls
 }:
 mkDerivation {
   pname = "http-conduit";

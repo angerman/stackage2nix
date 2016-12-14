@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, deepseq, elerea, enummapset-th
-, hashable, HUnit, test-framework, test-framework-hunit
+, hashable, HUnit, stdenv, test-framework, test-framework-hunit
 , test-framework-th, transformers, unordered-containers
 }:
 mkDerivation {
