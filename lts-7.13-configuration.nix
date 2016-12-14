@@ -2,7 +2,7 @@
 
 with import <nixpkgs/pkgs/development/haskell-modules/lib.nix> { inherit pkgs; };
 
-self: super: rec {
+self: super: let lts = {
   web-plugins = self.callPackage ./package/web-plugins-0.2.9.nix {};
   NumInstances = self.callPackage ./package/NumInstances-1.4.nix {};
   xenstore = self.callPackage ./package/xenstore-0.1.1.nix {};
@@ -1976,4 +1976,12 @@ self: super: rec {
   servant-swagger = self.callPackage ./package/servant-swagger-1.1.2.nix {};
   gtk = self.callPackage ./package/gtk-0.14.6.nix {};
   both = self.callPackage ./package/both-0.1.1.0.nix {};
+};
+dontCheck = pkgs.haskell.lib.dontCheck;
+in
+lts // {
+  # break infinite recursion
+  nanospec = dontCheck lts.nanospec;
+  clock = dontCheck lts.clock;
+  hspec = lts.hspec.override { stringbuilder = dontCheck lts.stringbuilder; };
 }
