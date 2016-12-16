@@ -71,6 +71,7 @@ self: super: {
   conversion-text = null;
   json-ast = null;
   postgresql-binary = dontCheck super.postgresql-binary;
+  concurrent-extra = dontCheck super.concurrent-extra;
 
   # set platform markers (this used to be done in cabal2nix postprocessing)
   # Win32 = overrideCabal super.Win32 (drv: { platforms = pkgs.stdenv.lib.platforms.cygwin; });
@@ -87,6 +88,9 @@ self: super: {
   MemoTrie = dontHaddock (dontCheck super.MemoTrie);
   STMonadTrans = dontCheck super.STMonadTrans;
   binary-search = dontCheck super.binary-search;
+  angel = dontCheck super.angel;
+  crypto-pubkey = dontCheck super.crypto-pubkey;
+  DRBG = dontCheck super.DRBG;
 
   # Ensure the necessary frameworks are propagatedBuildInputs on darwin
   OpenGLRaw = overrideCabal super.OpenGLRaw (drv: {
