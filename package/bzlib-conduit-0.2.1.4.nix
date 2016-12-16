@@ -1,6 +1,6 @@
-{ mkDerivation, base, bindings-DSL, bytestring, bzip2, conduit
+{ mkDerivation, base, bindings-DSL, bytestring, conduit
 , conduit-extra, data-default, hspec, mtl, QuickCheck, random
-, resourcet, stdenv
+, resourcet, stdenv, syspkgs
 }:
 mkDerivation {
   pname = "bzlib-conduit";
@@ -10,7 +10,7 @@ mkDerivation {
     base bindings-DSL bytestring conduit conduit-extra data-default mtl
     resourcet
   ];
-  librarySystemDepends = [ bzip2 ];
+  librarySystemDepends = [ syspkgs.bzip2 ];
   testHaskellDepends = [
     base bytestring conduit conduit-extra hspec QuickCheck random
     resourcet

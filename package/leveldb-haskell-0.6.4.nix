@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, data-default, directory
-, exceptions, filepath, leveldb, mtl, QuickCheck, resourcet, stdenv
+, exceptions, filepath, mtl, QuickCheck, resourcet, stdenv, syspkgs
 , tasty, tasty-quickcheck, temporary, transformers
 }:
 mkDerivation {
@@ -10,7 +10,7 @@ mkDerivation {
     base bytestring data-default exceptions filepath resourcet
     transformers
   ];
-  librarySystemDepends = [ leveldb ];
+  librarySystemDepends = [ syspkgs.leveldb ];
   testHaskellDepends = [
     base bytestring data-default directory exceptions mtl QuickCheck
     tasty tasty-quickcheck temporary transformers

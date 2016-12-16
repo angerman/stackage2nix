@@ -1,5 +1,5 @@
-{ mkDerivation, array, base, gsl, hmatrix, process, random, stdenv
-, vector
+{ mkDerivation, array, base, hmatrix, process, random, stdenv
+, syspkgs, vector
 }:
 mkDerivation {
   pname = "hmatrix-gsl";
@@ -8,8 +8,8 @@ mkDerivation {
   libraryHaskellDepends = [
     array base hmatrix process random vector
   ];
-  librarySystemDepends = [ gsl ];
-  libraryPkgconfigDepends = [ gsl ];
+  librarySystemDepends = [ syspkgs.gsl ];
+  libraryPkgconfigDepends = [ syspkgs.gsl ];
   homepage = "https://github.com/albertoruiz/hmatrix";
   description = "Numerical computation";
   license = "GPL";

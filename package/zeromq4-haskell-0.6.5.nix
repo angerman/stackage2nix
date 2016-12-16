@@ -1,6 +1,6 @@
 { mkDerivation, async, base, bytestring, containers, exceptions
-, monad-control, QuickCheck, semigroups, stdenv, tasty, tasty-hunit
-, tasty-quickcheck, transformers, transformers-base, zeromq
+, monad-control, QuickCheck, semigroups, stdenv, syspkgs, tasty
+, tasty-hunit, tasty-quickcheck, transformers, transformers-base
 }:
 mkDerivation {
   pname = "zeromq4-haskell";
@@ -10,7 +10,7 @@ mkDerivation {
     async base bytestring containers exceptions monad-control
     semigroups transformers transformers-base
   ];
-  libraryPkgconfigDepends = [ zeromq ];
+  libraryPkgconfigDepends = [ syspkgs.zeromq ];
   testHaskellDepends = [
     async base bytestring QuickCheck tasty tasty-hunit tasty-quickcheck
   ];

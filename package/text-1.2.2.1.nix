@@ -15,7 +15,6 @@ mkDerivation {
     integer-gmp QuickCheck quickcheck-unicode random test-framework
     test-framework-hunit test-framework-quickcheck2
   ];
-  doCheck = false;
   homepage = "https://github.com/bos/text";
   description = "An efficient packed Unicode text type";
   license = stdenv.lib.licenses.bsd3;

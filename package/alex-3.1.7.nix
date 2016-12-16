@@ -1,4 +1,4 @@
-{ mkDerivation, array, base, containers, directory, happy, process
+{ mkDerivation, array, base, containers, directory, process
 , QuickCheck, stdenv
 }:
 mkDerivation {
@@ -10,7 +10,6 @@ mkDerivation {
   executableHaskellDepends = [
     array base containers directory QuickCheck
   ];
-  executableToolDepends = [ happy ];
   testHaskellDepends = [ base process ];
   homepage = "http://www.haskell.org/alex/";
   description = "Alex is a tool for generating lexical analysers in Haskell";

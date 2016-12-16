@@ -1,13 +1,12 @@
-{ mkDerivation, base, bytestring, expat, fontconfig, freetype, gd
-, libjpeg, libpng, stdenv, zlib
-}:
+{ mkDerivation, base, bytestring, stdenv, syspkgs }:
 mkDerivation {
   pname = "gd";
   version = "3000.7.3";
   sha256 = "1dkzv6zs00qi0jmblkw05ywizc8y3baz7pnz0lcqn1cs1mhcpbhl";
   libraryHaskellDepends = [ base bytestring ];
   librarySystemDepends = [
-    expat fontconfig freetype gd libjpeg libpng zlib
+    syspkgs.expat syspkgs.fontconfig syspkgs.freetype syspkgs.gd
+    syspkgs.libjpeg syspkgs.libpng syspkgs.zlib
   ];
   description = "A Haskell binding to a subset of the GD graphics library";
   license = stdenv.lib.licenses.bsd3;

@@ -1,6 +1,5 @@
-{ mkDerivation, atk, base, bytestring, containers, gi-glib
-, gi-gobject, haskell-gi, haskell-gi-base, stdenv, text
-, transformers
+{ mkDerivation, base, bytestring, containers, gi-glib, gi-gobject
+, haskell-gi, haskell-gi-base, stdenv, syspkgs, text, transformers
 }:
 mkDerivation {
   pname = "gi-atk";
@@ -10,7 +9,7 @@ mkDerivation {
     base bytestring containers gi-glib gi-gobject haskell-gi
     haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ atk ];
+  libraryPkgconfigDepends = [ syspkgs.atk ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Atk bindings";

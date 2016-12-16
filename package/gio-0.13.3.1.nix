@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, Cabal, containers, glib
-, gtk2hs-buildtools, mtl, stdenv, system-glib
+, gtk2hs-buildtools, mtl, stdenv, syspkgs
 }:
 mkDerivation {
   pname = "gio";
@@ -9,7 +9,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base bytestring containers glib mtl
   ];
-  libraryPkgconfigDepends = [ system-glib ];
+  libraryPkgconfigDepends = [ syspkgs.glib ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to GIO";
   license = stdenv.lib.licenses.lgpl21;

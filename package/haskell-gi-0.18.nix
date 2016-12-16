@@ -1,7 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, containers, directory
-, filepath, glib, gobjectIntrospection, haskell-gi-base, mtl
-, pretty-show, process, safe, stdenv, text, transformers
-, xdg-basedir, xml-conduit
+, filepath, haskell-gi-base, mtl, pretty-show, process, safe
+, stdenv, syspkgs, text, transformers, xdg-basedir, xml-conduit
 }:
 mkDerivation {
   pname = "haskell-gi";
@@ -14,7 +13,9 @@ mkDerivation {
     mtl pretty-show process safe text transformers xdg-basedir
     xml-conduit
   ];
-  libraryPkgconfigDepends = [ glib gobjectIntrospection ];
+  libraryPkgconfigDepends = [
+    syspkgs.glib syspkgs.gobjectIntrospection
+  ];
   executableHaskellDepends = [
     base containers directory filepath haskell-gi-base pretty-show text
   ];

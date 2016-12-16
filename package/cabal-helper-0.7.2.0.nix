@@ -20,7 +20,6 @@ mkDerivation {
     template-haskell temporary transformers unix utf8-string
   ];
   testToolDepends = [ cabal-install ];
-  doCheck = false;
   description = "Simple interface to some of Cabal's configuration state used by ghc-mod";
   license = stdenv.lib.licenses.agpl3;
 }

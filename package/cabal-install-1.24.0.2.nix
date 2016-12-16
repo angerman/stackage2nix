@@ -23,11 +23,6 @@ mkDerivation {
     pretty process QuickCheck random regex-posix stm tagged tar tasty
     tasty-hunit tasty-quickcheck time unix zlib
   ];
-  doCheck = false;
-  postInstall = ''
-    mkdir $out/etc
-    mv bash-completion $out/etc/bash_completion.d
-  '';
   homepage = "http://www.haskell.org/cabal/";
   description = "The command-line interface for Cabal and Hackage";
   license = stdenv.lib.licenses.bsd3;

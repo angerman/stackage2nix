@@ -1,5 +1,5 @@
-{ mkDerivation, array, base, bytestring, Cabal, cairo
-, gtk2hs-buildtools, mtl, stdenv, text, utf8-string
+{ mkDerivation, array, base, bytestring, Cabal, gtk2hs-buildtools
+, mtl, stdenv, syspkgs, text, utf8-string
 }:
 mkDerivation {
   pname = "cairo";
@@ -9,7 +9,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base bytestring mtl text utf8-string
   ];
-  libraryPkgconfigDepends = [ cairo ];
+  libraryPkgconfigDepends = [ syspkgs.cairo ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Cairo library";
   license = stdenv.lib.licenses.bsd3;

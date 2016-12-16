@@ -7,6 +7,8 @@ mkDerivation {
   pname = "shake";
   version = "0.15.10";
   sha256 = "1l1klhdj7sx00f3w7x840zaffcnr3m4fckjf2g1pi5g2ycy1lcrn";
+  revision = "1";
+  editedCabalFile = "bb24876b00ef8cd3f8500ef729a01278e6e4ba9c7e12391cb76c2217ddc55563";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

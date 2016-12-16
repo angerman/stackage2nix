@@ -1,6 +1,5 @@
-{ mkDerivation, base, bytestring, cairo, containers
-, gobjectIntrospection, haskell-gi, haskell-gi-base, stdenv, text
-, transformers
+{ mkDerivation, base, bytestring, containers, haskell-gi
+, haskell-gi-base, stdenv, syspkgs, text, transformers
 }:
 mkDerivation {
   pname = "gi-cairo";
@@ -10,13 +9,8 @@ mkDerivation {
     base bytestring containers haskell-gi haskell-gi-base text
     transformers
   ];
-  libraryPkgconfigDepends = [ cairo gobjectIntrospection ];
+  libraryPkgconfigDepends = [ syspkgs.cairo ];
   doHaddock = false;
-  preConfigure = ''export HASKELL_GI_GIR_SEARCH_PATH=${gobjectIntrospection.dev}/share/gir-1.0'';
-  preCompileBuildDriver = ''
-    PKG_CONFIG_PATH+=":${cairo}/lib/pkgconfig"
-    setupCompileFlags+=" $(pkg-config --libs cairo-gobject)"
-  '';
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Cairo bindings";
   license = stdenv.lib.licenses.lgpl21;

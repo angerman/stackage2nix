@@ -16,11 +16,6 @@ mkDerivation {
   testHaskellDepends = [
     base containers extensible-exceptions QuickCheck X11
   ];
-  postInstall = ''
-    shopt -s globstar
-    mkdir -p $out/share/man/man1
-    mv "$out/"**"/man/"*.1 $out/share/man/man1/
-  '';
   homepage = "http://xmonad.org";
   description = "A tiling window manager";
   license = stdenv.lib.licenses.bsd3;

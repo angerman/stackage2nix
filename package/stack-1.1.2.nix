@@ -52,13 +52,6 @@ mkDerivation {
     directory exceptions hspec http-conduit monad-logger path path-io
     QuickCheck resourcet retry temporary text transformers
   ];
-  doCheck = false;
-  preCheck = "export HOME=$TMPDIR";
-  postInstall = ''
-    exe=$out/bin/stack
-    mkdir -p $out/share/bash-completion/completions
-    $exe --bash-completion-script $exe >$out/share/bash-completion/completions/stack
-  '';
   homepage = "http://haskellstack.org";
   description = "The Haskell Tool Stack";
   license = stdenv.lib.licenses.bsd3;

@@ -1,5 +1,5 @@
-{ mkDerivation, base, binary, gsl, hmatrix, stdenv
-, storable-complex, vector
+{ mkDerivation, base, binary, hmatrix, stdenv, storable-complex
+, syspkgs, vector
 }:
 mkDerivation {
   pname = "hmatrix-gsl-stats";
@@ -8,8 +8,8 @@ mkDerivation {
   libraryHaskellDepends = [
     base binary hmatrix storable-complex vector
   ];
-  librarySystemDepends = [ gsl ];
-  libraryPkgconfigDepends = [ gsl ];
+  librarySystemDepends = [ syspkgs.gsl ];
+  libraryPkgconfigDepends = [ syspkgs.gsl ];
   homepage = "http://code.haskell.org/hmatrix-gsl-stats";
   description = "GSL Statistics interface";
   license = stdenv.lib.licenses.bsd3;

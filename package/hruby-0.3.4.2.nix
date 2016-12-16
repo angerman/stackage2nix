@@ -1,5 +1,6 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, QuickCheck
-, ruby, scientific, stdenv, stm, text, unordered-containers, vector
+, scientific, stdenv, stm, syspkgs, text, unordered-containers
+, vector
 }:
 mkDerivation {
   pname = "hruby";
@@ -9,7 +10,7 @@ mkDerivation {
     aeson attoparsec base bytestring scientific stm text
     unordered-containers vector
   ];
-  librarySystemDepends = [ ruby ];
+  librarySystemDepends = [ syspkgs.ruby ];
   testHaskellDepends = [
     aeson attoparsec base QuickCheck text vector
   ];

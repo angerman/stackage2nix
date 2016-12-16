@@ -1,9 +1,9 @@
 { mkDerivation, alex, array, base, binary, boxes, bytestring
 , containers, cpphs, data-hash, deepseq, directory, EdisonAPI
-, EdisonCore, edit-distance, emacs, equivalence, filemanip
-, filepath, geniplate-mirror, happy, hashable, hashtables
-, haskeline, haskell-src-exts, monadplus, mtl, parallel, pretty
-, process, QuickCheck, stdenv, strict, template-haskell, text, time
+, EdisonCore, edit-distance, equivalence, filemanip, filepath
+, geniplate-mirror, happy, hashable, hashtables, haskeline
+, haskell-src-exts, monadplus, mtl, parallel, pretty, process
+, QuickCheck, stdenv, strict, template-haskell, text, time
 , transformers, transformers-compat, unordered-containers, xhtml
 , zlib
 }:
@@ -28,17 +28,6 @@ mkDerivation {
     base binary containers directory filemanip filepath
     haskell-src-exts mtl process
   ];
-  executableToolDepends = [ emacs ];
-  postInstall = ''
-    files=("$out/share/"*"-ghc-"*"/Agda-"*"/lib/prim/Agda/"{Primitive.agda,Builtin"/"*.agda})
-    for f in "''${files[@]}" ; do
-      $out/bin/agda $f
-    done
-    for f in "''${files[@]}" ; do
-      $out/bin/agda -c --no-main $f
-    done
-    $out/bin/agda-mode compile
-  '';
   homepage = "http://wiki.portal.chalmers.se/agda/";
   description = "A dependently typed functional programming language and proof assistant";
   license = "unknown";

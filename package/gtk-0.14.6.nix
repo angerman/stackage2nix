@@ -1,5 +1,5 @@
 { mkDerivation, array, base, bytestring, Cabal, cairo, containers
-, gio, glib, gtk2, gtk2hs-buildtools, mtl, pango, stdenv, text
+, gio, glib, gtk2hs-buildtools, mtl, pango, stdenv, syspkgs, text
 }:
 mkDerivation {
   pname = "gtk";
@@ -9,7 +9,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base bytestring cairo containers gio glib mtl pango text
   ];
-  libraryPkgconfigDepends = [ gtk2 ];
+  libraryPkgconfigDepends = [ syspkgs.glib syspkgs.gtk2 ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Gtk+ graphical user interface library";
   license = stdenv.lib.licenses.lgpl21;

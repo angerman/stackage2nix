@@ -1,6 +1,5 @@
 { mkDerivation, base, bytestring, containers, haskell-gi
-, haskell-gi-base, javascriptcoregtk, stdenv, text, transformers
-, webkitgtk
+, haskell-gi-base, stdenv, syspkgs, text, transformers
 }:
 mkDerivation {
   pname = "gi-javascriptcore";
@@ -10,9 +9,8 @@ mkDerivation {
     base bytestring containers haskell-gi haskell-gi-base text
     transformers
   ];
-  libraryPkgconfigDepends = [ javascriptcoregtk webkitgtk ];
+  libraryPkgconfigDepends = [ syspkgs.javascriptcoregtk ];
   doHaddock = false;
-  preConfigure = ''export HASKELL_GI_GIR_SEARCH_PATH=${webkitgtk}/share/gir-1.0'';
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "JavaScriptCore bindings";
   license = stdenv.lib.licenses.lgpl21;

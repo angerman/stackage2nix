@@ -12,7 +12,6 @@ mkDerivation {
     tls
   ];
   testHaskellDepends = [ base hspec http-client http-types ];
-  doCheck = false;
   homepage = "https://github.com/snoyberg/http-client";
   description = "http-client backend using the connection package and tls library";
   license = stdenv.lib.licenses.mit;

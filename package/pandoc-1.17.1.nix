@@ -38,7 +38,6 @@ mkDerivation {
     process QuickCheck syb test-framework test-framework-hunit
     test-framework-quickcheck2 text zip-archive
   ];
-  doCheck = false;
   homepage = "http://pandoc.org";
   description = "Conversion between markup formats";
   license = "GPL";

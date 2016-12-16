@@ -1,6 +1,6 @@
 { mkDerivation, array, base, byteable, bytestring
-, crypto-cipher-tests, crypto-cipher-types, HUnit, nettle
-, QuickCheck, securemem, stdenv, tagged, test-framework
+, crypto-cipher-tests, crypto-cipher-types, HUnit, QuickCheck
+, securemem, stdenv, syspkgs, tagged, test-framework
 , test-framework-hunit, test-framework-quickcheck2
 }:
 mkDerivation {
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base byteable bytestring crypto-cipher-types securemem tagged
   ];
-  libraryPkgconfigDepends = [ nettle ];
+  libraryPkgconfigDepends = [ syspkgs.nettle ];
   testHaskellDepends = [
     array base bytestring crypto-cipher-tests crypto-cipher-types HUnit
     QuickCheck tagged test-framework test-framework-hunit

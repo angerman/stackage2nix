@@ -1,6 +1,5 @@
 { mkDerivation, base, bytestring, containers, gi-glib, gi-gobject
-, glib, gobjectIntrospection, haskell-gi, haskell-gi-base, stdenv
-, text, transformers
+, haskell-gi, haskell-gi-base, stdenv, syspkgs, text, transformers
 }:
 mkDerivation {
   pname = "gi-gio";
@@ -10,9 +9,8 @@ mkDerivation {
     base bytestring containers gi-glib gi-gobject haskell-gi
     haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ glib gobjectIntrospection ];
+  libraryPkgconfigDepends = [ syspkgs.glib ];
   doHaddock = false;
-  preConfigure = ''export HASKELL_GI_GIR_SEARCH_PATH=${gobjectIntrospection.dev}/share/gir-1.0'';
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Gio bindings";
   license = stdenv.lib.licenses.lgpl21;

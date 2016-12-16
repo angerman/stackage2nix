@@ -1,6 +1,6 @@
-{ mkDerivation, array, base, binary, blas, bytestring, gsl, hmatrix
-, hmatrix-gsl, hmatrix-gsl-stats, hstatistics, liblapack, mtl
-, stdenv, storable-complex, vector
+{ mkDerivation, array, base, binary, bytestring, hmatrix
+, hmatrix-gsl, hmatrix-gsl-stats, hstatistics, mtl, stdenv
+, storable-complex, syspkgs, vector
 }:
 mkDerivation {
   pname = "hsignal";
@@ -10,8 +10,10 @@ mkDerivation {
     array base binary bytestring hmatrix hmatrix-gsl hmatrix-gsl-stats
     hstatistics mtl storable-complex vector
   ];
-  librarySystemDepends = [ blas gsl liblapack ];
-  libraryPkgconfigDepends = [ gsl ];
+  librarySystemDepends = [
+    syspkgs.blas syspkgs.gsl syspkgs.liblapack
+  ];
+  libraryPkgconfigDepends = [ syspkgs.gsl ];
   homepage = "http://code.haskell.org/hsignal";
   description = "Signal processing and EEG data analysis";
   license = stdenv.lib.licenses.bsd3;

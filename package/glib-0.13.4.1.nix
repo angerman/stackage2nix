@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, Cabal, containers, glib
-, gtk2hs-buildtools, stdenv, text, utf8-string
+{ mkDerivation, base, bytestring, Cabal, containers
+, gtk2hs-buildtools, stdenv, syspkgs, text, utf8-string
 }:
 mkDerivation {
   pname = "glib";
@@ -9,7 +9,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring containers text utf8-string
   ];
-  libraryPkgconfigDepends = [ glib ];
+  libraryPkgconfigDepends = [ syspkgs.glib ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the GLIB library for Gtk2Hs";
   license = stdenv.lib.licenses.lgpl21;

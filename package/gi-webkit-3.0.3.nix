@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, containers, gi-atk, gi-cairo
 , gi-gdk, gi-gdkpixbuf, gi-gio, gi-glib, gi-gobject, gi-gtk
 , gi-javascriptcore, gi-soup, haskell-gi, haskell-gi-base, stdenv
-, text, transformers, webkit
+, syspkgs, text, transformers
 }:
 mkDerivation {
   pname = "gi-webkit";
@@ -12,7 +12,7 @@ mkDerivation {
     gi-gio gi-glib gi-gobject gi-gtk gi-javascriptcore gi-soup
     haskell-gi haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ webkit ];
+  libraryPkgconfigDepends = [ syspkgs.webkit ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "WebKit bindings";

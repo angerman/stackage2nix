@@ -9,7 +9,6 @@ mkDerivation {
   testHaskellDepends = [
     base HsOpenSSL hspec http-client http-types
   ];
-  doCheck = false;
   homepage = "https://github.com/snoyberg/http-client";
   description = "http-client backend using the OpenSSL library";
   license = stdenv.lib.licenses.mit;

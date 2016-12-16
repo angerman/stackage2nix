@@ -1,6 +1,5 @@
-{ mkDerivation, base, bytestring, cairo, containers, gi-glib
-, gi-gobject, gobjectIntrospection, haskell-gi, haskell-gi-base
-, pango, stdenv, text, transformers
+{ mkDerivation, base, bytestring, containers, gi-glib, gi-gobject
+, haskell-gi, haskell-gi-base, stdenv, syspkgs, text, transformers
 }:
 mkDerivation {
   pname = "gi-pango";
@@ -10,13 +9,8 @@ mkDerivation {
     base bytestring containers gi-glib gi-gobject haskell-gi
     haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ cairo gobjectIntrospection pango ];
+  libraryPkgconfigDepends = [ syspkgs.pango ];
   doHaddock = false;
-  preConfigure = ''export HASKELL_GI_GIR_SEARCH_PATH=${gobjectIntrospection.dev}/share/gir-1.0'';
-  preCompileBuildDriver = ''
-    PKG_CONFIG_PATH+=":${cairo}/lib/pkgconfig"
-    setupCompileFlags+=" $(pkg-config --libs cairo-gobject)"
-  '';
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Pango bindings";
   license = stdenv.lib.licenses.lgpl21;

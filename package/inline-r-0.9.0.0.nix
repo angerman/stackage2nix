@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, c2hs, containers
 , data-default-class, deepseq, directory, exceptions, filepath
 , ieee754, mtl, pretty, primitive, process, quickcheck-assertions
-, R, reflection, setenv, silently, singletons, stdenv, strict
+, reflection, setenv, silently, singletons, stdenv, strict, syspkgs
 , tasty, tasty-expected-failure, tasty-golden, tasty-hunit
 , tasty-quickcheck, template-haskell, temporary, text, th-lift
 , th-orphans, transformers, unix, vector
@@ -16,7 +16,7 @@ mkDerivation {
     singletons template-haskell text th-lift th-orphans transformers
     unix vector
   ];
-  libraryPkgconfigDepends = [ R ];
+  libraryPkgconfigDepends = [ syspkgs.R ];
   libraryToolDepends = [ c2hs ];
   testHaskellDepends = [
     base bytestring directory filepath ieee754 mtl process

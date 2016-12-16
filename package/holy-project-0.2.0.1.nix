@@ -25,7 +25,6 @@ mkDerivation {
     base bytestring Cabal HUnit QuickCheck smallcheck tasty tasty-hunit
     tasty-quickcheck tasty-smallcheck
   ];
-  doCheck = false;
   homepage = "http://github.com/yogsototh/holy-project";
   description = "Start your Haskell project with cabal, git and tests";
   license = stdenv.lib.licenses.mit;

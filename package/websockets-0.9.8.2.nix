@@ -17,7 +17,6 @@ mkDerivation {
     SHA test-framework test-framework-hunit test-framework-quickcheck2
     text
   ];
-  doCheck = false;
   homepage = "http://jaspervdj.be/websockets";
   description = "A sensible and clean way to write WebSocket-capable servers in Haskell";
   license = stdenv.lib.licenses.bsd3;

@@ -21,7 +21,6 @@ mkDerivation {
     monad-control network network-uri streaming-commons text time
     transformers zlib
   ];
-  doCheck = false;
   homepage = "https://github.com/snoyberg/http-client";
   description = "An HTTP client engine, intended as a base layer for more user-friendly packages";
   license = stdenv.lib.licenses.mit;

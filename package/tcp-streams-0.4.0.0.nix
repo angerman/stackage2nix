@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, data-default-class, HsOpenSSL
-, HsOpenSSL-x509-system, HUnit, io-streams, network, openssl, pem
-, QuickCheck, stdenv, test-framework, test-framework-hunit
+, HsOpenSSL-x509-system, HUnit, io-streams, network, pem
+, QuickCheck, stdenv, syspkgs, test-framework, test-framework-hunit
 , test-framework-quickcheck2, tls, x509, x509-store, x509-system
 }:
 mkDerivation {
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring data-default-class HsOpenSSL HsOpenSSL-x509-system
     io-streams network pem tls x509 x509-store x509-system
   ];
-  librarySystemDepends = [ openssl ];
+  librarySystemDepends = [ syspkgs.openssl ];
   testHaskellDepends = [
     base bytestring HUnit io-streams network QuickCheck test-framework
     test-framework-hunit test-framework-quickcheck2

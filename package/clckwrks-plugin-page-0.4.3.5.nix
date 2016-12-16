@@ -18,6 +18,7 @@ mkDerivation {
     uuid-orphans web-plugins web-routes web-routes-happstack
     web-routes-th
   ];
+  libraryToolDepends = [ hsx2hs ];
   homepage = "http://www.clckwrks.com/";
   description = "support for CMS/Blogging in clckwrks";
   license = stdenv.lib.licenses.bsd3;

@@ -16,7 +16,6 @@ mkDerivation {
     filepath libxml-sax network parsec process QuickCheck random text
     transformers unix vector xml-types
   ];
-  doCheck = false;
   homepage = "https://john-millikin.com/software/haskell-dbus/";
   description = "A client library for the D-Bus IPC system";
   license = stdenv.lib.licenses.gpl3;

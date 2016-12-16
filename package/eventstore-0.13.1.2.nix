@@ -19,5 +19,4 @@ mkDerivation {
   homepage = "http://github.com/YoEight/eventstore";
   description = "EventStore TCP Client";
   license = stdenv.lib.licenses.bsd3;
-  platforms = [ "x86_64-darwin" "x86_64-linux" ];
 }

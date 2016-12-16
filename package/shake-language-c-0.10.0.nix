@@ -11,7 +11,6 @@ mkDerivation {
     unordered-containers
   ];
   testHaskellDepends = [ base directory doctest hspec shake ];
-  doCheck = false;
   homepage = "https://github.com/samplecount/shake-language-c";
   description = "Utilities for cross-compiling with Shake";
   license = stdenv.lib.licenses.asl20;

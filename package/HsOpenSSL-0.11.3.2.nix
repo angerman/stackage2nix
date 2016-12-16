@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, integer-gmp, network, openssl
-, stdenv, time
+{ mkDerivation, base, bytestring, integer-gmp, network, stdenv
+, syspkgs, time
 }:
 mkDerivation {
   pname = "HsOpenSSL";
@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring integer-gmp network time
   ];
-  librarySystemDepends = [ openssl ];
+  librarySystemDepends = [ syspkgs.openssl ];
   testHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/vshabanov/HsOpenSSL";
   description = "Partial OpenSSL binding for Haskell";

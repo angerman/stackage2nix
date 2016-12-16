@@ -16,7 +16,6 @@ mkDerivation {
     pretty process QuickCheck regex-posix tagged tasty tasty-hunit
     tasty-quickcheck transformers unix
   ];
-  doCheck = false;
   homepage = "http://www.haskell.org/cabal/";
   description = "A framework for packaging Haskell software";
   license = stdenv.lib.licenses.bsd3;

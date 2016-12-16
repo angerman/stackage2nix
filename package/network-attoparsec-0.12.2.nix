@@ -14,7 +14,6 @@ mkDerivation {
     attoparsec base bytestring exceptions hspec mtl network
     network-simple transformers
   ];
-  doCheck = false;
   homepage = "http://github.com/solatis/haskell-network-attoparsec";
   description = "Utility functions for running a parser against a socket";
   license = stdenv.lib.licenses.mit;

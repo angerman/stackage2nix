@@ -1,5 +1,5 @@
-{ mkDerivation, array, base, carray, fftw, fftwFloat, ix-shapable
-, QuickCheck, stdenv, storable-complex, syb, transformers
+{ mkDerivation, array, base, carray, ix-shapable, QuickCheck
+, stdenv, storable-complex, syb, syspkgs, transformers
 }:
 mkDerivation {
   pname = "fft";
@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base carray ix-shapable storable-complex syb transformers
   ];
-  libraryPkgconfigDepends = [ fftw fftwFloat ];
+  libraryPkgconfigDepends = [ syspkgs.fftw syspkgs.fftwFloat ];
   testHaskellDepends = [ base carray QuickCheck storable-complex ];
   description = "Bindings to the FFTW library";
   license = stdenv.lib.licenses.bsd3;

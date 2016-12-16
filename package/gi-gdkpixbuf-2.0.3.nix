@@ -1,6 +1,6 @@
-{ mkDerivation, base, bytestring, containers, gdk_pixbuf, gi-gio
-, gi-glib, gi-gobject, gobjectIntrospection, haskell-gi
-, haskell-gi-base, stdenv, text, transformers
+{ mkDerivation, base, bytestring, containers, gi-gio, gi-glib
+, gi-gobject, haskell-gi, haskell-gi-base, stdenv, syspkgs, text
+, transformers
 }:
 mkDerivation {
   pname = "gi-gdkpixbuf";
@@ -10,12 +10,8 @@ mkDerivation {
     base bytestring containers gi-gio gi-glib gi-gobject haskell-gi
     haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ gdk_pixbuf gobjectIntrospection ];
+  libraryPkgconfigDepends = [ syspkgs.gdk_pixbuf ];
   doHaddock = false;
-  preConfigure = ''
-    export HASKELL_GI_GIR_SEARCH_PATH=${gobjectIntrospection.dev}/share/gir-1.0:${gdk_pixbuf.dev}/share/gir-1.0
-    export GI_TYPELIB_PATH=${gdk_pixbuf.out}/lib/girepository-1.0
-  '';
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "GdkPixbuf bindings";
   license = stdenv.lib.licenses.lgpl21;

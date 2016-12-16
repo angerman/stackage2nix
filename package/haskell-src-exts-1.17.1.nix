@@ -14,7 +14,6 @@ mkDerivation {
     base containers directory filepath mtl pretty-show smallcheck syb
     tasty tasty-golden tasty-smallcheck
   ];
-  doCheck = false;
   homepage = "https://github.com/haskell-suite/haskell-src-exts";
   description = "Manipulating Haskell source: abstract syntax, lexer, parser, and pretty-printer";
   license = stdenv.lib.licenses.bsd3;

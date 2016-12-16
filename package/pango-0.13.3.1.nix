@@ -1,6 +1,6 @@
 { mkDerivation, array, base, Cabal, cairo, containers, directory
-, filepath, glib, gtk2hs-buildtools, mtl, pango, pretty, process
-, stdenv, text
+, filepath, glib, gtk2hs-buildtools, mtl, pretty, process, stdenv
+, syspkgs, text
 }:
 mkDerivation {
   pname = "pango";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base cairo containers directory glib mtl pretty process text
   ];
-  libraryPkgconfigDepends = [ pango ];
+  libraryPkgconfigDepends = [ syspkgs.cairo syspkgs.pango ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Pango text rendering engine";
   license = stdenv.lib.licenses.lgpl21;
