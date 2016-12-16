@@ -1,0 +1,4 @@
+[submodule "cabal2nix"]
+	path = cabal2nix
+	url = git@github.com:angerman/cabal2nix.git
+	branch = master
