@@ -26,6 +26,7 @@ addHaskellDepend = drv: x: addHaskellDepends drv [x];
 addHaskellDepends = drv: xs: overrideCabal drv (drv: { libraryHaskellDepends = (drv.libraryHaskellDepends or []) ++ xs; });
 
 
+# This contains an incomplete except of the PostProcess logic from cabal2nix.
 postProcess = self: super: {
   hfsevents = isLibrary
     (overridePlatforms
@@ -60,6 +61,7 @@ postProcess = self: super: {
   hinotify = if isDarwin then self.hfsevents else super.hinotify;
 };
 
+# These flags came from hackage2nix, which applied them during generation.
 cabalFlags = self: super: {
   accelerate-examples = disableCabalFlag super.accelerate-examples "opencl";
   arithmoi = disableCabalFlag super.arithmoi "llvm";
@@ -175,6 +177,9 @@ configuration = self: super: {
 
   # linux only
   hidapi = null;
+  hsignal = null; # requires blas, lapack, which are currently mapped to openblasCompat, whcih does not work.
+
+  hs-GeoIP = null; # requires GeoIP
 
   # broken tests
   tar = dontCheck super.tar;                                                       # ustar/gnu/v7 test fail.
@@ -192,6 +197,8 @@ configuration = self: super: {
   docvim = dontCheck super.docvim;                     # test depends on git?
   ed25519 = dontCheck super.ed25519;
   haskell-names = dontCheck super.haskell-names;
+  hsexif = dontCheck super.hsexif;
+  hspec-expectations = dontCheck super.hspec-expectations;
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
