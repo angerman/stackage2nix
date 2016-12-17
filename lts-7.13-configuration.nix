@@ -6,6 +6,7 @@ overrideCabal = pkgs.haskell.lib.overrideCabal;
 addBuildDepend = pkgs.haskell.lib.addBuildDepend;
 enableCabalFlag = pkgs.haskell.lib.enableCabalFlag;
 disableCabalFlag = pkgs.haskell.lib.disableCabalFlag;
+addExtraLibrary = pkgs.haskell.lib.addExtraLibrary;
 
 enableCabalFlags = drv: fs: builtins.foldl' enableCabalFlag drv fs;
 disableCabalFlags = drv: fs: builtins.foldl' disableCabalFlag drv fs;
@@ -59,6 +60,9 @@ postProcess = self: super: {
   # cabal2nix likes to generate dependencies on hinotify when hfsevents is really required
   # on darwin: https://github.com/NixOS/cabal2nix/issues/146.
   hinotify = if isDarwin then self.hfsevents else super.hinotify;
+
+  # https://github.com/bos/pcap/issues/5
+  pcap = addExtraLibrary super.pcap pkgs.libpcap;
 };
 
 # These flags came from hackage2nix, which applied them during generation.
@@ -130,7 +134,7 @@ configuration = self: super: {
   linux-namespaces = if isDarwin then null else super.linux-namespaces;
   # can not build
   leveldb-haskell = null;
-
+  gtksourceview3 = null;
 
   # This is broken, due to seemingly no frameowrk support in cabal2nix.
   gl = if isDarwin then null else super.gl;
@@ -207,6 +211,8 @@ configuration = self: super: {
   hspec-expectations = dontCheck super.hspec-expectations;
   intero = dontCheck super.intero;
   camfort = dontCheck super.camfort;
+  nettle = dontCheck super.nettle;
+  network = dontCheck super.network;
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess

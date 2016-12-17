@@ -18,10 +18,11 @@ common = compiler: lts:
       CEGUIBase = null; CEGUIOgreRenderer = null; GConf = null;
       appindicator = null; awesomium = null; gdk_x11 = null;
       gnome_keyring = null; gnome_vfs = null; gnome_vfs_module = null;
-      gtk_x11 = null; gtkglext = null; gtksourceview = null;
+      gtk_x11 = null; gtkglext = null;
       javascriptcoregtk = null; libglade = null; vte = null;
       webkit2gtk = null; webkit2gtk-web-extension = null;
 
+      gtksourceview = pkgs.gnome3.gtksourceview;
       # this seems broken on darwin.
       # It's a bit ugly to have to define it here. Otherwise
       # we'd have to null out anyting that is mapped to `webkit`
@@ -47,6 +48,7 @@ common = compiler: lts:
       ocilib = null;
       GeoIP = null;
       symengine = null;
+
       # javascriptcoregtk = null;
 
       # # win32 libs
