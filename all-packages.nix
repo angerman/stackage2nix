@@ -4,7 +4,7 @@ let
 inherit (nixpkgs) pkgs callPackage stdenv;
 
 common = compiler: lts:
- let mySelf__ = callPackage ./haskell-modules {
+ let self = callPackage ./haskell-modules {
   ghc = pkgs.haskell.compiler.${compiler};
   compilerConfig = pkgs.callPackage (./lts + "-${lts}-configuration.nix") { };
   packageSource = pkgs.callPackage (./lts + "-${lts}.nix") { };
@@ -17,7 +17,8 @@ common = compiler: lts:
                                               javascriptcoregtk = null; libglade = null; vte = null;
                                               webkit2gtk = null; webkit2gtk-web-extension = null; }
     // {
-      inherit (pkgs) cairo;
+      inherit (pkgs) cairo pango expat fontconfig freetype gd curl pcre atk;
+
       # inherit (pkgs) zlib pcre R openssl fftw fftwFloat libzip glib libxml2 cairo gtk3;
       # inherit (pkgs) bzip2 expat fontconfig freetype gd libjpeg libpng file curl;
       # inherit (pkgs) postgresql gobjectIntrospection atk gdk_pixbuf icu nettle hidapi;
@@ -27,13 +28,13 @@ common = compiler: lts:
       # inherit (pkgs.gnome2) pango libsoup gtksourceview;
       # gtk2 = pkgs.gnome2.gtk;
 
-      # # (blas, liblapack) -> openblasCompat
-      # blas = pkgs.openblasCompat;
-      # liblapack = null;
+      # (blas, liblapack) -> openblasCompat
+      blas = pkgs.openblasCompat;
+      lapack = pkgs.openblasCompat;
 
       # # ignore resolv
-      # resolv = null;
-      # iconv = null;
+      resolv = null;
+      iconv = null;
       # markdown = null;
       # webkit = null;
       # systemd = null;
@@ -51,12 +52,12 @@ common = compiler: lts:
       # winmm = null;
       # imm32 = null;
       # msimg32 = null;
-    }
-  // mySelf__.callPackage ./toolmap.nix { }
-  // {};
+    };
+  tools = self.callPackage ./toolmap.nix { }
+  // { inherit (self) alex happy cpphs c2hs hsx2hs zip; };
   };
 };
-in mySelf__;
+in self;
 
 in
 
