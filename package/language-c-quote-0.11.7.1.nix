@@ -1,8 +1,7 @@
-{ mkDerivation, alex, array, base, bytestring, containers
-, exception-mtl, exception-transformers, filepath, happy
-, haskell-src-meta, HUnit, mainland-pretty, mtl, srcloc, stdenv
-, syb, symbol, template-haskell, test-framework
-, test-framework-hunit
+{ mkDerivation, array, base, bytestring, containers, exception-mtl
+, exception-transformers, filepath, haskell-src-meta, HUnit
+, mainland-pretty, mtl, srcloc, stdenv, syb, symbol
+, template-haskell, test-framework, test-framework-hunit, tools
 }:
 mkDerivation {
   pname = "language-c-quote";
@@ -13,7 +12,7 @@ mkDerivation {
     exception-transformers filepath haskell-src-meta mainland-pretty
     mtl srcloc syb symbol template-haskell
   ];
-  libraryToolDepends = [ alex happy ];
+  libraryToolDepends = [ tools.alex tools.happy ];
   testHaskellDepends = [
     base bytestring HUnit mainland-pretty srcloc symbol test-framework
     test-framework-hunit

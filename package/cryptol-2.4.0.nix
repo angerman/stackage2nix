@@ -1,9 +1,9 @@
-{ mkDerivation, alex, ansi-terminal, array, async, base
-, base-compat, bytestring, containers, deepseq, directory, filepath
-, gitrev, GraphSCC, happy, haskeline, heredoc, monad-control
-, monadLib, old-time, presburger, pretty, process, QuickCheck
-, random, sbv, simple-smt, smtLib, stdenv, syb, template-haskell
-, text, tf-random, transformers, transformers-base, utf8-string
+{ mkDerivation, ansi-terminal, array, async, base, base-compat
+, bytestring, containers, deepseq, directory, filepath, gitrev
+, GraphSCC, haskeline, heredoc, monad-control, monadLib, old-time
+, presburger, pretty, process, QuickCheck, random, sbv, simple-smt
+, smtLib, stdenv, syb, template-haskell, text, tf-random, tools
+, transformers, transformers-base, utf8-string
 }:
 mkDerivation {
   pname = "cryptol";
@@ -18,7 +18,7 @@ mkDerivation {
     smtLib syb template-haskell text tf-random transformers
     transformers-base utf8-string
   ];
-  libraryToolDepends = [ alex happy ];
+  libraryToolDepends = [ tools.alex tools.happy ];
   executableHaskellDepends = [
     ansi-terminal base base-compat containers deepseq directory
     filepath haskeline monad-control monadLib process random sbv

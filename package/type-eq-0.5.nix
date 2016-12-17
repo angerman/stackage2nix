@@ -1,4 +1,4 @@
-{ mkDerivation, base, cpphs, stdenv }:
+{ mkDerivation, base, stdenv, tools }:
 mkDerivation {
   pname = "type-eq";
   version = "0.5";
@@ -6,7 +6,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "dc67cb2ef9a634c85eb00d3f498471f4483ac5857de78537aee8af3b8e3315bd";
   libraryHaskellDepends = [ base ];
-  libraryToolDepends = [ cpphs ];
+  libraryToolDepends = [ tools.cpphs ];
   homepage = "http://github.com/glaebhoerl/type-eq";
   description = "Type equality evidence you can carry around";
   license = stdenv.lib.licenses.bsd3;

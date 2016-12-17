@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, c2hs, containers, inline-c
-, stdenv, syspkgs, tasty, tasty-hunit, template-haskell
+{ mkDerivation, base, bytestring, containers, inline-c, stdenv
+, syspkgs, tasty, tasty-hunit, template-haskell, tools
 }:
 mkDerivation {
   pname = "hocilib";
@@ -9,7 +9,7 @@ mkDerivation {
     base containers inline-c template-haskell
   ];
   librarySystemDepends = [ syspkgs.ocilib ];
-  libraryToolDepends = [ c2hs ];
+  libraryToolDepends = [ tools.c2hs ];
   testHaskellDepends = [ base bytestring tasty tasty-hunit ];
   testSystemDepends = [ syspkgs.ocilib ];
   homepage = "https://github.com/fpinsight/hocilib";

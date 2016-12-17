@@ -1,6 +1,6 @@
 { mkDerivation, array, base, binary, bytestring, containers, digest
 , directory, filepath, HUnit, mtl, old-time, pretty, process
-, stdenv, temporary, text, time, unix, zip, zlib
+, stdenv, temporary, text, time, tools, unix, zlib
 }:
 mkDerivation {
   pname = "zip-archive";
@@ -14,7 +14,7 @@ mkDerivation {
     base bytestring directory HUnit old-time process temporary time
     unix
   ];
-  testToolDepends = [ zip ];
+  testToolDepends = [ tools.zip ];
   homepage = "http://github.com/jgm/zip-archive";
   description = "Library for creating and modifying zip archives";
   license = stdenv.lib.licenses.bsd3;

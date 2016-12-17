@@ -1,7 +1,7 @@
-{ mkDerivation, alex, array, base, binary, containers, data-default
+{ mkDerivation, array, base, binary, containers, data-default
 , filepath, hashable, hspec, microlens-platform, oo-prototypes
 , pointedlist, QuickCheck, regex-base, regex-tdfa, stdenv
-, template-haskell, transformers-base, unordered-containers
+, template-haskell, tools, transformers-base, unordered-containers
 }:
 mkDerivation {
   pname = "yi-language";
@@ -12,7 +12,7 @@ mkDerivation {
     microlens-platform oo-prototypes pointedlist regex-base regex-tdfa
     template-haskell transformers-base unordered-containers
   ];
-  libraryToolDepends = [ alex ];
+  libraryToolDepends = [ tools.alex ];
   testHaskellDepends = [
     array base binary containers data-default filepath hashable hspec
     microlens-platform pointedlist QuickCheck regex-base regex-tdfa

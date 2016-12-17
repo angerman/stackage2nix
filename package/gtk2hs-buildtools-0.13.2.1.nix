@@ -1,5 +1,5 @@
-{ mkDerivation, alex, array, base, Cabal, containers, directory
-, filepath, happy, hashtables, pretty, process, random, stdenv
+{ mkDerivation, array, base, Cabal, containers, directory, filepath
+, hashtables, pretty, process, random, stdenv, tools
 }:
 mkDerivation {
   pname = "gtk2hs-buildtools";
@@ -11,7 +11,7 @@ mkDerivation {
     array base Cabal containers directory filepath hashtables pretty
     process random
   ];
-  libraryToolDepends = [ alex happy ];
+  libraryToolDepends = [ tools.alex tools.happy ];
   executableHaskellDepends = [ base ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Tools to build the Gtk2Hs suite of User Interface libraries";

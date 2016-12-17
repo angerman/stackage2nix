@@ -1,10 +1,10 @@
-{ mkDerivation, aeson, alex, ansi-wl-pprint, array, attoparsec
-, base, base16-bytestring, binary, binary-conduit, bytestring
-, conduit, conduit-extra, containers, crypto-pubkey, cryptohash
-, directory, errors, fgl, graphviz, happy, hOpenPGP, http-client
-, http-client-tls, http-types, ixset-typed, lens, monad-loops
-, openpgp-asciiarmor, optparse-applicative, resourcet, stdenv, text
-, time, time-locale-compat, transformers, unordered-containers
+{ mkDerivation, aeson, ansi-wl-pprint, array, attoparsec, base
+, base16-bytestring, binary, binary-conduit, bytestring, conduit
+, conduit-extra, containers, crypto-pubkey, cryptohash, directory
+, errors, fgl, graphviz, hOpenPGP, http-client, http-client-tls
+, http-types, ixset-typed, lens, monad-loops, openpgp-asciiarmor
+, optparse-applicative, resourcet, stdenv, text, time
+, time-locale-compat, tools, transformers, unordered-containers
 , wl-pprint-extras, wl-pprint-terminfo, yaml
 }:
 mkDerivation {
@@ -22,7 +22,7 @@ mkDerivation {
     time-locale-compat transformers unordered-containers
     wl-pprint-extras wl-pprint-terminfo yaml
   ];
-  executableToolDepends = [ alex happy ];
+  executableToolDepends = [ tools.alex tools.happy ];
   homepage = "http://floss.scru.org/hopenpgp-tools";
   description = "hOpenPGP-based command-line tools";
   license = "unknown";

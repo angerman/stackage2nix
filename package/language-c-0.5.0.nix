@@ -1,5 +1,5 @@
-{ mkDerivation, alex, array, base, bytestring, containers
-, directory, filepath, happy, pretty, process, stdenv, syb
+{ mkDerivation, array, base, bytestring, containers, directory
+, filepath, pretty, process, stdenv, syb, tools
 }:
 mkDerivation {
   pname = "language-c";
@@ -9,7 +9,7 @@ mkDerivation {
     array base bytestring containers directory filepath pretty process
     syb
   ];
-  libraryToolDepends = [ alex happy ];
+  libraryToolDepends = [ tools.alex tools.happy ];
   homepage = "http://visq.github.io/language-c/";
   description = "Analysis and generation of C code";
   license = stdenv.lib.licenses.bsd3;

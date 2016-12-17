@@ -1,8 +1,8 @@
-{ mkDerivation, alex, array, base, binary, containers, deepseq
-, Earley, http-client, http-client-tls, microlens, microlens-mtl
-, mtl, optparse-applicative, pipes, QuickCheck, stdenv
-, system-fileio, system-filepath, tasty, tasty-hunit
-, tasty-quickcheck, text, text-format, transformers
+{ mkDerivation, array, base, binary, containers, deepseq, Earley
+, http-client, http-client-tls, microlens, microlens-mtl, mtl
+, optparse-applicative, pipes, QuickCheck, stdenv, system-fileio
+, system-filepath, tasty, tasty-hunit, tasty-quickcheck, text
+, text-format, tools, transformers
 }:
 mkDerivation {
   pname = "morte";
@@ -15,7 +15,7 @@ mkDerivation {
     http-client-tls microlens microlens-mtl pipes system-fileio
     system-filepath text text-format transformers
   ];
-  libraryToolDepends = [ alex ];
+  libraryToolDepends = [ tools.alex ];
   executableHaskellDepends = [ base optparse-applicative text ];
   testHaskellDepends = [
     base mtl QuickCheck system-filepath tasty tasty-hunit

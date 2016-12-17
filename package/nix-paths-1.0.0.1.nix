@@ -1,6 +1,4 @@
-{ mkDerivation, base, nix-build, nix-env, nix-instantiate
-, nix-store, process, stdenv
-}:
+{ mkDerivation, base, process, stdenv, tools }:
 mkDerivation {
   pname = "nix-paths";
   version = "1.0.0.1";
@@ -9,7 +7,7 @@ mkDerivation {
   editedCabalFile = "348e510f34ab00cfbdf336a862136e0f3f505eff05ccc963e574c6f655e9869e";
   libraryHaskellDepends = [ base process ];
   libraryToolDepends = [
-    nix-build nix-env nix-instantiate nix-store
+    tools.nix-build tools.nix-env tools.nix-instantiate tools.nix-store
   ];
   homepage = "https://github.com/peti/nix-paths";
   description = "Knowledge of Nix's installation directories";

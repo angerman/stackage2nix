@@ -1,6 +1,6 @@
-{ mkDerivation, alex, array, base, binary, bytestring, containers
+{ mkDerivation, array, base, binary, bytestring, containers
 , directory, filepath, haskell-src-exts, mtl, parsec
-, protocol-buffers, protocol-buffers-descriptor, stdenv
+, protocol-buffers, protocol-buffers-descriptor, stdenv, tools
 , utf8-string
 }:
 mkDerivation {
@@ -14,13 +14,13 @@ mkDerivation {
     haskell-src-exts mtl parsec protocol-buffers
     protocol-buffers-descriptor utf8-string
   ];
-  libraryToolDepends = [ alex ];
+  libraryToolDepends = [ tools.alex ];
   executableHaskellDepends = [
     array base binary bytestring containers directory filepath
     haskell-src-exts mtl parsec protocol-buffers
     protocol-buffers-descriptor utf8-string
   ];
-  executableToolDepends = [ alex ];
+  executableToolDepends = [ tools.alex ];
   homepage = "https://github.com/k-bx/protocol-buffers";
   description = "Parse Google Protocol Buffer specifications";
   license = stdenv.lib.licenses.bsd3;

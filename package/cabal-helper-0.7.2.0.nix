@@ -1,6 +1,6 @@
-{ mkDerivation, base, bytestring, Cabal, cabal, directory, extra
-, filepath, ghc-prim, mtl, process, stdenv, template-haskell
-, temporary, transformers, unix, utf8-string
+{ mkDerivation, base, bytestring, Cabal, directory, extra, filepath
+, ghc-prim, mtl, process, stdenv, template-haskell, temporary
+, tools, transformers, unix, utf8-string
 }:
 mkDerivation {
   pname = "cabal-helper";
@@ -19,7 +19,7 @@ mkDerivation {
     base bytestring Cabal directory extra filepath ghc-prim mtl process
     template-haskell temporary transformers unix utf8-string
   ];
-  testToolDepends = [ cabal ];
+  testToolDepends = [ tools.cabal ];
   description = "Simple interface to some of Cabal's configuration state used by ghc-mod";
   license = stdenv.lib.licenses.agpl3;
 }

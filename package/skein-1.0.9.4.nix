@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, cereal, crypto-api, filepath
-, hsc2hs, hspec, stdenv, tagged
+, hspec, stdenv, tagged, tools
 }:
 mkDerivation {
   pname = "skein";
@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring cereal crypto-api tagged
   ];
-  libraryToolDepends = [ hsc2hs ];
+  libraryToolDepends = [ tools.hsc2hs ];
   testHaskellDepends = [
     base bytestring cereal crypto-api filepath hspec tagged
   ];

@@ -1,8 +1,8 @@
 { mkDerivation, base, blaze-html, blaze-markup, bytestring
 , case-insensitive, clientsession, conduit, conduit-extra
-, containers, cpphs, directory, extensible-exceptions, http-types
+, containers, directory, extensible-exceptions, http-types
 , monadloc, mtl, old-time, parsec, pwstore-fast, random
-, RefSerialize, resourcet, stdenv, stm, TCache, text, time
+, RefSerialize, resourcet, stdenv, stm, TCache, text, time, tools
 , transformers, utf8-string, vector, wai, wai-extra, warp, warp-tls
 , Workflow
 }:
@@ -18,7 +18,7 @@ mkDerivation {
     transformers utf8-string vector wai wai-extra warp warp-tls
     Workflow
   ];
-  libraryToolDepends = [ cpphs ];
+  libraryToolDepends = [ tools.cpphs ];
   description = "stateful, RESTful web framework";
   license = stdenv.lib.licenses.bsd3;
 }

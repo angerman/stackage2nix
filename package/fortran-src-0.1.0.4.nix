@@ -1,6 +1,6 @@
-{ mkDerivation, alex, array, base, bytestring, containers
-, directory, fgl, filepath, GenericPretty, happy, hspec, mtl
-, pretty, stdenv, text, uniplate
+{ mkDerivation, array, base, bytestring, containers, directory, fgl
+, filepath, GenericPretty, hspec, mtl, pretty, stdenv, text, tools
+, uniplate
 }:
 mkDerivation {
   pname = "fortran-src";
@@ -12,7 +12,7 @@ mkDerivation {
     array base bytestring containers fgl GenericPretty mtl pretty text
     uniplate
   ];
-  libraryToolDepends = [ alex happy ];
+  libraryToolDepends = [ tools.alex tools.happy ];
   executableHaskellDepends = [
     array base bytestring containers fgl GenericPretty mtl pretty text
     uniplate

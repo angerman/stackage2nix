@@ -1,11 +1,10 @@
-{ mkDerivation, alex, array, base, binary, boxes, bytestring
-, containers, cpphs, data-hash, deepseq, directory, EdisonAPI
-, EdisonCore, edit-distance, equivalence, filemanip, filepath
-, geniplate-mirror, happy, hashable, hashtables, haskeline
-, haskell-src-exts, monadplus, mtl, parallel, pretty, process
-, QuickCheck, stdenv, strict, template-haskell, text, time
-, transformers, transformers-compat, unordered-containers, xhtml
-, zlib
+{ mkDerivation, array, base, binary, boxes, bytestring, containers
+, data-hash, deepseq, directory, EdisonAPI, EdisonCore
+, edit-distance, equivalence, filemanip, filepath, geniplate-mirror
+, hashable, hashtables, haskeline, haskell-src-exts, monadplus, mtl
+, parallel, pretty, process, QuickCheck, stdenv, strict
+, template-haskell, text, time, tools, transformers
+, transformers-compat, unordered-containers, xhtml, zlib
 }:
 mkDerivation {
   pname = "Agda";
@@ -23,7 +22,7 @@ mkDerivation {
     template-haskell text time transformers transformers-compat
     unordered-containers xhtml zlib
   ];
-  libraryToolDepends = [ alex cpphs happy ];
+  libraryToolDepends = [ tools.alex tools.cpphs tools.happy ];
   executableHaskellDepends = [
     base binary containers directory filemanip filepath
     haskell-src-exts mtl process

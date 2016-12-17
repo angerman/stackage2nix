@@ -1,4 +1,4 @@
-{ mkDerivation, base, bindings-DSL, git, process, stdenv, syspkgs
+{ mkDerivation, base, bindings-DSL, process, stdenv, syspkgs, tools
 , zlib
 }:
 mkDerivation {
@@ -10,7 +10,7 @@ mkDerivation {
     syspkgs.crypto syspkgs.pthread syspkgs.ssl
   ];
   testHaskellDepends = [ base process ];
-  testToolDepends = [ git ];
+  testToolDepends = [ tools.git ];
   description = "Low-level bindings to libgit2";
   license = stdenv.lib.licenses.mit;
 }

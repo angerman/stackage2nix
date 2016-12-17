@@ -1,5 +1,5 @@
 { mkDerivation, base, clckwrks, happstack-authenticate, hsp
-, hsx-jmacro, hsx2hs, jmacro, mtl, stdenv, text, web-plugins
+, hsx-jmacro, hsx2hs, jmacro, mtl, stdenv, text, tools, web-plugins
 }:
 mkDerivation {
   pname = "clckwrks-theme-bootstrap";
@@ -9,7 +9,7 @@ mkDerivation {
     base clckwrks happstack-authenticate hsp hsx-jmacro hsx2hs jmacro
     mtl text web-plugins
   ];
-  libraryToolDepends = [ hsx2hs ];
+  libraryToolDepends = [ tools.hsx2hs ];
   homepage = "http://www.clckwrks.com/";
   description = "simple bootstrap based template for clckwrks";
   license = stdenv.lib.licenses.bsd3;

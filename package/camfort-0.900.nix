@@ -1,7 +1,7 @@
-{ mkDerivation, alex, array, base, bytestring, containers
-, directory, fgl, filepath, fortran-src, GenericPretty, ghc-prim
-, happy, hmatrix, hspec, matrix, mtl, QuickCheck, stdenv, syb, syz
-, text, transformers, uniplate, vector
+{ mkDerivation, array, base, bytestring, containers, directory, fgl
+, filepath, fortran-src, GenericPretty, ghc-prim, hmatrix, hspec
+, matrix, mtl, QuickCheck, stdenv, syb, syz, text, tools
+, transformers, uniplate, vector
 }:
 mkDerivation {
   pname = "camfort";
@@ -14,7 +14,7 @@ mkDerivation {
     GenericPretty ghc-prim hmatrix matrix mtl syb syz text transformers
     uniplate vector
   ];
-  libraryToolDepends = [ alex happy ];
+  libraryToolDepends = [ tools.alex tools.happy ];
   executableHaskellDepends = [
     array base bytestring containers directory fgl filepath fortran-src
     GenericPretty ghc-prim hmatrix matrix mtl QuickCheck syb syz text

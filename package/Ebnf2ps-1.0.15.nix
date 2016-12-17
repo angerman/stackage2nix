@@ -1,5 +1,5 @@
-{ mkDerivation, array, base, containers, directory, happy, old-time
-, stdenv, unix
+{ mkDerivation, array, base, containers, directory, old-time
+, stdenv, tools, unix
 }:
 mkDerivation {
   pname = "Ebnf2ps";
@@ -10,7 +10,7 @@ mkDerivation {
   executableHaskellDepends = [
     array base containers directory old-time unix
   ];
-  executableToolDepends = [ happy ];
+  executableToolDepends = [ tools.happy ];
   homepage = "https://github.com/FranklinChen/Ebnf2ps";
   description = "Peter's Syntax Diagram Drawing Tool";
   license = stdenv.lib.licenses.bsd3;

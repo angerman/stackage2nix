@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, containers, directory
-, filepath, haskell-gi-base, hsc2hs, mtl, pretty-show, process
-, safe, stdenv, syspkgs, text, transformers, xdg-basedir
+, filepath, haskell-gi-base, mtl, pretty-show, process, safe
+, stdenv, syspkgs, text, tools, transformers, xdg-basedir
 , xml-conduit
 }:
 mkDerivation {
@@ -17,7 +17,7 @@ mkDerivation {
   libraryPkgconfigDepends = [
     syspkgs."gobject-2.0" syspkgs."gobject-introspection-1.0"
   ];
-  libraryToolDepends = [ hsc2hs ];
+  libraryToolDepends = [ tools.hsc2hs ];
   executableHaskellDepends = [
     base containers directory filepath haskell-gi-base pretty-show text
   ];

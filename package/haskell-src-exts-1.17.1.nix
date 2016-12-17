@@ -1,6 +1,6 @@
 { mkDerivation, array, base, containers, cpphs, directory, filepath
-, ghc-prim, happy, mtl, pretty, pretty-show, smallcheck, stdenv
-, syb, tasty, tasty-golden, tasty-smallcheck
+, ghc-prim, mtl, pretty, pretty-show, smallcheck, stdenv, syb
+, tasty, tasty-golden, tasty-smallcheck, tools
 }:
 mkDerivation {
   pname = "haskell-src-exts";
@@ -9,7 +9,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "c07248f2a7b4bee1c7777dc6e441e8d1f32a02fb596ea49f47074c68b3c9ea0b";
   libraryHaskellDepends = [ array base cpphs ghc-prim pretty ];
-  libraryToolDepends = [ happy ];
+  libraryToolDepends = [ tools.happy ];
   testHaskellDepends = [
     base containers directory filepath mtl pretty-show smallcheck syb
     tasty tasty-golden tasty-smallcheck

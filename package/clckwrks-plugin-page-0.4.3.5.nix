@@ -2,7 +2,7 @@
 , containers, directory, filepath, happstack-hsp, happstack-server
 , hsp, hsx2hs, ixset, mtl, old-locale, random, reform
 , reform-happstack, reform-hsp, safecopy, stdenv, tagsoup
-, template-haskell, text, time, time-locale-compat, uuid
+, template-haskell, text, time, time-locale-compat, tools, uuid
 , uuid-orphans, web-plugins, web-routes, web-routes-happstack
 , web-routes-th
 }:
@@ -18,7 +18,7 @@ mkDerivation {
     uuid-orphans web-plugins web-routes web-routes-happstack
     web-routes-th
   ];
-  libraryToolDepends = [ hsx2hs ];
+  libraryToolDepends = [ tools.hsx2hs ];
   homepage = "http://www.clckwrks.com/";
   description = "support for CMS/Blogging in clckwrks";
   license = stdenv.lib.licenses.bsd3;

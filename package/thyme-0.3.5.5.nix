@@ -1,7 +1,7 @@
 { mkDerivation, aeson, attoparsec, base, bytestring, Cabal
-, containers, cpphs, deepseq, directory, filepath, mtl, old-locale
+, containers, deepseq, directory, filepath, mtl, old-locale
 , profunctors, QuickCheck, random, stdenv, system-posix-redirect
-, text, time, vector, vector-space, vector-th-unbox
+, text, time, tools, vector, vector-space, vector-th-unbox
 }:
 mkDerivation {
   pname = "thyme";
@@ -12,7 +12,7 @@ mkDerivation {
     profunctors QuickCheck random text time vector vector-space
     vector-th-unbox
   ];
-  libraryToolDepends = [ cpphs ];
+  libraryToolDepends = [ tools.cpphs ];
   testHaskellDepends = [
     attoparsec base bytestring Cabal containers directory filepath mtl
     old-locale profunctors QuickCheck random system-posix-redirect text

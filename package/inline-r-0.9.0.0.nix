@@ -1,10 +1,10 @@
-{ mkDerivation, aeson, base, bytestring, c2hs, containers
+{ mkDerivation, aeson, base, bytestring, containers
 , data-default-class, deepseq, directory, exceptions, filepath
-, hsc2hs, ieee754, mtl, pretty, primitive, process
-, quickcheck-assertions, reflection, setenv, silently, singletons
-, stdenv, strict, syspkgs, tasty, tasty-expected-failure
-, tasty-golden, tasty-hunit, tasty-quickcheck, template-haskell
-, temporary, text, th-lift, th-orphans, transformers, unix, vector
+, ieee754, mtl, pretty, primitive, process, quickcheck-assertions
+, reflection, setenv, silently, singletons, stdenv, strict, syspkgs
+, tasty, tasty-expected-failure, tasty-golden, tasty-hunit
+, tasty-quickcheck, template-haskell, temporary, text, th-lift
+, th-orphans, tools, transformers, unix, vector
 }:
 mkDerivation {
   pname = "inline-r";
@@ -17,7 +17,7 @@ mkDerivation {
     unix vector
   ];
   libraryPkgconfigDepends = [ syspkgs.libR ];
-  libraryToolDepends = [ c2hs hsc2hs ];
+  libraryToolDepends = [ tools.c2hs tools.hsc2hs ];
   testHaskellDepends = [
     base bytestring directory filepath ieee754 mtl process
     quickcheck-assertions silently singletons strict tasty

@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, cpphs, deepseq, directory
-, filepath, happy, haskell-src-exts, hflags, stdenv
-, template-haskell, uniplate
+, filepath, haskell-src-exts, hflags, stdenv, template-haskell
+, tools, uniplate
 }:
 mkDerivation {
   pname = "homplexity";
@@ -12,7 +12,7 @@ mkDerivation {
     base containers cpphs deepseq directory filepath haskell-src-exts
     hflags template-haskell uniplate
   ];
-  executableToolDepends = [ happy ];
+  executableToolDepends = [ tools.happy ];
   testHaskellDepends = [ base haskell-src-exts uniplate ];
   homepage = "https://github.com/mgajda/homplexity";
   description = "Haskell code quality tool";

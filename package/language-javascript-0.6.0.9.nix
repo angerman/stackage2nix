@@ -1,5 +1,5 @@
-{ mkDerivation, alex, array, base, blaze-builder, bytestring, Cabal
-, containers, happy, hspec, mtl, QuickCheck, stdenv, text
+{ mkDerivation, array, base, blaze-builder, bytestring, Cabal
+, containers, hspec, mtl, QuickCheck, stdenv, text, tools
 , utf8-light, utf8-string
 }:
 mkDerivation {
@@ -9,7 +9,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base blaze-builder bytestring containers mtl text utf8-string
   ];
-  libraryToolDepends = [ alex happy ];
+  libraryToolDepends = [ tools.alex tools.happy ];
   testHaskellDepends = [
     array base blaze-builder bytestring Cabal containers hspec mtl
     QuickCheck utf8-light utf8-string
