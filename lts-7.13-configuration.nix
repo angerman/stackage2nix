@@ -7,6 +7,10 @@ addBuildDepend = pkgs.haskell.lib.addBuildDepend;
 overridePreconfigure = drv: preConfigure: overrideCabal drv (drv: { inherit preConfigure; });
 isDarwin = pkgs.stdenv.isDarwin;
 
+postProcess = self: super: {
+
+};
+
 in
 self: super: {
   # Disable GHC 8.0.x core libraries.
@@ -103,6 +107,15 @@ self: super: {
   DRBG = dontCheck super.DRBG;
   css-text = dontCheck super.css-text;
   ghc-exactprint = dontCheck super.ghc-exactprint;
+  hapistrano = dontCheck super.hapistrano;
+
+  # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
+  cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
+  cabal-install = dontCheck super.cabal-install;       # from PostProcess
+  dbus = dontCheck super.dbus;                         # from PostProcess
+  git = dontCheck super.git;                           # from PostProcess - https://github.com/vincenthz/hit/issues/33
+  haskell-src-exts = dontCheck super.haskell-src-exts; # from PostProcess
+
 
   # Ensure the necessary frameworks are propagatedBuildInputs on darwin
   OpenGLRaw = overrideCabal super.OpenGLRaw (drv: {
