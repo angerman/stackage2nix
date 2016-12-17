@@ -72,7 +72,7 @@ cabalFlags = self: super: {
                                                  "webapp" "webapp-secure" "webdav" "xmpp" ];
   haskeline = enableCabalFlag super.haskeline "terminfo";
   haste-compiler = enableCabalFlag super.haste-compiler "portable";
-  highlighting-kate = enableCabalFlag super.highlighting-kate "pcre-light";
+  # highlighting-kate = enableCabalFlag super.highlighting-kate "pcre-light";
   hlibsass = enableCabalFlag super.hlibsass "externalLibsass";
   hmatrix = enableCabalFlag super.hmatrix "openblas";
   hslua = enableCabalFlag super.hslua "system-lua";
