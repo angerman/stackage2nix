@@ -126,6 +126,11 @@ configuration = self: super: {
   bindings-GLFW = if isDarwin then null else super.bindings-GLFW;
   GLFW-b = if isDarwin then null else super.GLFW-b;
   btrfs = if isDarwin then null else super.btrfs;
+  linux-file-extents = if isDarwin then null else super.linux-file-extents;
+  linux-namespaces = if isDarwin then null else super.linux-namespaces;
+  # can not build
+  leveldb-haskell = null;
+
 
   # This is broken, due to seemingly no frameowrk support in cabal2nix.
   gl = if isDarwin then null else super.gl;
@@ -161,6 +166,7 @@ configuration = self: super: {
   doctest-prop = dontCheck super.doctest-prop;
   either-unwrap = dontCheck super.either-unwrap;
   ghc-events = dontCheck super.ghc-events;
+  hyphenation = dontCheck super.hyphenation;
 
   heaps = dontCheck super.heaps;                                                  # doctest missing
   hastache = dontCheck super.hastache;                                            # base < 4.9
@@ -199,6 +205,8 @@ configuration = self: super: {
   haskell-names = dontCheck super.haskell-names;
   hsexif = dontCheck super.hsexif;
   hspec-expectations = dontCheck super.hspec-expectations;
+  intero = dontCheck super.intero;
+  camfort = dontCheck super.camfort;
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
