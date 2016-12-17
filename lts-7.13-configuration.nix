@@ -6,6 +6,7 @@ overrideCabal = pkgs.haskell.lib.overrideCabal;
 addBuildDepend = pkgs.haskell.lib.addBuildDepend;
 overridePreconfigure = drv: preConfigure: overrideCabal drv (drv: { inherit preConfigure; });
 isDarwin = pkgs.stdenv.isDarwin;
+
 in
 self: super: {
   # Disable GHC 8.0.x core libraries.
@@ -72,6 +73,12 @@ self: super: {
   json-ast = null;
   postgresql-binary = dontCheck super.postgresql-binary;
   concurrent-extra = dontCheck super.concurrent-extra;
+  doctest-discover = dontCheck super.doctest-discover;
+  doctest-prop = dontCheck super.doctest-prop;
+  either-unwrap = dontCheck super.either-unwrap;
+  ghc-events = dontCheck super.ghc-events;
+
+  discount = null; # markdown c library is missing.
 
   # set platform markers (this used to be done in cabal2nix postprocessing)
   # Win32 = overrideCabal super.Win32 (drv: { platforms = pkgs.stdenv.lib.platforms.cygwin; });
@@ -91,6 +98,8 @@ self: super: {
   angel = dontCheck super.angel;
   crypto-pubkey = dontCheck super.crypto-pubkey;
   DRBG = dontCheck super.DRBG;
+  css-text = dontCheck super.css-text;
+  ghc-exactprint = dontCheck super.ghc-exactprint;
 
   # Ensure the necessary frameworks are propagatedBuildInputs on darwin
   OpenGLRaw = overrideCabal super.OpenGLRaw (drv: {
