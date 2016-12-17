@@ -15,18 +15,13 @@ common = compiler: lts:
                                               gnome_keyring = null; gnome_vfs = null; gnome_vfs_module = null;
                                               gtk_x11 = null; gtkglext = null; gtksourceview = null;
                                               javascriptcoregtk = null; libglade = null; vte = null;
-                                              webkit2gtk = null; webkit2gtk-web-extension = null; }
-    // {
-      inherit (pkgs) cairo pango expat fontconfig freetype gd curl pcre atk;
+                                              webkit2gtk = null; webkit2gtk-web-extension = null;
 
-      # inherit (pkgs) zlib pcre R openssl fftw fftwFloat libzip glib libxml2 cairo gtk3;
-      # inherit (pkgs) bzip2 expat fontconfig freetype gd libjpeg libpng file curl;
-      # inherit (pkgs) postgresql gobjectIntrospection atk gdk_pixbuf icu nettle hidapi;
-      # inherit (pkgs) libsass gsl mpfr ruby adns libsndfile taglib leveldb libnotify SDL2;
-      # inherit (pkgs) gmp gmpxx zeromq freenect;
-      # inherit (pkgs.xorg) libX11 libXext libXinerama libXrandr libXrender libXau;
-      # inherit (pkgs.gnome2) pango libsoup gtksourceview;
-      # gtk2 = pkgs.gnome2.gtk;
+                                              webkit = null; # this seems broken on darwin
+                                               }
+    // {
+      inherit (pkgs) cairo pango expat fontconfig freetype gd curl pcre atk
+        nettle gsl mpfr ruby adns leveldb SDL2 gmp gmpxx;
 
       # (blas, liblapack) -> openblasCompat
       blas = pkgs.openblasCompat;
@@ -38,9 +33,9 @@ common = compiler: lts:
       # markdown = null;
       # webkit = null;
       # systemd = null;
-      # ocilib = null;
-      # GeoIP = null;
-      # symengine = null;
+      ocilib = null;
+      GeoIP = null;
+      symengine = null;
       # javascriptcoregtk = null;
 
       # # win32 libs
@@ -54,7 +49,10 @@ common = compiler: lts:
       # msimg32 = null;
     };
   tools = self.callPackage ./toolmap.nix { }
-  // { inherit (self) alex happy cpphs c2hs hsx2hs zip; };
+  // {
+    inherit (self) alex happy cpphs c2hs hsx2hs zip;
+    inherit (pkgs) git;
+   };
   };
 };
 in self;
