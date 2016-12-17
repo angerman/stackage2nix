@@ -45,6 +45,9 @@ self: super: {
   GLFW-b = if isDarwin then null else super.GLFW-b;
   btrfs = if isDarwin then null else super.btrfs;
 
+  # This is broken, due to seemingly no frameowrk support in cabal2nix.
+  gl = if isDarwin then null else super.gl;
+
   hmatrix = if isDarwin
     then addBuildDepend super.hmatrix pkgs.darwin.apple_sdk.frameworks.Accelerate
     else super.hmatrix;
