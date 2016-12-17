@@ -9,7 +9,7 @@ mkDerivation {
     base bytestring containers haskell-gi haskell-gi-base text
     transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.glib ];
+  libraryPkgconfigDepends = [ syspkgs."glib-2.0" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "GLib bindings";

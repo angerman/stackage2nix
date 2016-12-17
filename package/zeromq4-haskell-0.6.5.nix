@@ -10,7 +10,7 @@ mkDerivation {
     async base bytestring containers exceptions monad-control
     semigroups transformers transformers-base
   ];
-  libraryPkgconfigDepends = [ syspkgs.zeromq ];
+  libraryPkgconfigDepends = [ syspkgs.libzmq ];
   testHaskellDepends = [
     async base bytestring QuickCheck tasty tasty-hunit tasty-quickcheck
   ];

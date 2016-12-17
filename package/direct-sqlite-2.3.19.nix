@@ -1,11 +1,12 @@
 { mkDerivation, base, base16-bytestring, bytestring, directory
-, HUnit, stdenv, temporary, text
+, HUnit, stdenv, syspkgs, temporary, text
 }:
 mkDerivation {
   pname = "direct-sqlite";
   version = "2.3.19";
   sha256 = "0g7bwv1496qb1lgz15q83zjg8ddw1icpb98i70zrxpcdi2crnzpl";
   libraryHaskellDepends = [ base bytestring text ];
+  librarySystemDepends = [ syspkgs.pthread ];
   testHaskellDepends = [
     base base16-bytestring bytestring directory HUnit temporary text
   ];

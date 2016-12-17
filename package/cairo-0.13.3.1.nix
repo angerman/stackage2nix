@@ -9,7 +9,9 @@ mkDerivation {
   libraryHaskellDepends = [
     array base bytestring mtl text utf8-string
   ];
-  libraryPkgconfigDepends = [ syspkgs.cairo ];
+  libraryPkgconfigDepends = [
+    syspkgs.cairo syspkgs.cairo-pdf syspkgs.cairo-ps syspkgs.cairo-svg
+  ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Cairo library";
   license = stdenv.lib.licenses.bsd3;

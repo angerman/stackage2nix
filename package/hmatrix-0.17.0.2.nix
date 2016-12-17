@@ -9,7 +9,7 @@ mkDerivation {
     array base binary bytestring deepseq random split storable-complex
     vector
   ];
-  librarySystemDepends = [ syspkgs.blas syspkgs.liblapack ];
+  librarySystemDepends = [ syspkgs.blas syspkgs.lapack ];
   homepage = "https://github.com/albertoruiz/hmatrix";
   description = "Numeric Linear Algebra";
   license = stdenv.lib.licenses.bsd3;

@@ -10,7 +10,9 @@ mkDerivation {
   libraryHaskellDepends = [
     array base cairo containers directory glib mtl pretty process text
   ];
-  libraryPkgconfigDepends = [ syspkgs.cairo syspkgs.pango ];
+  libraryPkgconfigDepends = [
+    syspkgs.cairo syspkgs.pango syspkgs.pangocairo
+  ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Pango text rendering engine";
   license = stdenv.lib.licenses.lgpl21;

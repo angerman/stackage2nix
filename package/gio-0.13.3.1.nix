@@ -9,7 +9,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base bytestring containers glib mtl
   ];
-  libraryPkgconfigDepends = [ syspkgs.glib ];
+  libraryPkgconfigDepends = [ syspkgs."gio-2.0" ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to GIO";
   license = stdenv.lib.licenses.lgpl21;

@@ -6,7 +6,7 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring ];
   librarySystemDepends = [
     syspkgs.expat syspkgs.fontconfig syspkgs.freetype syspkgs.gd
-    syspkgs.libjpeg syspkgs.libpng syspkgs.zlib
+    syspkgs.jpeg syspkgs.m syspkgs.png syspkgs.z
   ];
   description = "A Haskell binding to a subset of the GD graphics library";
   license = stdenv.lib.licenses.bsd3;

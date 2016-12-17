@@ -10,9 +10,7 @@ mkDerivation {
     array base binary bytestring hmatrix hmatrix-gsl hmatrix-gsl-stats
     hstatistics mtl storable-complex vector
   ];
-  librarySystemDepends = [
-    syspkgs.blas syspkgs.gsl syspkgs.liblapack
-  ];
+  librarySystemDepends = [ syspkgs.blas syspkgs.gsl syspkgs.lapack ];
   libraryPkgconfigDepends = [ syspkgs.gsl ];
   homepage = "http://code.haskell.org/hsignal";
   description = "Signal processing and EEG data analysis";

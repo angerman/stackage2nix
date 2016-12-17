@@ -11,7 +11,7 @@ mkDerivation {
     gi-gio gi-glib gi-gobject gi-pango haskell-gi haskell-gi-base text
     transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.gtk3 ];
+  libraryPkgconfigDepends = [ syspkgs."gtk+-3.0" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Gtk bindings";

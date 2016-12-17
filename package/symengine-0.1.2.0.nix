@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base tasty tasty-hunit tasty-quickcheck ];
   testSystemDepends = [
-    syspkgs.gmp syspkgs.gmpxx syspkgs.symengine
+    syspkgs."stdc++" syspkgs.gmp syspkgs.gmpxx syspkgs.symengine
   ];
   homepage = "http://github.com/symengine/symengine.hs#readme";
   description = "SymEngine symbolic mathematics engine for Haskell";

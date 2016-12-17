@@ -10,7 +10,7 @@ mkDerivation {
     base bytestring containers gi-cairo gi-gdkpixbuf gi-gio gi-glib
     gi-gobject gi-pango haskell-gi haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.gtk3 ];
+  libraryPkgconfigDepends = [ syspkgs."gdk-3.0" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Gdk bindings";

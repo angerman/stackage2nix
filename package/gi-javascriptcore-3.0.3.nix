@@ -9,7 +9,7 @@ mkDerivation {
     base bytestring containers haskell-gi haskell-gi-base text
     transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.javascriptcoregtk ];
+  libraryPkgconfigDepends = [ syspkgs."javascriptcoregtk-3.0" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "JavaScriptCore bindings";

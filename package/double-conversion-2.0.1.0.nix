@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, ghc-prim, integer-gmp, stdenv
-, test-framework, test-framework-quickcheck2, text
+, syspkgs, test-framework, test-framework-quickcheck2, text
 }:
 mkDerivation {
   pname = "double-conversion";
@@ -8,6 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring ghc-prim integer-gmp text
   ];
+  librarySystemDepends = [ syspkgs."stdc++" ];
   testHaskellDepends = [
     base bytestring test-framework test-framework-quickcheck2 text
   ];

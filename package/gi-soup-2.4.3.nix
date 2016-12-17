@@ -10,7 +10,7 @@ mkDerivation {
     base bytestring containers gi-gio gi-glib gi-gobject haskell-gi
     haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.libsoup ];
+  libraryPkgconfigDepends = [ syspkgs."libsoup-2.4" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Libsoup bindings";

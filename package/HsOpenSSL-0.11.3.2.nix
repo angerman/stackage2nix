@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring integer-gmp network time
   ];
-  librarySystemDepends = [ syspkgs.openssl ];
+  librarySystemDepends = [ syspkgs.crypto syspkgs.ssl ];
   testHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/vshabanov/HsOpenSSL";
   description = "Partial OpenSSL binding for Haskell";

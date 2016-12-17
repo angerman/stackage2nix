@@ -9,7 +9,7 @@ mkDerivation {
     base bytestring containers gi-glib gi-gobject haskell-gi
     haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.glib ];
+  libraryPkgconfigDepends = [ syspkgs."gio-2.0" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Gio bindings";

@@ -9,7 +9,9 @@ mkDerivation {
   libraryHaskellDepends = [
     array base bytestring cairo containers gio glib mtl pango text
   ];
-  libraryPkgconfigDepends = [ syspkgs.glib syspkgs.gtk3 ];
+  libraryPkgconfigDepends = [
+    syspkgs."gthread-2.0" syspkgs."gtk+-3.0"
+  ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Gtk+ 3 graphical user interface library";
   license = stdenv.lib.licenses.lgpl21;

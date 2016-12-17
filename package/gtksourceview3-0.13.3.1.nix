@@ -1,5 +1,6 @@
 { mkDerivation, array, base, Cabal, containers, glib
-, gtk2hs-buildtools, gtk3, mtl, stdenv, syspkgs, text
+, gtk2hs-buildtools, gtk2hsC2hs, gtk2hsHookGenerator, gtk2hsTypeGen
+, gtk3, mtl, stdenv, syspkgs, text
 }:
 mkDerivation {
   pname = "gtksourceview3";
@@ -9,8 +10,10 @@ mkDerivation {
   libraryHaskellDepends = [
     array base containers glib gtk3 mtl text
   ];
-  libraryPkgconfigDepends = [ syspkgs.gtksourceview ];
-  libraryToolDepends = [ gtk2hs-buildtools ];
+  libraryPkgconfigDepends = [ syspkgs."gtksourceview-3.0" ];
+  libraryToolDepends = [
+    gtk2hsC2hs gtk2hsHookGenerator gtk2hsTypeGen
+  ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the GtkSourceView library";
   license = stdenv.lib.licenses.lgpl21;

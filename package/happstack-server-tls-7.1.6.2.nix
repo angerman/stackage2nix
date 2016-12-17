@@ -10,7 +10,7 @@ mkDerivation {
     base bytestring extensible-exceptions happstack-server hslogger
     HsOpenSSL network sendfile time unix
   ];
-  librarySystemDepends = [ syspkgs.openssl ];
+  librarySystemDepends = [ syspkgs.ssl ];
   homepage = "http://www.happstack.com/";
   description = "extend happstack-server with https:// support (TLS/SSL)";
   license = stdenv.lib.licenses.bsd3;

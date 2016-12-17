@@ -9,7 +9,9 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring containers text utf8-string
   ];
-  libraryPkgconfigDepends = [ syspkgs.glib ];
+  libraryPkgconfigDepends = [
+    syspkgs."glib-2.0" syspkgs."gobject-2.0"
+  ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the GLIB library for Gtk2Hs";
   license = stdenv.lib.licenses.lgpl21;

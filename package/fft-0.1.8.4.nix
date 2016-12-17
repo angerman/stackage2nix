@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base carray ix-shapable storable-complex syb transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.fftw syspkgs.fftwFloat ];
+  libraryPkgconfigDepends = [ syspkgs.fftw3 syspkgs.fftw3f ];
   testHaskellDepends = [ base carray QuickCheck storable-complex ];
   description = "Bindings to the FFTW library";
   license = stdenv.lib.licenses.bsd3;

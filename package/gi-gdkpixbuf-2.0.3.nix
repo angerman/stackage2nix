@@ -10,7 +10,7 @@ mkDerivation {
     base bytestring containers gi-gio gi-glib gi-gobject haskell-gi
     haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.gdk_pixbuf ];
+  libraryPkgconfigDepends = [ syspkgs."gdk-pixbuf-2.0" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "GdkPixbuf bindings";

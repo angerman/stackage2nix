@@ -12,7 +12,7 @@ mkDerivation {
     gi-gio gi-glib gi-gobject gi-gtk gi-javascriptcore gi-soup
     haskell-gi haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.webkit ];
+  libraryPkgconfigDepends = [ syspkgs."webkitgtk-3.0" ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "WebKit bindings";

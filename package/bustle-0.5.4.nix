@@ -13,7 +13,7 @@ mkDerivation {
     base bytestring cairo containers dbus directory filepath gio glib
     gtk3 hgettext mtl pango parsec pcap process setlocale text time
   ];
-  executablePkgconfigDepends = [ syspkgs.glib ];
+  executablePkgconfigDepends = [ syspkgs."glib-2.0" ];
   testHaskellDepends = [
     base bytestring cairo containers dbus directory filepath gtk3
     hgettext HUnit mtl pango pcap QuickCheck setlocale test-framework

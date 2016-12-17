@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, conduit, containers, hspec
 , monad-control, monad-logger, old-locale, persistent
-, persistent-template, resource-pool, resourcet, stdenv, temporary
-, text, time, transformers
+, persistent-template, resource-pool, resourcet, stdenv, syspkgs
+, temporary, text, time, transformers
 }:
 mkDerivation {
   pname = "persistent-sqlite";
@@ -12,6 +12,7 @@ mkDerivation {
     old-locale persistent resource-pool resourcet text time
     transformers
   ];
+  librarySystemDepends = [ syspkgs.pthread ];
   testHaskellDepends = [
     base hspec persistent persistent-template temporary text time
     transformers

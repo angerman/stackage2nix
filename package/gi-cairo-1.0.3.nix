@@ -9,7 +9,7 @@ mkDerivation {
     base bytestring containers haskell-gi haskell-gi-base text
     transformers
   ];
-  libraryPkgconfigDepends = [ syspkgs.cairo ];
+  libraryPkgconfigDepends = [ syspkgs.cairo-gobject ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Cairo bindings";

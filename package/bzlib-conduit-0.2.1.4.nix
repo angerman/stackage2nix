@@ -10,7 +10,7 @@ mkDerivation {
     base bindings-DSL bytestring conduit conduit-extra data-default mtl
     resourcet
   ];
-  librarySystemDepends = [ syspkgs.bzip2 ];
+  librarySystemDepends = [ syspkgs.bz2 ];
   testHaskellDepends = [
     base bytestring conduit conduit-extra hspec QuickCheck random
     resourcet
