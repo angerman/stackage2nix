@@ -73,7 +73,7 @@ let
       };
 
     in
-      packageSource { inherit pkgs stdenv callPackage; } self // {
+      (packageSource { inherit pkgs stdenv callPackage; } self // {
 
         inherit mkDerivation callPackage;
 
@@ -94,7 +94,7 @@ let
           withHoogle = self.ghcWithHoogle;
         };
 
-      };
+      }) // { allPackageNames = builtins.attrNames (packageSource { inherit pkgs stdenv callPackage; } {}); };
 
   commonConfiguration = commonConfig { inherit pkgs; };
 
