@@ -4,15 +4,91 @@ dontCheck = pkgs.haskell.lib.dontCheck;
 dontHaddock = pkgs.haskell.lib.dontHaddock;
 overrideCabal = pkgs.haskell.lib.overrideCabal;
 addBuildDepend = pkgs.haskell.lib.addBuildDepend;
+enableCabalFlag = pkgs.haskell.lib.enableCabalFlag;
+disableCabalFlag = pkgs.haskell.lib.disableCabalFlag;
+
+enableCabalFlags = drv: fs: builtins.foldl' enableCabalFlag drv fs;
+disableCabalFlags = drv: fs: builtins.foldl' disableCabalFlag drv fs;
+
 overridePreconfigure = drv: preConfigure: overrideCabal drv (drv: { inherit preConfigure; });
 isDarwin = pkgs.stdenv.isDarwin;
 
-postProcess = self: super: {
+isLibrary = drv: overrideCabal drv (drv: { isLibrary = true; });
+overridePlatforms = drv: platforms: overrideCabal drv (drv: { inherit platforms; });
 
+addToolDepend = drv: x: addToolDepends drv [x];
+addToolDepends = drv: xs: overrideCabal drv (drv: { libraryToolDepends = (drv.libraryTooldDepends or []) ++ xs; });
+
+addSystemDepend = drv: x: addSystemDepends drv [x];
+addSystemDepends = drv: xs: overrideCabal drv (drv: { librarySystemDepends = (drv.librarySystemDepends or []) ++ xs; });
+
+addHaskellDepend = drv: x: addHaskellDepends drv [x];
+addHaskellDepends = drv: xs: overrideCabal drv (drv: { libraryHaskellDepends = (drv.libraryHaskellDepends or []) ++ xs; });
+
+
+postProcess = self: super: {
+  hfsevents = isLibrary
+    (overridePlatforms
+     (addToolDepend
+      (addSystemDepend
+       (addHaskellDepends super.hfsevents [self.base self.cereal self.mtl self.text self.bytestring])
+      pkgs.darwin.apple_sdk.frameworks.Cocoa)
+     pkgs.darwin.apple_sdk.frameworks.CoreServices)
+    pkgs.lib.platforms.darwin);
+  hidapi = overridePlatforms super.hidapi pkgs.lib.platforms.linux;
+
+  # # Make elisp files available at a location where people expect it.
+  hindent = (overrideCabal super.hindent (drv: {
+    # We cannot easily byte-compile these files, unfortunately, because they
+    # depend on a new version of haskell-mode that we don't have yet.
+    postInstall = ''
+      local lispdir=( "$out/share/"*"-${self.ghc.name}/${drv.pname}-${drv.version}/elisp" )
+      mkdir -p $out/share/emacs
+      ln -s $lispdir $out/share/emacs/site-lisp
+    '';
+  }));
+  hmatrix = if isDarwin
+    then addBuildDepend super.hmatrix pkgs.darwin.apple_sdk.frameworks.Accelerate
+    else super.hmatrix;
+
+  fsnotify = if isDarwin
+    then addBuildDepend super.fsnotify pkgs.darwin.apple_sdk.frameworks.Cocoa
+    else super.fsnotify;
+
+  # cabal2nix likes to generate dependencies on hinotify when hfsevents is really required
+  # on darwin: https://github.com/NixOS/cabal2nix/issues/146.
+  hinotify = if isDarwin then self.hfsevents else super.hinotify;
 };
 
-in
-self: super: {
+cabalFlags = self: super: {
+  accelerate-examples = disableCabalFlag super.accelerate-examples "opencl";
+  arithmoi = disableCabalFlag super.arithmoi "llvm";
+  darcs = enableCabalFlags super.darcs [ "library" "force-char8-encoding" ];
+  diagrams-builder = enableCabalFlags super.diagrams-builder [ "cairo" "svg" "ps" "rasterific" ];
+  folds = disableCabalFlags super.folds [ "test-hlint" ];
+  git-annex = enableCabalFlags super.git-anned [ "assistant" "cryptonite" "dbus" "desktopnotify"
+                                                 "dns" "feed" "inotify" "pairing" "production"
+                                                 "quvi" "s3" "tahoe" "tdfa" "testsuite" "torrentparser"
+                                                 "webapp" "webapp-secure" "webdav" "xmpp" ];
+  haskeline = enableCabalFlag super.haskeline "terminfo";
+  haste-compiler = enableCabalFlag super.haste-compiler "portable";
+  highlighting-kate = enableCabalFlag super.highlighting-kate "pcre-light";
+  hlibsass = enableCabalFlag super.hlibsass "externalLibsass";
+  hmatrix = enableCabalFlag super.hmatrix "openblas";
+  hslua = enableCabalFlag super.hslua "system-lua";
+  idris = enableCabalFlags super.idris [ "gmp" "ffi" "curses" ];
+  io-streams = enableCabalFlag super.io-streams "NoInteractiveTests";
+  liquid-fixpoint = enableCabalFlag super.liquid-fixpoint "build-external";
+  pandoc = disableCabalFlag (enableCabalFlag super.pandoc "https") "trypandoc";
+  reactive-banana-wx = disableCabalFlag super.reactive-banana-wx "buildExamples";
+  snap-server = enableCabalFlag super.snap-server "openssl";
+  xmobar = enableCabalFlag super.xmobar "all_extensions";
+  xmonad-extras = disableCabalFlag (enableCabalFlags super.xmonad-extras [ "with_split" "with_parsec" ]) "with_hlist";
+  yaml = enableCabalFlag super.yaml "system-libyaml";
+  yi = enableCabalFlags super.yi [ "pango" "vty" ];
+};
+
+configuration = self: super: {
   # Disable GHC 8.0.x core libraries.
   array = null;
   base = null;
@@ -52,9 +128,8 @@ self: super: {
   # This is broken, due to seemingly no frameowrk support in cabal2nix.
   gl = if isDarwin then null else super.gl;
 
-  hmatrix = if isDarwin
-    then addBuildDepend super.hmatrix pkgs.darwin.apple_sdk.frameworks.Accelerate
-    else super.hmatrix;
+  fsnotify = dontCheck super.fsnotify;
+  hindent = dontCheck super.hindent; # https://github.com/chrisdone/hindent/issues/299
 
   # break infinite recursion
   nanospec = dontCheck super.nanospec;
@@ -85,6 +160,9 @@ self: super: {
   either-unwrap = dontCheck super.either-unwrap;
   ghc-events = dontCheck super.ghc-events;
 
+  heaps = dontCheck super.heaps;                                                  # doctest missing
+  hastache = dontCheck super.hastache;                                            # base < 4.9
+
   discount = null; # markdown c library is missing.
 
   # set platform markers (this used to be done in cabal2nix postprocessing)
@@ -94,6 +172,9 @@ self: super: {
   Win32 = null;                                                                    # requires advapi32, gdi32, ... other systemDependencies
   Win32-extras = null;
   Win32-notify = null;
+
+  # linux only
+  hidapi = null;
 
   # broken tests
   tar = dontCheck super.tar;                                                       # ustar/gnu/v7 test fail.
@@ -108,6 +189,9 @@ self: super: {
   css-text = dontCheck super.css-text;
   ghc-exactprint = dontCheck super.ghc-exactprint;
   hapistrano = dontCheck super.hapistrano;
+  docvim = dontCheck super.docvim;                     # test depends on git?
+  ed25519 = dontCheck super.ed25519;
+  haskell-names = dontCheck super.haskell-names;
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
@@ -148,4 +232,6 @@ self: super: {
     export GI_TYPELIB_PATH=${pkgs.gdk_pixbuf.out}/lib/girepository-1.0
   '';
 
-}
+};
+# FIXME: I think this is essentially `extends` from `pkgs.lib`, however I'm unable to make it work.
+in self: super: let super2 = super // postProcess self super; in let super3 = super2 // cabalFlags self super2; in super3 // configuration self super3
