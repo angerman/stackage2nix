@@ -63,5 +63,5 @@ in
 
 let lts713 = common "ghc801" "7.13";
     allPkgDrvs = map (p: lts713.${p}) lts713.allPackageNames;
- in lts713.callPackage (pkgs.runCommand "lts713" { buildInputs = allPkgDrvs; } "")
+ in pkgs.runCommand "lts713" { buildInputs = allPkgDrvs; } ""
  
