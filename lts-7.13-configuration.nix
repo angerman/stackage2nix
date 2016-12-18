@@ -41,6 +41,8 @@ postProcess = self: super: {
 
   readline = (addSystemDepends super.readline [ pkgs.readline pkgs.ncurses ]);
 
+  hslua = (addSystemDepends super.hslua [ pkgs.lua5_3 ]);
+
   # # Make elisp files available at a location where people expect it.
   hindent = (overrideCabal super.hindent (drv: {
     # We cannot easily byte-compile these files, unfortunately, because they
@@ -51,6 +53,18 @@ postProcess = self: super: {
       ln -s $lispdir $out/share/emacs/site-lisp
     '';
   }));
+    # Byte-compile elisp code for Emacs.
+  ghc-mod = overrideCabal super.ghc-mod (drv: {
+    preCheck = "export HOME=$TMPDIR";
+    testToolDepends = drv.testToolDepends or [] ++ [self.cabal-install];
+    executableToolDepends = drv.executableToolDepends or [] ++ [pkgs.emacs];
+    postInstall = ''
+      local lispdir=( "$out/share/"*"-${self.ghc.name}/${drv.pname}-${drv.version}/elisp" )
+      make -C $lispdir
+      mkdir -p $out/share/emacs/site-lisp
+      ln -s "$lispdir/"*.el{,c} $out/share/emacs/site-lisp/
+    '';
+  });
   hmatrix = if isDarwin
     then addBuildDepend super.hmatrix pkgs.darwin.apple_sdk.frameworks.Accelerate
     else super.hmatrix;
@@ -65,6 +79,10 @@ postProcess = self: super: {
 
   # https://github.com/bos/pcap/issues/5
   pcap = addExtraLibrary super.pcap pkgs.libpcap;
+
+  # the secp256k1 package brings it's own
+  # copy of secp256k1, which it tires to build.
+  secp256k1 = addToolDepends super.secp256k1 [ pkgs.autoconf pkgs.automake pkgs.libtool ];
 };
 
 # These flags came from hackage2nix, which applied them during generation.
@@ -139,6 +157,9 @@ configuration = self: super: {
   leveldb-haskell = null;
   gtksourceview3 = null;
 
+  # can't get to build
+  hslua = null;
+
   # This is broken, due to seemingly no frameowrk support in cabal2nix.
   gl = if isDarwin then null else super.gl;
 
@@ -188,6 +209,10 @@ configuration = self: super: {
   Win32-extras = null;
   Win32-notify = null;
 
+#  secp256k1 = null;                                                                # misses autoreconf
+#  haskoin-core = null;     # depends on secp256k1
+#  bitcoin-payment-
+
   # linux only
   hidapi = null;
   hsignal = null; # requires blas, lapack, which are currently mapped to openblasCompat, whcih does not work.
@@ -219,6 +244,19 @@ configuration = self: super: {
   permutation = dontCheck super.permutation;
   bustle = dontCheck super.bustle;
   point-octree = dontCheck super.point-octree;        # missing hspec ==2.2.3
+  graylog = dontCheck super.graylog;                  # can't open test file.
+  bloodhound = dontCheck super.bloodhound;
+  postgresql-simple = dontCheck super.postgresql-simple;
+  postgrest = dontCheck super.postgrest;
+  rethinkdb = dontCheck super.rethinkdb;
+  rethinkdb-client-driver = dontCheck super.rethinkdb-client-driver;
+  drifter-postgresql = dontCheck super.drifter-postgresql;
+  ghc-mod = dontCheck super.ghc-mod;            # https://github.com/kazu-yamamoto/ghc-mod/issues/335
+  servant-aeson-specs = dontCheck super.servant-aeson-specs;
+  serversession = dontCheck super.serversession;
+  serversession-backend-acid-state = dontCheck super.serversession-backend-acid-state;
+  socket = dontCheck super.socket;
+  sourcemap = dontCheck super.sourcemap;
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
@@ -226,7 +264,8 @@ configuration = self: super: {
   dbus = dontCheck super.dbus;                         # from PostProcess
   git = dontCheck super.git;                           # from PostProcess - https://github.com/vincenthz/hit/issues/33
   haskell-src-exts = dontCheck super.haskell-src-exts; # from PostProcess
-
+  hspec-expectations-pretty-diff = dontCheck super.hspec-expectations-pretty-diff; # can't deal with stack traces
+  HaRe = dontCheck super.HaRe;
 
   # Ensure the necessary frameworks are propagatedBuildInputs on darwin
   OpenGLRaw = overrideCabal super.OpenGLRaw (drv: {
