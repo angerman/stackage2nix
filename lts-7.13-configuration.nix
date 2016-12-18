@@ -202,6 +202,8 @@ configuration = self: super: {
 
   discount = null; # markdown c library is missing.
 
+  arbtt = null; # requires Foundation
+
   # set platform markers (this used to be done in cabal2nix postprocessing)
   # Win32 = overrideCabal super.Win32 (drv: { platforms = pkgs.stdenv.lib.platforms.cygwin; });
 
@@ -222,14 +224,19 @@ configuration = self: super: {
 
   hs-GeoIP = null; # requires GeoIP
 
-  hocilib = null;                                               # misses ocilib
 
+
+  hocilib = null;                                               # misses ocilib
+  inline-r = null;                                              # libR missing
+  H = null;
+  
   # broken tests
   tar = dontCheck super.tar;                                                       # ustar/gnu/v7 test fail.
   mockery = overrideCabal super.mockery (drv: { preCheck = "export TRAVIS=true"; }); # https://github.com/hspec/mockery/issues/6
   ListLike = dontCheck super.ListLike;
   MemoTrie = dontHaddock (dontCheck super.MemoTrie);
   swagger = dontCheck (dontHaddock super.swagger);
+  swagger2 = dontHaddock super.swagger2;
   STMonadTrans = dontCheck super.STMonadTrans;
   binary-search = dontCheck super.binary-search;
   angel = dontCheck super.angel;
@@ -266,6 +273,10 @@ configuration = self: super: {
   stm-delay = dontCheck super.stm-delay;
   symengine = dontCheck super.symengine;
   system-fileio = if isDarwin then dontCheck super.system-fileio else super.system-fileio;
+  terminal-progress-bar = dontCheck super.terminal-progress-bar;
+  hPDB-examples = dontCheck super.hPDB-examples;
+  th-printf = dontCheck super.th-printf;
+  singletons = dontCheck super.singletons;
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
@@ -309,4 +320,7 @@ configuration = self: super: {
 
 };
 # FIXME: I think this is essentially `extends` from `pkgs.lib`, however I'm unable to make it work.
-in self: super: let super2 = super // postProcess self super; in let super3 = super2 // cabalFlags self super2; in super3 // configuration self super3
+in self: super:
+ let super2 = super // postProcess self super;
+ in let super3 = super2 // cabalFlags self super2;
+  in super3 // configuration self super3
