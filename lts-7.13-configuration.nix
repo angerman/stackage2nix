@@ -195,6 +195,7 @@ configuration = self: super: {
   either-unwrap = dontCheck super.either-unwrap;
   ghc-events = dontCheck super.ghc-events;
   hyphenation = dontCheck super.hyphenation;
+  c2hs = dontCheck super.c2hs;
 
   heaps = dontCheck super.heaps;                                                  # doctest missing
   hastache = dontCheck super.hastache;                                            # base < 4.9
@@ -217,13 +218,18 @@ configuration = self: super: {
   hidapi = null;
   hsignal = null; # requires blas, lapack, which are currently mapped to openblasCompat, whcih does not work.
 
+  filecache = null; # wants hinotify
+
   hs-GeoIP = null; # requires GeoIP
+
+  hocilib = null;                                               # misses ocilib
 
   # broken tests
   tar = dontCheck super.tar;                                                       # ustar/gnu/v7 test fail.
   mockery = overrideCabal super.mockery (drv: { preCheck = "export TRAVIS=true"; }); # https://github.com/hspec/mockery/issues/6
   ListLike = dontCheck super.ListLike;
   MemoTrie = dontHaddock (dontCheck super.MemoTrie);
+  swagger = dontCheck (dontHaddock super.swagger);
   STMonadTrans = dontCheck super.STMonadTrans;
   binary-search = dontCheck super.binary-search;
   angel = dontCheck super.angel;
@@ -257,6 +263,9 @@ configuration = self: super: {
   serversession-backend-acid-state = dontCheck super.serversession-backend-acid-state;
   socket = dontCheck super.socket;
   sourcemap = dontCheck super.sourcemap;
+  stm-delay = dontCheck super.stm-delay;
+  symengine = dontCheck super.symengine;
+  system-fileio = if isDarwin then dontCheck super.system-fileio else super.system-fileio;
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
