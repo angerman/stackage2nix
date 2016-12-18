@@ -33,11 +33,13 @@ postProcess = self: super: {
     (overridePlatforms
      (addToolDepend
       (addSystemDepend
-       (addHaskellDepends super.hfsevents [self.base self.cereal self.mtl self.text self.bytestring])
+       (addHaskellDepends super.hfsevents [ self.base self.cereal self.mtl self.text self.bytestring ])
       pkgs.darwin.apple_sdk.frameworks.Cocoa)
      pkgs.darwin.apple_sdk.frameworks.CoreServices)
     pkgs.lib.platforms.darwin);
   hidapi = overridePlatforms super.hidapi pkgs.lib.platforms.linux;
+
+  readline = (addSystemDepends super.readline [ pkgs.readline pkgs.ncurses ]);
 
   # # Make elisp files available at a location where people expect it.
   hindent = (overrideCabal super.hindent (drv: {
@@ -132,6 +134,7 @@ configuration = self: super: {
   btrfs = if isDarwin then null else super.btrfs;
   linux-file-extents = if isDarwin then null else super.linux-file-extents;
   linux-namespaces = if isDarwin then null else super.linux-namespaces;
+  posix-realtime = if isDarwin then null else super.posix-realtime;
   # can not build
   leveldb-haskell = null;
   gtksourceview3 = null;
@@ -213,6 +216,9 @@ configuration = self: super: {
   camfort = dontCheck super.camfort;
   nettle = dontCheck super.nettle;
   network = dontCheck super.network;
+  permutation = dontCheck super.permutation;
+  bustle = dontCheck super.bustle;
+  point-octree = dontCheck super.point-octree;        # missing hspec ==2.2.3
 
   # Cabal = dontCheck super.Cabal;                       # from PostProcess - test suite doesn't work with Nix
   cabal-helper = dontCheck super.cabal-helper;         # from PostProcess
